@@ -44,3 +44,6 @@ for i in range(1, 12):
         print(f"Failed to download {file_name}. HTTP Status Code: {response.status_code}")
 
 print("All files downloaded and unpacked successfully 🚀")
+
+if os.path.exists(temp_folder):
+    shutil.rmtree(temp_folder)
