@@ -5,6 +5,7 @@
 - Setup venv using `python3.12 -m venv venv`
 - Active venv `source venv/bin/activate`
 - Install requirements `pip install -r requirements.txt`
+
 ~~Download pubmed data `python get-pubmed-data.py` ( ~1GB download, may take some time)~~ I'm not sure this is the correct data -> TODO
 
 # BioASQ
