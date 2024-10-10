@@ -6,7 +6,8 @@
 - Active venv `source venv/bin/activate`
 - Install requirements `pip install -r requirements.txt`
 
-~~Download pubmed data `python get-pubmed-data.py` ( ~1GB download, may take some time)~~ I'm not sure this is the correct data -> TODO
+I'm not sure this is the correct data:
+- Download pubmed data `python get-pubmed-data.py` ( ~1GB download, may take some time)
 
 # BioASQ
 [BioASQ Website](https://www.bioasq.org/participate/challenges_year_12)
