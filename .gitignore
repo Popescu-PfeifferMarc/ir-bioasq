@@ -4,3 +4,7 @@
 
 # venv
 venv
+
+# Dataset to download
+dataset/sample-0001.xml
+dataset/sample-0001.xml.gz
