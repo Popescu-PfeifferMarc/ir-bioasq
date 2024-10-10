@@ -1,5 +1,5 @@
 # Windows / Mac OS stuff
-:Zone.Identifier
+*:Zone.Identifier
 .DS_Store
 
 # venv
