@@ -1,27 +1,48 @@
-import requests
-import gzip
-import shutil
 import os
+import requests
+import shutil
+import tarfile
 
-url = "https://ftp.ncbi.nlm.nih.gov/pubmed/baseline-2024-sample/sample-0001.xml.gz"
-destination_folder = "./dataset"
-destination_file = os.path.join(destination_folder, "sample-0001.xml")
+# Base URL and file range
+base_url = "https://ftp.ncbi.nlm.nih.gov/pub/pmc/oa_bulk/oa_noncomm/xml/"
+file_template = "oa_noncomm_xml.PMC{:03d}xxxxxx.baseline.2024-06-18.tar.gz"
+temp_folder = "temp"
+dataset_folder = "./dataset/pubmed"
 
-# Create the destination folder if it doesn't exist
-os.makedirs(destination_folder, exist_ok=True)
+# Remove the dataset/pubmed folder if it exists
+if os.path.exists(temp_folder):
+    shutil.rmtree(temp_folder)
+if os.path.exists(dataset_folder):
+    shutil.rmtree(dataset_folder)
 
-# Download the file
-response = requests.get(url, stream=True)
-gz_file_path = os.path.join(destination_folder, "sample-0001.xml.gz")
-with open(gz_file_path, 'wb') as f:
-    shutil.copyfileobj(response.raw, f)
+# Ensure the temp and dataset/pubmed folders exist
+os.makedirs(temp_folder, exist_ok=True)
+os.makedirs(dataset_folder, exist_ok=True)
 
-# Extract the .gz file
-with gzip.open(gz_file_path, 'rb') as f_in:
-    with open(destination_file, 'wb') as f_out:
-        shutil.copyfileobj(f_in, f_out)
 
-# Optionally, remove the .gz file after extraction
-os.remove(gz_file_path)
+# Download and unpack files 001 to 011
+for i in range(1, 12):
+    file_name = file_template.format(i)
+    url = base_url + file_name
+    local_path = os.path.join(temp_folder, file_name)
+    
+    print(f"Downloading {url} to {local_path}")
+    response = requests.get(url)
+    
+    if response.status_code == 200:
+        with open(local_path, 'wb') as f:
+            f.write(response.content)
+        print(f"Downloaded {file_name} successfully.")
+        
+        # Unpack the contents of the .tar.gz file to dataset/pubmed
+        print(f"Unpacking {local_path} to {dataset_folder}")
+        with tarfile.open(local_path, 'r:gz') as tar:
+            for member in tar.getmembers():
+                if member.isreg():  # skip if the TarInfo is not files
+                    member.name = os.path.basename(member.name) # remove the path by reset it
+                    tar.extract(member, dataset_folder)
+        print(f"Unpacked {file_name} successfully.")
+    else:
+        print(f"Failed to download {file_name}. HTTP Status Code: {response.status_code}")
 
-print(f"File downloaded and extracted to {destination_file}")
+print("All files downloaded and unpacked successfully 🚀")
