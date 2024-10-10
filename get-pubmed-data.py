@@ -26,22 +26,20 @@ for i in range(1, 12):
     url = base_url + file_name
     local_path = os.path.join(temp_folder, file_name)
     
-    print(f"Downloading {url} to {local_path}")
+    print(f"Downloading\t{url}")
     response = requests.get(url)
     
     if response.status_code == 200:
         with open(local_path, 'wb') as f:
             f.write(response.content)
-        print(f"Downloaded {file_name} successfully.")
         
         # Unpack the contents of the .tar.gz file to dataset/pubmed
-        print(f"Unpacking {local_path} to {dataset_folder}")
+        print(f"Unpacking\t{local_path}")
         with tarfile.open(local_path, 'r:gz') as tar:
             for member in tar.getmembers():
                 if member.isreg():  # skip if the TarInfo is not files
                     member.name = os.path.basename(member.name) # remove the path by reset it
                     tar.extract(member, dataset_folder)
-        print(f"Unpacked {file_name} successfully.")
     else:
         print(f"Failed to download {file_name}. HTTP Status Code: {response.status_code}")
 
