@@ -7,6 +7,13 @@ import time
 
 dataset_folder = './dataset/pubmed/'
 
+def pretty_print_duration(seconds):
+    hours, remainder = divmod(seconds, 3600)
+    minutes, seconds = divmod(remainder, 60)
+    if hours == 0:
+        return f"{int(minutes)}m {int(seconds)}s"
+    return f"{int(hours)}h {int(minutes)}m"
+
 # Batch processing function to load documents
 def load_documents_in_batches(folder_path, batch_size):
     batch = []
@@ -29,11 +36,11 @@ def load_documents_in_batches(folder_path, batch_size):
             elapsed_time = time.time() - start_time
             time_per_file = elapsed_time / (idx + 1)
             time_left = time_per_file * (total_files - (idx + 1))
-            print(f"Loaded {idx + 1} / {total_files} documents, Elapsed time: {elapsed_time:.2f}s, Time left: {time_left:.2f}s")
+            print(f"Loaded {idx + 1} / {total_files} documents, Elapsed time: {pretty_print_duration(elapsed_time)}, Time left: {pretty_print_duration(time_left)}")
     if batch:
+        print(f"Loaded {total_files} / {total_files} documents in {pretty_print_duration(elapsed_time)}")
         yield batch  # Return the remaining documents in the last batch
-        print(f"Loaded {total_files} / {total_files} documents in {time.time() - start_time:.2f}s")
-
+        
 # Function to process documents in batches
 def process_documents_in_batches(folder_path, batch_size=100):
     vectorizer = TfidfVectorizer(stop_words='english', max_features=10_000)  # Use max_features to limit vocabulary size
