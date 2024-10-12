@@ -9,3 +9,6 @@ venv
 temp/
 dataset/pubmed
 
+
+# Python
+__pycache__
