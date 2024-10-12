@@ -13,10 +13,14 @@ def load_documents_in_batches(folder_path, batch_size):
     total_files = len(os.listdir(folder_path))
     start_time = time.time()
     for idx, filename in enumerate(os.listdir(folder_path)):
-        content = extract_xml(os.path.join(folder_path, filename))
-        if content["title"] is None or content["body"] is None:
+        try:
+            content = extract_xml(os.path.join(folder_path, filename))
+            if content["title"] is None or content["body"] is None:
+                continue
+            batch.append(content["title"] + " " + content["body"])
+        except Exception as e:
+            print(f"Error processing file {filename}: {e}")
             continue
-        batch.append(content["title"] + " " + content["body"])
         
         # Yield a batch of documents when batch_size is reached
         if len(batch) == batch_size:
