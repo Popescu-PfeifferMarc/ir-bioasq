@@ -8,7 +8,17 @@ venv
 # Dataset & download temp
 temp/
 dataset/pubmed
-
+dataset/db.sqlite
+dataset/*.sqlite-journal
+dataset/*.sqlite-wal
+dataset/*.sqlite-shm
 
 # Python
 __pycache__
+
+# Node
+node_modules
+
+
+# IDE
+.vscode
