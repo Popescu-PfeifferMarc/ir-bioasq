@@ -40,7 +40,7 @@ def loadGoldenData() -> list[GoldenData]:
             for question in json.load(file)['questions']
         ]
 
-def main():
+def answerAllQuestions():
     train = loadGoldenData()
     answers: list[Answer] = []
     
@@ -56,6 +56,30 @@ def main():
 
     with open('results.json', 'w') as outfile:
         json.dump(answers, outfile, indent=4)
+
+
+def checkAnswers():
+    with open('results.json', 'r') as file:
+        answers= json.load(file)
+        out = []
+        for idx, answer in enumerate(answers):
+            prompt = "You are evaluating an automated system answering questions. Given the question \"" + answer['question'] + "\", check if the generated response matches the expected response. It's okay if the actual response contains a different emphasis or focus or there is some extra information. Ensure only that there is no incorrect data. The generated response is:\n" + answer['result'] + "\n\nThe expected response is:\n" + answer['target'] + "\n\nDo they match? Briefly explain your reasoning. ALWAYS start your response with either YES or NO."
+            result = ollama.generate(model=model, prompt=prompt)
+            print(f"{idx}/{len(answers)}\n\tinput=\"{answer['question']}\"\n\tanswer=\"{answer['result']}\"\n\texpected=\"{answer['target']}\"\n\tresult=\"{result['response']}\"")
+            out.append({
+                'question': answer['question'],
+                'result': result['response'],
+                'target': answer['target'],
+                'answer': answer['result']
+            })
+        with open('results_evaluated.json', 'w') as outfile:
+            json.dump(out, outfile, indent=4)
+        
+
+def main():
+    # answerAllQuestions()
+    checkAnswers()
+    
 
 if __name__ == '__main__':
     main()

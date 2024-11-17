@@ -1,0 +1,512 @@
+[
+    {
+        "question": "Concizumab is used for which diseases?",
+        "result": "YES. The generated response includes more specific details about Concizumab's use, such as treatment of Hemophilia A and B \"with or without inhibitors\" and its approval in Canada for a specific subset of patients, but it does not contradict the expected response that it is developed for hemophilia A and B.",
+        "target": "Concizumab is developed for hemophilia A and B.",
+        "answer": "Concizumab is being developed and used for the treatment of Hemophilia A and B, with or without inhibitors. Specifically, it was approved in Canada in March 2023 for the treatment of adolescent and adult patients (12 years of age or older) with hemophilia B who have FIX inhibitors and require routine prophylaxis to prevent or reduce the frequency of bleeding episodes."
+    },
+    {
+        "question": "What type of extracolonic tumors does the PMS2 germline mutation cause?",
+        "result": "NO. The generated response does not provide a specific type of extracolonic tumors associated with PMS2 mutations, whereas the expected response mentions that carriers are at increased risk for colorectal and endometrial cancer, which implies it is a type of extracolonic tumor associated with PMS2 mutations.",
+        "target": "Heterozygous PMS2 mutation carriers were at small increased risk for colorectal and endometrial cancer but not for any other Lynch syndrome-associated cancer.",
+        "answer": "Unfortunately, the provided context does not specify the exact type of extracolonic tumors associated with PMS2 mutations. It only mentions that PMS2 mutation carriers had more extracolonic cancers, but these differences were not statistically significant. Therefore, I cannot provide a specific answer to this question based on the given information."
+    },
+    {
+        "question": "Do stroke patients have a lower risk of Obstructive Sleep Apnea?",
+        "result": "YES. Both responses convey that stroke patients have a higher risk or are more likely to experience Obstructive Sleep Apnea (OSA), which is the key takeaway from the question. The generated response provides additional context and statistics, but it does not contradict the expected response in terms of the association between stroke and OSA.",
+        "target": "Obstructive sleep apnea (OSA) is a common sleep disorder characterized by repetitive cessation or reduction in airflow during sleep and stroke patients have a higher risk of OSA.",
+        "answer": "No, according to the provided context, the majority of stroke patients actually have clinically significant obstructive sleep apnea (OSA). In fact, nearly 50% of all stroke patients manifest OSA. This suggests that there is a strong association between stroke and OSA, rather than a lower risk of OSA in stroke patients."
+    },
+    {
+        "question": "Should all babies diagnosed with spina bifida be operated within the first week of life?",
+        "result": "YES. The generated response and the expected response both convey that not all babies diagnosed with spina bifida should be operated on within the first week of life, and that the timing and type of surgery depend on various factors such as severity and individual circumstances. Both responses acknowledge the complexity of the decision-making process and the need for personalized recommendations from medical professionals.",
+        "target": "No, not all babies diagnosed with spina bifida should be operated on within the first week of life. The recommendation for treatment depends on the type and severity of spina bifida. Myelomeningocele, the most severe form, may benefit from prenatal surgery, which involves operating on the fetus while it is still in the uterus, before the 26th week of gestation. This approach can decrease the need for ventriculoperitoneal shunt placement and improve motor function compared to standard postnatal surgery. , On the other hand, spina bifida occulta, a milder form, usually does not require any surgical intervention, as many people with this condition do not experience symptoms. For some forms of spina bifida, such as meningocele, surgery may be recommended after birth to prevent infection and aid in protecting the spinal cord. , In summary, the decision for spina bifida treatment, including the timing and type of surgery, should be made on a case-by-case basis, taking into account various factors such as gestational age, lesion level, associated defects, and family considerations. Therefore, it is essential to consult with medical professionals specializing in fetal and pediatric care for personalized recommendations and guidance.",
+        "answer": "No, according to the provided context and research findings, it seems that prenatal surgery via fetoscopic repair or other minimally invasive techniques can improve motor function and reduce the need for postnatal shunt placement in some cases. However, early closure surgery within 2-3 days after birth may still be recommended for babies born with spina bifida, but this does not necessarily mean they should all be operated on within the first week of life. The optimal timing of surgical repair is a subject of ongoing research and clinical guidelines may vary depending on individual circumstances."
+    },
+    {
+        "question": "What is Oculopharyngeal Muscular Dystrophy (OPMD)?",
+        "result": "YES. The generated response matches the expected response in terms of accuracy. While there are some differences in emphasis and focus (e.g., \"intractable\" vs \"progressive\", \"distal limb\" vs \"proximal limb\"), both responses convey that OPMD is a rare late-onset condition characterized by muscle weakness affecting specific muscles.",
+        "target": "Oculopharyngeal muscular dystrophy (OPMD) is a rare late-onset intractable neuromuscular disease, characterized by slowly progressive ocular, facial, pharyngeal and distal limb muscle weakness.",
+        "answer": "Oculopharyngeal Muscular Dystrophy (OPMD) is a rare, late-onset muscular dystrophy characterized by progressive ptosis (eyelid drooping), dysphagia (swallowing difficulties), and proximal limb weakness. It is an autosomal dominant disorder caused by a small expansion of the polyalanine tract in the PABPN1 gene, leading to muscle atrophy and weakness, primarily affecting muscles of the eyes, throat, and limbs."
+    },
+    {
+        "question": "What is the mechanisms of action of Dersimelagon?",
+        "result": "YES. The generated response correctly identifies Dersimelagon as a selective agonist for the Melanocortin 1 Receptor (MC1R) and its potential therapeutic uses, which matches the expected response's mention of it being investigated for treating specific conditions through activation of the melanocortin receptor 1. While the generated response provides additional information about the mechanism of action and effects on skin eumelanin, the main point of identifying Dersimelagon as a selective agonist for MC1R is correctly stated in both responses.",
+        "target": "Dersimelagon is a novel orally administered selective agonist for melanocortin receptor 1 that is being investigated for the treatment of erythropoietic protoporphyria, X-linked protoporphyria, and diffuse cutaneous systemic sclerosis.",
+        "answer": "Based on the provided context, Dersimelagon's mechanism of action appears to be as a selective agonist for the Melanocortin 1 Receptor (MC1R). This means that it activates the MC1R, leading to increased levels of skin eumelanin. The activation of MC1R is associated with anti-inflammatory and anti-fibrotic effects, which may contribute to its therapeutic potential in treating conditions such as erythropoietic protoporphyria (EPP), X-linked protoporphyria (XLP), diffuse cutaneous systemic sclerosis (dcSSc), and systemic sclerosis (SSc)."
+    },
+    {
+        "question": "What proportion of risk is attributable to obesity in colorectal cancer women development?",
+        "result": "NO.\n\nThe generated response discusses the proportion of risk attributable to obesity in colorectal cancer among women, while the expected response talks about men and compares their risk to that of women. The two responses are discussing different populations (women vs men) and do not match.",
+        "target": "The men in the obese/obese group had a higher risk of colon cancer than women (hazard ratio\u2009=\u20091.13 [1.10-1.17] in men, and hazard ratio\u2009=\u20091.04 [1.01-1.18] in women, P\u2009=\u20090.001).",
+        "answer": "According to the text, among women:\n\n* The population attributable fraction for colorectal cancer by BMI \u2265 25 kg/m\u00b2 was 2.62% (95% CI 1.91-5.30).\n* Women who were obese had a hazard ratio (HR) of 1.39 (95%CI 1.12-1.74) and 1.64 (95%CI 1.24-2.16) for CRC and CC, respectively.\n* The relative risk (RR) of early-onset CRC was 1.32 (95% CI, 0.80-2.16) for women with a BMI of 21.0 to 22.9 at 18 years of age, and 1.63 (95% CI, 1.01-2.61) for women with a BMI of 23.0 or greater.\n* The proportion of cancers attributable to excess weight in women was estimated to be 6% in the European Union.\n\nThese findings suggest that obesity is associated with an increased risk of colorectal cancer among women, but the exact proportion of risk attributable to obesity varies across studies and depends on specific factors such as BMI, waist circumference, and weight gain since age 18."
+    },
+    {
+        "question": "Has MDMA(ecstasy) been successfully used to treat PTSD disorder?",
+        "result": "YES. The generated response and the expected response both affirm that MDMA (ecstasy) has been found to be effective in treating PTSD, even if they differ slightly in their wording and level of detail. There is no contradictory information presented in the generated response that would suggest it contains incorrect data.",
+        "target": "Yes MDMA, a compound belonging to the family of entactogens, has been demonstrated to be useful to treat post-traumatic stress disorders.",
+        "answer": "Yes, several clinical trials have shown that 3,4-methylenedioxymethamphetamine (MDMA), also known as ecstasy, paired with psychotherapy is effective in reducing symptoms of post-traumatic stress disorder (PTSD). These studies suggest that MDMA-assisted therapy can lead to significant improvements in PTSD symptoms and has a good safety profile."
+    },
+    {
+        "question": "What is a spillover event?",
+        "result": "YES. The generated response and the expected response both describe a spillover event as the transfer of pathogens from one host species to another, which is the core concept of a spillover event. While there are some differences in emphasis and focus, such as the inclusion of specific examples (bats, birds) in the generated response, the essential information about spillover events matches between the two responses.",
+        "target": "A spillover event is the transmission of a pathogen from one host species to another. It involves the physical transfer of viral or other infectious particles across species boundaries, and is often the trigger for infectious disease outbreaks and emergence events. Spillover events can be influenced by factors like host ecology, environment, habitat fragmentation, biodiversity loss, livestock density, and human-animal interactions.",
+        "answer": "A spillover event refers to the physical transfer of viral particles or other pathogens across species, from an animal host (such as bats, birds, or animals) to humans, either directly or through an intermediate host. This can occur due to various factors, including changes in host ecology and environment, leading to increased opportunities for transmission."
+    },
+    {
+        "question": "How can Emery-Dreifuss Muscular Dystrophy (EDMD) be inherited?",
+        "result": "NO. The generated response lists the inheritance patterns as \"X-linked\", whereas the expected response specifies it as \"X-linked recessive\". This indicates that the generated response does not accurately match the expected response in terms of emphasis and detail.",
+        "target": "EDMD can be inherited in an X-linked recessive, autosomal dominant or autosomal recessive fashion.",
+        "answer": "Emery-Dreifuss Muscular Dystrophy (EDMD) can be inherited in an X-linked, autosomal dominant, or autosomal recessive fashion."
+    },
+    {
+        "question": "Can valproate be used during pregnancy?",
+        "result": "NO.\n\nAlthough both responses convey the same overall message (valproate should not be used during pregnancy), there are some differences in emphasis, focus, and detail. The generated response provides more specific information about the risks associated with valproate use during pregnancy, whereas the expected response is more concise and to the point. However, neither response contains incorrect data regarding valproate's safety profile during pregnancy.",
+        "target": "No. Valproate is associated with high risk of malformations and should no be used during pregnancy.",
+        "answer": "No, according to the text, valproate should not be used during pregnancy due to its teratogenic effects and increased risk of major congenital malformations and neurodevelopmental disorders. The consensus is that it should be avoided in women who may become pregnant or are pregnant, unless there is no alternative medication available, and even then, the risks far outweigh any potential benefits."
+    },
+    {
+        "question": "Which dietary compounds are associated with colorectal cancer incidence?",
+        "result": "YES.\n\nThe generated response lists various dietary compounds associated with increased risk of colorectal cancer, while the expected response focuses on specific compounds (red meat, low fiber intake, and alcohol) that are associated with an increased incidence of the disease. While the tone and focus differ, the key points mentioned in both responses match: red meat is associated with a higher risk, lower fiber intake is linked to an increased risk, and high alcohol consumption is also related to colorectal cancer. There's no contradicting information or incorrect data presented in the generated response, so I consider them matching.",
+        "target": "Red and red processed meat, lower intakes of dietary fiber and alcohol are associated with colorectal cancer incidence",
+        "answer": "Based on the provided text, the following dietary compounds are associated with increased risk of colorectal cancer:\n\n* High intakes of red and processed meat\n* High intake of saturated fatty acids\n* High intake of monounsaturated fatty acids\n* High total lipid intake\n* High consumption of animal protein\n* High energy intake\n* High alcohol intake\n* High intake of refined carbohydrates\n* High intake of vitamin B12 and cholesterol (though the associations are somewhat weaker)\n* Acidic food, reheated food, meat, spicy food, and alcohol"
+    },
+    {
+        "question": "What is the relationship between  Electroporation (EP) and DNA vaccines?",
+        "result": "YES. The generated response provides more detail about how Electroporation enhances DNA vaccine effectiveness, but it does not contradict the expected response that Electroporation is an effective way to increase the immunogenicity of DNA vaccines.",
+        "target": "Electroporation (EP) is an effective way to increase the DNA vaccines immunogenicity.",
+        "answer": "Electroporation (EP) is a method that significantly enhances the effectiveness of DNA vaccines by increasing antigen delivery, transfection efficacy, and subsequent immune responses. EP involves the application of short pulses of electric current to increase the uptake of plasmid DNA into cells, thereby augmenting the immunogenicity of DNA-based vaccines."
+    },
+    {
+        "question": "Is measles immunisation the best public health approach to reduce incidence of measles worldwide?",
+        "result": "YES. The generated response and the expected response convey the same general message, that measles immunization is the most effective way to reduce measles incidence worldwide. While the generated response provides more context and statistics to support this claim, it does not contradict or introduce incorrect information regarding the best public health approach for reducing measles incidence.",
+        "target": "Measles immunisation is considered to be the best public health approach to reduce the incidence of measles worldwide.",
+        "answer": "Yes, measles immunisation is widely considered the most effective public health approach to reduce the incidence of measles worldwide. The global data shows that vaccination campaigns against measles have reduced both the global incidence of the disease and measles deaths by 80% since 2000, making it one of the greatest public health achievements in history."
+    },
+    {
+        "question": "What type of DMD can golodirsen be used for?",
+        "result": "YES. The generated response provides more context and explanation about what it means for a patient's mutation to be \"amenable\" to exon 53 skipping, but the core information about which type of DMD golodirsen is used for remains accurate and matches the expected response.",
+        "target": "Patients with a confirmed mutation of the DMD gene that is amenable to exon 53 skipping.",
+        "answer": "Golodirsen can be used for treating Duchenne muscular dystrophy (DMD) patients with a confirmed mutation of the DMD gene that is amenable to exon 53 skipping. This means it's specifically designed for patients who have mutations in their DMD gene that allow for golodirsen to skip over exon 53, which is a particular type of genetic mutation associated with DMD."
+    },
+    {
+        "question": "What are active ingredients of Trikafta?",
+        "result": "YES. The generated response lists the active ingredients of Trikafta as Elexacaftor, Tezacaftor, and Ivacaftor, which matches the expected response that mentions elexacaftor/tezacaftor/ivacaftor, albeit with a slightly different emphasis on listing each ingredient separately.",
+        "target": "Trikafta includes elexacaftor/tezacaftor/ivacaftor.",
+        "answer": "According to the text, the active ingredients of Trikafta are:\n\n1. Elexacaftor (VX-445)\n2. Tezacaftor (VX-661)\n3. Ivacaftor (VX-770)\n\nThese three CFTR modulators are combined in a single formulation as part of the Trikafta medication."
+    },
+    {
+        "question": "What proportion of alteration in NTRK genes are attributable to colorectal cancer?",
+        "result": "NO. The generated response does not provide the exact proportion of alteration in NTRK genes attributable to colorectal cancer, whereas the expected response provides a specific range (below 0.5%) and mentions that certain subtypes (e.g., microsatellite instability) have higher rates.",
+        "target": "In common cancers, rates were consistently below 0.5%. Rare morphological subtypes, colorectal microsatellite instability, and driver mutation exclusion cancers had higher rates.",
+        "answer": "According to the text, among patients with tumors that harbor underlying oncogenic NTRK gene alterations, approximately 38 (0.25%) out of 15,223 analyzed had NTRK gene fusions, with the most common being in breast cancer and sarcoma. Colorectal cancer was not specified as one of the \"most common\", implying its prevalence is lower than breast cancer and sarcoma but the exact proportion is not provided."
+    },
+    {
+        "question": "Please list the Janus Kinase inhibitors used to treat Inflammatory Bowel Disease(IBD)",
+        "result": "NO.\n\nThe generated response lists specific JAK inhibitors (Tofacitinib, Filgotinib, Upadacitinib, Deucravacitinib, Brepocitinib, PF-06826647) that are mentioned in the context of treating IBD, while the expected response includes a broader list of approved JAK inhibitors for immune-mediated inflammatory diseases (abrocitinib, baricitinib, filgotinib, peficitinib, tofacitinib, risankizumab upadacitinib, deucavacitinib), with only some overlap.",
+        "target": "Several small-molecule JAK inhibitors (JAKis) including abrocitinib, baricitinib, filgotinib,  peficitinib, tofacitinib, risankizumab upadacitinib, deucavacitinib are now approved for the treatment of various immune-mediated inflammatory diseases.",
+        "answer": "Here is the list of Janus Kinase (JAK) inhibitors mentioned in the context as being used to treat Inflammatory Bowel Disease (IBD):\n\n1. Tofacitinib\n2. Filgotinib\n3. Upadacitinib\n4. Deucravacitinib\n5. Brepocitinib\n6. PF-06826647"
+    },
+    {
+        "question": "Are only babies and young children at risk of severe malaria in endemic areas?",
+        "result": "YES. The generated response correctly states that not only babies and young children are at risk, mentioning specific groups such as pregnant women and adults in general. It also aligns with the expected emphasis on everybody being at risk, albeit with a higher risk for certain groups (young children and pregnant women). The main point is accurately conveyed without any incorrect information.",
+        "target": "No, everybody is at risk, though the people at highest risk are young children and pregnant women.",
+        "answer": "No, according to the text, not only babies and young children are at risk. Adults, especially pregnant women (especially during their first or second pregnancy), as well as adults and children in general (as seen in India), are also at significant risk of severe malaria in endemic areas."
+    },
+    {
+        "question": "What types of glucosteroids are used for the management of Duchenne muscular dystrophy?",
+        "result": "YES. The generated response and the expected response both list prednisone, prednisolone, and deflazacort as the types of glucosteroids used for managing Duchenne muscular dystrophy, although in slightly different formats (a numbered list vs. a comma-separated list). This suggests that the information provided is accurate, even if not presented exactly as expected.",
+        "target": "The glucosteroids used for the management of Duchenne muscular dystrophy are prednisone, prednisolone and deflazacort.",
+        "answer": "The types of glucocorticoids used for the management of Duchenne muscular dystrophy (DMD) include:\n\n1. Prednisone\n2. Deflazacort\n3. Prednisolone\n\nThese medications have been shown to improve muscle strength and function, delay loss of ambulation, and prolong life expectancy in individuals with DMD."
+    },
+    {
+        "question": "Cilta-cel was developed for treatment of which disease?",
+        "result": "YES. The generated response and the expected response both mention \"multiple myeloma\" as the disease Cilta-cel is being developed for, which matches the information. The extra details in the generated response about it being a BCMA-targeting chimeric antigen receptor T-cell therapy are not incorrect data, but rather additional context that does not conflict with the expected response.",
+        "target": "Cilta-cel, a BCMA-targeting chimeric antigen receptor T-cell therapy for multiple myeloma.",
+        "answer": "Relapsed or refractory multiple myeloma (RRMM)."
+    },
+    {
+        "question": "Which oncogene somatic mutations are associated to in situ carcinoma evolution from colonic polyp adenomas?",
+        "result": "NO. The generated response only mentions APC and KRAS gene somatic mutations, while the expected response lists a total of 11 oncogene somatic mutations associated with in situ carcinoma evolution from colonic polyp adenomas.",
+        "target": "APC, BRAF, EGFR, NRAS, KRAS, PIK3CA, POLE, POLD1, SMAD4, PTEN, and TP53 are oncogene somatic mutations associated to in situ carcinoma evolution from colonic polyp adenomas.",
+        "answer": "APC and KRAS gene somatic mutations are associated with the evolution of in situ carcinomas from colonic polyp adenomas."
+    },
+    {
+        "question": "What is prurigo nodularis?",
+        "result": "YES. Both responses mention Prurigo Nodularis as a skin condition, describe it as chronic, and note that the lesions are intensely itchy. They also both mention the presence of hyperkeratotic nodules on extremities/trunk. The main differences in emphasis and focus seem to be: \n\n* One response emphasizes the inflammatory nature of PN and potential associations with other conditions.\n* The other response views PN as a neuroimmune disease, highlighting its pruritic nature, bilateral distribution, and age-group inclusivity.\n\nThese variations in language do not indicate any incorrect data.",
+        "target": "Prurigo nodularis (PN) is a chronic neuroimmune skin disease characterized by bilaterally distributed pruritic hyperkeratotic nodules on extremities and trunk.  The lesions are very pruritic and the condition may occur in any age group.",
+        "answer": "Prurigo nodularis (PN) is a chronic inflammatory skin condition characterized by the presence of severely pruritic, hyperkeratotic nodules that can be very debilitating for patients. It typically presents with intensely itchy bumps on the arms, legs, and trunk, and is often associated with other underlying dermatological, systemic, neurological, or psychiatric conditions."
+    },
+    {
+        "question": "What is the main cause of spillover events?",
+        "result": "NO. The generated response and the expected response do not match exactly, as the former lists several specific factors (habitat fragmentation, biodiversity loss through land use change, high livestock densities, agricultural inputs, and wildlife hunting) that contribute to spillover events, while the latter provides a more general reason (disruption of habitats of the reservoir species). However, both responses agree on the importance of habitat disruption in causing spillover events.",
+        "target": "The main cause of spillover events is the disruption of habitats of the reservoir species.",
+        "answer": "According to the provided context, human land modification and related factors such as habitat fragmentation, biodiversity loss through land use change, high livestock densities, agricultural inputs, and wildlife hunting are the main causes of spillover events."
+    },
+    {
+        "question": "What are the most commonly used pain scales for the measurement of pain in ICU?",
+        "result": "YES. The generated response matches the expected response, as both mention the same two pain scales (CPOT and BPS) for measuring pain in ICU patients, although there is a slight difference in wording and formatting.",
+        "target": "The most common pain scales used to measure pain in ICU are the following: critical-care pain observation tool (CPOT) and behavioral pain scale (BPS).",
+        "answer": "Based on the provided context, the two most commonly used pain scales for measuring pain in ICU patients are:\n\n1. The Behavioral Pain Scale (BPS)\n2. The Critical Care Pain Observation Tool (CPOT)"
+    },
+    {
+        "question": "What medication were tested in the PEMMELA trial?",
+        "result": "YES. The generated response mentions Pembrolizumab and Lenvatinib, which are the correct medications tested in the PEMMELA trial. Although the actual response focuses on the medication itself, while the expected response provides more context about the study design and patient population, both responses agree on the specific medications used in the trial.",
+        "target": "PEMMELA was a single-arm phase 2 study that tested pembrolizumab plus lenvatinib as second-line and third-line for patients with pleural mesothelioma.",
+        "answer": "The medications tested in the PEMMELA trial are Pembrolizumab and Lenvatinib."
+    },
+    {
+        "question": "What is the pathophysiological mechanism by which the microbiota produce malignant lesions in colonic mucosa?",
+        "result": "NO. The generated response contains a more detailed explanation of the underlying mechanisms, whereas the expected response provides a broader overview of the role of microbiota in colorectal cancer development, with a focus on specific pathogenic bacteria and their characteristics. While both responses agree that microbiota perturbations can lead to carcinogenesis through increased toxin production, inflammation, and oncogenic signaling activation, they differ in emphasis and scope.",
+        "target": "Perturbations of the colonic microbiota can contribute to the initiation and progression of colorectal cancer, leading to an increase in pathogenic bacteria as Bilophila wadsworthia, as well as Streptococcus bovis, Helicobacter pylori, Bacteroides fragilis, and Clostridium septicum. This can contribute to disease through increasing carcinogenic metabolite/toxin production, inducing inflammation, and activating oncogenic signaling. On the other hand, pathogenic bacteria have heightened iron acquisition mechanisms.",
+        "answer": "The pathophysiological mechanisms by which the microbiota produce malignant lesions in colonic mucosa include:\n\n1. Generation of reactive metabolites and carcinogens, such as hydrogen sulfide produced by sulfidogenic bacteria.\n2. Alterations in host carbohydrate expression, leading to changes in cell adhesion and proliferation.\n3. Induction of chronic mucosal inflammation, which can lead to the formation of malignant lesions.\n4. Activation of oncogenic signaling pathways, such as those involving IL17A production and function.\n5. Alteration of DNA methylation patterns, reminiscent of what is observed in ageing and colorectal cancer.\n\nThese mechanisms are thought to contribute to the development of colorectal malignancy by promoting inflammation, oxidative stress, and genomic instability in the colonic mucosa."
+    },
+    {
+        "question": "is carotenodermia caused by an excess of lycopene in the diet?",
+        "result": "NO. The generated response and the expected response do not seem to match, as the expected response does not address the question about lycopene's role in carotenodermia, whereas the generated response explicitly states that lycopene is not associated with causing carotenodermia. However, it's worth noting that the generated response does provide accurate information and does not contain any incorrect data.",
+        "target": "Carotenodermia is a yellow to orange skin discoloration due to epidermal deposition of carotene.",
+        "answer": "No, based on the provided context, carotenodermia is associated with high \u03b2-carotene intake, not lycopene. Lycopene is not mentioned as a cause of carotenodermia in any of the passages."
+    },
+    {
+        "question": "Which are the two main active ingredients of the standard PrEP (Pre-Exposure Prophylaxis)?",
+        "result": "NO\n\nThe generated response provides more detailed information about the two medications, including their names and their combination in a fixed-dose tablet called Truvada, whereas the expected response is concise and only mentions the medication names. However, both responses agree on the main active ingredients of the standard PrEP regimen being Emtricitabine and Tenofovir (or its equivalent, Tenofovir disoproxil fumarate in the generated response), so there is no incorrect data.",
+        "target": "Rmtricitabine and tenofovir are the main active ingredients of the standard PrEP (Pre-Exposure Prophylaxis).",
+        "answer": "The two main active ingredients of the standard Pre-Exposure Prophylaxis (PrEP) regimen are:\n\n1. Tenofovir disoproxil fumarate (TDF)\n2. Emtricitabine (FTC)\n\nThese two medications are combined in a fixed-dose tablet called Truvada, which is commonly used as PrEP to prevent HIV infection."
+    },
+    {
+        "question": "What is the cause of Leigh syndrome?",
+        "result": "YES. They appear to be matching because both responses mention mitochondrial DNA mutations as a cause of Leigh syndrome, even though the first response also mentions nuclear DNA mutations and provides more specific details about the types of genes involved. The core point that mitochondrial defects are responsible for the disease is consistent in both responses.",
+        "target": "Leigh syndrome may result from several defects of mitochondrial enzyme complexes, including pyruvate dehydrogenase complex, and respiratory chain complexes I, II, III, IV, V.",
+        "answer": "The cause of Leigh syndrome is DNA mutation, specifically mutations in one of over 75 different genes, including nuclear and mitochondrial-encoded genes. Approximately 75% have nuclear DNA mutations, while 25% have mitochondrial DNA mutations. These mutations impair mitochondrial bioenergetics, leading to the characteristic symptoms of the disease."
+    },
+    {
+        "question": "What is Primary Diffuse Meningeal Melanomatosis?",
+        "result": "YES. The generated response and the expected response both describe Primary Diffuse Meningeal Melanomatosis as a rare variant of meningeal melanoma, with the primary difference being in detail rather than accuracy. The emphasis and focus of each response differ, but they do not contain any incorrect data, thus satisfying the evaluation criteria.",
+        "target": "Primary Diffuse Meningeal Melanomatosis is a rare variant of meningeal melanoma that causes diffusely invasive lesions of the pia mater with a tumor of melanocytic origin.",
+        "answer": "Primary Diffuse Meningeal Melanomatosis (PDMM) is an extremely rare and aggressive variant of primary malignant melanoma of the central nervous system. It arises from melanocytes in the leptomeninges, the protective layers surrounding the brain and spinal cord, and can mimic a wide variety of other conditions due to its nonspecific clinical symptoms and radiologic findings."
+    },
+    {
+        "question": "Do black race patients have worse survival in colorectal cancer?",
+        "result": "NO. \n\nWhile the generated response is generally accurate in stating that Black patients have worse survival outcomes in colorectal cancer, it does not capture the nuances and details provided in the expected response, such as the specific factors (age, comorbidities, income, education) associated with poorer outcomes for Black patients, or the additional context about genomics and rurality.",
+        "target": "Yes, black patients with Stage IV colorectal cancer have worse survival if they are older age and did not receive chemotherapy. Black patients in the study population were more likely to be female, have medical comorbidities, and come from areas with lower average income and baseline education. Among patients younger than 45 years, black patients had significantly increased hazard of death compared to white patients. , It is worth noting that outcomes in colorectal cancer treatment are historically worse in Black people and residents of rural areas. The intersection of race and rurality worsens outcomes, with the poorest outcomes observed in black individuals in rural areas. Genomics also play a role, as black patients have a higher incidence of colorectal cancer and worse survival rates when compared to white people.",
+        "answer": "Yes, multiple studies suggest that Black patients have worse survival outcomes and lower five-year survival rates compared to White patients with Colorectal Cancer."
+    },
+    {
+        "question": "Can Antioxidant curcumin kill tumor cells?",
+        "result": "YES. The generated response matches the expected response in terms of correctness, as it confirms that curcumin can kill tumor cells, which is the main point of interest. While the generated response provides additional information and context, it does not contain any incorrect data regarding the question asked.",
+        "target": "Yes,  Antioxidant curcumin can kill tumor cells",
+        "answer": "Yes, according to various studies, curcumin, an antioxidant found in turmeric, has been shown to induce apoptosis (cell death) and inhibit the growth of tumor cells in different types of cancer. Its ability to target and destroy cancer cells makes it a potential therapeutic agent for treating various cancers."
+    },
+    {
+        "question": "Should we treat all patients with glaucoma?",
+        "result": "YES. The generated response and the expected response both convey a positive answer to the question \"Should we treat all patients with glaucoma?\" while highlighting the importance of treatment in preventing disease progression. Although the tone, emphasis, and level of detail differ between the two responses, they share the same core message regarding the necessity of treating glaucoma patients.",
+        "target": "Yes, treating all glaucoma patients is essential to prevent the progression of visual field defects.",
+        "answer": "Yes, according to the provided context, treatment for glaucoma is recommended. The context states that \"Treatment options for glaucoma include medications, laser therapy and incisional surgery\" and that \"reducing IOP [intraocular pressure] remains the only clinically proven treatment of glaucoma.\" However, it's worth noting that the type of treatment may vary depending on individual circumstances and the stage of the disease."
+    },
+    {
+        "question": "What is the mechanism of action of Pegozafermin?",
+        "result": "NO. The generated response describes the mechanism of action of Pegozafermin, while the expected response provides a different type of information (development indication). While both responses are accurate on their own, they do not match in terms of content. The generated response provides a detailed explanation of how Pegozafermin works, whereas the expected response focuses on its clinical application and development status.",
+        "target": "Pegozafermin is a long-acting glycopegylated fibroblast growth factor 21 (FGF21) analogue in development for the treatment of nonalcoholic steatohepatitis (NASH) and severe hypertriglyceridemia.",
+        "answer": "The mechanism of action of Pegozafermin involves promoting adiponectin levels, enhancing insulin sensitivity, increasing triglyceride uptake, and reducing de novo lipogenesis. It also includes activating fibroblast growth factor receptors (FGFRs) with approximately eightfold higher potency at FGFR1c, similar to recombinant FGF21. This leads to various metabolic benefits, including improvements in lipid metabolism, glucose metabolism, weight, and liver transaminases."
+    },
+    {
+        "question": "What is the indication for Alirocumab?",
+        "result": "YES. Both responses correctly indicate Alirocumab as a treatment for high cholesterol in adults, emphasize its use as an adjunct to other treatments (diet and exercise/statins), and do not contain any incorrect data. The primary difference lies in the phrasing and specificity of the indications, but the essential information is consistent between both responses.",
+        "target": "Alirocumab, sold under the brand name Praluent, is a medication used as a second-line treatment for high cholesterol for adults whose cholesterol is not controlled by diet and statin treatment",
+        "answer": "Alirocumab is indicated for the treatment of high cholesterol (hypercholesterolemia) in adults who are unable to reach their LDL-C goals with statin therapy alone, as an adjunct to diet and exercise."
+    },
+    {
+        "question": "Is there an approved vaccine against Helicobacter pylori?",
+        "result": "YES. The generated response and the expected response both convey that there is no approved vaccine against Helicobacter pylori, which matches the information needed to answer the question correctly. While the tone and specific details in each response differ, they do not contain conflicting data, making them a match for this evaluation.",
+        "target": "No. There is currently no approved vaccine against Helicobacter pylori.",
+        "answer": "No, there is no approved vaccine against Helicobacter pylori (H. pylori) available yet. Despite extensive research and development efforts over 30 years, none have entered the market."
+    },
+    {
+        "question": "What disease can be treated with Tebentafusp?",
+        "result": "YES. Both responses are indicating that Tebentafusp is used to treat a specific type of cancer, Metastatic Uveal Melanoma and uveal melanoma respectively. While the actual disease name in the generated response is more specific (Metastatic Uveal Melanoma), it's still referring to a form of uveal melanoma.",
+        "target": "Tebentafusp is approved for uveal melanoma.",
+        "answer": "The disease that can be treated with Tebentafusp is Metastatic Uveal Melanoma."
+    },
+    {
+        "question": "When was Havana Syndrome first recognized?",
+        "result": "YES. Although the generated response is concise and straightforward, mentioning only the year 2016, while the expected response provides more context and background information, both responses correctly state that Havana Syndrome was first identified in Cuba (specifically, in Havana) around 2016, with no incorrect data presented.",
+        "target": "Since 2016, an array of claims and public discourse have circulated in the medical community over the origin and nature of a mysterious condition dubbed \"Havana Syndrome,\" so named as it was first identified in Cuba.",
+        "answer": "Havana Syndrome (HS) was first recognized in 2016."
+    },
+    {
+        "question": "Is Marburg virus a member of the family of the Ebola virus (Filoviridae)?",
+        "result": "YES. The generated response confirms that Marburg virus is indeed a member of the Filoviridae family, which includes the Ebola virus, and is accurate in its brevity while still conveying the correct information.",
+        "target": "Yes, Marburg virus is a member of the family of the Ebola virus (Filoviridae).",
+        "answer": "Yes."
+    },
+    {
+        "question": "What medications were tested in the COSMIC-313 trial?",
+        "result": "YES. The generated response correctly identifies the three medications (cabozantinib, nivolumab, and ipilimumab) tested in the COSMIC-313 trial, although it provides more detail on their combination arms than necessary. The information is correct, but the generated response does not exactly match the expected response, which focuses on a different aspect of the study design.",
+        "target": "The COSMIC-313 phase 3 randomized controlled trial tested the triplet combination of cabozantinib with nivolumab and ipilimumab in comparison with nivolumab plus ipilimumab control as fist-line systemic therapy in metastatic clear cell renal cell carcinoma.",
+        "answer": "The medications tested in the COSMIC-313 trial were:\n\n1. Cabozantinib (a VEGFR-TKI)\n2. Nivolumab (an immunotherapy agent, a PD-1 inhibitor)\n3. Ipilimumab (an immunotherapy agent, a CTLA-4 inhibitor)\n\nThese three medications were tested in combination with each other as the experimental arm of the trial, and nivolumab and ipilimumab alone served as the control arm."
+    },
+    {
+        "question": "Explain the action of Domperidone.",
+        "result": "YES. The generated response provides more detail about the action of Domperidone, but it does not contain any incorrect information regarding its mechanism of action as a dopamine receptor antagonist and its peripheral effects on the body. The expected response is actually a concise summary of one aspect of Domperidone's action, which is indeed confirmed in the generated response: \"It blocks dopamine receptors (D2) ... making it a useful treatment for gastrointestinal disorders and hormonal imbalances\" can be seen as supporting the fact that it is a D2-receptor antagonist.",
+        "target": "Domperidone is a peripherally acting dopamine2-receptor antagonist",
+        "answer": "Domperidone is a dopamine receptor antagonist that does not readily cross the blood-brain barrier, allowing it to act peripherally on the body. It blocks dopamine receptors (D2) in the gastrointestinal tract and pituitary gland, leading to increased gut motility, reduced nausea and vomiting, and elevated luteinizing hormone (LH) levels in certain conditions. Domperidone's action is primarily peripheral, with minimal central effects, making it a useful treatment for gastrointestinal disorders and hormonal imbalances."
+    },
+    {
+        "question": "Which age group should never be tested for HIV infection?",
+        "result": "YES. The generated response matches the expected response in terms of content, as both responses emphasize that there is no age group that should never be tested for HIV infection, and recommend testing for various age groups and risk factors. While there are some differences in emphasis, focus, and specific details (such as the CDC vs. World Health Organization as sources), the overall message is consistent and correct.",
+        "target": "There is no age group that should never be tested for HIV infection. In fact, the World Health Organization recommends that all people aged 15-64 years old get tested for HIV at least once in their lifetime, and those at high risk of infection get tested annually. Children born to mothers living with HIV also need to be tested regularly as they are at a higher risk of acquiring the virus through mother-to-child transmission. Early diagnosis and treatment of HIV can significantly improve health outcomes and reduce the risk of transmission. Therefore, it is important for all individuals, regardless of age, to know their HIV status and take appropriate measures to protect themselves and their partners.",
+        "answer": "There is no specific age group mentioned as \"never\" being tested for HIV infection. In fact, various sources (including the CDC) recommend that everyone aged 13-64 years old be screened for HIV at least once in their lifetime, and those with increased risk factors be retested more frequently."
+    },
+    {
+        "question": "Can fingolimod be used during pregnancy?",
+        "result": "YES. Both responses indicate that fingolimod should not be used during pregnancy, citing concerns about congenital malformations (teratogenic potential). The wording and emphasis differ, but the essential information is consistent.",
+        "target": "No. Fingolimod has teratogenic potential and therefore should not be used during pregnancy.",
+        "answer": "No, fingolimod is contraindicated during pregnancy due to suspected risk of congenital malformations."
+    },
+    {
+        "question": "What does capnography measure?",
+        "result": "YES. The generated response matches the expected response, as both describe capnography's function in terms of measuring CO2 levels in respiratory gases. Although the wording and focus differ slightly (the generated response provides more detail on the measurement type and application), the underlying information is consistent with the expected response, which primarily focuses on real-time measurement.",
+        "target": "Capnography provides real-time measurement of carbon dioxide (CO2) in respiratory gases.",
+        "answer": "Capnography measures the concentration or partial pressure of carbon dioxide (CO2) in exhaled breaths, providing a non-invasive assessment of respiratory and metabolic function."
+    },
+    {
+        "question": "Should men be immunized against Human Papilloma Virus?",
+        "result": "NO. The generated response is correct that the Advisory Committee on Immunization Practices recommends HPV vaccination for male adolescents. However, this information is not relevant to answering whether men should be immunized against HPV. The expected response focuses on the health risks and consequences of not vaccinating against HPV, which is a different aspect than just recommending vaccination.",
+        "target": "Yes, HPV is one of the most common causes of STD, and can cause genital warts and cancer (cervical, anal, vulvar, vaginal, penile, and oropharyngeal) in men and women.",
+        "answer": "Yes. The Advisory Committee on Immunization Practices recommends that male adolescents aged 11 or 12 years receive the HPV vaccine, just like females of the same age group."
+    },
+    {
+        "question": "Is sectoral Heterochromia associated with Crohn's disease?",
+        "result": "YES. The generated response correctly states that there is no information suggesting an association between sectoral iris heterochromia and Crohn's disease, and even provides additional context to rule out the possibility of an association. This matches the expected response in terms of providing a clear \"no\" answer and indicating the lack of published reports on the topic.",
+        "target": "No. There are no published reports to suggest an association of sectoral Heterochromia with Crohn's disease.",
+        "answer": "There is no information in the provided context that suggests an association between sectoral iris heterochromia and Crohn's disease. In fact, the context mentions an association with Beckwith-Wiedemann syndrome, not Crohn's disease."
+    },
+    {
+        "question": "List the most effective treatment methods for Madelung disease.",
+        "result": "YES. The generated response matches the expected response as it lists Lipectomy and Liposuction as the most effective treatment methods for Madelung disease, which is in line with the expected answer. While the actual response provides a bit more detail about the context of choosing between these two procedures, it does not contradict the essential information contained in the expected response.",
+        "target": "Lipectomy and liposuction are considered to be the most effective treatment methods for Madelung disease;",
+        "answer": "Based on the provided context, the most effective treatment methods for Madelung disease are:\n\n1. Lipectomy\n2. Liposuction\n\nThese two procedures are considered to be the most effective treatment methods for Madelung disease, with the choice of surgery depending on comprehensive consideration of the disease, such as severity, mass location, and patient expectations."
+    },
+    {
+        "question": "What are common side effects of the progesterone-only pill (POP)?",
+        "result": "YES. The generated response and the expected response both mention possible side effects of the progesterone-only pill (POP), including changes to menstrual bleeding patterns, spotting between periods, and other potential symptoms. While the specific details mentioned in each response differ slightly, they do not contradict each other. The main differences are in the emphasis on certain side effects and the inclusion of additional information in the generated response.",
+        "target": "The progestogen-only pill may change your periods (lighter, more frequent or stop altogether). \nBleeding (spotting) between periods.\nAcne. \nMood swings.\nWeight gain. \nChanges to libido.\n\nSpeak to a pharmacist or doctor if you have side effects that are a problem for you.",
+        "answer": "According to the context, common side effects of the progesterone-only pill (POP) include:\n\n* Breakthrough bleeding\n* Spotting\n* Prolonged bleeding\n* Irregular menstrual cycles\n* Lengthened cycles\n* Increased frequency of bleeding"
+    },
+    {
+        "question": "What is the mechanism of action of Peresolimab?",
+        "result": "YES. The generated response and the expected response both state that Peresolimab stimulates the PD-1 inhibitory pathway, which is the core mechanism of action. Although the generated response lacks some details (e.g., it being a humanized IgG1 monoclonal antibody), this information is not crucial for understanding its primary function.",
+        "target": "Peresolimab is a humanized IgG1 monoclonal antibody designed to stimulate the endogenous programmed cell death protein 1 (PD-1) inhibitory pathway.",
+        "answer": "The mechanism of action of Peresolimab is to stimulate the endogenous programmed cell death protein 1 (PD-1) inhibitory pathway."
+    },
+    {
+        "question": "Explain the difference between eosinophilic esophagitis and reflux-induced esophagitis.",
+        "result": "NO.\n\nThe generated response explains specific differences in cellular characteristics, lymphocyte involvement, and microbial presence between eosinophilic esophagitis (EoE) and reflux-induced esophagitis (RE), which is not mentioned in the expected response. The expected response focuses on clinical and endoscopic features that distinguish EoE from GERD, but it does not address the cellular differences or other aspects discussed in the generated response.",
+        "target": "EoE can be distinguished from GERD using a scoring system of clinical and endoscopic features. Many aspects of EoE were statistically distinct from GERD when controlling for age. Male sex, dysphagia, history of food impaction, absence of pain/heartburn, linear furrowing, and white papules were the distinguishing variables",
+        "answer": "The main differences between eosinophilic esophagitis (EoE) and reflux-induced esophagitis (RE) are:\n\n* **Predominant cell type:** EoE is characterized by a prominent eosinophilic infiltrate, with many eosinophils present in the epithelial layer. In contrast, RE has small numbers of neutrophils and eosinophils.\n* **Lymphocyte involvement:** Lymphocytes play a more significant role in RE than in EoE. Some studies have even suggested that RE may be an entity distinct from EoE, known as lymphocytic esophagitis (LE).\n* **Response to antireflux medications:** Patients with EoE who use antireflux medications tend to have lower eosinophil counts and fewer lymphocytes than those who do not.\n* **Presence of Haemophilus:** Increased loads of Haemophilus are seen in untreated patients with EoE, which is not typically observed in RE.\n\nThese differences suggest that while there is some overlap between the two conditions, they may have distinct pathophysiological mechanisms and clinical implications."
+    },
+    {
+        "question": "What are the most common symptoms of fibroids?",
+        "result": "YES. The generated response and the expected response both list symptoms of fibroids, although the specific symptoms listed in each are not identical. However, all the symptoms mentioned in the expected response are also included in the generated response (with some rephrasing). This suggests that there is no incorrect data in the generated response, only a difference in emphasis or focus on specific symptoms.",
+        "target": "heavy/painful periods\nabdominal pain\nlower back pain\na frequent need to urinate\nconstipation\npain or discomfort during sex",
+        "answer": "The most common symptoms of fibroids include:\n\n* Heavy menstrual bleeding (menorrhagia)\n* Pelvic pain\n* Anemia (due to heavy bleeding)\n* Pelvic pressure\n* Infertility\n* Dysmenorrhea (painful menstruation)\n* Chronic vaginal discharge\n* Protrusion of the abdomen\n* Pain during intercourse\n* Urinary symptoms (frequency, incontinence, or retention)\n* Bowel dysfunction (constipation)\n\nThese symptoms can vary from woman to woman and may not be present in every case."
+    },
+    {
+        "question": "What is the target of Selpercatinib?",
+        "result": "YES. The generated response is accurate and matches the expected response in terms of content, although it lacks some additional details and focuses on a different aspect of Selpercatinib (the target vs. its therapeutic use). The key information about targeting the RET proto-oncogene tyrosine kinase is present and correct in the generated response.",
+        "target": "Selpercatinib is an orally-administered, selective inhibitor of rearranged during transfection (RET) kinase approved for the treatment of advanced RET fusion-positive non-small cell lung cancer (NSCLC).",
+        "answer": "The target of Selpercatinib is the RET proto-oncogene tyrosine kinase."
+    },
+    {
+        "question": "What is IL-35?",
+        "result": "YES. The generated response matches the expected response in terms of accuracy, as both contain correct information about IL-35's role as an anti-inflammatory and immunosuppressive cytokine, its subunit composition, and structural nature. While there are differences in emphasis and focus between the two responses (e.g., the generated response provides more detail on IL-35's regulation of immune responses), neither contains incorrect data about IL-35.",
+        "target": "IL-35 is a member of the IL-12 family and is an immunosuppressive and anti-inflammatory cytokine secreted mainly by regulatory cells. Structurally, IL-35 is a heterodimeric cytokine. Interleukin 35 (IL-35) is involved in the pathogenesis of endometriosis by suppressing immunoreaction and promoting endometrial cell proliferation",
+        "answer": "IL-35 (Interleukin-35) is a cytokine that belongs to the IL-12 family and plays an anti-inflammatory and immunosuppressive role. It is composed of two subunits, p35 and Epstein-Barr virus-induced gene 3 (EBI3), and helps regulate immune responses by suppressing T-cell proliferation and promoting regulatory T cells and B cells."
+    },
+    {
+        "question": "What are the transmission mechanisms of the human Ebola infection?",
+        "result": "YES. The generated response matches the expected response as it correctly lists the transmission mechanisms of human Ebola infection, including contact with infected bodily fluids, human-to-human transmission through direct contact, nosocomial transmission, sexual transmission from EVD survivors, and asymptomatic infection. Although the emphasis and focus are slightly different, both responses contain the same correct information regarding transmission mechanisms.",
+        "target": "Ebolaviruses spread through contact via broken skin or mucous membranes in the eyes, nose, or mouth with:\nBlood or body fluids of a person who is sick with or has died from Ebola disease.\nObjects contaminated with body fluids from a person who is sick with or has died from Ebola disease.\nInfected fruit bats and primates.\nSemen from men survivors of Ebola disease (via oral, vaginal, or anal sex).",
+        "answer": "The transmission mechanisms of human Ebola infection (EVD) include:\n\n* Contact with infected bodily fluids, such as:\n\t+ Blood\n\t+ Semen\n\t+ Saliva\n\t+ Urine\n\t+ Breast milk\n* Human-to-human transmission through direct contact with infected blood or body fluids\n* Nosocomial transmission (infection acquired in a hospital setting)\n* Sexual transmission from EVD survivors\n* Asymptomatic infection and long-term viral persistence, which can lead to potential transmission."
+    },
+    {
+        "question": "What is the mechanisms of action of Sotorasib?",
+        "result": "YES. The generated response accurately describes the mechanism of action of Sotorasib as a covalent inhibitor that targets and inactivates the mutated KRAS enzyme, which aligns with the correct principle of its pharmacological inhibition being restricted to the specific mutation (KRAS p.G12C). While there may be differences in emphasis or focus between the two responses, they do not contain any incorrect data.",
+        "target": "Sotorasib was the first-in-class KRAS inhibitor to reach the US and European market, and its pharmacological inhibition is restricted to the KRAS p.G12C mutation.",
+        "answer": "Sotorasib is a covalent inhibitor that binds to and inactivates the KRAS G12C mutant protein. By directly targeting and inhibiting the mutated KRAS enzyme, sotorasib prevents its downstream signaling pathways from being activated, which leads to tumor growth inhibition and potential anti-cancer effects."
+    },
+    {
+        "question": "What is the vector for coxiella burnetii transmission?",
+        "result": "NO. The generated response lists multiple vectors (ticks, aerosols, and direct contact), whereas the expected response only mentions one specific vector (ticks). While ticks are indeed mentioned in the generated response as part of a list, it is not presented as the \"common\" vector in the way that the expected response suggests.",
+        "target": "Ticks are the common vector for Coxiella burnetii",
+        "answer": "The vector for Coxiella burnetii (Q fever) transmission can be various, but primarily includes:\n\n* Ticks (Ixodes ricinus and Dermacentor marginatus adults among others)\n* Aerosols (inhalation of infectious aerosols is the main mode of transmission)\n* Direct contact with infected animals or their products.\n\nHowever, it's worth noting that the role of ticks in transmitting Coxiella burnetii is still considered controversial and not fully elucidated."
+    },
+    {
+        "question": "Methotrexate is an antifolate medication.",
+        "result": "YES. The generated response states that Methotrexate is indeed an antifolate medication, which directly answers the question without contradicting any information. Although it provides more context and details than expected, there's no incorrect data presented, making the responses match in terms of correctness.",
+        "target": "Yes",
+        "answer": "That's correct! According to the provided context, Methotrexate (MTX) is indeed an antifolate medication, used in the treatment of various conditions including cancer and autoimmune diseases."
+    },
+    {
+        "question": "Is GC1118 effective for glioblastoma?",
+        "result": "YES. The generated response and the expected response convey a similar message, stating that GC1118 does not have a clear effectiveness for glioblastoma, particularly in terms of prolonging progression-free survival (PFS6). While the generated response hints at potential immune-mediated mechanisms, it ultimately concludes that specific effectiveness is unclear, which aligns with the expected response's assertion that GC1118 did not prolong PFS. The tone and focus differ between the two responses, but the factual information regarding GC1118's effectiveness for glioblastoma is consistent.",
+        "target": "No. GC1118 did not prolong progression free survival of patients with glioblastoma.",
+        "answer": "The study did not meet its primary endpoint (PFS6) but suggests that GC1118 may have some effectiveness through immune-mediated mechanisms, though specific effectiveness for glioblastoma is unclear."
+    },
+    {
+        "question": "Is COACH syndrome a rare autosomal recessive genetic disease characterized by liver fibrosis and related to portal hypertension.",
+        "result": "YES. The generated response accurately states that COACH syndrome is a rare autosomal recessive genetic disease, which matches the expected response. While the wording and emphasis differ slightly, both responses convey the same essential information regarding the disease's characteristics and implications, making them essentially equivalent for the purpose of evaluation.",
+        "target": "COACH syndrome is a rare autosomal recessive genetic disease characterized by liver fibrosis, which leads to severe complications related to portal hypertension.",
+        "answer": "Yes, that is correct."
+    },
+    {
+        "question": "Which symptoms could indicate depression in young children?",
+        "result": "NO. The generated response and the expected response do not entirely match. While some symptoms and behaviors are present in both responses (sadness, irritability), others are missing in the generated response (abulia, inability to concentrate, guilt, worthlessness, emptiness, thoughts about suicide, self-harming) or incorrectly listed (e.g., \"Reduced socialization\" is too broad and not specific enough).",
+        "target": "sadness\nirritability\nabulia\nfatigue\ninability to concentrate\neat too little or too much\nsleep too little or too much\nhave big changes in weight\nfeelings of guilt, worthlessness, emptiness\nhave thoughts about suicide \nself-harming",
+        "answer": "According to the text, the following symptoms could indicate depression in young children:\n\n1. Dysphoric mood\n2. Self-deprecatory ideation (negative self-talk)\n3. Agitation\n4. Loss of energy\n5. Reduced socialization\n6. Altered school performance\n7. Altered school attitude\n8. Sleep disturbance\n9. Appetite disturbance\n10. Somatic complaints (physical complaints, e.g., headaches)\n\nAdditionally, the following behaviors may also indicate depression in young children:\n\n1. Sadness\n2. Irritability\n\nIt's worth noting that these symptoms and behaviors can occur concurrently with significant impairment and are associated with a higher risk of developing clinical-level depressive disorders."
+    },
+    {
+        "question": "What are active ingredients of Paxlovid?",
+        "result": "YES. The generated response directly answers the question by listing the active ingredients, which is equivalent to mentioning them as a composition, thus matching the expected response.",
+        "target": "Paxlovid is composed of nirmatrelvir and ritonavir.",
+        "answer": "The active ingredients of Paxlovid are:\n\n1. Nirmatrelvir (a viral protease inhibitor)\n2. Ritonavir (a \"booster\" that inhibits the metabolism of nirmatrelvir)"
+    },
+    {
+        "question": "What is an Albatross plot used for?",
+        "result": "YES. The generated response and the expected response both mention that an Albatross plot is used for presenting results of diversely reported studies, which matches the primary purpose mentioned in the expected response. Additionally, the generated response elaborates on the specific benefits of using an Albatross plot (e.g., examining underlying effect sizes, identifying sources of heterogeneity), which aligns with the general idea presented in the expected response.",
+        "target": "The albatross plot is a novel graphical tool for presenting results of diversely reported studies in a systematic review",
+        "answer": "An Albatross plot is a novel graphical tool used in systematic reviews and meta-analyses to present results of diversely reported studies. It allows for:\n\n* An approximate examination of underlying effect sizes\n* The potential to identify sources of heterogeneity across studies\n* A visual comparison of results from different studies, even when a meta-analysis is not possible.\n\nThe plot requires only basic information from each study (P value and sample size), making it a useful tool for summarizing and interpreting the findings of diverse studies."
+    },
+    {
+        "question": "What should you do if you find an individual that you suspect has overdosed?",
+        "result": "YES. The generated response and the expected response both provide a step-by-step guide on how to handle an individual suspected of overdosing, including calling emergency services, attempting to wake the person up, administering naloxone if available, starting cardiopulmonary resuscitation if necessary, and staying until medical help arrives.",
+        "target": "Call emergency services.\nTry to wake the person up.\nAdminister naloxone if you have it.\nCardiopulmonary resuscitation.\nStay until emergency services arrive.",
+        "answer": "If you find an individual who you suspect has overdosed on opioids, call 911 or your local emergency number immediately. If available and you have been trained, administer naloxone (such as Narcan) to the person and start CPR if they are not breathing normally. Provide care until medical help arrives."
+    },
+    {
+        "question": "What is the mechanism of action of sparsentan?",
+        "result": "NO.\n\nThe generated response provides a detailed explanation of sparsentan's mechanism of action, including its effects on vasoconstriction and inflammation in the kidneys. However, it also contains information about specific conditions that sparsentan may help treat (IgA nephropathy and FSGS), which is not present in the expected response. The expected response only mentions these conditions as a part of listing the indications for sparsentan, but does not elaborate on the mechanism of action.",
+        "target": "Sparsentan is a single-molecule dual endothelin type-A and angiotensin II type 1 receptor antagonist for the treatment of immunoglobulin A (IgA) nephropathy and focal segmental glomerulosclerosis (FSGS).",
+        "answer": "Sparsentan is a single-molecule dual endothelin angiotensin receptor antagonist. Specifically, it antagonizes both:\n\n* Endothelin type-A receptors (ETA)\n* Angiotensin II type 1 receptors (AT1)\n\nThis mechanism of action suggests that sparsentan works by blocking the actions of these two molecules, which are involved in vasoconstriction and inflammation in the kidneys. By inhibiting these pathways, sparsentan may help to reduce proteinuria and slow disease progression in conditions such as IgA nephropathy and focal segmental glomerulosclerosis (FSGS)."
+    },
+    {
+        "question": "Please summarize MuSK Antibody positive Myasthenia Gravis.",
+        "result": "YES. The generated response matches the expected response in terms of accuracy of information, although it provides more detailed and specific characteristics of MuSK antibody-positive myasthenia gravis compared to a brief overview. The main points mentioned in both responses are consistent: severe symptoms, poor prognosis, and different treatment approaches for MuSK-MG patients.",
+        "target": "Myasthenia gravis (MG) is a chronic autoimmune disorder in which antibodies destroy the communication between nerves and muscle, resulting in weakness of the skeletal muscles Approximately 5% of patients with MG, show positive results on muscle-specific kinase (MuSK) antibody testing and usually have severe symptoms, refractory disease, residual muscle atrophy, and poor prognosis.",
+        "answer": "Here's a summary:\n\nMuSK (Muscle-Specific Tyrosine Kinase) antibody-positive myasthenia gravis (MG) is a type of autoimmune neuromuscular disease characterized by:\n\n* Predominant bulbar, respiratory, and neck weakness\n* Severe and progressive course\n* Poor response to standard MG medications, such as anticholinergics\n* Good response to plasma exchange, corticosteroids, and other immunotherapies\n* Higher risk of acute clinical decompensation and respiratory crises\n* Women are more commonly affected than men\n\nMuSK-MG patients often require more aggressive and long-term immunosuppressive therapy to manage their symptoms. Rituximab has been reported to have encouraging results in treating refractory MuSK-MG cases."
+    },
+    {
+        "question": "Is it advisable to bring the fever down when it is supposedly meant to assist in the fight of disease?",
+        "result": "YES. Both responses convey that bringing down a fever solely to reduce its temperature is not always advisable, and instead emphasize allowing the fever to run its course as part of the body's natural defense mechanism against illness. While there are some differences in emphasis and focus between the two responses, they both arrive at the same conclusion.",
+        "target": "While fever is a common symptom in children and can cause distress, it's important to note that antipyretics, or fever-reducing medications, are typically used to alleviate discomfort rather than solely to reduce body temperature. Fever is part of the body's natural defense mechanism against illness, so the primary goal of treatment is to relieve distress, not necessarily to lower the fever. Therefore, it's not always advisable to bring the fever down just for the sake of reducing body temperature. It's more about managing the child's comfort level.",
+        "answer": "According to the provided context, no. The prevailing view among researchers and medical experts is that fever should be allowed to run its course, as it has beneficial effects in fighting infection and can provide a nonspecific immune defense against pathogens. There is also observational trial evidence suggesting a survival benefit from fever. Antipyretics are only recommended for discomfort relief or conditions known to be painful, not to bring down the body temperature solely for its own sake."
+    },
+    {
+        "question": "Can syphilis cause proctitis?",
+        "result": "YES. Both responses confirm that syphilis can indeed cause proctitis, and the focus is on this specific aspect of the question. The differences in emphasis or additional information are acceptable as they do not introduce incorrect data; rather, they provide context and explanation for the condition mentioned in the expected response.",
+        "target": "Yes. Syphilis can cause proctitis.",
+        "answer": "Yes, syphilis can cause proctitis. The condition is known as syphilitic proctitis, and it typically presents with symptoms such as pain on defecation, rectal bleeding, or ulceration. It's a rare but possible manifestation of the disease, particularly in individuals who engage in high-risk sexual behavior, such as men who have sex with men."
+    },
+    {
+        "question": "What disorder is considered off label use for domperidone?",
+        "result": "NO. \n\nAlthough both responses mention \"off-label\" use of domperidone, they refer to different conditions. The generated response lists multiple conditions (gastro-esophageal reflux disease, dyspepsia, gastroparesis) while the expected response specifically mentions inducing lactation as the off-label use of domperidone.",
+        "target": "A major side effect of domperidone is prolactinemia, allowing it to be used off-label for the purpose of inducing lactation.",
+        "answer": "According to the provided text, domperidone is also used \"off-label\" for treatment of symptoms associated with:\n\n1. Gastro-esophageal reflux disease\n2. Dyspepsia\n3. Gastroparesis (as a second-line treatment option)\n\nThese are in addition to its authorized indication for inducing lactation and treating nausea/vomiting."
+    },
+    {
+        "question": "Which neurotransmitters are thought to play a role in obsessive compulsive disorder?",
+        "result": "YES. The generated response matches the expected response, as both mention the same four neurotransmitters (serotonin, dopamine, glutamate, and GABA) as being implicated in OCD. While the format of the two responses differs (one is a simple list and the other includes more detailed information about the neurochemical mechanisms), the data itself is consistent between the two.",
+        "target": "The neurotransmitters thought to play a role in obsessive-compulsive disorder (OCD) include:\n\n1. Serotonin\n2. Dopamine \n3. Glutamate\n4. Gamma-aminobutyric acid (GABA)\n\nDysregulation of these neurotransmitter systems, especially serotonin, dopamine, and glutamate, within cortico-striatal-thalamo-cortical circuits is implicated in the pathophysiology of OCD. An imbalance between excitatory glutamate and inhibitory GABA neurotransmission may be particularly important.",
+        "answer": "The neurotransmitters implicated in Obsessive-Compulsive Disorder (OCD) include serotonin, dopamine, glutamate, and gamma-amino butyric acid (GABA)."
+    },
+    {
+        "question": "Can denosumab cause jaw necrosis?",
+        "result": "YES. The generated response and the expected response both confirm that denosumab can cause jaw necrosis, but the generated response provides more detailed information about the condition (MRONJ/ONJ) and its association with high doses for cancer treatment, which does not contradict the expected response. The added details do not contain any incorrect data, so it is considered a match.",
+        "target": "Yes. Denosumab can cause jaw necrosis",
+        "answer": "Yes, denosumab can cause jaw necrosis, also known as medication-related osteonecrosis of the jaw (MRONJ) or osteonecrosis of the jaw (ONJ). It is a serious side effect associated with the use of denosumab, particularly in patients receiving high doses for the treatment of bone metastases from cancer."
+    },
+    {
+        "question": "What is DEXTR",
+        "result": "YES. Although the actual response contains some extra information about entity linking and verification, it is still a correct description of DEXTR as a semi-automated data extraction tool for public health literature-based reviews. The emphasis on recall and precision, as well as time reduction, matches the expected focus.",
+        "target": "DEXTR is a semi-automated data extraction tool for public health literature-based reviews: Dextr provides similar performance to manual extraction in terms of recall and precision and greatly reduces data extraction time.",
+        "answer": "DEXTR appears to be a semi-automated data extraction tool used for literature-based reviews in public health, particularly in environmental health sciences. It has a user-friendly interface and capabilities such as entity linking and verification."
+    },
+    {
+        "question": "What is the most common surgical treatment for hydrocephalus?",
+        "result": "YES. The generated response and the expected response both mention that the Ventriculoperitoneal (VP) shunt, or alternatively \"a ventriculoperitoneal shunt\", is the most common surgical treatment for hydrocephalus, which means they convey the same essential information without any incorrect data.",
+        "target": "The most common surgical treatment for hydrocephalus is the placement of a ventriculoperitoneal shunt.",
+        "answer": "The most common surgical treatment for hydrocephalus is the Ventriculoperitoneal (VP) shunt placement."
+    },
+    {
+        "question": "Is Upadacitinib effective for Crohn\u2019s Disease?",
+        "result": "YES. The generated response matches the expected response in terms of correctness, but not exactly in terms of wording or detail. Both responses convey that Upadacitinib is effective for treating Crohn's disease, which aligns with the question's intent. However, the generated response provides additional context and details from studies and trials, whereas the expected response is more concise.",
+        "target": "Yes. Upadacitinib is effective for Crohn\u2019s Disease.",
+        "answer": "Yes, according to various studies and trials cited in the provided context, Upadacitinib appears to be effective for treating Crohn's disease. It has shown efficacy in inducing remission and improving symptoms in both Phase II and Phase III clinical trials."
+    },
+    {
+        "question": "Is melatonin beneficial in the treatment of in cerebral ischemia-reperfusion injury:",
+        "result": "YES. The generated response matches the expected response as it confirms that melatonin is beneficial in treating cerebral ischemia-reperfusion injury, which is the primary point of the expected response. While the generated response provides more detailed information about the benefits of melatonin in this context (e.g., reducing infarct volume, alleviating neurological deficits), it does not contradict or introduce incorrect data related to the core question.",
+        "target": "Yes, melatonin is beneficial in treating cerebral ischemia-reperfusion injury:",
+        "answer": "Yes, based on various studies reviewed here, it appears that melatonin is beneficial in the treatment of cerebral ischemia-reperfusion injury. Melatonin has been shown to reduce infarct volume, alleviate neurological deficits, decrease apoptosis and oxidative stress, and improve mitochondrial function after cerebral ischemia/reperfusion injury."
+    },
+    {
+        "question": "Are Hemoglobin-Based Oxygen Carriers approved for human use?",
+        "result": "YES. The generated and expected responses both state that HBOCs are not widely approved for human use, but there are some exceptions. While the wording and focus differ slightly, the information about existing approvals (e.g., compassionate use in FDA/EMA jurisdictions) and ongoing clinical studies aligns across both responses.",
+        "target": "Hemoglobin-Based Oxygen Carriers (HBOCs) are not widely approved for human use. As of now, no HBOC has been approved by the FDA and EMA, except for compassionate use. However, some products like Hemopure are in clinical use in South Africa and Russia. HemO2life has also been approved for organ preservation in organ transplantation in the European Union. Other products like OxyVita and Sanguinate are still undergoing active clinical studies. It's important to note that while these products are in use or under study, there is currently no widely accepted product used as an alternative to human blood in clinical settings with severe anemic conditions.",
+        "answer": "No, despite decades of research, there are no hemoglobin-based oxygen carriers (HBOCs) approved for human clinical use in the United States. However, some HBOC products have been approved for veterinary use or specific uses such as organ preservation."
+    },
+    {
+        "question": "Gantenerumab was developed for treatment of which disease?",
+        "result": "YES. The generated response \"Alzheimer's disease\" matches the expected response \"Gantenerumab was developed for Alzheimer's disease\" in terms of providing the correct information, even though it lacks a specific mention of Gantenerumab and the phrase \"was developed for\".",
+        "target": "Gantenerumab was developed for Alzheimer's disease.",
+        "answer": "Alzheimer's disease."
+    },
+    {
+        "question": "Please list the congenital fibrinogen disorders.",
+        "result": "YES. The generated response lists the four congenital fibrinogen disorders (afibrinogenemia, hypofibrinogenemia, dysfibrinogenemia, and hypodysfibrinogenemia) which matches the expected response's enumeration of these same conditions, even though it does not contain their detailed descriptions as provided in the expected response.",
+        "target": "Congenital fibrinogen disorders are rare pathologies of the haemostasis, comprising afibrinogenaemia, hypofibrinogenaemia, dysfibrinogenaemia and hypodysfibrinogenaemia.",
+        "answer": "The congenital fibrinogen disorders are:\n\n1. Afibrinogenemia\n2. Hypofibrinogenemia\n3. Dysfibrinogenemia\n4. Hypodysfibrinogenemia"
+    },
+    {
+        "question": "What are the current indications for thalidomide?",
+        "result": "NO.\n\nThe generated response and the expected response do not entirely match because some indications mentioned in the expected response (e.g., mycobacterial infection, primary brain malignancies) are not present in the generated response, while others (e.g., erythema nodosum leprosum, multiple myeloma, graft-versus-host disease) are partially overlapping but also contain different specific conditions.",
+        "target": "Current indications are as follows: erythema nodosum leprosum, multiple myeloma,  Graft versus host disease, mycobacterial infection,  severe recurrent aphthous stomatitis,  primary brain malignancies, HIV- associated wasting syndrome, Crohn disease, Kaposi sarcoma, myelodysplastic syndrome, hematopoietic stem cell transplantation, hereditary hemorrhagic telangiectasia",
+        "answer": "Thalidomide is currently approved by the US Food and Drug Administration (FDA) for the treatment of:\n\n1. Erythema nodosum leprosum, an inflammatory complication of Hansen's disease (leprosy)\n2. Relapsed and refractory multiple myeloma, a type of blood cancer.\n\nAdditionally, thalidomide has been studied in various other conditions, including graft-versus-host disease, discoid lupus erythematosus, sarcoidosis, Beh\u00e7et's disease, Crohn's disease, ulcerative colitis, and others, but these are not yet established as FDA-approved indications."
+    },
+    {
+        "question": "What is the administration route of zavegepant?",
+        "result": "YES. The generated response matches the expected response in terms of providing the correct administration route (intranasal). Although the focus and wording are slightly different, both responses mention the same method of administration for zavegepant.",
+        "target": "Zavegepant is administered intranasally and used for migraine attacks.",
+        "answer": "The administration route of Zavegepant is intranasal (nasal spray)."
+    },
+    {
+        "question": "Brunner's gland hamartoma (BGH) is often asymptomatic and so how is it usually diagnosed?",
+        "result": "NO.\n\nThe generated response mentions various methods for diagnosing BGH, including imaging studies and biopsy during endoscopy, which is not present in the expected response. The expected response, on the other hand, provides a brief description of what BGH is and how it's typically found, which is not mentioned in the generated response.",
+        "target": "Brunner's gland hamartoma (BGH) is a rare, benign tumor of the duodenum. It is mostly asymptomatic and usually found incidentally on routine esophagogastroduodenoscopy (EGD).",
+        "answer": "Brunner's gland hamartoma (BGH) is often asymptomatic, but when symptoms do occur, it may be diagnosed through various methods including:\n\n* Upper gastrointestinal series or endoscopy\n* Endoscopic ultrasonography (EUS)\n* Imaging studies (e.g., CT scans, MRI)\n* Biopsy during endoscopy\n\nIncidentally, most BGHs are discovered during upper gastrointestinal tract endoscopy."
+    },
+    {
+        "question": "Is peritoneal dialysis the best option for infants with kidney failure?",
+        "result": "YES. The generated response matches the expected response as it confirms that peritoneal dialysis is indeed the preferred treatment modality for infants with kidney failure, which aligns with the expected statement \"Yes, peritoneal dialysis is often the preferred method for infants with kidney failure.\" While the generated response provides additional information and context, the core assertion about peritoneal dialysis being the preferred option is consistent with the expectation.",
+        "target": "Yes, peritoneal dialysis is often the preferred method for infants with kidney failure.",
+        "answer": "Yes, according to the provided context, peritoneal dialysis (PD) is considered the preferred and most commonly used treatment modality for infants with acute or chronic kidney failure. It is often recommended over hemodialysis due to its technical advantages and lower risk of complications in small children."
+    },
+    {
+        "question": "Is Lecanemab approved for Alzheimer\u2019s Disease?",
+        "result": "YES. The generated response and the expected response both confirm that Lecanemab is approved for Alzheimer's Disease, which is the primary question being asked. While there are some differences in the specific details provided (e.g., FDA approval date vs. mention of \"early AD\" or confirmed brain amyloid pathology), neither response contains incorrect information regarding the core answer to the question.",
+        "target": "Yes. Lecanemab (Leqembi\u00ae) is approved in the United States for the treatment of Alzheimer's disease (AD) to be initiated in early AD (mild cognitive impairment due to AD or mild AD dementia) with confirmed brain amyloid pathology.",
+        "answer": "Yes, Lecanemab is approved by the US Food and Drug Administration (FDA) for the treatment of Alzheimer's disease. It received full FDA approval on July 6, 2023, initially receiving accelerated approval in January 2023."
+    },
+    {
+        "question": "Can Ultrasonography be used to detect tumors in dogs and cats?",
+        "result": "YES. Although the emphasis and focus of the responses differ, both acknowledge that ultrasonography can be used to detect tumors in dogs and cats, making them similar in terms of accuracy. The generated response provides more detail on the uses of ultrasonography for detecting tumors, but it does not contradict the expected response's main point.",
+        "target": "Ultrasonography can be used as screening tests for dogs and cats, potentially representing an alternative to the invasive sampling methods required for cytological and histopathological analysis.",
+        "answer": "Yes, ultrasonography can be used to detect tumors in dogs and cats. In fact, it is a valuable diagnostic tool for identifying various types of tumors, including those in the liver, spleen, kidneys, pancreas, uterus, bladder, and other organs. It can help determine the extent of disease, differentiate between malignant and benign lesions, and guide biopsies or other interventions."
+    },
+    {
+        "question": "What is the first line treatment for severe Plasmodium falciparum malaria?",
+        "result": "YES. The generated response matches the expected response, as both mention artesunate as the first-line treatment for severe Plasmodium falciparum malaria. While the wording and phrasing differ slightly, the essential information is accurate and consistent in both responses.",
+        "target": "First line treatment in severe Plasmodium falciparum malaria is artesunate.",
+        "answer": "The first-line treatment for severe Plasmodium falciparum malaria is intravenous artesunate."
+    }
+]
