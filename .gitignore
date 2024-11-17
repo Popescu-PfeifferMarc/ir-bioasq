@@ -13,6 +13,9 @@ dataset/*.sqlite-journal
 dataset/*.sqlite-wal
 dataset/*.sqlite-shm
 
+# Output
+results.json
+
 # Python
 __pycache__
 
