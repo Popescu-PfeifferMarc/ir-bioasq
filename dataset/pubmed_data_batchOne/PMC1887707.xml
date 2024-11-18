@@ -1,0 +1,306 @@
+<!DOCTYPE article PUBLIC "-//NLM//DTD JATS (Z39.96) Journal Archiving and Interchange DTD v1.0 20120330//EN" "JATS-archivearticle1.dtd">
+<article xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mml="http://www.w3.org/1998/Math/MathML" article-type="research-article"><?properties open_access?><front><journal-meta><journal-id journal-id-type="nlm-ta">J Exp Med</journal-id><journal-id journal-id-type="iso-abbrev">J. Exp. Med</journal-id><journal-title-group><journal-title>The Journal of Experimental Medicine</journal-title></journal-title-group><issn pub-type="ppub">0022-1007</issn><issn pub-type="epub">1540-9538</issn><publisher><publisher-name>The Rockefeller University Press</publisher-name></publisher></journal-meta><article-meta><article-id pub-id-type="pmid">10880530</article-id><article-id pub-id-type="pmc">PMC1887707</article-id><article-id pub-id-type="publisher-id">992254</article-id><article-categories><subj-group subj-group-type="heading"><subject>Original Article</subject></subj-group></article-categories><title-group><article-title>Negative Regulation of T Cell Proliferation and Interleukin 2 Production by the Serine Threonine Kinase Gsk-3</article-title></title-group><contrib-group><contrib contrib-type="author"><name><surname>Ohteki</surname><given-names>Toshiaki</given-names></name><xref ref-type="aff" rid="a">a</xref></contrib><contrib contrib-type="author"><name><surname>Parsons</surname><given-names>Michael</given-names></name><xref ref-type="aff" rid="a">a</xref></contrib><contrib contrib-type="author"><name><surname>Zakarian</surname><given-names>Arsen</given-names></name><xref ref-type="aff" rid="a">a</xref></contrib><contrib contrib-type="author"><name><surname>Jones</surname><given-names>Russell G.</given-names></name><xref ref-type="aff" rid="a">a</xref></contrib><contrib contrib-type="author"><name><surname>Nguyen</surname><given-names>Linh T.</given-names></name><xref ref-type="aff" rid="a">a</xref></contrib><contrib contrib-type="author"><name><surname>Woodgett</surname><given-names>James R.</given-names></name><xref ref-type="aff" rid="a">a</xref></contrib><contrib contrib-type="author"><name><surname>Ohashi</surname><given-names>Pamela S.</given-names></name><address><addr-line>Ontario Cancer Institute, Dept. of Medical Biophysics, 610 University Ave., Toronto, ON M5G 2M9, Canada.</addr-line><fax>416-946-2086</fax><phone>416-946-4501 ext. 5470</phone></address><email>pohashi@oci.utoronto.ca</email><xref ref-type="aff" rid="a">a</xref></contrib><aff id="a">
+<label>a</label>Ontario Cancer Institute, Department of Medical Biophysics, Toronto, Ontario M5G 2M9, Canada</aff></contrib-group><pub-date pub-type="ppub"><day>3</day><month>7</month><year>2000</year></pub-date><volume>192</volume><issue>1</issue><fpage>99</fpage><lpage>104</lpage><history><date date-type="received"><day>15</day><month>12</month><year>1999</year></date><date date-type="rev-request"><day>3</day><month>3</month><year>2000</year></date><date date-type="accepted"><day>10</day><month>4</month><year>2000</year></date></history><permissions><copyright-statement>&#x000a9; 2000 The Rockefeller University Press</copyright-statement><copyright-year>2000</copyright-year><copyright-holder>The Rockefeller University Press</copyright-holder><license license-type="openaccess"><license-p>This article is distributed under the terms of an Attribution&#x02013;Noncommercial&#x02013;Share Alike&#x02013;No Mirror Sites license for the first six months after the publication date (see <ext-link ext-link-type="uri" xlink:href="http://www.rupress.org/terms">http://www.rupress.org/terms</ext-link>). After six months it is available under a Creative Commons License (Attribution&#x02013;Noncommercial&#x02013;Share Alike 4.0 Unported license, as described at <ext-link ext-link-type="uri" xlink:href="http://creativecommons.org/licenses/by-nc-sa/4.0/">http://creativecommons.org/licenses/by-nc-sa/4.0/</ext-link>).</license-p></license></permissions><abstract><p>Glycogen synthase kinase (GSK)-3 is a protein serine/threonine kinase that regulates differentiation and cell fate in a variety of organisms. This study examined the role of GSK-3 in antigen-specific T cell responses. Using resting T cells from P14 T cell receptor (TCR)-transgenic mice (specific for the lymphocytic choriomeningitis virus and H-2D<sup>b</sup>), we demonstrated that GSK-3&#x003b2; was inactivated by serine phosphorylation after viral peptide&#x02013;specific stimulation in vitro. To further investigate the role of GSK-3, we have generated a retroviral vector that expresses a constitutively active form of GSK-3&#x003b2; that has an alanine substitution at the regulatory amino acid, serine 9 (GSK-3&#x003b2;A9). Retroviral transduction of P14 TCR&#x02013;transgenic bone marrow stem cells, followed by reconstitution, led to the expression of GSK-3&#x003b2;A9 in bone marrow chimeric mice. T cells from chimeric mice demonstrate a reduction in proliferation and interleukin (IL)-2 production. In contrast, in vitro assays done in the presence of the GSK-3 inhibitor lithium led to dramatically prolonged T cell proliferation and increased IL-2 production. Furthermore, in the presence of lithium, we show that nuclear factor of activated T cells (NF-AT)c remains in the nucleus after antigen-specific stimulation of T cells. Together, these data demonstrate that GSK-3 negatively regulates the duration of T cell responses.</p></abstract><kwd-group><kwd>signaling</kwd><kwd>NF-AT</kwd><kwd>T cell activation</kwd><kwd>cytokines</kwd><kwd>lymphocytes</kwd></kwd-group></article-meta></front><body><sec><title>Introduction</title><p>Understanding the signaling pathways associated with TCR activation may provide insights that clarify the intracellular mechanisms of costimulation in addition to understanding the sensitivity of TCR interactions that range from antagonism to full T cell activation. TCR interactions lead to phosphorylation of CD3 chains and the associated &#x003b6; chains by lck and the activation of ZAP-70, followed by the induction of the extracellular signal&#x02013;regulated kinase&#x02013;mitogen-activated protein kinase (ERK&#x02013;MAPK) pathway. In addition, the activation of phospholipase C&#x003b3; generates phospholipid second messengers that activate protein kinase C, calcium mobilization, and the downstream calcineurin/nuclear factor of activated T cells (NF-AT) pathway <xref ref-type="bib" rid="R1">1</xref>
+<xref ref-type="bib" rid="R2">2</xref>
+<xref ref-type="bib" rid="R3">3</xref>. One kinase that has not been well defined in TCR signaling is glycogen synthase kinase (GSK)-3.</p><p>The two members of the protein serine/threonine kinase GSK-3 family, GSK-3&#x003b1; and &#x003b2;, are involved in regulating cell fate and differentiation in a variety of organisms, including <italic>Dictyostelium</italic>, <italic>Xenopus</italic>, and <italic>Drosophila</italic>
+<xref ref-type="bib" rid="R4">4</xref>
+<xref ref-type="bib" rid="R5">5</xref>. Unlike most kinases, GSK-3 is active in resting cells. Stimulation with mitogens or growth factors leads to the inactivation of GSK-3&#x003b2; by phosphorylation of the regulatory serine residue at position 9 <xref ref-type="bib" rid="R6">6</xref>
+<xref ref-type="bib" rid="R7">7</xref>. There is evidence that GSK-3 is downstream of the wingless pathway <xref ref-type="bib" rid="R8">8</xref>
+<xref ref-type="bib" rid="R9">9</xref>
+<xref ref-type="bib" rid="R10">10</xref> as well as the ERK&#x02013;MAPK pathway <xref ref-type="bib" rid="R4">4</xref>
+<xref ref-type="bib" rid="R8">8</xref>. GSK-3 acts on a wide variety of substrates including glycogen synthase, c-Jun, c-Myc, and eIF-2B <xref ref-type="bib" rid="R4">4</xref>
+<xref ref-type="bib" rid="R5">5</xref>. Beals et al. have shown that GSK-3 enhances nuclear export of NF-AT in brain extracts and transient transfection of COS cells, thereby negatively regulating this pathway <xref ref-type="bib" rid="R11">11</xref>. Welsh et al. have shown that GSK-3 can be inactivated by treatment with PMA and ionomycin in peripheral human lymphocytes <xref ref-type="bib" rid="R12">12</xref>. These studies suggest that GSK-3 may play a role in T cell proliferation in vivo.</p><p>We have examined the role of GSK-3 in antigen-specific T cell responses. Together, biochemical analysis<italic>,</italic> bone marrow chimeric mice expressing a constitutively active form of GSK-3&#x003b2;, and studies using inhibitors demonstrate that GSK-3&#x003b2; regulates NF-AT localization, antigen-specific T cell proliferation, and IL-2 production.</p></sec><sec sec-type="materials|methods"><title>Materials and Methods</title><sec><title>Mice.</title><p>P14 TCR&#x02013;transgenic mice (327 line) express a V&#x003b1;2/V&#x003b2;8.1 heterodimer specific for lymphocytic choriomeningitis virus (LCMV) glycoprotein peptide (gp) p33 (KAVYNFATM) and H-2D<sup>b</sup>
+<xref ref-type="bib" rid="R13">13</xref>. The P14 receptor is expressed on 70&#x02013;90% of mature CD8<sup>+</sup> T cells. We have also bred the P14 TCR on a recombinase-activating gene (RAG)2<sup>&#x02212;/</sup>&#x02212; background (H-2<sup>b</sup>). These mice were bred and maintained under specific pathogen&#x02013;free conditions according to institutional guidelines. C57BL/6 mice were purchased from The Jackson Laboratory.</p></sec><sec><title>Western Blot Analysis.</title><p>2&#x02013;5 &#x000d7; 10<sup>6</sup> cells were lysed in gentle soft buffer (10 mM NaCl, 20 mM Pipes, pH 7, 0.5% NP-40, 0.05% 2-ME, and inhibitors 0.1 mM PMSF, 100 &#x003bc;M Na<sub>3</sub>VO<sub>4</sub>, leupeptin, 50 mM NaF, and 1 mM benzamidine) and run on SDS-PAGE. Western blots were probed with hemagglutinin (HA)-specific antibodies (Upstate Biotechnology) to detect the expression of the retroviral GSK-3&#x003b2;A9, or phospho-specific GSK-3&#x003b2; (serine 9 specific; New England Biolabs, Inc.) or anti-GSK-3 (Upstate Biotechnology). Laser scanning densitometry (Molecular Devices) was used to determine fold increase in phospho-GSK-3&#x003b2; relative to the AV-stimulated control at each time point. Densitometry readings were taken as the sum above background.</p></sec><sec><title>Generation of Retroviruses and Bone Marrow Chimeras.</title><p>Recombinant retroviruses were packaged using a packaging cell line GP+E and titrated on NIH 3T3 cells as previously described <xref ref-type="bib" rid="R14">14</xref>. Packaging cell lines producing high-titer viruses (10<sup>6</sup> CFU/ml) were used to infect bone marrow from 2&#x02013;4-mo-old P14 TCR&#x02013;transgenic mice as previously described <xref ref-type="bib" rid="R15">15</xref>. In brief, cells were cultured at 5 &#x000d7; 10<sup>5</sup> cells/ml in IMDM supplemented with 50 &#x003bc;M 2-ME, 10% heat-inactivated FCS (Sigma-Aldrich), and IL-3&#x02013; and IL-6&#x02013;conditioned media. After 48 h, bone marrow cells were cocultivated with the packaging cell line producing the replication-defective retroviruses for a further 48 h. Selection of bone marrow cells was done with 0.75 mg/ml G418 (GIBCO BRL) for 24 h. Approximately 10<sup>6</sup> cells were infused into irradiated recipients (900 rads), and animals were reconstituted for 8&#x02013;12 wk.</p></sec><sec><title>Proliferation Assays and IL-2 Production.</title><p>Splenocytes (2 &#x000d7; 10<sup>5</sup>) were cocultivated with 10<sup>5</sup> irradiated C57BL/6 splenocytes as APCs that were previously pulsed with 10<sup>&#x02212;7</sup> M peptides for 1&#x02013;2 h at 37&#x000b0;C in 96-well flat-bottomed plates. After 48 h, 1 &#x003bc;Ci of [<sup>3</sup>H]thymidine (NEN Life Science Products) was added to the wells and cultured overnight. Cells were harvested and counted on a Matrix 96 direct &#x003b2;-counter (Canberra Packard). The peptides have been characterized to be a strong agonist ligand, p33 (KAVYNFATM); a weaker agonist, A4Y (KAVANFATM); or a nonstimulatory control ligand, AV (SGPSNTPPEI) <xref ref-type="bib" rid="R16">16</xref>
+<xref ref-type="bib" rid="R17">17</xref>. Peptides were generated and purified as previously described <xref ref-type="bib" rid="R16">16</xref>. In some assays, 10 mM LiCl was added, or as a control, 10 mM KCl.</p><p>For IL-2 production, supernatants were removed at the time points indicated in <xref ref-type="fig" rid="F3">Fig. 3</xref> and <xref ref-type="fig" rid="F4">Fig. 4</xref>. IL-2 activity was assayed by proliferation of the IL-2&#x02013;dependent CTLL-2 cell line. 5 &#x000d7; 10<sup>3</sup> CTLL-2 cells were cultured with the supernatant for 24 h, followed by a pulse of 1 &#x003bc;Ci of [<sup>3</sup>H]thymidine overnight.</p></sec><sec><title>Immunofluorescence.</title><p>10<sup>5</sup> cells were stained with antibodies specific for CD4, CD8, V&#x003b2;8, or V&#x003b1;2 (PharMingen) in PBS, 1% FCS, and 0.1% sodium azide. Cells were washed once and then fixed in 1% paraformaldehyde.</p><p>For intracellular NF-ATc staining, P14 TCR RAG<sup>&#x02212;/</sup>&#x02212; splenocytes were cocultivated with thioglycollate-stimulated macrophages pulsed with the LCMV-gp peptide p33. After 3 d in the presence of 10 mM KCl or LiCl, cells were harvested and spun onto slides. Cells were dipped in acetone for 15 s, followed by methanol for 6 min. Slides were incubated in blocking buffer (PBS, 2% FCS, 5% donkey serum, 5% BSA) for 1 hr, followed by anti&#x02013;NF-ATc1 (a gift from G. Crabtree, Stanford University, Stanford, CA) for 72 h. After washing, the donkey anti&#x02013;mouse secondary antibody (The Jackson Laboratory) was added for 1 h, followed by streptavidin&#x02013;FITC (Sigma-Aldrich).</p></sec></sec><sec><title>Results and Discussion</title><p>Studies have suggested that GSK-3 may be involved in lymphocyte activation <xref ref-type="bib" rid="R11">11</xref>
+<xref ref-type="bib" rid="R12">12</xref>. To determine whether antigen-specific stimulation of lymphocytes inactivates GSK-3, naive CD8<sup>+</sup> splenocytes were sorted from P14 TCR&#x02013;transgenic mice (specific for LCMV-gp [amino acid 33&#x02013;41, p33] and H-2D<sup>b</sup>) and stimulated with macrophages pulsed with the antigenic ligand p33 or a control peptide AV (<xref ref-type="fig" rid="F1">Fig. 1</xref>). Western blot analysis using an antibody specific for inactive GSK-3&#x003b2; (GSK-3 serine phosphorylated at position 9) shows an increase in phosphorylated GSK-3&#x003b2; after peptide-specific stimulation. Densitometry analysis indicates that the amount of phosphorylated GSK-3&#x003b2; has increased one- to twofold. This demonstrates that GSK-3&#x003b2; becomes inactivated after antigen-specific T cell stimulation.</p><p>Previous studies have demonstrated that a substitution of alanine for serine at amino acid position 9 of GSK-3&#x003b2; leads to constitutive kinase activity in human cell lines and transgenic mice <xref ref-type="bib" rid="R7">7</xref>
+<xref ref-type="bib" rid="R18">18</xref>. To understand the role of GSK-3 in T cell responses, an HA-tagged constitutively active form of GSK-3&#x003b2; (GSK-3&#x003b2;A9) was cloned into the retroviral vector murine stem cell virus (MSCV; <xref ref-type="fig" rid="F2">Fig. 2</xref> A; reference 14). Expression was confirmed by transfecting NIH 3T3 cells with MSCV/GSK-3&#x003b2;A9 and examining expression by Western blot analysis using HA-specific mAbs (<xref ref-type="fig" rid="F2">Fig. 2</xref> B). A high-titer packaging cell line for MSCV/GSK-3&#x003b2;A9 and control MSCV was obtained (10<sup>6</sup> CFU/ml) and used to infect bone marrow stem cells from P14 TCR&#x02013;transgenic mice. The frequency of bone marrow precursors that were transduced with the retrovirus was quantitated by selecting cells with neomycin. Routinely, 60&#x02013;90% of stem cells carried the selectable marker. These cells were used to generate bone marrow chimeric mice with C57BL/6 irradiated host animals.</p><p>Chimeric mice were compared from P14 TCR&#x02013;transgenic bone marrow transduced with MSCV/GSK-3&#x003b2;A9 and control MSCV. After reconstitution, flow cytometry analysis using antibodies specific for CD4, CD8, and V&#x003b1;2 (expressed by the P14 transgenic TCR) showed comparable numbers of P14-transgenic CD8<sup>+</sup> T cells in the thymus (data not shown) and spleen (<xref ref-type="fig" rid="F3">Fig. 3</xref> A). This suggests that positive selection and survival of peripheral T lymphocytes was not dramatically affected by the presence of GSK-3&#x003b2;A9. Mature T cell LCMV peptide-specific responses were assessed using a strong agonist ligand p33, the weaker agonist A4Y, and nonstimulatory control peptide AV. Proliferative responses were consistently reduced in GSK-3&#x003b2;A9&#x02013;reconstituted animals (<xref ref-type="fig" rid="F3">Fig. 3</xref> B). IL-2 production from these cultures was also assessed by measuring proliferation of an IL-2&#x02013;dependent line, CTLL-2. <xref ref-type="fig" rid="F3">Fig. 3</xref> C shows that IL-2 production was also reduced in T cells from MSCV/GSK-3&#x003b2;A9 chimeric mice. Therefore, inactivation of GSK-3 is required for maximal proliferation and IL-2 production.</p><p>T cell responses were also examined in the presence of LiCl, which selectively inhibits GSK-3 activity in a variety of cells, including COS cells, rat PC12 cells, <italic>Drosophila, Xenopus,</italic> and <italic>Dictyostelium</italic>
+<xref ref-type="bib" rid="R9">9</xref>
+<xref ref-type="bib" rid="R19">19</xref>
+<xref ref-type="bib" rid="R20">20</xref>. Splenocytes from P14 TCR&#x02013;transgenic mice were incubated with the strong antigenic peptide p33 and weaker agonist A4Y ligand, in the presence of 10 mM LiCl or 10 mM KCl, and pulsed with [<sup>3</sup>H]thymidine at several time points. The initial proliferative responses after 24 h were similar (data not shown). However, in the presence of lithium, dramatically increased and prolonged proliferative responses to p33 and A4Y were seen after 3, 4, and 5 d (<xref ref-type="fig" rid="F4">Fig. 4</xref> A). In addition, IL-2 production was dramatically increased in the presence of lithium, as measured by proliferation of the IL-2&#x02013;dependent line CTLL-2 (<xref ref-type="fig" rid="F4">Fig. 4</xref> B). Together, these data suggest that GSK-3 regulates the duration of T lymphocyte responses.</p><p>Previous studies have shown that GSK-3 phosphorylates NF-ATc, which promotes cytoplasmic localization and also export from the nucleus <xref ref-type="bib" rid="R11">11</xref>. Therefore, the presence of LiCl should inactivate GSK-3&#x003b2;, resulting in prolonged dephosphorylation of NF-ATc and sustained nuclear localization. We examined the localization of NF-ATc 3 d after T cells were stimulated with the antigenic peptide p33 in the presence or absence of LiCl. Fluorescent microscopy showed that NF-ATc was found in the nucleus in the presence of inactive GSK-3 (<xref ref-type="fig" rid="F4">Fig. 4</xref> C). This demonstrates that GSK-3 plays an important role in antigen-specific T cell activation by regulating NF-ATc localization.</p><p>Our studies suggest that TCR signals inactivate GSK-3, which negatively regulates T cell proliferation and IL-2 production by altering the nuclear import/export of NF-AT. Evidence from other systems support this model. Studies using HeLa and BHK cells have shown that Crm1 and Ran are involved in NF-AT export from the nucleus and have suggested that GSK-3 contributes to this process <xref ref-type="bib" rid="R21">21</xref>
+<xref ref-type="bib" rid="R22">22</xref>. In addition, mutation of the serine residue in NF-AT that is phosphorylated by GSK-3 leads to constitutive nuclear localization <xref ref-type="bib" rid="R23">23</xref>. Astoul et al. <xref ref-type="bib" rid="R24">24</xref> have examined the role of GSK-3 in B cell receptor signaling using the B lymphoma cell line A20. Cross-linking the B cell receptor with F(ab&#x02032;)<sub>2</sub> fragments lead to the phosphorylation and inactivation of the GSK-3&#x003b1; isoform. Together, studies from a variety of models support a role for GSK-3 in receptor-mediated signals that shuttle NF-AT from the nucleus.</p><p>Surprisingly little is known about the negative regulation of T cell activation. Cell surface interactions through molecules such as CTLA-4 negatively regulate T cell responses by interacting with the costimulatory ligands B7-1 and B7-2 <xref ref-type="bib" rid="R25">25</xref>. Other molecules such as CD5 have been shown to negatively influence TCR-mediated signals <xref ref-type="bib" rid="R26">26</xref>
+<xref ref-type="bib" rid="R27">27</xref>. In addition, signaling molecules such as the tyrosine kinase Csk <xref ref-type="bib" rid="R28">28</xref>, SHP-1 (motheaten; PTP-1C; references <xref ref-type="bib" rid="R29">29</xref>
+<xref ref-type="bib" rid="R30">30</xref>
+<xref ref-type="bib" rid="R31">31</xref>
+<xref ref-type="bib" rid="R32">32</xref>), Cabin 1 <xref ref-type="bib" rid="R33">33</xref>, and the adaptor Cbl <xref ref-type="bib" rid="R34">34</xref>
+<xref ref-type="bib" rid="R35">35</xref> have also been demonstrated to play a role in negatively regulating T cell responses. In this study, we have shown that GSK-3, a molecule that is generally known to be active in resting cells, is inactivated upon TCR stimulation. We show that GSK-3 is involved in the regulation of TCR-mediated proliferation and that one role of GSK-3 is to negatively regulate NF-ATc activity and IL-2 production. However, GSK-3 has a multitude of substrates, and it will be interesting to understand how these different effectors interplay with other pathways to orchestrate resting T cell survival and activation.</p></sec></body><back><ack><p>We would like to thank Dr. Gerald Crabtree for the generous gift of the NF-AT antibodies and Dr. Satoshi Matsuda for critical reading of the manuscript.</p><p>This work was supported by the Medical Research Council of Canada. P.S. Ohashi is a Medical Research Council Scientist.</p></ack><fn-group><fn><p>
+<italic>Abbreviations used in this paper:</italic> gp, glycoprotein peptide; GSK, glycogen synthase kinase; LCMV, lymphocytic choriomeningitis virus; MSCV, murine stem cell virus; NF-AT, nuclear factor of activated T cells; RAG, recombinase-activating gene.</p></fn></fn-group><ref-list><ref id="R1"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Qian</surname><given-names>D.</given-names></name><name><surname>Weiss</surname><given-names>A.</given-names></name></person-group>
+<article-title>T cell antigen receptor signal transduction</article-title>
+<source>Curr. Opin. Cell Biol.</source>
+<volume>9</volume>
+<year>1997</year>
+<fpage>205</fpage>
+<lpage>212</lpage>
+<pub-id pub-id-type="pmid">9069257</pub-id></element-citation></ref><ref id="R2"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Alberola-Ila</surname><given-names>J.</given-names></name><name><surname>Takaki</surname><given-names>S.</given-names></name><name><surname>Kerner</surname><given-names>J.D.</given-names></name><name><surname>Perlmutter</surname><given-names>R.M.</given-names></name></person-group>
+<article-title>Differential signalling by lymphocyte antigen receptors</article-title>
+<source>Annu. Rev. Immunol.</source>
+<volume>15</volume>
+<year>1997</year>
+<fpage>125</fpage>
+<lpage>154</lpage>
+<pub-id pub-id-type="pmid">9143684</pub-id></element-citation></ref><ref id="R3"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Rao</surname><given-names>A.</given-names></name><name><surname>Luo</surname><given-names>C.</given-names></name><name><surname>Hogan</surname><given-names>P.G.</given-names></name></person-group>
+<article-title>Transcription factors of the NFAT familyregulation and function</article-title>
+<source>Annu. Rev. Immunol.</source>
+<volume>15</volume>
+<year>1997</year>
+<fpage>707</fpage>
+<lpage>747</lpage>
+<pub-id pub-id-type="pmid">9143705</pub-id></element-citation></ref><ref id="R4"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Woodgett</surname><given-names>J.R.</given-names></name></person-group>
+<article-title>Regulation and functions of the glycogen synthase kinase-3 subfamily</article-title>
+<source>Cancer Biol.</source>
+<volume>5</volume>
+<year>1994</year>
+<fpage>269</fpage>
+<lpage>275</lpage>
+</element-citation></ref><ref id="R5"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Welsh</surname><given-names>G.I.</given-names></name><name><surname>Wilson</surname><given-names>C.</given-names></name><name><surname>Proud</surname><given-names>C.G.</given-names></name></person-group>
+<article-title>GSK3a SHAGGY frog story</article-title>
+<source>Cell Biol.</source>
+<volume>6</volume>
+<year>1996</year>
+<fpage>274</fpage>
+<lpage>279</lpage>
+</element-citation></ref><ref id="R6"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Sutherland</surname><given-names>C.</given-names></name><name><surname>Leighton</surname><given-names>I.A.</given-names></name><name><surname>Cohen</surname><given-names>P.</given-names></name></person-group>
+<article-title>Inactivation of glycogen synthase kinase-3 &#x003b2; by phosphorylationnew kinase connections in insulin and growth-factor signalling</article-title>
+<source>Biochem. J.</source>
+<volume>296</volume>
+<year>1993</year>
+<fpage>15</fpage>
+<lpage>19</lpage>
+<pub-id pub-id-type="pmid">8250835</pub-id></element-citation></ref><ref id="R7"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Stambolic</surname><given-names>V.</given-names></name><name><surname>Woodgett</surname><given-names>J.R.</given-names></name></person-group>
+<article-title>Mitogen inactivation of glycogen synthase kinase-3&#x003b2; in intact cells via serine 9 phosphorylation</article-title>
+<source>Biochem. J.</source>
+<volume>303</volume>
+<year>1994</year>
+<fpage>701</fpage>
+<lpage>704</lpage>
+<pub-id pub-id-type="pmid">7980435</pub-id></element-citation></ref><ref id="R8"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Cook</surname><given-names>D.</given-names></name><name><surname>Fry</surname><given-names>M.J.</given-names></name><name><surname>Hughes</surname><given-names>K.</given-names></name><name><surname>Sumathipala</surname><given-names>R.</given-names></name><name><surname>Woodgett</surname><given-names>J.R.</given-names></name><name><surname>Dale</surname><given-names>T.C.</given-names></name></person-group>
+<article-title>Wingless inactivates glycogen synthase kinase-3 via an intracellular signalling pathway which involves a protein kinase C</article-title>
+<source>EMBO (Eur. Mol. Biol. Organ.) J.</source>
+<volume>15</volume>
+<year>1996</year>
+<fpage>4526</fpage>
+<lpage>4536</lpage>
+</element-citation></ref><ref id="R9"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Stambolic</surname><given-names>V.</given-names></name><name><surname>Ruel</surname><given-names>L.</given-names></name><name><surname>Woodgett</surname><given-names>J.R.</given-names></name></person-group>
+<article-title>Lithium inhibits glycogen synthase kinase-3 activity and mimics Wingless signalling in intact cells</article-title>
+<source>Curr. Biol.</source>
+<volume>6</volume>
+<year>1996</year>
+<fpage>1664</fpage>
+<lpage>1668</lpage>
+<pub-id pub-id-type="pmid">8994831</pub-id></element-citation></ref><ref id="R10"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Moon</surname><given-names>R.T.</given-names></name><name><surname>Brown</surname><given-names>J.D.</given-names></name><name><surname>Yang-Snyder</surname><given-names>J.A.</given-names></name><name><surname>Miller</surname><given-names>J.R.</given-names></name></person-group>
+<article-title>Structurally related receptors and antagonists compete for secreted Wnt ligands</article-title>
+<source>Cell.</source>
+<volume>88</volume>
+<year>1997</year>
+<fpage>725</fpage>
+<lpage>728</lpage>
+<pub-id pub-id-type="pmid">9118212</pub-id></element-citation></ref><ref id="R11"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Beals</surname><given-names>C.R.</given-names></name><name><surname>Sheridan</surname><given-names>C.M.</given-names></name><name><surname>Turck</surname><given-names>C.W.</given-names></name><name><surname>Gardner</surname><given-names>P.</given-names></name><name><surname>Crabtree</surname><given-names>G.R.</given-names></name></person-group>
+<article-title>Nuclear export of NF-ATc enhanced by glycogen synthase kinase-3</article-title>
+<source>Science.</source>
+<volume>275</volume>
+<year>1997</year>
+<fpage>1930</fpage>
+<lpage>1933</lpage>
+<pub-id pub-id-type="pmid">9072970</pub-id></element-citation></ref><ref id="R12"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Welsh</surname><given-names>G.I.</given-names></name><name><surname>Miyamoto</surname><given-names>S.</given-names></name><name><surname>Price</surname><given-names>N.T.</given-names></name><name><surname>Safer</surname><given-names>B.</given-names></name><name><surname>Proud</surname><given-names>C.G.</given-names></name></person-group>
+<article-title>T-cell activation leads to rapid stimulation of translation initiation factor eIF2B and inactivation of glycogen synthase kinase-3</article-title>
+<source>J. Biol. Chem.</source>
+<volume>271</volume>
+<year>1996</year>
+<fpage>11410</fpage>
+<lpage>11413</lpage>
+<pub-id pub-id-type="pmid">8626696</pub-id></element-citation></ref><ref id="R13"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Pircher</surname><given-names>H.</given-names></name><name><surname>B&#x000fc;rki</surname><given-names>K.</given-names></name><name><surname>Lang</surname><given-names>R.</given-names></name><name><surname>Hengartner</surname><given-names>H.</given-names></name><name><surname>Zinkernagel</surname><given-names>R.</given-names></name></person-group>
+<article-title>Tolerance induction in double specific T-cell receptor transgenic mice varies with antigen</article-title>
+<source>Nature.</source>
+<volume>342</volume>
+<year>1989</year>
+<fpage>559</fpage>
+<lpage>561</lpage>
+<pub-id pub-id-type="pmid">2573841</pub-id></element-citation></ref><ref id="R14"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Hawley</surname><given-names>R.G.</given-names></name><name><surname>Lieu</surname><given-names>F.H.L.</given-names></name><name><surname>Fong</surname><given-names>A.Z.C.</given-names></name><name><surname>Hawley</surname><given-names>T.S.</given-names></name></person-group>
+<article-title>Versatile retroviral vectors for potential use in gene therapy</article-title>
+<source>Gene Ther.</source>
+<volume>1</volume>
+<year>1994</year>
+<fpage>136</fpage>
+<lpage>138</lpage>
+<pub-id pub-id-type="pmid">7584069</pub-id></element-citation></ref><ref id="R15"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Ally</surname><given-names>B.A.</given-names></name><name><surname>Hawley</surname><given-names>T.S.</given-names></name><name><surname>MacKall-Faienza</surname><given-names>K.</given-names></name><name><surname>K&#x000fc;ndig</surname><given-names>T.M.</given-names></name><name><surname>Oehen</surname><given-names>S.U.</given-names></name><name><surname>Pircher</surname><given-names>H.</given-names></name><name><surname>Hawley</surname><given-names>R.G.</given-names></name><name><surname>Ohashi</surname><given-names>P.S.</given-names></name></person-group>
+<article-title>Prevention of autoimmune disease by retroviral-mediated gene therapy</article-title>
+<source>J. Immunol.</source>
+<volume>155</volume>
+<year>1995</year>
+<fpage>5404</fpage>
+<lpage>5408</lpage>
+<pub-id pub-id-type="pmid">7594557</pub-id></element-citation></ref><ref id="R16"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Sebzda</surname><given-names>E.</given-names></name><name><surname>K&#x000fc;ndig</surname><given-names>T.M.</given-names></name><name><surname>Thomson</surname><given-names>C.T.</given-names></name><name><surname>Aoki</surname><given-names>K.</given-names></name><name><surname>Mak</surname><given-names>S.Y.</given-names></name><name><surname>Mayer</surname><given-names>J.</given-names></name><name><surname>Zamborelli</surname><given-names>T.M.</given-names></name><name><surname>Nathenson</surname><given-names>S.</given-names></name><name><surname>Ohashi</surname><given-names>P.S.</given-names></name></person-group>
+<article-title>Mature T cell reactivity altered by a peptide agonist that induces positive selection</article-title>
+<source>J. Exp. Med.</source>
+<volume>183</volume>
+<year>1996</year>
+<fpage>1093</fpage>
+<lpage>1104</lpage>
+<pub-id pub-id-type="pmid">8642251</pub-id></element-citation></ref><ref id="R17"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Mariathasan</surname><given-names>S.</given-names></name><name><surname>Bachmann</surname><given-names>M.F.</given-names></name><name><surname>Bouchard</surname><given-names>D.</given-names></name><name><surname>Ohteki</surname><given-names>T.</given-names></name><name><surname>Ohashi</surname><given-names>P.S.</given-names></name></person-group>
+<article-title>Degree of TCR internalization and Ca2+ flux correlates with thymocyte selection</article-title>
+<source>J. Immunol.</source>
+<volume>161</volume>
+<year>1998</year>
+<fpage>6030</fpage>
+<lpage>6037</lpage>
+<pub-id pub-id-type="pmid">9834085</pub-id></element-citation></ref><ref id="R18"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Brownlees</surname><given-names>J.</given-names></name><name><surname>Irving</surname><given-names>N.G.</given-names></name><name><surname>Brion</surname><given-names>J.-P.</given-names></name><name><surname>Gibb</surname><given-names>B.J.</given-names></name><name><surname>Wagner</surname><given-names>U.</given-names></name><name><surname>Woodgett</surname><given-names>J.</given-names></name><name><surname>Miller</surname><given-names>C.C.</given-names></name></person-group>
+<article-title>Tau phosphorylation in transgenic mice expressing glycogen synthase kinase-3beta transgenes</article-title>
+<source>Neuroreport.</source>
+<volume>8</volume>
+<year>1997</year>
+<fpage>3251</fpage>
+<lpage>3255</lpage>
+<pub-id pub-id-type="pmid">9351652</pub-id></element-citation></ref><ref id="R19"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Klein</surname><given-names>P.S.</given-names></name><name><surname>Melton</surname><given-names>D.A.</given-names></name></person-group>
+<article-title>A molecular mechanism for the effect of lithium on development</article-title>
+<source>Proc. Natl. Acad. Sci. USA.</source>
+<volume>93</volume>
+<year>1996</year>
+<fpage>8455</fpage>
+<lpage>8459</lpage>
+<pub-id pub-id-type="pmid">8710892</pub-id></element-citation></ref><ref id="R20"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Hedgepeth</surname><given-names>C.M.</given-names></name><name><surname>Conrad</surname><given-names>L.J.</given-names></name><name><surname>Zhang</surname><given-names>J.</given-names></name><name><surname>Huang</surname><given-names>H.C.</given-names></name><name><surname>Lee</surname><given-names>V.M.</given-names></name><name><surname>Klein</surname><given-names>P.S.</given-names></name></person-group>
+<article-title>Activation of the Wnt signaling pathwaya molecular mechanism for lithium action</article-title>
+<source>Dev. Biol.</source>
+<volume>185</volume>
+<year>1997</year>
+<fpage>82</fpage>
+<lpage>91</lpage>
+<pub-id pub-id-type="pmid">9169052</pub-id></element-citation></ref><ref id="R21"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Kehlenbach</surname><given-names>R.H.</given-names></name><name><surname>Dickmanns</surname><given-names>A.</given-names></name><name><surname>Gerace</surname><given-names>L.</given-names></name></person-group>
+<article-title>Nucleocytoplasmic shuttling factors including Ran and CRM1 mediate nuclear export of NFAT in vitro</article-title>
+<source>J. Cell Biol.</source>
+<volume>141</volume>
+<year>1998</year>
+<fpage>863</fpage>
+<lpage>874</lpage>
+<pub-id pub-id-type="pmid">9585406</pub-id></element-citation></ref><ref id="R22"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Zhu</surname><given-names>J.</given-names></name><name><surname>McKeon</surname><given-names>F.</given-names></name></person-group>
+<article-title>NF-AT activation requires suppression of Crm1-dependent export by calcineurin</article-title>
+<source>Nature.</source>
+<volume>398</volume>
+<year>1999</year>
+<fpage>256</fpage>
+<lpage>260</lpage>
+<pub-id pub-id-type="pmid">10094050</pub-id></element-citation></ref><ref id="R23"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Beals</surname><given-names>C.R.</given-names></name><name><surname>Clipstone</surname><given-names>N.A.</given-names></name><name><surname>Ho</surname><given-names>S.N.</given-names></name><name><surname>Crabtree</surname><given-names>G.R.</given-names></name></person-group>
+<article-title>Nuclear localization of NF-ATc by a calcineurin-dependent, cyclosporin-sensitive intramolecular interaction</article-title>
+<source>Genes Dev.</source>
+<volume>11</volume>
+<year>1997</year>
+<fpage>824</fpage>
+<lpage>834</lpage>
+<pub-id pub-id-type="pmid">9106655</pub-id></element-citation></ref><ref id="R24"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Astoul</surname><given-names>E.</given-names></name><name><surname>Watton</surname><given-names>S.</given-names></name><name><surname>Cantrell</surname><given-names>D.</given-names></name></person-group>
+<article-title>The dynamics of protein kinase B regulation during B cell antigen receptor engagement</article-title>
+<source>J. Cell Biol.</source>
+<volume>145</volume>
+<year>1999</year>
+<fpage>1511</fpage>
+<lpage>1520</lpage>
+<pub-id pub-id-type="pmid">10385529</pub-id></element-citation></ref><ref id="R25"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Lenschow</surname><given-names>D.J.</given-names></name><name><surname>Walunas</surname><given-names>T.L.</given-names></name><name><surname>Bluestone</surname><given-names>J.A.</given-names></name></person-group>
+<article-title>CD28/B7 system of T cell costimulation</article-title>
+<source>Annu. Rev. Immunol.</source>
+<volume>14</volume>
+<year>1996</year>
+<fpage>233</fpage>
+<lpage>258</lpage>
+<pub-id pub-id-type="pmid">8717514</pub-id></element-citation></ref><ref id="R26"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Tarakhovsky</surname><given-names>A.</given-names></name><name><surname>Kanner</surname><given-names>S.B.</given-names></name><name><surname>Hombach</surname><given-names>J.</given-names></name><name><surname>Ledbetter</surname><given-names>J.A.</given-names></name><name><surname>M&#x000fc;ller</surname><given-names>W.</given-names></name><name><surname>Killeen</surname><given-names>N.</given-names></name><name><surname>Rajewsky</surname><given-names>K.</given-names></name></person-group>
+<article-title>A role for CD5 in TCR-mediated signal transduction and thymocyte selection</article-title>
+<source>Science.</source>
+<volume>269</volume>
+<year>1995</year>
+<fpage>535</fpage>
+<lpage>537</lpage>
+<pub-id pub-id-type="pmid">7542801</pub-id></element-citation></ref><ref id="R27"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Azzam</surname><given-names>H.S.</given-names></name><name><surname>Grinberg</surname><given-names>A.</given-names></name><name><surname>Lui</surname><given-names>K.</given-names></name><name><surname>Shen</surname><given-names>H.</given-names></name><name><surname>Shores</surname><given-names>E.W.</given-names></name><name><surname>Love</surname><given-names>P.E.</given-names></name></person-group>
+<article-title>CD5 expression is developmentally regulated by T cell receptor (TCR) signals and TCR avidity</article-title>
+<source>J. Exp. Med.</source>
+<volume>188</volume>
+<year>1998</year>
+<fpage>2301</fpage>
+<lpage>2311</lpage>
+<pub-id pub-id-type="pmid">9858516</pub-id></element-citation></ref><ref id="R28"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Schmedt</surname><given-names>C.</given-names></name><name><surname>Saijo</surname><given-names>K.</given-names></name><name><surname>Niidome</surname><given-names>T.</given-names></name><name><surname>K&#x000fc;hn</surname><given-names>R.</given-names></name><name><surname>Aizawa</surname><given-names>S.</given-names></name><name><surname>Tarakhovsky</surname><given-names>A.</given-names></name></person-group>
+<article-title>Csk controls antigen receptor-mediated development and selection of T-lineage cells</article-title>
+<source>Nature.</source>
+<volume>394</volume>
+<year>1998</year>
+<fpage>901</fpage>
+<lpage>904</lpage>
+<pub-id pub-id-type="pmid">9732874</pub-id></element-citation></ref><ref id="R29"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Plas</surname><given-names>D.R.</given-names></name><name><surname>Johnson</surname><given-names>R.</given-names></name><name><surname>Pingel</surname><given-names>J.T.</given-names></name><name><surname>Matthews</surname><given-names>R.J.</given-names></name><name><surname>Dalton</surname><given-names>M.</given-names></name><name><surname>Roy</surname><given-names>G.</given-names></name><name><surname>Chan</surname><given-names>A.C.</given-names></name><name><surname>Thomas</surname><given-names>M.L.</given-names></name></person-group>
+<article-title>Direct regulation of ZAP-70 by SHP-1 in T cell antigen receptor signaling</article-title>
+<source>Science.</source>
+<volume>272</volume>
+<year>1996</year>
+<fpage>1173</fpage>
+<lpage>1176</lpage>
+<pub-id pub-id-type="pmid">8638162</pub-id></element-citation></ref><ref id="R30"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Pani</surname><given-names>G.</given-names></name><name><surname>Fischer</surname><given-names>K.-D.</given-names></name><name><surname>Mlinaric-Rascan</surname><given-names>I.</given-names></name><name><surname>Siminovitch</surname><given-names>K.A.</given-names></name></person-group>
+<article-title>Signaling capacity of the T cell antigen receptor is negatively regulated by the PTP1C tyrosine phosphatase</article-title>
+<source>J. Exp. Med.</source>
+<volume>184</volume>
+<year>1996</year>
+<fpage>839</fpage>
+<lpage>852</lpage>
+<pub-id pub-id-type="pmid">9064344</pub-id></element-citation></ref><ref id="R31"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Lorenz</surname><given-names>U.</given-names></name><name><surname>Ravichandran</surname><given-names>K.S.</given-names></name><name><surname>Burakoff</surname><given-names>S.J.</given-names></name><name><surname>Neel</surname><given-names>B.G.</given-names></name></person-group>
+<article-title>Lack of SHPTP1 results in src-family kinase hyperactivation and thymocyte hyperresponsiveness</article-title>
+<source>Proc. Natl. Acad. Sci. USA.</source>
+<volume>93</volume>
+<year>1996</year>
+<fpage>9624</fpage>
+<lpage>9629</lpage>
+<pub-id pub-id-type="pmid">8790380</pub-id></element-citation></ref><ref id="R32"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Carter</surname><given-names>J.D.</given-names></name><name><surname>Neel</surname><given-names>B.G.</given-names></name><name><surname>Lorenz</surname><given-names>U.</given-names></name></person-group>
+<article-title>The tyrosine phosphatase SHP-1 influences thymocyte selection by setting TCR signaling thresholds</article-title>
+<source>Int. Immunol.</source>
+<volume>11</volume>
+<year>1999</year>
+<fpage>1999</fpage>
+<lpage>2014</lpage>
+<pub-id pub-id-type="pmid">10590266</pub-id></element-citation></ref><ref id="R33"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Sun</surname><given-names>L.</given-names></name><name><surname>Youn</surname><given-names>H.D.</given-names></name><name><surname>Loh</surname><given-names>C.</given-names></name><name><surname>Stolow</surname><given-names>M.</given-names></name><name><surname>He</surname><given-names>W.</given-names></name><name><surname>Liu</surname><given-names>J.O.</given-names></name></person-group>
+<article-title>Cabin 1, a negative regulator for calcineurin signaling in T lymphocytes</article-title>
+<source>Immunity.</source>
+<volume>8</volume>
+<year>1998</year>
+<fpage>703</fpage>
+<lpage>711</lpage>
+<pub-id pub-id-type="pmid">9655484</pub-id></element-citation></ref><ref id="R34"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Murphy</surname><given-names>M.A.</given-names></name><name><surname>Schnall</surname><given-names>R.G.</given-names></name><name><surname>Venter</surname><given-names>D.J.</given-names></name><name><surname>Barnett</surname><given-names>L.</given-names></name><name><surname>Bertoncello</surname><given-names>I.</given-names></name><name><surname>Thien</surname><given-names>C.B.F.</given-names></name><name><surname>Langdon</surname><given-names>W.Y.</given-names></name><name><surname>Bowtell</surname><given-names>D.D.L.</given-names></name></person-group>
+<article-title>Tissue hyperplasia and enhanced T-cell signalling via ZAP-70 in c-Cbl-deficient mice</article-title>
+<source>Mol. Cell. Biol.</source>
+<volume>18</volume>
+<year>1998</year>
+<fpage>4872</fpage>
+<lpage>4882</lpage>
+<pub-id pub-id-type="pmid">9671496</pub-id></element-citation></ref><ref id="R35"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Naramura</surname><given-names>M.</given-names></name><name><surname>Kole</surname><given-names>H.K.</given-names></name><name><surname>Hu</surname><given-names>R.-J.</given-names></name><name><surname>Gu</surname><given-names>H.</given-names></name></person-group>
+<article-title>Altered thymic positive selection and intracellular signals in Cbl-deficient mice</article-title>
+<source>Proc. Natl. Acad. Sci. USA.</source>
+<volume>95</volume>
+<year>1998</year>
+<fpage>15447</fpage>
+<lpage>15552</lpage>
+</element-citation></ref></ref-list></back><floats-group><fig id="F1" position="float"><label>Figure 1</label><caption><p>TCR-specific stimulation leads to inactivation of GSK-3. CD8-purified P14 TCR&#x02013;transgenic T cells were incubated with macrophages pulsed with the antigenic ligand p33 (P) or nonstimulatory ligand AV (A). After the indicated time periods, cells were lysed and analyzed by Western blot using phospho-serine&#x02013;specific GSK-3 antibodies. Numbers indicate the densitometry measurements as fold increase relative to AV-treated cells. Total GSK-3 was shown as a control.</p></caption><graphic xlink:href="JEM992254.f1"/></fig><fig-group id="F2" position="float"><label>Figure 2</label><caption><p>Retroviral expression of GSK-3&#x003b2;A9. (A) A retroviral vector was generated using MSCV and a constitutively active form of GSK-3&#x003b2; (GSK-3&#x003b2;A9) tagged with HA. GSK-3&#x003b2;A9 is expressed from the retroviral LTR, using the splice donor and splice acceptor sites. The selectable neomycin (G418)-resistant marker is expressed from the phosphoglycerate kinase (pgk) promoter. (B) NIH 3T3 cells were transduced with the retrovirus MSCV/GSK-3&#x003b2;A9, and expression of GSK-3&#x003b2;A9 was examined by Western blot using HA-specific antibodies, compared with control (con) NIH 3T3 cells.</p></caption><fig id="F2a" position="anchor"><graphic xlink:href="JEM992254.f2a"/></fig><fig id="F2b" position="anchor"><graphic xlink:href="JEM992254.f2b"/></fig></fig-group><fig-group id="F3" position="float"><label>Figure 3</label><caption><p>Overexpression of constitutively active GSK-3&#x003b2; inhibits antigen-specific T cell proliferation and IL-2 production. (A) Similar reconstitution of P14 TCR&#x02013;transgenic T cells in retroviral transduced bone marrow chimeric mice. The spleen cells from chimeric mice, reconstituted with P14 TCR&#x02013;transgenic bone marrow transduced with MSCV/GSK-3&#x003b2;A9 (left panel) or MSCV/neo (right panel), were stained with antibodies specific for CD8 and V&#x003b1;2. T cells from bone marrow chimeric mice expressing GSK-3&#x003b2;A9 show decreased proliferation and IL-2 production. (B) Splenocytes from bone marrow chimeric mice transduced with MSCV/GSK-3&#x003b2;A9 show reduced proliferation in response to the strong agonist peptides p33 and weaker agonist A4Y compared with control MSCV-transduced T cells. Proliferative responses using the nonstimulatory AV peptide for the P14 TCR was &#x0003c;500 cpm. Proliferation was measured on day 2. (C) A reduction in IL-2 production was also seen from P14-transgenic T cells from MSCV/GSK-3&#x003b2;A9 chimeric mice. Supernatants from cultures were removed after 24 h, and the amount of IL-2 was quantitated by measuring proliferation of the IL-2&#x02013;dependent cell line CTLL-2.</p></caption><fig id="F3a" position="anchor"><graphic xlink:href="JEM992254.f3a"/></fig><fig id="F3bc" position="anchor"><graphic xlink:href="JEM992254.f3bc"/></fig></fig-group><fig-group id="F4" position="float"><label>Figure 4</label><caption><p>Inhibition of GSK-3 leads to prolonged T cell proliferation and IL-2 production. Splenocytes from P14 TCR&#x02013;transgenic mice were cocultivated with APCs pulsed with the strong agonist ligand p33 or control AV peptide, in the presence of LiCl or KCl. (A) Proliferation of T cells was measured by thymidine incorporation. Proliferation in response to AV was below 300 cpm. (B) IL-2 production was measured by proliferation of the IL-2&#x02013;dependent cell line CTLL-2 by the addition of supernatant from cultures harvested from the indicated days. (C) GSK-3 regulates NF-ATc nuclear localization. Purified CD8<sup>+</sup> T cells from P14 TCR&#x02013;transgenic RAG2<sup>&#x02212;/</sup>&#x02212; mice were cocultured with APCs pulsed with p33 for 3 d in the presence of LiCl or KCl. Cells were fixed, permeabilized, and stained using an NF-ATc&#x02013;specific antibody.</p></caption><fig id="F4ab" position="anchor"><graphic xlink:href="JEM992254.f4ab"/></fig><fig id="F4c" position="anchor"><graphic xlink:href="JEM992254.f4c"/></fig></fig-group></floats-group></article>

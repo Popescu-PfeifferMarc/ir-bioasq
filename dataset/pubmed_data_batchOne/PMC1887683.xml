@@ -1,0 +1,702 @@
+<!DOCTYPE article PUBLIC "-//NLM//DTD JATS (Z39.96) Journal Archiving and Interchange DTD v1.0 20120330//EN" "JATS-archivearticle1.dtd">
+<article xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mml="http://www.w3.org/1998/Math/MathML" article-type="research-article"><?properties open_access?><front><journal-meta><journal-id journal-id-type="nlm-ta">J Exp Med</journal-id><journal-id journal-id-type="iso-abbrev">J. Exp. Med</journal-id><journal-title-group><journal-title>The Journal of Experimental Medicine</journal-title></journal-title-group><issn pub-type="ppub">0022-1007</issn><issn pub-type="epub">1540-9538</issn><publisher><publisher-name>The Rockefeller University Press</publisher-name></publisher></journal-meta><article-meta><article-id pub-id-type="pmid">9874564</article-id><article-id pub-id-type="pmc">PMC1887683</article-id><article-categories><subj-group subj-group-type="heading"><subject>Articles</subject></subj-group></article-categories><title-group><article-title>STAT3 Is Required for the gp130-mediated Full Activation of the c-<italic>myc</italic> Gene </article-title></title-group><contrib-group><contrib contrib-type="author"><name><surname>Kiuchi</surname><given-names>Nobuo</given-names></name></contrib><contrib contrib-type="author"><name><surname>Nakajima</surname><given-names>Koichi</given-names></name></contrib><contrib contrib-type="author"><name><surname>Ichiba</surname><given-names>Makoto</given-names></name></contrib><contrib contrib-type="author"><name><surname>Fukada</surname><given-names>Toshiyuki</given-names></name></contrib><contrib contrib-type="author"><name><surname>Narimatsu</surname><given-names>Masahiro</given-names></name></contrib><contrib contrib-type="author"><name><surname>Mizuno</surname><given-names>Katsunori</given-names></name></contrib><contrib contrib-type="author"><name><surname>Hibi</surname><given-names>Masahiko</given-names></name></contrib><contrib contrib-type="author"><name><surname>Hirano</surname><given-names>Toshio</given-names></name></contrib></contrib-group><aff id="N0x1bf23c0N0x3d69f68">From the Division of Molecular Oncology, Biomedical Research Center, Osaka University Medical School, Suita, Osaka 565-0871, Japan</aff><author-notes><fn><p>Address correspondence to Toshio Hirano, Division of Molecular Oncology, Biomedical Research Center, Osaka University Medical School, 2-2, Yamada-oka, Suita, Osaka 565-0871, Japan. Phone: 81-6-879-3880; Fax: 81-6-879-3889; E-mail: <email>hirano@molonc.med.osaka-u.ac.jp</email>
+</p></fn></author-notes><pub-date pub-type="ppub"><day>4</day><month>1</month><year>1999</year></pub-date><volume>189</volume><issue>1</issue><fpage>63</fpage><lpage>73</lpage><history><date date-type="received"><day>18</day><month>8</month><year>1998</year></date><date date-type="rev-recd"><day>26</day><month>10</month><year>1998</year></date></history><permissions><copyright-year>1999</copyright-year><license license-type="openaccess"><license-p>This article is distributed under the terms of an Attribution&#x02013;Noncommercial&#x02013;Share Alike&#x02013;No Mirror Sites license for the first six months after the publication date (see <ext-link ext-link-type="uri" xlink:href="http://www.rupress.org/terms">http://www.rupress.org/terms</ext-link>). After six months it is available under a Creative Commons License (Attribution&#x02013;Noncommercial&#x02013;Share Alike 4.0 Unported license, as described at <ext-link ext-link-type="uri" xlink:href="http://creativecommons.org/licenses/by-nc-sa/4.0/">http://creativecommons.org/licenses/by-nc-sa/4.0/</ext-link>).</license-p></license></permissions><abstract><p>The signal transducers and activators of transcription (STAT) family members have been implicated in regulating the growth, differentiation, and death of normal and transformed cells in response to either extracellular stimuli, including cytokines and growth factors, or intracellular tyrosine kinases. c-<italic>myc</italic> expression is coordinately regulated by multiple signals in these diverse cellular responses. We show that STAT3 mostly mediates the rapid activation of the c-<italic>myc</italic> gene upon stimulation of the interleukin (IL)-6 receptor or gp130, a signal transducing subunit of the receptor complexes for the IL-6 cytokine family. STAT3 does so most likely by binding to <italic>cis</italic>-regulatory region(s) of the c-<italic>myc</italic> gene. We show that STAT3 binds to a region overlapping with the E2F site in the c-<italic>myc</italic> promoter and this site is critical for the c-<italic>myc</italic> gene promoter&#x02013; driven transcriptional activation by IL-6 or gp130 signals. This is the first identification of the linkage between a member of the STAT family and the c<italic>-myc</italic> gene activation, and also explains how the IL-6 family of cytokines is capable of inducing the expression of the c-<italic>myc</italic> gene.</p></abstract><kwd-group><kwd>signal transducer and activator of transcription 3</kwd><kwd>c-<italic>myc</italic></kwd><kwd>promoter</kwd><kwd>interleukin 6</kwd><kwd>gp130</kwd></kwd-group></article-meta></front><body><p>Signal transducers and activators of transcription (STAT)<sup>1</sup> proteins have been shown to play pivotal roles in cytokine signaling pathways, which are involved in regulating cell growth and differentiation in systems ranging from <italic>Dictyostelium</italic> to mammals (<xref rid="B1" ref-type="bibr">1</xref>&#x02013;<xref rid="B4" ref-type="bibr">4</xref>). STAT proteins are activated not only by receptor-associated Janus tyrosine kinases (JAK) (<xref rid="B5" ref-type="bibr">5</xref>&#x02013;<xref rid="B9" ref-type="bibr">9</xref>), but also by receptor type tyrosine kinases (<xref rid="B10" ref-type="bibr">10</xref>&#x02013;<xref rid="B13" ref-type="bibr">13</xref>) and by the oncogenic tyrosine kinases v-src and v-abl (14&#x02013; 16). The involvement of STAT proteins in cell survival, growth, transformation, and differentiation has been reported in a number of instances. A role for STAT5 has been suggested in IL-2&#x02013;mediated cell growth signals in murine pro-B BAF/B03 cell lines expressing a variety of mutant IL-2 receptors (<xref rid="B17" ref-type="bibr">17</xref>), and it is also partially responsible for IL-3&#x02013;induced cell growth in a pro-B BAF/B03 cell line (<xref rid="B18" ref-type="bibr">18</xref>). STAT3 activity plays a critical role in mediating gp130 signals leading to both growth arrest and macrophage differentiation in M1 leukemic cells (<xref rid="B19" ref-type="bibr">19</xref>, <xref rid="B20" ref-type="bibr">20</xref>) as well as to cell survival in BAF/B03 cells stably expressing chimeric gp130 receptors (<xref rid="B21" ref-type="bibr">21</xref>). Lymphocytes from mice with a disruption in their <italic>stat6</italic> or <italic>stat4</italic> genes lose their proliferative responses to IL-4 and IL-12, respectively, indicating critical roles for these STAT molecules in cytokine-induced cell growth (<xref rid="B22" ref-type="bibr">22</xref>&#x02013;<xref rid="B26" ref-type="bibr">26</xref>). Moreover, a disruption of the <italic>stat3</italic> genes causes embryonic lethality around embryonic day E7.5 (<xref rid="B27" ref-type="bibr">27</xref>), suggesting a role for STAT3 in cell proliferation or survival in early embryonic stages. Recently, a comparison of the responses of lymphocytes from normal and gene-disrupted mice deficient in STAT6 or STAT4 led to the suggestion that STAT6 and STAT4 control lymphocyte proliferation by downregulating the levels of p27<sup>Kip1</sup> protein (<xref rid="B28" ref-type="bibr">28</xref>). However, STAT5a is also involved in IL-2&#x02013;induced lymphocyte proliferation via induction of the IL-2 receptor &#x003b1; chain, as shown by comparing lymphocytes from STAT5a null mice with those from normal mice (<xref rid="B29" ref-type="bibr">29</xref>). Regarding the roles of STAT proteins in oncogenesis, STAT1 activation is correlated with cellular transformation by Eyk (<xref rid="B30" ref-type="bibr">30</xref>), and recently STAT3 was shown to be involved in the transformation of NIH3T3 cells by v-src (<xref rid="B31" ref-type="bibr">31</xref>, <xref rid="B32" ref-type="bibr">32</xref>). In other cases, STAT1 protein plays a role in IFN-&#x003b3;&#x02013;induced growth arrest and apoptosis (<xref rid="B33" ref-type="bibr">33</xref>). All of these indicate the complexity of the multiple roles of STAT family proteins. However, regarding the roles for STAT family proteins in cell proliferation, there is no report showing a linkage between STAT proteins and the direct regulation of genes critically involved in the cell cycle progression or in cellular transformation.</p><p>The product of the c-<italic>myc</italic> gene has been shown to be a critical regulator of cell growth, especially for cell cycle progression from the G1 to S phase (for review see reference <xref rid="B34" ref-type="bibr">34</xref>) and for the induction of cdc25A (<xref rid="B35" ref-type="bibr">35</xref>). The c-<italic>myc</italic> gene is commonly activated during responses to the proliferative signals elicited by extracellular stimuli such as serum, epidermal growth factor, platelet-derived growth factor (PDGF) (<xref rid="B36" ref-type="bibr">36</xref>), nerve growth factor (<xref rid="B37" ref-type="bibr">37</xref>), colony stimulating factor 1 (<xref rid="B38" ref-type="bibr">38</xref>), and a variety of cytokines including IL-1, IL-3, GM-CSF, IL-5, IL-2, IL-4, IL-7, IL-6, IL-9, and IL-12 (<xref rid="B39" ref-type="bibr">39</xref>&#x02013;<xref rid="B45" ref-type="bibr">45</xref>). Among the molecules known to be involved in growth factor and cytokine signaling, the nonreceptor tyrosine kinases c-src (<xref rid="B46" ref-type="bibr">46</xref>), syk (<xref rid="B47" ref-type="bibr">47</xref>), and JAK (<xref rid="B48" ref-type="bibr">48</xref>&#x02013;<xref rid="B50" ref-type="bibr">50</xref>) have been shown to activate the c-<italic>myc</italic> gene. Oncogenic nonreceptor tyrosine kinases, v-src and v-abl, bcr-abl, and the oncogenic serine/ threonine kinase v-akt have also been shown to induce c-<italic>myc</italic> mRNA expression (<xref rid="B51" ref-type="bibr">51</xref>&#x02013;<xref rid="B54" ref-type="bibr">54</xref>). STAM (the signal transducing adaptor molecule), which is phosphorylated on tyrosine residues after stimulation with a variety of cytokines such as IL-2, IL-3, GM-CSF, and epidermal growth factor appears to be involved in IL-2&#x02013; and GM-CSF&#x02013;induced activation of the c-<italic>myc</italic> gene promoter (<xref rid="B55" ref-type="bibr">55</xref>). However, very little is known about the mechanisms by which these different effector molecules activate the c-<italic>myc</italic> gene. Only E2F molecules, composed of members of the E2F family and DP1 or DP2, have been identified as the final common target molecules that affect transcriptional activation of the c-<italic>myc</italic> gene upon stimulation with serum, PDGF (<xref rid="B56" ref-type="bibr">56</xref>), v-abl (<xref rid="B57" ref-type="bibr">57</xref>&#x02013;<xref rid="B59" ref-type="bibr">59</xref>), bcr-abl (<xref rid="B54" ref-type="bibr">54</xref>), and phosphatidyl inositol 3-kinase/c-akt (<xref rid="B60" ref-type="bibr">60</xref>, <xref rid="B61" ref-type="bibr">61</xref>).</p><p>The IL-6 family of cytokines, which includes IL-6, ciliary nerve trophic factor, leukemia inhibitory factor, oncostatin M, IL-11, and cardiotrophin-1, is variably involved in cell growth, differentiation, and survival in a variety of tissues and cells (<xref rid="B62" ref-type="bibr">62</xref>). In particular, IL-6 and IL-11 are potent growth factors for multiple myelomas (<xref rid="B63" ref-type="bibr">63</xref>, <xref rid="B64" ref-type="bibr">64</xref>). The receptors for the IL-6 family of cytokines share gp130 as a signal transducing receptor subunit, which is capable of activating a variety of signal transduction pathways, i.e., the STAT3-mediated pathway, the SH2 domain containing phosphatase (SHP)-2/Ras/ mitogen-activated protein kinase&#x02013;mediated pathway, and other poorly characterized pathways (<xref rid="B6" ref-type="bibr">6</xref>). IL-6 is essential for cell growth of regenerating murine hepatocytes after partial hepatectomy, causing the rapid activation of STAT3 and the rapid induction of c-<italic>myc</italic> mRNA expression (<xref rid="B65" ref-type="bibr">65</xref>). Stimulation of gp130 activates STAT3, and induces c-<italic>myc</italic> mRNA expression and cell proliferation in BAF/B03 cells (<xref rid="B21" ref-type="bibr">21</xref>). One of the important questions to be resolved is how cytokines, such as those in the IL-6 family, are capable of inducing the expression of the c-<italic>myc</italic> gene, which plays an essential role in cell fate, growth, and differentiation. Here, we characterize the signaling pathways leading to the IL-6&#x02013;induced full c-<italic>my</italic>c gene activation and show that STAT3 is involved in the rapid activation of the c-<italic>myc</italic> gene at least partly by directly binding to a site overlapping with the c-<italic>myc</italic> E2F binding site in the c-<italic>myc</italic> gene P2 promoter.</p><sec sec-type="materials|methods" id="MaterialsMethods"><title>Materials and Methods</title><sec disp-level="3"><title>Cell Lines and Cell Culture.</title><p>The murine proB cell line BAF/ B03 cells were maintained in RPMI 1640 medium (<named-content content-type="company" xlink:href="gibco">GIBCO BRL</named-content>) supplemented with 10% FCS, 0.1 ng/ml recombinant mouse IL-3, 100 U/ml penicillin, and 100 &#x003bc;g/ml streptomycin in a humidified atmosphere with 5% CO<sub>2</sub>. BAF transformants expressing the chimeric receptors containing the extracellular domain of the granulocyte colony-stimulating factor (G-CSF) receptor (G-CSFR) and the transmembrane and cytoplasmic domains of gp130 have been described previously (<xref rid="B21" ref-type="bibr">21</xref>). A cell sorter (FACScan<sup>&#x000ae;</sup>; <named-content content-type="company" xlink:href="becton">Becton Dickinson</named-content>) was used to check the expression levels of the chimeric receptors which were labeled with an anti&#x02013; G-CSFR antibody. One representative clone for each type of transformant (BAF-G277, BAF-G133, BAF-G68, BAF-G133F2, and BAF-G133F3) expressing similar levels of the chimeric receptors was used in this study. To make stable BAF-G133 transformants expressing the dominant-negative STAT3s, 50 &#x003bc;g of each expression vector encoding either the dominant-negative STAT3F or STAT3D (pCAGGS-Neo hemagglutinin [HA]Stat3D and pCAGGS-Neo HAStat3F) along with 5 &#x003bc;g of pMIK-Hyg was transfected by electroporation, and the transformants were selected with 200 &#x003bc;g/ml hygromycin. The expression levels of STAT3D and STAT3F were analyzed by immunoblotting with an anti-HA mAb, (12CA5; <named-content content-type="company" xlink:href="boehringer">Boehringer Mannheim</named-content>). The KT-3 human T cell lymphoma cells were grown in RPMI 1640 medium supplemented with 10% FCS and 10 ng/ml recombinant human IL-6. The human HepG2 hepatoma cells were grown in DME (<named-content content-type="company" xlink:href="gibco">GIBCO BRL</named-content>) supplemented with 10% FCS and antibiotics.</p></sec><sec disp-level="3"><title>Northern Blot Analysis.</title><p>Total RNA was extracted using the TRIzol reagent (<named-content content-type="company" xlink:href="gibco">GIBCO BRL</named-content>) according to the procedure recommended by the manufacturer. Total RNA (20 &#x003bc;g per sample) was separated by electrophoresis in 1% agarose formaldehyde gels and transferred to Hybond N<sup>+</sup> (<named-content content-type="company" xlink:href="amersham">Amersham Corp.</named-content>) nylon membranes. Membranes were hybridized overnight at 65&#x000b0;C with <sup>32</sup>P-labeled cDNA fragments, washed three times with 0.1&#x000d7; SSC, 0.1% SDS at 58&#x000b0;C for 20 min, and subjected to autoradiography. The amount of loaded RNA was verified with the levels of CHO-B mRNA intensity. The probes used here were the human c-<italic>myc</italic> cDNA (2.0 kb, EcoRV-EcoRI fragment), <italic>junB</italic> (2.1 kb, EcoRI fragment), and CHO-B (0.6 kb, EcoRI-BamHI fragment).</p></sec><sec disp-level="3"><title>Plasmid Construction.</title><p>PHXL (<xref rid="B55" ref-type="bibr">55</xref>), a gift from Dr. K. Sugamura and T. Arita (Tohoku University School of Medicine, Sendai, Japan), is a luciferase reporter plasmid containing the human c-<italic>myc</italic> gene with the region spanning from &#x02212;2309 to +532 bp relative to the transcription initiation site of the P1 promoter. This construct was called &#x02212;2309/+532 Luc in this paper for simplification. A series of 5&#x02032; deletion mutants were made as follows. To make &#x02212;1398/+532 Luc and &#x02212;349/+532 Luc, respectively, fragments extending from a BglII site in the PHXL multicloning site to a SpeI or PvuII site in the c-<italic>myc</italic> promoter were deleted. The resultant constructs were then made blunt-ended and religated. For &#x02212;101/ +532 Luc and +68/+532 Luc, SmaI and the XhoI fragments, respectively, were deleted from PHXL. To make +102/+532 constructs, the region containing +102/+532 was amplified by PCR using the oligonucleotides 5&#x02032;-AACTCGAGAAAAAGAACGGAGGGAGGGA-3&#x02032; and 5&#x02032;-GCCGGGCCTTTCTTTATGTT-3&#x02032; as primers. The XhoI-HindIII fragment of the PCR product was subcloned into the XhoI, HindIII site of PHXL, from which the longer XhoI-HindII fragment, containing the c-<italic>myc</italic> region upstream of the HindIII site had been deleted. To make 3 &#x000d7; c-<italic>myc</italic> E2F Luc and 3 &#x000d7; adenovirus (Ad) E2 E2F Luc, three repeats of c-<italic>myc</italic> E2F and Ad type 5 E2 E2F oligonucleotides were inserted in front of the minimal mouse <italic>junB</italic> promoter Luc (<xref rid="B66" ref-type="bibr">66</xref>, <xref rid="B67" ref-type="bibr">67</xref>). The sequences of the oligonucleotides were as follows: c-<italic>myc</italic> E2F 5&#x02032;-TTGGCGGGAAAAA-3&#x02032; and Ad E2 promoter E2F 5&#x02032;-GTTTCGCGCC-CTTTCTCAA-3&#x02032; (<xref rid="B68" ref-type="bibr">68</xref>) with an additional SalI and KpnI site at each end.</p></sec><sec disp-level="3"><title>Site-directed Mutagenesis by PCR.</title><p>Mutations were introduced in the c-<italic>myc</italic> E2F binding site in the context of the intact c-<italic>myc</italic> promoter with the upstream region to &#x02212;2309 bp (&#x02212;2309/+532 mE2F Luc) and with that to &#x02212;101 bp (&#x02212;101/+532 mE2F Luc) by the overlap extension technique, using PCR. The primers used for these mutations were 5&#x02032;-AGGCTTGG<underline>AA</underline>G<underline>TT</underline>AAAAGAACGGAGGGAGGATC-3&#x02032;, 5&#x02032;-TTT<underline>AA</underline>C<underline>TT</underline>CCAAGCCTC-TGAGAAGCCCTG-3&#x02032;, and reverse and universal primers for pBluescriptII (Stratagene). The underlined bases are the mutated ones. pBluescriptII containing the XhoI-HindIII fragment of the c-<italic>myc</italic> promoter was used as a template. After the PCR products were subcloned into pBluescriptII SK+ (Stratagene), their sequences were verified by DNA sequencing. The PCR product digested with XhoI and HindIII was then inserted at the proper position of &#x02212;2309/+532 Luc and &#x02212;101/+532 Luc to make &#x02212;2309/+532 mE2F Luc and &#x02212;101/+532 mE2F Luc.</p></sec><sec disp-level="3"><title>Transient Transfection Assay.</title><p>For transfection experiments, HepG2 cells were transfected with DNA mixtures using the calcium phosphate coprecipitation method. Typically, 1.2 &#x003bc;g of one of the reporter plasmids containing the firefly luciferase gene, and 1 &#x003bc;g of pEFLacZ, a pEF-BOS expression vector containing the &#x003b2;-lacZ gene encoding &#x003b2;-galactosidase as an internal control for transfection efficiency, were used. 3 &#x003bc;g of either pCAGGS-Neo, an expression vector without an insert (control), or pCAGGS-NeoHAStat3F, an expression vector containing a cDNA encoding HA-STAT3F (<xref rid="B20" ref-type="bibr">20</xref>) was cotransfected in some experiments. Cells were incubated with DNA precipitates for 12 h, washed with PBS, fed with DME containing 0.1% FCS for 20&#x02013;24 h, and stimulated with 100 ng/ml of IL-6 for the last 6 h. Approximately 42 h after transfection, cells were collected in 120 &#x003bc;l lysis buffer and subjected to assays for luciferase and &#x003b2;-galactosidase activity as described (<xref rid="B69" ref-type="bibr">69</xref>).</p></sec><sec disp-level="3"><title>Electromobility Shift Assay (EMSA).</title><p>EMSAs were performed according to the procedure published previously (<xref rid="B70" ref-type="bibr">70</xref>). The oligonucleotides used as probes or competitors for the EMSA were as follows: c-<italic>myc</italic> E2F, 5&#x02032;-GACGCTTGGCGGGAAAAAG-3&#x02032; and 5&#x02032;-GGCTT-TTTCCCGCCAAG-3&#x02032;; Ad E2 E2F, 5&#x02032;-GACGTT-TCGCGCCCTTTCT-3&#x02032; and 5&#x02032;-GGAGAAAGGGCGCGAAA-3&#x02032; (<xref rid="B68" ref-type="bibr">68</xref>); STAT5, 5&#x02032;-GCGAGATTTCTAGGAATTCAAT-3&#x02032; and 5&#x02032;-GGATTG-AATTCCTAGAAATCT-3&#x02032; (<xref rid="B71" ref-type="bibr">71</xref>). The acute phase response elements (APRE) were synthesized as reported previously (<xref rid="B70" ref-type="bibr">70</xref>). Nuclear extracts (10 &#x003bc;g) were incubated in a final volume of 20 &#x003bc;l (10 mM Hepes, pH 7.9, 80 mM NaCl, 10% glycerol, 1 mM dithiothreitol, 1 mM EDTA, and 100 &#x003bc;g/ml poly[dI-dC] poly[dI-dC]) with each <sup>32</sup>P-labeled probe (10,000 cpm, 0.5&#x02013;1 ng) for 20 min at room temperature. The protein&#x02013;DNA complexes were resolved on a 4.5% nondenaturing polyacrylamide gel containing 2.5% glycerol in 0.25&#x000d7; TBE (1&#x000d7; TBE is 0.13 M Tris base, 0.12 M boric acid, and 2.0 mM EDTA, pH 8.8) at room temperature and autoradiographed. For competition analysis, extracts were preincubated with a 50- or 250-fold molar excess of cold oligonucleotides for 5 min before the addition of labeled oligonucleotide. For antibody interaction studies, antiserum or a mAb specific to each STAT family member was included in the binding reaction during a 30-min preincubation on ice. The antibodies used were anti-STAT1 mAb recognizing the STAT1 NH<sub>2</sub> terminus from Transduction Laboratories (anti-ISGF3 G16920); anti-STAT3 polyclonal antibody recognizing the COOH terminus of STAT3 (<xref rid="B70" ref-type="bibr">70</xref>); and anti-STAT5 polyclonal antibody recognizing both STAT5a and STAT5b (sc-835X; <named-content content-type="company" xlink:href="sbct">Santa Cruz Biotechnology</named-content>).</p></sec></sec><sec id="Results"><title>Results</title><sec disp-level="4"><title>gp130-mediated Rapid Activation of the c-myc Gene without Requiring De Novo Protein Synthesis.</title><p>We first characterized the nature of the gp130-mediated c-<italic>myc</italic> mRNA induction in BAF-G277, a BAF-B03 pro-B cell line expressing the chimeric receptor containing the extracellular domain of the G-CSF receptor and the transmembrane and cytoplasmic domains of gp130 (<xref rid="B21" ref-type="bibr">21</xref>). Total RNA was obtained from BAF-G277 cells which had been deprived of IL-3 for 12 h and then stimulated with 100 ng/ml of G-CSF for up to 15 h. The levels of mRNAs for the c-<italic>myc</italic> gene and a housekeeping gene, CHO-B, are shown (Fig. <xref ref-type="fig" rid="F1">1</xref> A). The c-<italic>myc</italic> mRNA levels normalized with those of CHO-B were plotted (Fig. <xref ref-type="fig" rid="F1">1</xref> B). G-CSF increased immediately the levels of c-<italic>myc</italic> mRNA by around sixfold with a peak at 1 h after stimulation, followed by a gradual decrease until 12 h and a slight increase at 15 h (Fig. <xref ref-type="fig" rid="F1">1</xref> A, lanes 1&#x02013;7; Fig. <xref ref-type="fig" rid="F1">1</xref> B). This induction is due to the activation of the chimeric receptor since G-CSF did not increase c-<italic>myc</italic> mRNA level in the parental BAF/B03 cells (Fig. <xref ref-type="fig" rid="F1">1</xref> A, lanes 8&#x02013;10). Pretreatment of BAF-G277 with cycloheximide did not inhibit but rather enhanced the c-<italic>myc</italic> mRNA level at 1 h after stimulation with G-CSF, indicating that at least the initial phase of c-<italic>myc</italic> mRNA induction by gp130-mediated signals did not require de novo protein synthesis in BAF-G277 cells (Fig. <xref ref-type="fig" rid="F1">1</xref> C, lanes 1&#x02013;4). </p></sec><sec disp-level="4"><title>The Involvement of STAT3 in gp130-mediated Rapid and Full Activation of the c-myc Gene.</title><p>To investigate which signals were responsible for the c-<italic>myc</italic> gene activation by the IL-6 cytokine family, we determined which region of gp130 was required for full c-<italic>myc</italic> mRNA induction. To do this, we selected BAF transformants with similar expression levels of the chimeric receptors for BAF-G277, BAF-G133, BAF-G133F2, BAF-G133F3, and BAF-G68 (Fig. <xref ref-type="fig" rid="F2">2</xref> A). The constructs of the chimeric receptors are described in the legend to Fig. <xref ref-type="fig" rid="F2">2</xref>. Previously, we showed that the membrane-proximal region of gp130, consisting of 133&#x02013;amino acid residues, is necessary and sufficient for ligand-induced cell growth (<xref rid="B21" ref-type="bibr">21</xref>). This region of gp130 contains two tyrosines, Y759 and Y767, which are required for activation of the SHP-2/RAS/MAPK pathway and STAT3, respectively (<xref rid="B21" ref-type="bibr">21</xref>, <xref rid="B72" ref-type="bibr">72</xref>). In BAF-G133 cells, G-CSF induced c-<italic>myc</italic> mRNA expression at a level somewhat less than that in BAF-G277, whereas BAF-G68 showed c-<italic>myc</italic> mRNA expression at a much lower level (Fig. <xref ref-type="fig" rid="F2">2</xref> B). The low-level c-<italic>myc</italic> mRNA expression in the BAF-G68 clone was repeatedly observed and estimated as one-seventh and one-fifth of those of BAF-G277 and BAF-G133, respectively. These results suggested that although a poorly characterized and weak signal to the c-<italic>myc</italic> gene was generated from the membrane-proximal region between 1 and 68, the region between 68 and 133 is necessary for the full activation of the c-<italic>myc</italic> gene. The use of the other transformants, BAF-G133F2 and BAF-G133F3, which express the truncated chimeric receptors with a tyrosine to phenylalanine mutation at the second (Y759) and third (Y767) tyrosine residues in the cytoplasmic domain, respectively, indicated that the third tyrosine residue, Y767, in G133 was required for the full activation of the c-<italic>myc</italic> gene (Fig. <xref ref-type="fig" rid="F2">2</xref> B). Since this requirement is the same as for STAT3 activation (<xref rid="B19" ref-type="bibr">19</xref>, <xref rid="B72" ref-type="bibr">72</xref>), it seemed likely that STAT3 is involved in the full c-<italic>myc</italic> induction. To test this directly, we used two other BAF transformants expressing both truncated chimeric receptors, G133, and one of the two dominant-negative STAT3 mutants (<xref rid="B20" ref-type="bibr">20</xref>), BAF-G133 STAT3F and BAF-G133 STAT3D. Expression of either dominant-negative STAT3 almost completely inhibited the gp130-mediated expression of both c-<italic>myc</italic> and <italic>junB</italic> mRNA (Fig. <xref ref-type="fig" rid="F3">3</xref>), the latter of which has been known to be one of IL-6&#x02013;inducible immediate early response genes (<xref rid="B66" ref-type="bibr">66</xref>, <xref rid="B70" ref-type="bibr">70</xref>, <xref rid="B73" ref-type="bibr">73</xref>). The three cell lines, BAF-G133, BAF-G133 STAT3F, and BAF-G133 STAT3D, could respond to IL-3 by expressing c-<italic>myc</italic> mRNA with levels similar in each cell line but much higher than that of gp130-induced c-<italic>myc</italic> mRNA, indicating that the poor gp130-mediated induction of c-<italic>myc</italic> mRNA seen in the dominant-negative STAT3&#x02013;expressing cell lines was due to the specific effect of the exogenous STAT3F and STAT3D. These results indicated a critical role for STAT3 in the gp130-mediated c-<italic>myc</italic> and <italic>junB</italic> gene activation. Considering that the c-<italic>myc</italic> mRNA induction through gp130 signals occurred without requiring de novo protein synthesis (Fig. <xref ref-type="fig" rid="F1">1</xref> C) and that the STAT3 transcription factor was involved, it seemed likely that STAT3 directly activated transcription of the c-<italic>myc</italic> gene by binding to a cis-regulatory region(s) of the gene. </p></sec><sec disp-level="4"><title>Rapid Activation of the c-myc Promoter by STAT3.</title><p> We tested whether IL-6 or gp130 activation could induce c-<italic>myc</italic> mRNA expression in cells other than BAF transformants. IL-6 increased transiently the c-<italic>myc</italic> mRNA levels by &#x0223c;2.5&#x02013;3-fold in HepG2 at 1 h after stimulation (Fig. <xref ref-type="fig" rid="F4">4</xref> A), as for BAF-G277. We then took advantage of the easy transfectability of HepG2 cells to test if IL-6 can activate the c-<italic>myc</italic> gene promoter. First we transiently transfected HepG2 cells with a luciferase gene construct containing the human c-<italic>myc</italic> gene with the region spanning from &#x02212;2.3 kb to +530 bp relative to the P1 initiation site, and tested for IL-6 responsiveness. As shown in Fig. <xref ref-type="fig" rid="F4">4</xref> B, IL-6 increased the reporter gene expression by &#x0223c;3.0-fold. This activation of the c-<italic>myc</italic> promoter&#x02013;driven transcription was effectively inhibited by the dominant-negative STAT3F, indicating that a STAT3-responsive element(s) resides in the upstream or promoter region of the c-<italic>myc</italic> gene. Fig. <xref ref-type="fig" rid="F4">4</xref> C also shows that only the chimeric receptors containing the gp130 region capable of activating STAT3, that is, G277, G133, and G133F2, but not G133F3 or G68, could activate the c-<italic>myc</italic> promoter driven&#x02013;reporter gene expression, fully consistent with the c-<italic>myc</italic> mRNA expression pattern observed in BAF transformants. However, this does not rule out the possible involvement of other region(s) outside the upstream and promoter region of the c-<italic>myc</italic> gene used in this study. Enhancement of induction was observed with the G133F2 expression vector. This may be explained by an inhibitory effect of SHP-2, which is activated through the tyrosine phosphorylation module at Y759, on the STAT3 activity (<xref rid="B74" ref-type="bibr">74</xref>). </p></sec><sec disp-level="4"><title>STAT3 Responsive Element Resides in the Proximal Region of the c-myc P2 Promoter.</title><p>To identify a STAT3 responsive element in the c-<italic>myc</italic> promoter, we made a series of deletion mutants linked to the luciferase gene, as depicted in Fig. <xref ref-type="fig" rid="F5">5</xref>. We transfected HepG2 cells with these constructs and tested for IL-6 responsiveness. Whereas the promoter constructs bearing deletions &#x02212;1398, &#x02212;349, &#x02212;101, and +68 bp relative to the P1 transcription initiation site responded to IL-6 by 2.7&#x02013;3.8-fold over baseline transcription levels, the promoter truncated at +102 bp lost IL-6 responsiveness (Fig. <xref ref-type="fig" rid="F5">5</xref>), suggesting the existence of a STAT3 responsive element just upstream of the P2 promoter. </p></sec><sec disp-level="4"><title>A Region Overlapping with the c-myc E2F Binding Site Is Responsible for STAT3-mediated Activation of the c-myc Promoter.</title><p>Since the promoter region between +68 and +102 bp from the P1 initiation site contained two known functional sites, Me1a2 and part of the E2F binding site, we hypothesized that the major determinant for IL-6&#x02013;induced and STAT3-mediated activation might be the c-<italic>myc</italic> E2F site, located at +98 to +106 bp. To test if this site was responsible for IL-6&#x02013;induced and STAT3-mediated activation of the promoter, we made point mutations at this c-<italic>myc</italic> E2F site, changing from TTGGCGGGAAA to TTGGAAGTTAA, in the context of the full-length promoter construct (&#x02212;2309/+532 mE2F Luc) and in the truncated version of the c-<italic>myc</italic> promoter construct (&#x02212;101/+532 mE2F Luc), and tested for IL-6 responsiveness. The mutations severely compromised the IL-6 responsiveness of both constructs (Fig. <xref ref-type="fig" rid="F6">6</xref> A), indicating that this site is really required for IL-6 responsiveness in the intact promoter. Then we proceeded to test whether the STAT3-mediated activation can be seen in E2F binding site in general or specifically in the c-<italic>myc</italic> E2F binding site. We constructed two reporter gene constructs, one containing three repeats of the c-<italic>myc</italic> E2F site, TTGGCGGGAAAAAG, and the other containing three repeats of a typical E2F binding site, GTTTCGCGCCCTTTCTCAA, from the Ad E2 promoter (<xref rid="B68" ref-type="bibr">68</xref>, <xref rid="B75" ref-type="bibr">75</xref>) inserted upstream of the heterologous minimal <italic>junB</italic> promoter linked to the luciferase gene (<xref rid="B66" ref-type="bibr">66</xref>, <xref rid="B67" ref-type="bibr">67</xref>), and tested them for IL-6 responsiveness in HepG2 cells (Fig. <xref ref-type="fig" rid="F6">6</xref> B). Interestingly, IL-6 dramatically activated the c-<italic>myc</italic> E2F site&#x02013;driven transcription, but not the wild-type E2F site&#x02013;driven expression, and the IL-6&#x02013;induced activation of the c-<italic>myc</italic> E2F site was inhibited by the coexpression of the dominant-negative STAT3F (Fig. <xref ref-type="fig" rid="F6">6</xref> B). From these results, we concluded that STAT3 activated the c-<italic>myc</italic> gene promoter by specifically activating the c-<italic>myc</italic> E2F binding site or an overlapping region. These results also indicated that the STAT3-mediated activation of the c-<italic>myc</italic> gene promoter occurs independently of E2F activity. The basal promoter activities of the c-<italic>myc</italic> promoters with the mutated E2F site (&#x02212;2309/+532 mE2F Luc and &#x02212;101/ +532 mE2F Luc) were reproducibly higher than those of the corresponding intact c-<italic>myc</italic> promoters (&#x02212;2309/+532 Luc and &#x02212;101/+532 Luc), consistent with the existence of a repressor activity bound to the c-<italic>myc</italic> E2F site in the serum-starved HepG2 cells. </p></sec><sec disp-level="4"><title>Direct Binding of STAT3 to the c-myc E2F Binding Site.</title><p>Since the sequence of the c-<italic>myc</italic> E2F binding site, TTGGCGGGAAA, is distinct from the known STAT3 binding sites (<xref rid="B76" ref-type="bibr">76</xref>&#x02013;<xref rid="B78" ref-type="bibr">78</xref>), we tested whether STAT3 and other STAT proteins bind directly to the c-<italic>myc</italic> E2F site or indirectly through interactions with other proteins. To do this, we used EMSA, testing nuclear extracts from BAF-G277 and HepG2 cells stimulated with either G-CSF or IL-6. The extracts were incubated with labeled oligonucleotides bearing the c-<italic>myc</italic> E2F site and specific antibodies to each STAT protein in some experiments and unlabeled oligonucleotides as competitors in other experiments. The nuclear extracts from BAF-G277 cells stimulated with G-CSF for 15 min (Fig. <xref ref-type="fig" rid="F7">7</xref> A, lanes 1&#x02013;5) and HepG2 cells stimulated with IL-6 for 15 min (Fig. <xref ref-type="fig" rid="F7">7</xref> B, lanes 1&#x02013;4) have prominent c-<italic>myc</italic> E2F site binding activity. In the nuclear extracts from BAF-G277 cells stimulated with G-CSF, most of the complexes on the c-<italic>myc</italic> E2F site were shifted by anti-STAT3 serum (Fig. <xref ref-type="fig" rid="F7">7</xref> B, lane 4), indicating that STAT3 is the major component bound to the c-<italic>myc</italic> E2F site in BAF-G277 cells, which have very little E2F activity, either free E2F or complexes of E2F and one of the retinoblastoma protein family members. The inducible complexes in the IL-6&#x02013; stimulated HepG2 nuclear extracts were most likely to contain STAT3, STAT3/STAT1, and STAT1 (indicated by arrows in Fig. <xref ref-type="fig" rid="F7">7</xref> B), since anti-STAT3 serum shifted the two upper bands and anti-STAT1 antibody shifted the lower band. Interestingly, the mobilities of the complexes with the c-<italic>myc</italic> E2F probe are exactly the same as those of complexes seen using an oligonucleotide probe containing an APRE from &#x003b1;2-macroglobulin, a typical STAT binding site (compare lane 2 with lane 4 in Fig. <xref ref-type="fig" rid="F7">7</xref> C), suggesting that these inducible complexes with c-<italic>myc</italic> E2F probe are dimers of STAT3, STAT3/STAT1, and STAT1, although c-<italic>myc</italic> E2F probe has less affinity than APRE probe. These inducible complexes of STAT1 and 3 with the c-<italic>myc</italic> E2F probe were competed by an oligonucleotide containing APRE (Fig. <xref ref-type="fig" rid="F7">7</xref> D, lanes 7 and 8) five times as efficiently as by a control c-<italic>myc</italic> E2F oligonucleotide (Fig. <xref ref-type="fig" rid="F7">7</xref> D, lanes 3 and 4), but not by the typical E2F binding site, TTTCGCGC, taken from the adenovirus E2 promoter (Fig. <xref ref-type="fig" rid="F7">7</xref> D, lanes 5 and 6). These results suggested that activated STAT proteins may directly bind to the c-<italic>myc</italic> E2F site with around fivefold less affinity than to APRE and that in spite of the low affinity to the c-<italic>myc</italic> E2F site, the binding activities of STAT proteins were much stronger than those of E2F-containing complexes. </p></sec><sec disp-level="4"><title>Binding Specificity of STAT Proteins for the c-myc E2F Site.</title><p>Next we tested the binding specificity of other STAT proteins for the c-<italic>myc</italic> E2F site. For this experiment, we first tested the nuclear extracts from IL-2&#x02013;stimulated KT-3 cells (<xref rid="B79" ref-type="bibr">79</xref>) for STAT5 activity using EMSA with an oligonucleotide containing the STAT5 binding site (<xref rid="B71" ref-type="bibr">71</xref>) and a specific antibody to STAT5 that recognizes both STAT5a and 5b. As shown in Fig. <xref ref-type="fig" rid="F8">8</xref>, IL-2&#x02013;stimulated KT-3 nuclear extracts showed abundant STAT5 complexes on the STAT5 probe recognizable by anti-STAT5 antibody (lane 10) and a small amount of STAT3-containing complex, which was recognized by an anti-STAT3 antibody (lane 9). The same extracts showed inducible binding activity to the c-<italic>myc</italic> E2F site (Fig. <xref ref-type="fig" rid="F8">8</xref>, lane 2). Interestingly, the anti-STAT5 antibody did not cause any shift of the complexes (Fig. <xref ref-type="fig" rid="F8">8</xref>, lane 5), whereas most of the complexes were shifted by the anti-STAT3 antibody (Fig. <xref ref-type="fig" rid="F8">8</xref>, lane 4). These results indicated that the c-<italic>myc</italic> E2F site binds preferentially to STAT3 and STAT1, but not to STAT5, and that the nuclear extracts from IL-2&#x02013;stimulated KT-3 cells had STAT3 bound to the c-<italic>myc</italic> E2F binding site. Although we do not know the role of STAT3 in the IL-2 signaling pathway, this binding specificity is at least consistent with the lack of a role for STAT5 in the IL-2&#x02013;induced activation of the c-<italic>myc</italic> gene. </p></sec></sec><sec id="Discussion"><title>Discussion</title><sec disp-level="4"><title>Rapid Activation of the c-myc Gene by STAT3.</title><p>E2F activity has been shown to be involved in the activation of the c-<italic>myc</italic> gene in response to serum or PDGF (<xref rid="B56" ref-type="bibr">56</xref>). It is also likely that E2F activity is elevated in cycling cells in the G1 to S phase transition, including BAF-G277 cells. However, this mechanism does not account for the immediate induction of c-<italic>myc</italic> mRNA observed in BAF-G277 and HepG2 cells, since the increases in CDK4/6 kinase activity were only apparent 4 h after gp130 stimulation in BAF-G277 cells (data not shown), and no apparent increase in E2F activity was detected in IL-6&#x02013;stimulated HepG2 cells, as exemplified by the lack of activation of the reporter gene containing three repeats of the wild-type E2F binding sites upstream of the minimal <italic>junB</italic> promoter (Fig. <xref ref-type="fig" rid="F6">6</xref> B). Instead, we suggested that STAT3 is essential for the rapid IL-6&#x02013; induced or gp130-mediated induction of the c-<italic>myc</italic> mRNA expression and showed that STAT3 rapidly activated the c-<italic>myc</italic> gene promoter by binding to a site overlapping with the c-<italic>myc</italic> E2F site. However, at the present time we do not know whether STAT3 cooperates with other proteins to activate the c-<italic>myc</italic> promoter&#x02013;driven transcription or whether STAT3 synergistically enhances the c-<italic>myc</italic> mRNA expression with other uncharacterized pathway(s) or mechanisms affecting the levels of transcriptional elongation or mRNA stability. The putative STAT3 binding site and the E2F binding site in the c-<italic>myc</italic> promoter are depicted and compared with the typical E2F binding site in the adenovirus E2 promoter (Fig. <xref ref-type="fig" rid="F9">9</xref>). As shown in Fig. <xref ref-type="fig" rid="F9">9</xref>, a STAT3 binding site overlaps with the E2F binding site in the c-<italic>myc</italic> P2 promoter, while a typical E2F site, such as the E2F binding site in the adenovirus E2 promoter, does not have a STAT3 binding site. The point mutations at the c-<italic>myc</italic> E2F site, from TTGGCGGGAAA to TTGGAAGTTAA, compromised the IL-6 responsiveness of the c-<italic>myc</italic> promoter (Fig. <xref ref-type="fig" rid="F6">6</xref> A). Although these point mutations were originally intended to abolish the binding activity to E2F and E2F complexes, the mutations actually inhibited the STAT binding activity (data not shown), consistent with the notion that this site also works as a functional STAT binding element. The role of STAT proteins in activating the c-<italic>myc</italic> gene is crucial, especially for the IL-6 family of cytokines, which mainly activate STAT3 and weakly activate the c-<italic>myc</italic> gene as shown in Fig. <xref ref-type="fig" rid="F3">3</xref>. Mouse hepatocytes, when responding in vivo to partial hepatectomy, show a very rapid increase in STAT3 activity as well as <italic>junB</italic> and c-<italic>myc</italic> mRNA expression, in a manner dependent on IL-6 (<xref rid="B65" ref-type="bibr">65</xref>). The rapid increase in c-<italic>myc</italic> mRNA expression in regenerating hepatocytes may be explained by the direct effect of STAT3 on the c-<italic>myc</italic> gene activation shown here. </p></sec><sec disp-level="4"><title>Role of the E2F Site in Regulating the c-myc Gene.</title><p> The c-<italic>myc</italic> E2F site is also a target for free E2F and E2F complexes with the products of the retinoblastoma gene (pRb) family (<xref rid="B80" ref-type="bibr">80</xref>, <xref rid="B81" ref-type="bibr">81</xref>). It has been shown that at quiescent and early G1 phases, pRb and related members, complexed with E2F, repress the transcriptional activity of the genes with E2F binding sites in their cis-regulatory elements (<xref rid="B82" ref-type="bibr">82</xref>, <xref rid="B83" ref-type="bibr">83</xref>), and, during the progression of the cell cycle, E2F freed from pRb family members can activate the genes required for S phase progression (<xref rid="B56" ref-type="bibr">56</xref>). In this context, the role of STAT3, which is rapidly activated and efficiently binds to the c-<italic>myc</italic> E2F site, may be dual. First, transcriptionally active STAT3 can rapidly activate the c-<italic>myc</italic> gene by directly binding to the c-<italic>myc</italic> E2F site. Second, STAT3 may work only through excluding the repressor complexes from the E2F site, although this possibility remains to be examined. It is noteworthy that this mechanism can only be applied to the specific genes that contain the E2F binding site with an affinity for both STAT and E2F proteins.</p></sec><sec disp-level="4"><title>Cytokine Signals Regulating c-myc Expression.</title><p>Upon binding to a ligand, most cytokine receptors initiate a variety of signaling pathways by activating JAK tyrosine protein kinases (<xref rid="B6" ref-type="bibr">6</xref>, <xref rid="B84" ref-type="bibr">84</xref>, <xref rid="B85" ref-type="bibr">85</xref>). Some signaling pathways appear to activate the c-<italic>myc</italic> gene. For instance, IL-2 has been shown to activate the c-<italic>myc</italic> gene through at least three distinct pathways, the tyrosine kinase syk (<xref rid="B47" ref-type="bibr">47</xref>), STAM (<xref rid="B55" ref-type="bibr">55</xref>), and phosphatidyl inositol 3&#x02013;kinase/Akt, protein kinase B (<xref rid="B60" ref-type="bibr">60</xref>, <xref rid="B61" ref-type="bibr">61</xref>). The last pathway was shown to increase the E2F activity by phosphorylating and removing pRb from E2F (<xref rid="B61" ref-type="bibr">61</xref>). As for the STAT proteins, STAT5, activated by IL-2 or by IL-3R &#x003b2;c, has been shown not to be responsible for c-<italic>myc</italic> mRNA induction (<xref rid="B18" ref-type="bibr">18</xref>, <xref rid="B86" ref-type="bibr">86</xref>, <xref rid="B87" ref-type="bibr">87</xref>). Mui et al. showed that carboxy-terminally truncated dominant-negative STAT5 inhibited the IL-3&#x02013;induced mRNA expression for the <italic>cis</italic> and <italic>pim-1</italic> genes but not that of the c-<italic>myc</italic> gene (<xref rid="B18" ref-type="bibr">18</xref>). The absence of a role for STAT5 in c-<italic>myc</italic> activation is consistent with our result showing that STAT5 does not bind to the c-<italic>myc</italic> E2F site (Fig. <xref ref-type="fig" rid="F8">8</xref>). This is quite a contrast to the critical role for STAT3 in activation of the c-<italic>myc</italic> gene through gp130 signaling, and shows that each STAT molecule has different target genes. Although STAT1 can bind to the STAT binding site overlapping with E2F site in the c-<italic>myc</italic> promoter, the contribution of STAT1 in IL-6&#x02013;induced or gp130-mediated c-<italic>myc</italic> gene activation may not be important considering the following observations. First, the amount of STAT1 is much smaller than that of STAT3 in BAF-G277 cells. Second, two types of dominant-negative STAT3 efficiently inhibited the gp130-mediated c-<italic>myc</italic> mRNA induction in BAF-G133 cells. Third, dominant-negative STAT3, but not dominant-negative STAT1 (data not shown), inhibited IL-6&#x02013;induced activation of the c-<italic>myc</italic> gene promoter activity in HepG2 cells (Fig. <xref ref-type="fig" rid="F4">4</xref> B). Our results indicate that different cytokine receptor systems have their own strategy to cause the similar outcomes, survival of cells and induction of the genes required for cell cycle progression, including the c-<italic>myc</italic> gene. It is also noteworthy that STAT3 activates the c-<italic>myc</italic> gene in some cells shown here but in other cells, e.g., M1 leukemic cells, the same STAT3 is involved in repression of c-<italic>myc</italic> gene expression with slower kinetics (<xref rid="B20" ref-type="bibr">20</xref>). The role of STAT1 in regulating the c-<italic>myc</italic> gene expression in response to other cytokines, including IFN&#x003b3;, should be examined carefully in this context.</p><p>This is the first report showing the linkage between STAT family proteins and c-<italic>myc</italic> gene activation. This result implies that other growth factor receptors, or nonreceptor type tyrosine kinases, or oncogene products that are capable of activating STAT3 also induce c-<italic>myc</italic> mRNA expression, at least in part through STAT3 activation.</p></sec></sec></body><back><ack><p>We thank Drs. K. Sugamura and T. Arita for the gift of the human c-<italic>myc</italic> promoter construct, and Drs. K. Ishihara, H. Maeda, K. Nishida and Miss. J. Ishikawa for technical assistance.</p><p>This work was supported by Grants-in-Aid for COE Research, Scientific Research (B), and on Priority Areas from the Ministry of Education, Science, Sports, and Culture in Japan, the Special Coordination Fund from the Science and Technology Agency of the Japanese Government, the Osaka Foundation for Promotion of Clinical Immunology, and the Ryoichi Naito Foundation for Medical Research.</p></ack><fn-group><fn><p>K. Nakajima's present address is the Department of Immunology, Osaka City University Medical School, 1-4-3, Asahi-machi, Abeno-ku, Osaka 545-8585, Japan.</p></fn><fn id="FN1"><label>1</label><p>
+<italic>Abbreviations used in this paper:</italic> Ad, adenovirus; APRE, acute phase response element; EMSA, electromobility shift assay; G-CSF, granulocyte colony-stimulating factor; G-CSFR, G-CSF receptor; HA, hemagglutinin; JAK, Janus tyrosine kinases; PDGF, platelet-derived growth factor; pRb, products of the retinoblastoma gene; SHP-2, SH<sub>2</sub> domain containing phosphatase; STAT, signal transducers and activators of transcription.</p></fn></fn-group><ref-list><title>References</title><ref id="B1"><label>1</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Darnell</surname><given-names>JJ</given-names></name><name><surname>Kerr</surname><given-names>IM</given-names></name><name><surname>Stark</surname><given-names>GR</given-names></name></person-group>
+<article-title>Jak-STAT pathways and transcriptional activation in response to IFNs and other extracellular signaling proteins</article-title>
+<source>Science</source>
+<year>1994</year>
+<volume>264</volume>
+<fpage>1415</fpage>
+<lpage>1421</lpage>
+<pub-id pub-id-type="pmid">8197455</pub-id></element-citation></ref><ref id="B2"><label>2</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Hou</surname><given-names>XS</given-names></name><name><surname>Perrimon</surname><given-names>N</given-names></name></person-group>
+<article-title>The JAK-STAT pathway in <italic>Drosophila. </italic>
+</article-title>
+<source>Trends Genet</source>
+<year>1997</year>
+<volume>13</volume>
+<fpage>105</fpage>
+<lpage>110</lpage>
+<pub-id pub-id-type="pmid">9066269</pub-id></element-citation></ref><ref id="B3"><label>3</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Kawata</surname><given-names>T</given-names></name><name><surname>Shevchenko</surname><given-names>A</given-names></name><name><surname>Fukuzawa</surname><given-names>M</given-names></name><name><surname>Jermyn</surname><given-names>KA</given-names></name><name><surname>Totty</surname><given-names>NF</given-names></name><name><surname>Zhukovskaya</surname><given-names>NV</given-names></name><name><surname>Sterling</surname><given-names>AE</given-names></name><name><surname>Mann</surname><given-names>M</given-names></name><name><surname>Williams</surname><given-names>JG</given-names></name></person-group>
+<article-title>SH2 signaling in a lower eukaryote: a STAT protein that regulates stalk cell differentiation in dictyostelium</article-title>
+<source>Cell</source>
+<year>1997</year>
+<volume>89</volume>
+<fpage>909</fpage>
+<lpage>916</lpage>
+<pub-id pub-id-type="pmid">9200609</pub-id></element-citation></ref><ref id="B4"><label>4</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Yan</surname><given-names>R</given-names></name><name><surname>Small</surname><given-names>S</given-names></name><name><surname>Desplan</surname><given-names>C</given-names></name><name><surname>Dearolf</surname><given-names>CR</given-names></name><name><surname>Darnell</surname><given-names>JE</given-names><suffix>Jr</suffix></name></person-group>
+<article-title>Identification of a Stat gene that functions in <italic>Drosophila</italic>development</article-title>
+<source>Cell</source>
+<year>1996</year>
+<volume>84</volume>
+<fpage>421</fpage>
+<lpage>430</lpage>
+<pub-id pub-id-type="pmid">8608596</pub-id></element-citation></ref><ref id="B5"><label>5</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Darnell</surname><given-names>JE</given-names><suffix>Jr</suffix></name></person-group>
+<article-title>STATs and gene regulation</article-title>
+<source>Science</source>
+<year>1997</year>
+<volume>277</volume>
+<fpage>1630</fpage>
+<lpage>1635</lpage>
+<pub-id pub-id-type="pmid">9287210</pub-id></element-citation></ref><ref id="B6"><label>6</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Hirano</surname><given-names>T</given-names></name><name><surname>Nakajima</surname><given-names>K</given-names></name><name><surname>Hibi</surname><given-names>M</given-names></name></person-group>
+<article-title>Signaling mechanisms through gp130: a model of the cytokine system</article-title>
+<source>Cytokine Growth Factor Rev</source>
+<year>1997</year>
+<volume>8</volume>
+<fpage>241</fpage>
+<lpage>252</lpage>
+<pub-id pub-id-type="pmid">9620640</pub-id></element-citation></ref><ref id="B7"><label>7</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Ihle</surname><given-names>JN</given-names></name><name><surname>Nosaka</surname><given-names>T</given-names></name><name><surname>Thierfelder</surname><given-names>W</given-names></name><name><surname>Quelle</surname><given-names>FW</given-names></name><name><surname>Shimoda</surname><given-names>K</given-names></name></person-group>
+<article-title>Jaks and Stats in cytokine signaling</article-title>
+<source>Stem Cells</source>
+<year>1997</year>
+<volume>15</volume>
+<fpage>105</fpage>
+<lpage>111</lpage>
+<pub-id pub-id-type="pmid">9368330</pub-id></element-citation></ref><ref id="B8"><label>8</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>O'Shea</surname><given-names>JJ</given-names></name></person-group>
+<article-title>Jaks, STATs, cytokine signal transduction, and immunoregulation: are we there yet? </article-title>
+<source>Immunity</source>
+<year>1997</year>
+<volume>7</volume>
+<fpage>1</fpage>
+<lpage>11</lpage>
+<pub-id pub-id-type="pmid">9252115</pub-id></element-citation></ref><ref id="B9"><label>9</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Taniguchi</surname><given-names>T</given-names></name></person-group>
+<article-title>Cytokine signaling through nonreceptor protein tyrosine kinases</article-title>
+<source>Science</source>
+<year>1995</year>
+<volume>268</volume>
+<fpage>251</fpage>
+<lpage>255</lpage>
+<pub-id pub-id-type="pmid">7716517</pub-id></element-citation></ref><ref id="B10"><label>10</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>David</surname><given-names>M</given-names></name><name><surname>Wong</surname><given-names>L</given-names></name><name><surname>Flavell</surname><given-names>R</given-names></name><name><surname>Thompson</surname><given-names>SA</given-names></name><name><surname>Wells</surname><given-names>A</given-names></name><name><surname>Larner</surname><given-names>AC</given-names></name><name><surname>Johnson</surname><given-names>GR</given-names></name></person-group>
+<article-title>STAT activation by epidermal growth factor (EGF) and amphiregulin. Requirement for the EGF receptor kinase but not for tyrosine phosphorylation sites or JAK1</article-title>
+<source>J Biol Chem</source>
+<year>1996</year>
+<volume>271</volume>
+<fpage>9185</fpage>
+<lpage>9188</lpage>
+<pub-id pub-id-type="pmid">8621573</pub-id></element-citation></ref><ref id="B11"><label>11</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Park</surname><given-names>OK</given-names></name><name><surname>Schaefer</surname><given-names>TS</given-names></name><name><surname>Nathans</surname><given-names>D</given-names></name></person-group>
+<article-title>In vitro activation of Stat3 by epidermal growth factor receptor kinase</article-title>
+<source>Proc Natl Acad Sci USA</source>
+<year>1996</year>
+<volume>93</volume>
+<fpage>13704</fpage>
+<lpage>13718</lpage>
+<pub-id pub-id-type="pmid">8942998</pub-id></element-citation></ref><ref id="B12"><label>12</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Quelle</surname><given-names>FW</given-names></name><name><surname>Thierfelder</surname><given-names>W</given-names></name><name><surname>Witthuhn</surname><given-names>BA</given-names></name><name><surname>Tang</surname><given-names>B</given-names></name><name><surname>Cohen</surname><given-names>S</given-names></name><name><surname>Ihle</surname><given-names>JN</given-names></name></person-group>
+<article-title>Phosphorylation and activation of the DNA binding activity of purified Stat1 by the Janus protein-tyrosine kinases and the epidermal growth factor receptor</article-title>
+<source>J Biol Chem</source>
+<year>1995</year>
+<volume>270</volume>
+<fpage>20775</fpage>
+<lpage>20780</lpage>
+<pub-id pub-id-type="pmid">7657660</pub-id></element-citation></ref><ref id="B13"><label>13</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Vignais</surname><given-names>ML</given-names></name><name><surname>Sadowski</surname><given-names>HB</given-names></name><name><surname>Watling</surname><given-names>D</given-names></name><name><surname>Rogers</surname><given-names>NC</given-names></name><name><surname>Gilman</surname><given-names>M</given-names></name></person-group>
+<article-title>Platelet-derived growth factor induces phosphorylation of multiple JAK family kinases and STAT proteins</article-title>
+<source>Mol Cell Biol</source>
+<year>1996</year>
+<volume>16</volume>
+<fpage>1759</fpage>
+<lpage>1769</lpage>
+<pub-id pub-id-type="pmid">8657151</pub-id></element-citation></ref><ref id="B14"><label>14</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Cao</surname><given-names>X</given-names></name><name><surname>Tay</surname><given-names>A</given-names></name><name><surname>Guy</surname><given-names>GR</given-names></name><name><surname>Tan</surname><given-names>YH</given-names></name></person-group>
+<article-title>Activation and association of Stat3 with Src in v-Src&#x02013;transformed cell lines</article-title>
+<source>Mol Cell Biol</source>
+<year>1996</year>
+<volume>16</volume>
+<fpage>1595</fpage>
+<lpage>1603</lpage>
+<pub-id pub-id-type="pmid">8657134</pub-id></element-citation></ref><ref id="B15"><label>15</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Danial</surname><given-names>NN</given-names></name><name><surname>Pernis</surname><given-names>A</given-names></name><name><surname>Rothman</surname><given-names>PB</given-names></name></person-group>
+<article-title>Jak-STAT signaling induced by the v-abl oncogene</article-title>
+<source>Science</source>
+<year>1995</year>
+<volume>269</volume>
+<fpage>1875</fpage>
+<lpage>1877</lpage>
+<pub-id pub-id-type="pmid">7569929</pub-id></element-citation></ref><ref id="B16"><label>16</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Yu</surname><given-names>CL</given-names></name><name><surname>Meyer</surname><given-names>DJ</given-names></name><name><surname>Campbell</surname><given-names>GS</given-names></name><name><surname>Larner</surname><given-names>AC</given-names></name><name><surname>Carter-Su</surname><given-names>C</given-names></name><name><surname>Schwartz</surname><given-names>J</given-names></name><name><surname>Jove</surname><given-names>R</given-names></name></person-group>
+<article-title>Enhanced DNA-binding activity of a Stat3-related protein in cells transformed by the Src oncoprotein</article-title>
+<source>Science</source>
+<year>1995</year>
+<volume>269</volume>
+<fpage>81</fpage>
+<lpage>83</lpage>
+<pub-id pub-id-type="pmid">7541555</pub-id></element-citation></ref><ref id="B17"><label>17</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Friedmann</surname><given-names>MC</given-names></name><name><surname>Migone</surname><given-names>TS</given-names></name><name><surname>Russell</surname><given-names>SM</given-names></name><name><surname>Leonard</surname><given-names>WJ</given-names></name></person-group>
+<article-title>Different interleukin 2 receptor beta-chain tyrosines couple to at least two signaling pathways and synergistically mediate interleukin 2&#x02013;induced proliferation</article-title>
+<source>Proc Natl Acad Sci USA</source>
+<year>1996</year>
+<volume>93</volume>
+<fpage>2077</fpage>
+<lpage>2082</lpage>
+<pub-id pub-id-type="pmid">8700888</pub-id></element-citation></ref><ref id="B18"><label>18</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Mui</surname><given-names>AL</given-names></name><name><surname>Wakao</surname><given-names>H</given-names></name><name><surname>Kinoshita</surname><given-names>T</given-names></name><name><surname>Kitamura</surname><given-names>T</given-names></name><name><surname>Miyajima</surname><given-names>A</given-names></name></person-group>
+<article-title>Suppression of interleukin-3&#x02013;induced gene expression by a C-terminal truncated Stat5: role of Stat5 in proliferation</article-title>
+<source>EMBO (Eur Mol Biol Organ) J</source>
+<year>1996</year>
+<volume>15</volume>
+<fpage>2425</fpage>
+<lpage>2433</lpage>
+<pub-id pub-id-type="pmid">8665850</pub-id></element-citation></ref><ref id="B19"><label>19</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Yamanaka</surname><given-names>Y</given-names></name><name><surname>Nakajima</surname><given-names>K</given-names></name><name><surname>Fukada</surname><given-names>T</given-names></name><name><surname>Hibi</surname><given-names>M</given-names></name><name><surname>Hirano</surname><given-names>T</given-names></name></person-group>
+<article-title>Differentiation and growth arrest signals are generated through the cytoplasmic region of gp130 that is essential for Stat3 activation</article-title>
+<source>EMBO (Eur Mol Biol Organ) J</source>
+<year>1996</year>
+<volume>15</volume>
+<fpage>1557</fpage>
+<lpage>1565</lpage>
+<pub-id pub-id-type="pmid">8612579</pub-id></element-citation></ref><ref id="B20"><label>20</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Nakajima</surname><given-names>K</given-names></name><name><surname>Yamanaka</surname><given-names>Y</given-names></name><name><surname>Nakae</surname><given-names>K</given-names></name><name><surname>Kojima</surname><given-names>H</given-names></name><name><surname>Ichiba</surname><given-names>M</given-names></name><name><surname>Kiuchi</surname><given-names>N</given-names></name><name><surname>Kitaoka</surname><given-names>T</given-names></name><name><surname>Fukada</surname><given-names>T</given-names></name><name><surname>Hibi</surname><given-names>M</given-names></name><name><surname>Hirano</surname><given-names>T</given-names></name></person-group>
+<article-title>A central role for Stat3 in IL-6&#x02013;induced regulation of growth and differentiation in M1 leukemia cells</article-title>
+<source>EMBO (Eur Mol Biol Organ) J</source>
+<year>1996</year>
+<volume>15</volume>
+<fpage>3651</fpage>
+<lpage>3658</lpage>
+<pub-id pub-id-type="pmid">8670868</pub-id></element-citation></ref><ref id="B21"><label>21</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Fukada</surname><given-names>T</given-names></name><name><surname>Hibi</surname><given-names>M</given-names></name><name><surname>Yamanaka</surname><given-names>Y</given-names></name><name><surname>Takahashi-Tezuka</surname><given-names>M</given-names></name><name><surname>Fujitani</surname><given-names>Y</given-names></name><name><surname>Yamaguchi</surname><given-names>T</given-names></name><name><surname>Nakajima</surname><given-names>K</given-names></name><name><surname>Hirano</surname><given-names>T</given-names></name></person-group>
+<article-title>Two signals are necessary for cell proliferation induced by a cytokine receptor gp130: involvement of Stat3 in anti-apoptosis</article-title>
+<source>Immunity</source>
+<year>1996</year>
+<volume>5</volume>
+<fpage>449</fpage>
+<lpage>460</lpage>
+<pub-id pub-id-type="pmid">8934572</pub-id></element-citation></ref><ref id="B22"><label>22</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Kaplan</surname><given-names>MH</given-names></name><name><surname>Sun</surname><given-names>YL</given-names></name><name><surname>Hoey</surname><given-names>T</given-names></name><name><surname>Grusby</surname><given-names>MJ</given-names></name></person-group>
+<article-title>Impaired IL-12 responses and enhanced development of Th2 cells in Stat4-deficient mice</article-title>
+<source>Nature</source>
+<year>1996</year>
+<volume>382</volume>
+<fpage>174</fpage>
+<lpage>177</lpage>
+<pub-id pub-id-type="pmid">8700209</pub-id></element-citation></ref><ref id="B23"><label>23</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Kaplan</surname><given-names>MH</given-names></name><name><surname>Schindler</surname><given-names>U</given-names></name><name><surname>Smiley</surname><given-names>ST</given-names></name><name><surname>Grusby</surname><given-names>MJ</given-names></name></person-group>
+<article-title>Stat6 is required for mediating responses to IL-4 and for development of Th2 cells</article-title>
+<source>Immunity</source>
+<year>1996</year>
+<volume>4</volume>
+<fpage>313</fpage>
+<lpage>319</lpage>
+<pub-id pub-id-type="pmid">8624821</pub-id></element-citation></ref><ref id="B24"><label>24</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Shimoda</surname><given-names>K</given-names></name><name><surname>van Deursen</surname><given-names>J</given-names></name><name><surname>Sangster</surname><given-names>MY</given-names></name><name><surname>Sarawar</surname><given-names>SR</given-names></name><name><surname>Carson</surname><given-names>RT</given-names></name><name><surname>Tripp</surname><given-names>RA</given-names></name><name><surname>Chu</surname><given-names>C</given-names></name><name><surname>Quelle</surname><given-names>FW</given-names></name><name><surname>Nosaka</surname><given-names>T</given-names></name><name><surname>Vignali</surname><given-names>DA</given-names></name><etal/></person-group>
+<article-title>Lack of IL-4&#x02013;induced Th2 response and IgE class switching in mice with disrupted Stat6 gene</article-title>
+<source>Nature</source>
+<year>1996</year>
+<volume>380</volume>
+<fpage>630</fpage>
+<lpage>633</lpage>
+<pub-id pub-id-type="pmid">8602264</pub-id></element-citation></ref><ref id="B25"><label>25</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Takeda</surname><given-names>K</given-names></name><name><surname>Tanaka</surname><given-names>T</given-names></name><name><surname>Shi</surname><given-names>W</given-names></name><name><surname>Matsumoto</surname><given-names>M</given-names></name><name><surname>Minami</surname><given-names>M</given-names></name><name><surname>Kashiwamura</surname><given-names>S</given-names></name><name><surname>Nakanishi</surname><given-names>K</given-names></name><name><surname>Yoshida</surname><given-names>N</given-names></name><name><surname>Kishimoto</surname><given-names>T</given-names></name><name><surname>Akira</surname><given-names>S</given-names></name></person-group>
+<article-title>Essential role of Stat6 in IL-4 signalling</article-title>
+<source>Nature</source>
+<year>1996</year>
+<volume>380</volume>
+<fpage>627</fpage>
+<lpage>630</lpage>
+<pub-id pub-id-type="pmid">8602263</pub-id></element-citation></ref><ref id="B26"><label>26</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Thierfelder</surname><given-names>WE</given-names></name><name><surname>van Deursen</surname><given-names>JM</given-names></name><name><surname>Yamamoto</surname><given-names>K</given-names></name><name><surname>Tripp</surname><given-names>RA</given-names></name><name><surname>Sarawar</surname><given-names>SR</given-names></name><name><surname>Carson</surname><given-names>RT</given-names></name><name><surname>Sangster</surname><given-names>MY</given-names></name><name><surname>Vignali</surname><given-names>DA</given-names></name><name><surname>Doherty</surname><given-names>PC</given-names></name><name><surname>Grosveld</surname><given-names>GC</given-names></name><name><surname>Ihle</surname><given-names>JN</given-names></name></person-group>
+<article-title>Requirement for Stat4 in interleukin-12&#x02013;mediated responses of natural killer and T cells</article-title>
+<source>Nature</source>
+<year>1996</year>
+<volume>382</volume>
+<fpage>171</fpage>
+<lpage>174</lpage>
+<pub-id pub-id-type="pmid">8700208</pub-id></element-citation></ref><ref id="B27"><label>27</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Takeda</surname><given-names>K</given-names></name><name><surname>Noguchi</surname><given-names>K</given-names></name><name><surname>Shi</surname><given-names>W</given-names></name><name><surname>Tanaka</surname><given-names>T</given-names></name><name><surname>Matsumoto</surname><given-names>M</given-names></name><name><surname>Yoshida</surname><given-names>N</given-names></name><name><surname>Kishimoto</surname><given-names>T</given-names></name><name><surname>Akira</surname><given-names>S</given-names></name></person-group>
+<article-title>Targeted disruption of the mouse Stat3 gene leads to early embryonic lethality</article-title>
+<source>Proc Natl Acad Sci USA</source>
+<year>1997</year>
+<volume>94</volume>
+<fpage>3801</fpage>
+<lpage>3804</lpage>
+<pub-id pub-id-type="pmid">9108058</pub-id></element-citation></ref><ref id="B28"><label>28</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Kaplan</surname><given-names>MH</given-names></name><name><surname>Daniel</surname><given-names>C</given-names></name><name><surname>Schindler</surname><given-names>U</given-names></name><name><surname>Grusby</surname><given-names>MJ</given-names></name></person-group>
+<article-title>Stat proteins control lymphocyte proliferation by regulating p27Kip1 expression</article-title>
+<source>Mol Cell Biol</source>
+<year>1998</year>
+<volume>18</volume>
+<fpage>1996</fpage>
+<lpage>2003</lpage>
+<pub-id pub-id-type="pmid">9528771</pub-id></element-citation></ref><ref id="B29"><label>29</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Nakajima</surname><given-names>H</given-names></name><name><surname>Liu</surname><given-names>XW</given-names></name><name><surname>Wynshaw-Boris</surname><given-names>A</given-names></name><name><surname>Rosenthal</surname><given-names>LA</given-names></name><name><surname>Imada</surname><given-names>K</given-names></name><name><surname>Finbloom</surname><given-names>DS</given-names></name><name><surname>Hennighausen</surname><given-names>L</given-names></name><name><surname>Leonard</surname><given-names>WJ</given-names></name></person-group>
+<article-title>An indirect effect of Stat5a in IL-2&#x02013;induced proliferation: a critical role for Stat5a in IL-2&#x02013;mediated IL-2 receptor alpha chain induction</article-title>
+<source>Immunity</source>
+<year>1997</year>
+<volume>7</volume>
+<fpage>691</fpage>
+<lpage>701</lpage>
+<pub-id pub-id-type="pmid">9390692</pub-id></element-citation></ref><ref id="B30"><label>30</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Zong</surname><given-names>C</given-names></name><name><surname>Yan</surname><given-names>R</given-names></name><name><surname>August</surname><given-names>A</given-names></name><name><surname>Darnell</surname><given-names>JE</given-names><suffix>Jr</suffix></name><name><surname>Hanafusa</surname><given-names>H</given-names></name></person-group>
+<article-title>Unique signal transduction of Eyk: constitutive stimulation of the JAK-STAT pathway by an oncogenic receptor-type tyrosine kinase</article-title>
+<source>EMBO (Eur Mol Biol Organ) J</source>
+<year>1996</year>
+<volume>15</volume>
+<fpage>4515</fpage>
+<lpage>4525</lpage>
+<pub-id pub-id-type="pmid">8887543</pub-id></element-citation></ref><ref id="B31"><label>31</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Bromberg</surname><given-names>JF</given-names></name><name><surname>Horvath</surname><given-names>CM</given-names></name><name><surname>Besser</surname><given-names>D</given-names></name><name><surname>Lathem</surname><given-names>WW</given-names></name><name><surname>Darnell</surname><given-names>JE</given-names><suffix>Jr</suffix></name></person-group>
+<article-title>Stat3 activation is required for cellular transformation by v-src</article-title>
+<source>Mol Cell Biol</source>
+<year>1998</year>
+<volume>18</volume>
+<fpage>2553</fpage>
+<lpage>2558</lpage>
+<pub-id pub-id-type="pmid">9566875</pub-id></element-citation></ref><ref id="B32"><label>32</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Turkson</surname><given-names>J</given-names></name><name><surname>Bowman</surname><given-names>T</given-names></name><name><surname>Garcia</surname><given-names>R</given-names></name><name><surname>Caldenhoven</surname><given-names>E</given-names></name><name><surname>De Groot</surname><given-names>RP</given-names></name><name><surname>Jove</surname><given-names>R</given-names></name></person-group>
+<article-title>Stat3 activation by Src induces specific gene regulation and is required for cell transformation</article-title>
+<source>Mol Cell Biol</source>
+<year>1998</year>
+<volume>18</volume>
+<fpage>2545</fpage>
+<lpage>2552</lpage>
+<pub-id pub-id-type="pmid">9566874</pub-id></element-citation></ref><ref id="B33"><label>33</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Chin</surname><given-names>YE</given-names></name><name><surname>Kitagawa</surname><given-names>M</given-names></name><name><surname>Su</surname><given-names>WC</given-names></name><name><surname>You</surname><given-names>ZH</given-names></name><name><surname>Iwamoto</surname><given-names>Y</given-names></name><name><surname>Fu</surname><given-names>XY</given-names></name></person-group>
+<article-title>Cell growth arrest and induction of cyclin-dependent kinase inhibitor p21 WAF1/CIP1 mediated by STAT1</article-title>
+<source>Science</source>
+<year>1996</year>
+<volume>272</volume>
+<fpage>719</fpage>
+<lpage>722</lpage>
+<pub-id pub-id-type="pmid">8614832</pub-id></element-citation></ref><ref id="B34"><label>34</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Henriksson</surname><given-names>M</given-names></name><name><surname>Luscher</surname><given-names>B</given-names></name></person-group>
+<article-title>Proteins of the Myc network: essential regulators of cell growth and differentiation</article-title>
+<source>Adv Cancer Res</source>
+<year>1996</year>
+<volume>68</volume>
+<fpage>109</fpage>
+<lpage>182</lpage>
+<pub-id pub-id-type="pmid">8712067</pub-id></element-citation></ref><ref id="B35"><label>35</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Galaktionov</surname><given-names>K</given-names></name><name><surname>Chen</surname><given-names>X</given-names></name><name><surname>Beach</surname><given-names>D</given-names></name></person-group>
+<article-title>Cdc25 cell-cycle phosphatase as a target of c-<italic>myc. </italic>
+</article-title>
+<source>Nature</source>
+<year>1996</year>
+<volume>382</volume>
+<fpage>511</fpage>
+<lpage>517</lpage>
+<pub-id pub-id-type="pmid">8700224</pub-id></element-citation></ref><ref id="B36"><label>36</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Kelly</surname><given-names>K</given-names></name><name><surname>Cochran</surname><given-names>BH</given-names></name><name><surname>Stiles</surname><given-names>CD</given-names></name><name><surname>Leder</surname><given-names>P</given-names></name></person-group>
+<article-title>Cell-specific regulation of the c-<italic>myc</italic>gene by lymphocyte mitogens and platelet-derived growth factor</article-title>
+<source>Cell</source>
+<year>1983</year>
+<volume>35</volume>
+<fpage>603</fpage>
+<lpage>610</lpage>
+<pub-id pub-id-type="pmid">6606489</pub-id></element-citation></ref><ref id="B37"><label>37</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Greenberg</surname><given-names>ME</given-names></name><name><surname>Hermanowski</surname><given-names>AL</given-names></name><name><surname>Ziff</surname><given-names>EB</given-names></name></person-group>
+<article-title>Effect of protein synthesis inhibitors on growth factor activation of c-<italic>fos</italic>, c-<italic>myc</italic>, and actin gene transcription</article-title>
+<source>Mol Cell Biol</source>
+<year>1986</year>
+<volume>6</volume>
+<fpage>1050</fpage>
+<lpage>1057</lpage>
+<pub-id pub-id-type="pmid">2431274</pub-id></element-citation></ref><ref id="B38"><label>38</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Roussel</surname><given-names>MF</given-names></name><name><surname>Cleveland</surname><given-names>JL</given-names></name><name><surname>Shurtleff</surname><given-names>SA</given-names></name><name><surname>Sherr</surname><given-names>CJ</given-names></name></person-group>
+<article-title>Myc rescue of a mutant CSF-1 receptor impaired in mitogenic signalling</article-title>
+<source>Nature</source>
+<year>1991</year>
+<volume>353</volume>
+<fpage>361</fpage>
+<lpage>363</lpage>
+<pub-id pub-id-type="pmid">1833648</pub-id></element-citation></ref><ref id="B39"><label>39</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Conscience</surname><given-names>JF</given-names></name><name><surname>Verrier</surname><given-names>B</given-names></name><name><surname>Martin</surname><given-names>G</given-names></name></person-group>
+<article-title>Interleukin-3&#x02013;dependent expression of the c-<italic>myc</italic> and c-<italic>fos</italic>proto- oncogenes in hemopoietic cell lines</article-title>
+<source>EMBO (Eur Mol Biol Organ) J</source>
+<year>1986</year>
+<volume>5</volume>
+<fpage>317</fpage>
+<lpage>323</lpage>
+<pub-id pub-id-type="pmid">3086085</pub-id></element-citation></ref><ref id="B40"><label>40</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Harel-Bellan</surname><given-names>A</given-names></name><name><surname>Farrar</surname><given-names>WL</given-names></name></person-group>
+<article-title>Modulation of proto-oncogene expression by colony stimulating factors</article-title>
+<source>Biochem Biophys Res Commun</source>
+<year>1987</year>
+<volume>148</volume>
+<fpage>1001</fpage>
+<lpage>1008</lpage>
+<pub-id pub-id-type="pmid">2446603</pub-id></element-citation></ref><ref id="B41"><label>41</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Kessler</surname><given-names>DJ</given-names></name><name><surname>Duyao</surname><given-names>MP</given-names></name><name><surname>Spicer</surname><given-names>DB</given-names></name><name><surname>Sonenshein</surname><given-names>GE</given-names></name></person-group>
+<article-title>NF-kappa B-like factors mediate interleukin 1 induction of c-<italic>myc</italic>gene transcription in fibroblasts</article-title>
+<source>J Exp Med</source>
+<year>1992</year>
+<volume>176</volume>
+<fpage>787</fpage>
+<lpage>792</lpage>
+<pub-id pub-id-type="pmid">1512542</pub-id></element-citation></ref><ref id="B42"><label>42</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Klemsz</surname><given-names>MJ</given-names></name><name><surname>Justement</surname><given-names>LB</given-names></name><name><surname>Palmer</surname><given-names>E</given-names></name><name><surname>Cambier</surname><given-names>JC</given-names></name></person-group>
+<article-title>Induction of c-<italic>fos</italic> and c-<italic>myc</italic>expression during B cell activation by IL-4 and immunoglobulin binding ligands</article-title>
+<source>J Immunol</source>
+<year>1989</year>
+<volume>143</volume>
+<fpage>1032</fpage>
+<lpage>1039</lpage>
+<pub-id pub-id-type="pmid">2787345</pub-id></element-citation></ref><ref id="B43"><label>43</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Morrow</surname><given-names>MA</given-names></name><name><surname>Lee</surname><given-names>G</given-names></name><name><surname>Gillis</surname><given-names>S</given-names></name><name><surname>Yancopoulos</surname><given-names>GD</given-names></name><name><surname>Alt</surname><given-names>FW</given-names></name></person-group>
+<article-title>Interleukin-7 induces N-<italic>myc</italic> and c-<italic>myc</italic>expression in normal precursor B lymphocytes</article-title>
+<source>Genes Dev</source>
+<year>1992</year>
+<volume>6</volume>
+<fpage>61</fpage>
+<lpage>70</lpage>
+<pub-id pub-id-type="pmid">1730410</pub-id></element-citation></ref><ref id="B44"><label>44</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Nabata</surname><given-names>T</given-names></name><name><surname>Morimoto</surname><given-names>S</given-names></name><name><surname>Koh</surname><given-names>E</given-names></name><name><surname>Shiraishi</surname><given-names>T</given-names></name><name><surname>Ogihara</surname><given-names>T</given-names></name></person-group>
+<article-title>Interleukin-6 stimulates c-<italic>myc</italic>expression and proliferation of cultured vascular smooth muscle cells</article-title>
+<source>Biochem Int</source>
+<year>1990</year>
+<volume>20</volume>
+<fpage>445</fpage>
+<lpage>453</lpage>
+<pub-id pub-id-type="pmid">2346497</pub-id></element-citation></ref><ref id="B45"><label>45</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Reed</surname><given-names>JC</given-names></name><name><surname>Sabath</surname><given-names>DE</given-names></name><name><surname>Hoover</surname><given-names>RG</given-names></name><name><surname>Prystowsky</surname><given-names>MB</given-names></name></person-group>
+<article-title>Recombinant interleukin 2 regulates levels of c-<italic>myc</italic>mRNA in a cloned murine T lymphocyte</article-title>
+<source>Mol Cell Biol</source>
+<year>1985</year>
+<volume>5</volume>
+<fpage>3361</fpage>
+<lpage>3368</lpage>
+<pub-id pub-id-type="pmid">3879814</pub-id></element-citation></ref><ref id="B46"><label>46</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Barone</surname><given-names>MV</given-names></name><name><surname>Courtneidge</surname><given-names>SA</given-names></name></person-group>
+<article-title>Myc but not Fos rescue of PDGF signalling block caused by kinase-inactive Src</article-title>
+<source>Nature</source>
+<year>1995</year>
+<volume>378</volume>
+<fpage>509</fpage>
+<lpage>512</lpage>
+<pub-id pub-id-type="pmid">7477410</pub-id></element-citation></ref><ref id="B47"><label>47</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Minami</surname><given-names>Y</given-names></name><name><surname>Nakagawa</surname><given-names>Y</given-names></name><name><surname>Kawahara</surname><given-names>A</given-names></name><name><surname>Miyazaki</surname><given-names>T</given-names></name><name><surname>Sada</surname><given-names>K</given-names></name><name><surname>Yamamura</surname><given-names>H</given-names></name><name><surname>Taniguchi</surname><given-names>T</given-names></name></person-group>
+<article-title>Protein tyrosine kinase Syk is associated with and activated by the IL-2 receptor: possible link with the c-<italic>myc</italic>induction pathway</article-title>
+<source>Immunity</source>
+<year>1995</year>
+<volume>2</volume>
+<fpage>89</fpage>
+<lpage>100</lpage>
+<pub-id pub-id-type="pmid">7600304</pub-id></element-citation></ref><ref id="B48"><label>48</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Kawahara</surname><given-names>A</given-names></name><name><surname>Minami</surname><given-names>Y</given-names></name><name><surname>Miyazaki</surname><given-names>T</given-names></name><name><surname>Ihle</surname><given-names>JN</given-names></name><name><surname>Taniguchi</surname><given-names>T</given-names></name></person-group>
+<article-title>Critical role of the interleukin 2 (IL-2) receptor gamma-chain&#x02013;associated Jak3 in the IL-2&#x02013;induced c-<italic>fos</italic> and c-<italic>myc</italic>, but not <italic>bcl-2</italic>, gene induction</article-title>
+<source>Proc Natl Acad Sci USA</source>
+<year>1995</year>
+<volume>92</volume>
+<fpage>8724</fpage>
+<lpage>8728</lpage>
+<pub-id pub-id-type="pmid">7568005</pub-id></element-citation></ref><ref id="B49"><label>49</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Sakamaki</surname><given-names>K</given-names></name><name><surname>Miyajima</surname><given-names>I</given-names></name><name><surname>Kitamura</surname><given-names>T</given-names></name><name><surname>Miyajima</surname><given-names>A</given-names></name></person-group>
+<article-title>Critical cytoplasmic domains of the common beta subunit of the human GM-CSF, IL-3, and IL-5 receptors for growth signal transduction and tyrosine phosphorylation</article-title>
+<source>EMBO (Eur Mol Biol Organ) J</source>
+<year>1992</year>
+<volume>11</volume>
+<fpage>3541</fpage>
+<lpage>3549</lpage>
+<pub-id pub-id-type="pmid">1396555</pub-id></element-citation></ref><ref id="B50"><label>50</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Watanabe</surname><given-names>S</given-names></name><name><surname>Itoh</surname><given-names>T</given-names></name><name><surname>Arai</surname><given-names>K</given-names></name></person-group>
+<article-title>JAK2 is essential for activation of c-<italic>fos</italic> and c-<italic>myc</italic>promoters and cell proliferation through the human granulocyte-macrophage colony-stimulating factor receptor in BA/F3 cells</article-title>
+<source>J Biol Chem</source>
+<year>1996</year>
+<volume>271</volume>
+<fpage>12681</fpage>
+<lpage>12686</lpage>
+<pub-id pub-id-type="pmid">8647882</pub-id></element-citation></ref><ref id="B51"><label>51</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Cleveland</surname><given-names>JL</given-names></name><name><surname>Dean</surname><given-names>M</given-names></name><name><surname>Rosenberg</surname><given-names>N</given-names></name><name><surname>Wang</surname><given-names>JY</given-names></name><name><surname>Rapp</surname><given-names>UR</given-names></name></person-group>
+<article-title>Tyrosine kinase oncogenes abrogate interleukin-3 dependence of murine myeloid cells through signaling pathways involving c-<italic>myc</italic>: conditional regulation of c-<italic>myc</italic>transcription by temperature-sensitive v-abl</article-title>
+<source>Mol Cell Biol</source>
+<year>1989</year>
+<volume>9</volume>
+<fpage>5685</fpage>
+<lpage>5695</lpage>
+<pub-id pub-id-type="pmid">2555703</pub-id></element-citation></ref><ref id="B52"><label>52</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Kuchino</surname><given-names>Y</given-names></name><name><surname>Nemoto</surname><given-names>K</given-names></name><name><surname>Kawai</surname><given-names>S</given-names></name><name><surname>Nishimura</surname><given-names>S</given-names></name></person-group>
+<article-title>Activation of c-<italic>myc</italic>gene transcription by Rous sarcoma virus infection</article-title>
+<source>Jpn J Cancer Res</source>
+<year>1985</year>
+<volume>76</volume>
+<fpage>75</fpage>
+<lpage>78</lpage>
+<pub-id pub-id-type="pmid">2984071</pub-id></element-citation></ref><ref id="B53"><label>53</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Sovova</surname><given-names>V</given-names></name><name><surname>Friis</surname><given-names>R</given-names></name><name><surname>Fidlerova</surname><given-names>H</given-names></name><name><surname>Hlozanek</surname><given-names>I</given-names></name></person-group>
+<article-title>c-<italic>myc</italic>gene activation as a permanent trait of RSV-infected quail cells</article-title>
+<source>Int J Cancer</source>
+<year>1993</year>
+<volume>53</volume>
+<fpage>983</fpage>
+<lpage>987</lpage>
+<pub-id pub-id-type="pmid">8386142</pub-id></element-citation></ref><ref id="B54"><label>54</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Stewart</surname><given-names>MJ</given-names></name><name><surname>Litz-Jackson</surname><given-names>S</given-names></name><name><surname>Burgess</surname><given-names>GS</given-names></name><name><surname>Williamson</surname><given-names>EA</given-names></name><name><surname>Leibowitz</surname><given-names>DS</given-names></name><name><surname>Boswell</surname><given-names>HS</given-names></name></person-group>
+<article-title>Role for E2F1 in p210 BCR-ABL downstream regulation of c-<italic>myc</italic>transcription initiation. Studies in murine myeloid cells</article-title>
+<source>Leukemia</source>
+<year>1995</year>
+<volume>9</volume>
+<fpage>1499</fpage>
+<lpage>1507</lpage>
+<pub-id pub-id-type="pmid">7658719</pub-id></element-citation></ref><ref id="B55"><label>55</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Takeshita</surname><given-names>T</given-names></name><name><surname>Arita</surname><given-names>T</given-names></name><name><surname>Higuchi</surname><given-names>M</given-names></name><name><surname>Asao</surname><given-names>H</given-names></name><name><surname>Endo</surname><given-names>K</given-names></name><name><surname>Kuroda</surname><given-names>H</given-names></name><name><surname>Tanaka</surname><given-names>N</given-names></name><name><surname>Murata</surname><given-names>K</given-names></name><name><surname>Ishii</surname><given-names>N</given-names></name><name><surname>Sugamura</surname><given-names>K</given-names></name></person-group>
+<article-title>STAM, signal transducing adaptor molecule, is associated with Janus kinases and involved in signaling for cell growth and c-<italic>myc</italic>induction</article-title>
+<source>Immunity</source>
+<year>1997</year>
+<volume>6</volume>
+<fpage>449</fpage>
+<lpage>457</lpage>
+<pub-id pub-id-type="pmid">9133424</pub-id></element-citation></ref><ref id="B56"><label>56</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Mudryj</surname><given-names>M</given-names></name><name><surname>Hiebert</surname><given-names>SW</given-names></name><name><surname>Nevins</surname><given-names>JR</given-names></name></person-group>
+<article-title>A role for the adenovirus inducible E2F transcription factor in a proliferation dependent signal transduction pathway</article-title>
+<source>EMBO (Eur Mol Biol Organ) J</source>
+<year>1990</year>
+<volume>9</volume>
+<fpage>2179</fpage>
+<lpage>2184</lpage>
+<pub-id pub-id-type="pmid">2141565</pub-id></element-citation></ref><ref id="B57"><label>57</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Birchenall-Roberts</surname><given-names>MC</given-names></name><name><surname>Yoo</surname><given-names>YD</given-names></name><name><surname>Bertolette</surname><given-names>DC</given-names><suffix>III</suffix></name><name><surname>Lee</surname><given-names>KH</given-names></name><name><surname>Turley</surname><given-names>JM</given-names></name><name><surname>Bang</surname><given-names>OS</given-names></name><name><surname>Ruscetti</surname><given-names>FW</given-names></name><name><surname>Kim</surname><given-names>SJ</given-names></name></person-group>
+<article-title>The p120-v-Abl protein interacts with E2F-1 and regulates E2F-1 transcriptional activity</article-title>
+<source>J Biol Chem</source>
+<year>1997</year>
+<volume>272</volume>
+<fpage>8905</fpage>
+<lpage>8911</lpage>
+<pub-id pub-id-type="pmid">9083010</pub-id></element-citation></ref><ref id="B58"><label>58</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Wong</surname><given-names>KK</given-names></name><name><surname>Zou</surname><given-names>X</given-names></name><name><surname>Merrell</surname><given-names>KT</given-names></name><name><surname>Patel</surname><given-names>AJ</given-names></name><name><surname>Marcu</surname><given-names>KB</given-names></name><name><surname>Chellappan</surname><given-names>S</given-names></name><name><surname>Calame</surname><given-names>K</given-names></name></person-group>
+<article-title>v-Abl activates c-<italic>myc</italic>transcription through the E2F site</article-title>
+<source>Mol Cell Biol</source>
+<year>1995</year>
+<volume>15</volume>
+<fpage>6535</fpage>
+<lpage>6544</lpage>
+<pub-id pub-id-type="pmid">8524218</pub-id></element-citation></ref><ref id="B59"><label>59</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Zou</surname><given-names>X</given-names></name><name><surname>Rudchenko</surname><given-names>S</given-names></name><name><surname>Wong</surname><given-names>K</given-names></name><name><surname>Calame</surname><given-names>K</given-names></name></person-group>
+<article-title>Induction of c-<italic>myc</italic>transcription by the v-Abl tyrosine kinase requires Ras, Raf1, and cyclin-dependent kinases</article-title>
+<source>Genes Dev</source>
+<year>1997</year>
+<volume>11</volume>
+<fpage>654</fpage>
+<lpage>662</lpage>
+<pub-id pub-id-type="pmid">9119229</pub-id></element-citation></ref><ref id="B60"><label>60</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Ahmed</surname><given-names>NN</given-names></name><name><surname>Grimes</surname><given-names>HL</given-names></name><name><surname>Bellacosa</surname><given-names>A</given-names></name><name><surname>Chan</surname><given-names>TO</given-names></name><name><surname>Tsichlis</surname><given-names>PN</given-names></name></person-group>
+<article-title>Transduction of interleukin-2 antiapoptotic and proliferative signals via Akt protein kinase</article-title>
+<source>Proc Natl Acad Sci USA</source>
+<year>1997</year>
+<volume>94</volume>
+<fpage>3627</fpage>
+<lpage>3632</lpage>
+<pub-id pub-id-type="pmid">9108028</pub-id></element-citation></ref><ref id="B61"><label>61</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Brennan</surname><given-names>P</given-names></name><name><surname>Babbage</surname><given-names>JW</given-names></name><name><surname>Burgering</surname><given-names>BM</given-names></name><name><surname>Groner</surname><given-names>B</given-names></name><name><surname>Reif</surname><given-names>K</given-names></name><name><surname>Cantrell</surname><given-names>DA</given-names></name></person-group>
+<article-title>Phosphatidylinositol 3&#x02013;kinase couples the interleukin-2 receptor to the cell cycle regulator E2F</article-title>
+<source>Immunity</source>
+<year>1997</year>
+<volume>7</volume>
+<fpage>679</fpage>
+<lpage>689</lpage>
+<pub-id pub-id-type="pmid">9390691</pub-id></element-citation></ref><ref id="B62"><label>62</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Hirano</surname><given-names>T</given-names></name></person-group>
+<article-title>Interleukin 6 and its receptor: ten years later</article-title>
+<source>Int Rev Immunol</source>
+<year>1998</year>
+<volume>16</volume>
+<fpage>249</fpage>
+<lpage>284</lpage>
+<pub-id pub-id-type="pmid">9505191</pub-id></element-citation></ref><ref id="B63"><label>63</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Kawano</surname><given-names>M</given-names></name><name><surname>Hirano</surname><given-names>T</given-names></name><name><surname>Matsuda</surname><given-names>T</given-names></name><name><surname>Taga</surname><given-names>T</given-names></name><name><surname>Horii</surname><given-names>Y</given-names></name><name><surname>Iwato</surname><given-names>K</given-names></name><name><surname>Asaoku</surname><given-names>H</given-names></name><name><surname>Tang</surname><given-names>B</given-names></name><name><surname>Tanabe</surname><given-names>O</given-names></name><name><surname>Tanaka</surname><given-names>H</given-names></name><etal/></person-group>
+<article-title>Autocrine generation and requirement of BSF-2/IL-6 for human multiple myelomas</article-title>
+<source>Nature</source>
+<year>1988</year>
+<volume>332</volume>
+<fpage>83</fpage>
+<lpage>85</lpage>
+<pub-id pub-id-type="pmid">3258060</pub-id></element-citation></ref><ref id="B64"><label>64</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Zhang</surname><given-names>XG</given-names></name><name><surname>Gu</surname><given-names>JJ</given-names></name><name><surname>Lu</surname><given-names>ZY</given-names></name><name><surname>Yasukawa</surname><given-names>K</given-names></name><name><surname>Yancopoulos</surname><given-names>GD</given-names></name><name><surname>Turner</surname><given-names>K</given-names></name><name><surname>Shoyab</surname><given-names>M</given-names></name><name><surname>Taga</surname><given-names>T</given-names></name><name><surname>Kishimoto</surname><given-names>T</given-names></name><name><surname>Bataille</surname><given-names>R</given-names></name><name><surname>Klein</surname><given-names>B</given-names></name></person-group>
+<article-title>Ciliary neurotropic factor, interleukin 11, leukemia inhibitory factor, and oncostatin M are growth factors for human myeloma cell lines using the interleukin 6 signal transducer gp130</article-title>
+<source>J Exp Med</source>
+<year>1994</year>
+<volume>179</volume>
+<fpage>1337</fpage>
+<lpage>1342</lpage>
+<pub-id pub-id-type="pmid">8145045</pub-id></element-citation></ref><ref id="B65"><label>65</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Cressman</surname><given-names>DE</given-names></name><name><surname>Greenbaum</surname><given-names>LE</given-names></name><name><surname>DeAngelis</surname><given-names>RA</given-names></name><name><surname>Ciliberto</surname><given-names>G</given-names></name><name><surname>Furth</surname><given-names>EE</given-names></name><name><surname>Poli</surname><given-names>V</given-names></name><name><surname>Taub</surname><given-names>R</given-names></name></person-group>
+<article-title>Liver failure and defective hepatocyte regeneration in interleukin-6&#x02013;deficient mice</article-title>
+<source>Science</source>
+<year>1996</year>
+<volume>274</volume>
+<fpage>1379</fpage>
+<lpage>1383</lpage>
+<pub-id pub-id-type="pmid">8910279</pub-id></element-citation></ref><ref id="B66"><label>66</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Nakajima</surname><given-names>K</given-names></name><name><surname>Kusafuka</surname><given-names>T</given-names></name><name><surname>Takeda</surname><given-names>T</given-names></name><name><surname>Fujitani</surname><given-names>Y</given-names></name><name><surname>Nakae</surname><given-names>K</given-names></name><name><surname>Hirano</surname><given-names>T</given-names></name></person-group>
+<article-title>Identification of a novel interleukin-6 response element containing an Ets-binding site and a CRE-like site in the <italic>junB</italic>promoter</article-title>
+<source>Mol Cell Biol</source>
+<year>1993</year>
+<volume>13</volume>
+<fpage>3027</fpage>
+<lpage>3041</lpage>
+<pub-id pub-id-type="pmid">8386318</pub-id></element-citation></ref><ref id="B67"><label>67</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Nakae</surname><given-names>K</given-names></name><name><surname>Nakajima</surname><given-names>K</given-names></name><name><surname>Inazawa</surname><given-names>J</given-names></name><name><surname>Kitaoka</surname><given-names>T</given-names></name><name><surname>Hirano</surname><given-names>T</given-names></name></person-group>
+<article-title>ERM, a PEA3 subfamily of Ets transcription factors, can cooperate with c-Jun</article-title>
+<source>J Biol Chem</source>
+<year>1995</year>
+<volume>270</volume>
+<fpage>23795</fpage>
+<lpage>23800</lpage>
+<pub-id pub-id-type="pmid">7559555</pub-id></element-citation></ref><ref id="B68"><label>68</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Kovesdi</surname><given-names>I</given-names></name><name><surname>Reichel</surname><given-names>R</given-names></name><name><surname>Nevins</surname><given-names>JR</given-names></name></person-group>
+<article-title>Identification of a cellular transcription factor involved in E1A trans-activation</article-title>
+<source>Cell</source>
+<year>1986</year>
+<volume>45</volume>
+<fpage>219</fpage>
+<lpage>228</lpage>
+<pub-id pub-id-type="pmid">2938741</pub-id></element-citation></ref><ref id="B69"><label>69</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Ichiba</surname><given-names>M</given-names></name><name><surname>Nakajima</surname><given-names>K</given-names></name><name><surname>Yamanaka</surname><given-names>Y</given-names></name><name><surname>Kiuchi</surname><given-names>N</given-names></name><name><surname>Hirano</surname><given-names>T</given-names></name></person-group>
+<article-title>Autoregulation of the Stat3 gene through cooperation with a cAMP-responsive element-binding protein</article-title>
+<source>J Biol Chem</source>
+<year>1998</year>
+<volume>273</volume>
+<fpage>6132</fpage>
+<lpage>6138</lpage>
+<pub-id pub-id-type="pmid">9497331</pub-id></element-citation></ref><ref id="B70"><label>70</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Kojima</surname><given-names>H</given-names></name><name><surname>Nakajima</surname><given-names>K</given-names></name><name><surname>Hirano</surname><given-names>T</given-names></name></person-group>
+<article-title>IL-6&#x02013;inducible complexes on an IL-6 response element of the <italic>junB</italic>promoter contain Stat3 and 36 kDa CRE-like site binding protein(s)</article-title>
+<source>Oncogene</source>
+<year>1996</year>
+<volume>12</volume>
+<fpage>547</fpage>
+<lpage>554</lpage>
+<pub-id pub-id-type="pmid">8637711</pub-id></element-citation></ref><ref id="B71"><label>71</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Chaturvedi</surname><given-names>P</given-names></name><name><surname>Sharma</surname><given-names>S</given-names></name><name><surname>Reddy</surname><given-names>EP</given-names></name></person-group>
+<article-title>Abrogation of interleukin-3 dependence of myeloid cells by the v-src oncogene requires SH2 and SH3 domains which specify activation of STATs</article-title>
+<source>Mol Cell Biol</source>
+<year>1997</year>
+<volume>17</volume>
+<fpage>3295</fpage>
+<lpage>3304</lpage>
+<pub-id pub-id-type="pmid">9154828</pub-id></element-citation></ref><ref id="B72"><label>72</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Stahl</surname><given-names>N</given-names></name><name><surname>Farruggella</surname><given-names>TJ</given-names></name><name><surname>Boulton</surname><given-names>TG</given-names></name><name><surname>Zhong</surname><given-names>Z</given-names></name><name><surname>Darnell</surname><given-names>JJ</given-names></name><name><surname>Yancopoulos</surname><given-names>GD</given-names></name></person-group>
+<article-title>Choice of STATs and other substrates specified by modular tyrosine&#x02013;based motifs in cytokine receptors</article-title>
+<source>Science</source>
+<year>1995</year>
+<volume>267</volume>
+<fpage>1349</fpage>
+<lpage>1353</lpage>
+<pub-id pub-id-type="pmid">7871433</pub-id></element-citation></ref><ref id="B73"><label>73</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Nakajima</surname><given-names>K</given-names></name><name><surname>Wall</surname><given-names>R</given-names></name></person-group>
+<article-title>Interleukin-6 signals activating junB and TIS11 gene transcription in a B-cell hybridoma</article-title>
+<source>Mol Cell Biol</source>
+<year>1991</year>
+<volume>11</volume>
+<fpage>1409</fpage>
+<lpage>1418</lpage>
+<pub-id pub-id-type="pmid">1705005</pub-id></element-citation></ref><ref id="B74"><label>74</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Kim</surname><given-names>H</given-names></name><name><surname>Hawley</surname><given-names>TS</given-names></name><name><surname>Hawley</surname><given-names>RG</given-names></name><name><surname>Baumann</surname><given-names>H</given-names></name></person-group>
+<article-title>Protein tyrosine phosphatase 2 (SHP-2) moderates signaling by gp130 but is not required for the induction of acute-phase plasma protein genes in hepatic cells</article-title>
+<source>Mol Cell Biol</source>
+<year>1998</year>
+<volume>18</volume>
+<fpage>1525</fpage>
+<lpage>1533</lpage>
+<pub-id pub-id-type="pmid">9488469</pub-id></element-citation></ref><ref id="B75"><label>75</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Hiebert</surname><given-names>SW</given-names></name><name><surname>Lipp</surname><given-names>M</given-names></name><name><surname>Nevins</surname><given-names>JR</given-names></name></person-group>
+<article-title>E1A-dependent trans-activation of the human MYC promoter is mediated by the E2F factor</article-title>
+<source>Proc Natl Acad Sci USA</source>
+<year>1989</year>
+<volume>86</volume>
+<fpage>3594</fpage>
+<lpage>3598</lpage>
+<pub-id pub-id-type="pmid">2524830</pub-id></element-citation></ref><ref id="B76"><label>76</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Decker</surname><given-names>T</given-names></name><name><surname>Kovarik</surname><given-names>P</given-names></name><name><surname>Meinke</surname><given-names>A</given-names></name></person-group>
+<article-title>GAS elements: a few nucleotides with a major impact on cytokine-induced gene expression</article-title>
+<source>J Interferon Cytokine Res</source>
+<year>1997</year>
+<volume>17</volume>
+<fpage>121</fpage>
+<lpage>134</lpage>
+<pub-id pub-id-type="pmid">9085936</pub-id></element-citation></ref><ref id="B77"><label>77</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Horvath</surname><given-names>CM</given-names></name><name><surname>Wen</surname><given-names>Z</given-names></name><name><surname>Darnell</surname><given-names>JE</given-names><suffix>Jr</suffix></name></person-group>
+<article-title>A STAT protein domain that determines DNA sequence recognition suggests a novel DNA-binding domain</article-title>
+<source>Genes Dev</source>
+<year>1995</year>
+<volume>9</volume>
+<fpage>984</fpage>
+<lpage>994</lpage>
+<pub-id pub-id-type="pmid">7774815</pub-id></element-citation></ref><ref id="B78"><label>78</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Seidel</surname><given-names>HM</given-names></name><name><surname>Milocco</surname><given-names>LH</given-names></name><name><surname>Lamb</surname><given-names>P</given-names></name><name><surname>Darnell</surname><given-names>JE</given-names><suffix>Jr</suffix></name><name><surname>Stein</surname><given-names>RB</given-names></name><name><surname>Rosen</surname><given-names>J</given-names></name></person-group>
+<article-title>Spacing of palindromic half sites as a determinant of selective STAT (signal transducers and activators of transcription) DNA binding and transcriptional activity</article-title>
+<source>Proc Natl Acad Sci USA</source>
+<year>1995</year>
+<volume>92</volume>
+<fpage>3041</fpage>
+<lpage>3045</lpage>
+<pub-id pub-id-type="pmid">7708771</pub-id></element-citation></ref><ref id="B79"><label>79</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Shimizu</surname><given-names>S</given-names></name><name><surname>Hirano</surname><given-names>T</given-names></name><name><surname>Yoshioka</surname><given-names>R</given-names></name><name><surname>Sugai</surname><given-names>S</given-names></name><name><surname>Matsuda</surname><given-names>T</given-names></name><name><surname>Taga</surname><given-names>T</given-names></name><name><surname>Kishimoto</surname><given-names>T</given-names></name><name><surname>Konda</surname><given-names>S</given-names></name></person-group>
+<article-title>Interleukin-6 (B-cell stimulatory factor 2)&#x02013;dependent growth of a Lennert's lymphoma&#x02013;derived T-cell line (KT-3)</article-title>
+<source>Blood</source>
+<year>1988</year>
+<volume>72</volume>
+<fpage>1826</fpage>
+<lpage>1828</lpage>
+<pub-id pub-id-type="pmid">3052631</pub-id></element-citation></ref><ref id="B80"><label>80</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Chellappan</surname><given-names>SP</given-names></name><name><surname>Hiebert</surname><given-names>S</given-names></name><name><surname>Mudryj</surname><given-names>M</given-names></name><name><surname>Horowitz</surname><given-names>JM</given-names></name><name><surname>Nevins</surname><given-names>JR</given-names></name></person-group>
+<article-title>The E2F transcription factor is a cellular target for the RB protein</article-title>
+<source>Cell</source>
+<year>1991</year>
+<volume>65</volume>
+<fpage>1053</fpage>
+<lpage>1061</lpage>
+<pub-id pub-id-type="pmid">1828392</pub-id></element-citation></ref><ref id="B81"><label>81</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Nevins</surname><given-names>JR</given-names></name><name><surname>Chellappan</surname><given-names>SP</given-names></name><name><surname>Mudryj</surname><given-names>M</given-names></name><name><surname>Hiebert</surname><given-names>S</given-names></name><name><surname>Devoto</surname><given-names>S</given-names></name><name><surname>Horowitz</surname><given-names>J</given-names></name><name><surname>Hunter</surname><given-names>T</given-names></name><name><surname>Pines</surname><given-names>J</given-names></name></person-group>
+<article-title>E2F transcription factor is a target for the RB protein and the cyclin A protein</article-title>
+<source>Cold Spring Harbor Symp Quant Biol</source>
+<year>1991</year>
+<volume>56</volume>
+<fpage>157</fpage>
+<lpage>162</lpage>
+<pub-id pub-id-type="pmid">1840249</pub-id></element-citation></ref><ref id="B82"><label>82</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Weintraub</surname><given-names>SJ</given-names></name><name><surname>Prater</surname><given-names>CA</given-names></name><name><surname>Dean</surname><given-names>DC</given-names></name></person-group>
+<article-title>Retinoblastoma protein switches the E2F site from positive to negative element</article-title>
+<source>Nature</source>
+<year>1992</year>
+<volume>358</volume>
+<fpage>259</fpage>
+<lpage>261</lpage>
+<pub-id pub-id-type="pmid">1321348</pub-id></element-citation></ref><ref id="B83"><label>83</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Weintraub</surname><given-names>SJ</given-names></name><name><surname>Chow</surname><given-names>KN</given-names></name><name><surname>Luo</surname><given-names>RX</given-names></name><name><surname>Zhang</surname><given-names>SH</given-names></name><name><surname>He</surname><given-names>S</given-names></name><name><surname>Dean</surname><given-names>DC</given-names></name></person-group>
+<article-title>Mechanism of active transcriptional repression by the retinoblastoma protein</article-title>
+<source>Nature</source>
+<year>1995</year>
+<volume>375</volume>
+<fpage>812</fpage>
+<lpage>815</lpage>
+<pub-id pub-id-type="pmid">7596417</pub-id></element-citation></ref><ref id="B84"><label>84</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Ihle</surname><given-names>JN</given-names></name></person-group>
+<article-title>The Janus protein tyrosine kinase family and its role in cytokine signaling</article-title>
+<source>Adv Immunol</source>
+<year>1995</year>
+<volume>60</volume>
+<fpage>1</fpage>
+<lpage>35</lpage>
+<pub-id pub-id-type="pmid">8607368</pub-id></element-citation></ref><ref id="B85"><label>85</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Ihle</surname><given-names>JN</given-names></name><name><surname>Kerr</surname><given-names>IM</given-names></name></person-group>
+<article-title>Jaks and Stats in signaling by the cytokine receptor superfamily</article-title>
+<source>Trends Genet</source>
+<year>1995</year>
+<volume>11</volume>
+<fpage>69</fpage>
+<lpage>74</lpage>
+<pub-id pub-id-type="pmid">7716810</pub-id></element-citation></ref><ref id="B86"><label>86</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Azam</surname><given-names>M</given-names></name><name><surname>Lee</surname><given-names>C</given-names></name><name><surname>Strehlow</surname><given-names>I</given-names></name><name><surname>Schindler</surname><given-names>C</given-names></name></person-group>
+<article-title>Functionally distinct isoforms of STAT5 are generated by protein processing</article-title>
+<source>Immunity</source>
+<year>1997</year>
+<volume>6</volume>
+<fpage>691</fpage>
+<lpage>701</lpage>
+<pub-id pub-id-type="pmid">9208842</pub-id></element-citation></ref><ref id="B87"><label>87</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Wang</surname><given-names>D</given-names></name><name><surname>Stravopodis</surname><given-names>D</given-names></name><name><surname>Teglund</surname><given-names>S</given-names></name><name><surname>Kitazawa</surname><given-names>J</given-names></name><name><surname>Ihle</surname><given-names>JN</given-names></name></person-group>
+<article-title>Naturally occurring dominant negative variants of Stat5</article-title>
+<source>Mol Cell Biol</source>
+<year>1996</year>
+<volume>16</volume>
+<fpage>6141</fpage>
+<lpage>6148</lpage>
+<pub-id pub-id-type="pmid">8887644</pub-id></element-citation></ref></ref-list></back><floats-group><fig id="F1" position="float"><label>Figure 1</label><caption><p>Induction of c-<italic>myc</italic> mRNA expression via gp130 signaling in BAF-G277 cells. (A) Northern blot analysis for c-<italic>myc</italic> mRNA expression in G-CSF&#x02013;stimulated BAF/B03 transfectants expressing a chimeric receptor consisting of the G-CSFR extracellular domain and the transmembrane and cytoplasmic domains of gp130, including the full-length, 277 amino acid&#x02013;long cytoplasmic domain (BAF-G277). Total RNAs were extracted from BAF-G277 cells (lanes 1&#x02013;7) and parental BAF/B03 cells (lanes 8&#x02013;10) which had been deprived of IL-3 for 12 h and then stimulated with 100 ng/ml G-CSF for the indicated periods of time and subjected to Northern blot analysis for detection of c-<italic>myc</italic> mRNA (top) and CHO-B mRNA (bottom), the latter being controls for the amounts of loaded RNA. (B) Kinetic changes in the c-<italic>myc</italic> mRNA levels. Values for c-<italic>myc</italic> mRNA levels were normalized to those for the corresponding CHO-B mRNA levels and were plotted. Means &#x000b1; SD of data from three independent experiments are shown. (C) c-<italic>myc</italic> mRNA induction in the presence of an inhibitor for protein synthesis. Total RNAs were extracted from BAF-G277 cells, which had been deprived of IL-3 for 12 h and then stimulated with 0 (lanes 1 and 3) or 100 ng/ml of G-CSF for 1 h (lanes 2 and 4) in the absence (lanes 1 and 2) or presence (lanes 3 and 4) of 30-min pretreatment of cells with 10 &#x003bc;g/ml of cycloheximide, and were subjected to Northern blot analysis for c-<italic>myc</italic> and CHO-B mRNA expression as in A.</p></caption><graphic xlink:href="JEM981465.f1ac"/><graphic xlink:href="JEM981465.f1b"/></fig><fig id="F2" position="float"><label>Figure 2</label><caption><p>Induction of c-<italic>myc</italic> mRNA expression in BAF transformants expressing various G-CSFR&#x02013;gp130 chimeric receptors. (A) FACS<sup>&#x000ae;</sup> analysis for the expression levels of the chimeric receptors on the BAF transformants. Cell lines tested were as follows: BAF-G277, BAF/B03 transformants bearing a chimeric receptor, the extracellular domain of the G-CSFR and the truncated gp130 including the transmembrane and cytoplasmic 133&#x02013; amino acid residues, referred to as G133 (shown as BAF-G133), G133F2 with a tyrosine (Y) to phenylalanine (F) mutation at the second tyrosine, Y759 (BAF-G133F2), G-133F3, with a Y to F mutation at the third tyrosine Y767 (BAF-G133F3), and G-68, bearing the 68 membrane-proximal amino acid residues of the cytoplasmic region of gp130 (BAF-G68). (B) Northern blot analysis for c-<italic>myc</italic> mRNA expression in BAF transformants expressing various G-CSFR&#x02013;gp130 chimeric receptors. Total RNAs extracted from the various BAF transformants which had been deprived of IL-3 for 12 h and stimulated with nothing or G-CSF at 100 ng/ml for the indicated periods of time were subjected to Northern blot analysis for c-<italic>myc</italic> mRNA expression. Cell lines tested were as follows: BAF-G277 (lanes 1&#x02013;3), BAF-G133 (lanes 4&#x02013;6), BAF-G133F2 (lanes 7&#x02013;9), G-133F3 (lanes 10&#x02013;12), and BAF-G68 (lanes 13&#x02013;15).</p></caption><graphic xlink:href="JEM981465.f2a"/><graphic xlink:href="JEM981465.f2b"/></fig><fig id="F3" position="float"><label>Figure 3</label><caption><p>Inhibition of gp130-mediated c-<italic>myc</italic> and <italic>junB</italic> mRNA expression by dominant-negative STAT3s. Total RNAs extracted from the IL-3&#x02013;deprived various BAF-G133 transformants unstimulated or stimulated for indicated hours with G-CSF at 100 ng/ml (top) or recombinant mouse IL-3 at 0.2 ng/ml (bottom) were subjected to Northern blot analysis for c-<italic>myc</italic>, <italic>junB</italic>, and CHO-B mRNA expression. Cell lines used were as follows: BAF-G133 (lanes 1&#x02013;3), BAF-G133 stably expressing HA-tagged STAT3F (BAF-G133 STAT3F; lanes 4&#x02013;6), and BAF-G133 stably expressing HA-tagged STAT3D (BAF-G133 STAT3D; lanes 7&#x02013;9).</p></caption><graphic xlink:href="JEM981465.f3"/></fig><fig id="F4" position="float"><label>Figure 4</label><caption><p>Signals through gp130 activate the c-<italic>myc</italic> promoter&#x02013;driven transcription in HepG2. (A) Rapid induction of c-<italic>myc</italic> mRNA in HepG2 by IL-6. Total RNAs extracted from HepG2 which had been cultured in the presence of 0.1% serum for 24 h (serum-starved) and then stimulated with IL-6 at 100 ng/ml for the indicated periods (lanes 1&#x02013;3) were subjected to Northern blot analysis for c-<italic>myc</italic> and CHO-B mRNA expression. Normalized values for c-<italic>myc</italic> mRNA level relative to the CHO-B mRNA level are shown below the blots. (B) Activation of human c-<italic>myc</italic> promoter&#x02013; driven luciferase gene expression by IL-6 in HepG2 cells. HepG2 cells were transiently transfected with 1.2 &#x003bc;g of the human c-<italic>myc</italic> promoter luciferase construct containing the upstream and downstream region from &#x02212;2309 to +532 bp relative to the transcription initiation site of the c-<italic>myc</italic> P1 promoter, 3 &#x003bc;g of either an expression vector, pCAGGS-Neo or pCAGGS-Neo bearing cDNA encoding the dominant-negative HA-tagged STAT3F, pCAGGS-Neo HAStat3F, and 1 &#x003bc;g of pEFLacZ. Transfected cells were serum starved for 24 h and then stimulated with 100 ng/ml of IL-6 for the last 6 h (black bars) or left unstimulated (open bars). Cells were then harvested and subjected to assays for luciferase and &#x003b2;-galactosidase activity. Values were normalized to transfection efficiency and represent the means of three different experiments. The SDs of the mean values are indicated by error bars. The numbers at the right of the bars indicate the fold increases in response to IL-6. (C) The signal derived from the third tyrosine module of G133 is necessary for gp130-mediated activation of the c-<italic>myc</italic> gene promoter. HepG2 cells were transfected with 3 &#x003bc;g of expression vectors for chimeric receptors (G277, G133, G133F2, G133F3, and G68) together with 1.2 &#x003bc;g &#x02212;2309/+532 Luc and 1 &#x003bc;g of pEFLacZ. Transfected cells were serum starved for 24 h and stimulated with 100 ng/ml of G-CSF (black bars) or left unstimulated (open bars) for 6 h. The luciferase assay was performed as described in Materials and Methods. Values represent the means of three different experiments, and the SDs of the mean values are indicated by error bars. The numbers at the right of the bars indicate the fold increases in response to IL-6.</p></caption><graphic xlink:href="JEM981465.f4a"/><graphic xlink:href="JEM981465.f4bc"/></fig><fig id="F5" position="float"><label>Figure 5</label><caption><p>IL-6 responsiveness of the various c-<italic>myc</italic> gene promoters. A series of the luciferase reporter constructs bearing various lengths of the 5&#x02032; upstream and promoter region of the c-<italic>myc</italic> gene was used to search for the IL-6 response region. The locations of restriction sites and numbers relative to the transcription initiation site of the P1 promoter are shown, as are the locations of the initiation site of the P2 promoter and E2F binding site. Each 5&#x02032; deletion mutant of the c-<italic>myc</italic> gene promoter-luciferase construct was transfected into HepG2 cells, and IL-6 responsiveness of the promoter construct was assayed. Luciferase activities normalized to the transfection efficiency are shown as described in the legend to Fig. <xref ref-type="fig" rid="F4">4</xref>. Values are from four independent experiments. The numbers at the right of the bars indicate the fold increases in response to IL-6.</p></caption><graphic xlink:href="JEM981465.f5"/></fig><fig id="F6" position="float"><label>Figure 6</label><caption><p>The c-<italic>myc</italic> E2F site is crucial for the activation of the c-<italic>myc</italic> gene promoter&#x02013;driven transcription by STAT3. (A) The c-<italic>myc</italic> E2F site is necessary for the IL-6 responsiveness of the c-<italic>myc</italic> gene promoter. Point mutations were made in the E2F binding site region (see Materials and Methods). The two promoter constructs with the mutated E2F site as well as the original constructs were assayed for IL-6 responsiveness in HepG2 cells. Normalized luciferase activities are shown as described above. Values are from four independent experiments. The numbers at the right of the bars indicate fold increases in response to IL-6. (B) STAT3-dependent IL-6 activation of the c-<italic>myc</italic> E2F site. The reporter construct containing three repeats of the c-<italic>myc</italic> E2F site inserted upstream of the minimal <italic>junB</italic> promoter&#x02013;luciferase gene (<xref rid="B66" ref-type="bibr">66</xref>) (shown as 3 &#x000d7; c-<italic>myc</italic> E2F), the similar construct with three repeats of a typical E2F site from the adenovirus E2 gene (3 &#x000d7; Ad E2 E2F), and the minimal <italic>junB</italic> promoter construct were transfected and tested for IL-6 responsiveness. The dominant-negative STAT3 (STAT3F) expression vector was included in some experiments using the 3 &#x000d7; c-<italic>myc</italic> E2F construct (3 &#x000d7; c-<italic>myc</italic> E2F + DN STAT3F). Normalized luciferase activities with standard deviations from three independent experiments are shown as in Fig. <xref ref-type="fig" rid="F4">4</xref>. The numbers at the right of the bars indicate fold increases in response to IL-6.</p></caption><graphic xlink:href="JEM981465.f6a"/><graphic xlink:href="JEM981465.f6b"/></fig><fig id="F7" position="float"><label>Figure 7</label><caption><p>The nature of the gp130-signal&#x02013;induced DNA binding activities at the c-<italic>myc</italic> promoter E2F site. Nuclear extracts from (A) IL-3&#x02013;deprived BAF-G277 cells and (B) serum-starved HepG2 cells either untreated (A and B, lane 1) or treated with G-CSF (A, lanes 2&#x02013;5) or IL-6 (B, lanes 2&#x02013;4) at 100 ng/ml for 15 min were preincubated without (A and B, lanes 1 and 2) or with anti-STAT1 mAb (A and B, lane 3), anti-STAT3 antibody (A and B, lane 4), or anti-STAT5 antibody (A, lane 5) for 30 min on ice before the addition of <sup>32</sup>P-labeled c-<italic>myc</italic> E2F oligonucleotides, and were then subjected to electrophoresis and autoradiography. The positions of the gp130-signal inducible complexes containing STAT3, STAT3/STAT1, and STAT1 are indicated. (C) Nuclear extracts from serum-starved HepG2 either unstimulated (lanes 1 and 3) or stimulated with IL-6 for 15 min (lanes 2 and 4) were subjected to EMSA with c-<italic>myc</italic> E2F oligonucleotide probe (lanes 1 and 2) and APRE oligonucleotide probe (lanes 3 and 4). (D) Binding specificity of IL-6&#x02013;inducible c-<italic>myc</italic> E2F site&#x02013;binding complexes. Nuclear extracts from serum-starved HepG2 cells either untreated (lane 1) or treated with IL-6 (lanes 2&#x02013;8) were preincubated with unlabeled oligonucleotide competitors (50- or 250-fold molar excess as indicated) for 5 min, followed by incubation with labeled c-<italic>myc</italic> E2F probes. The competitors used were unlabeled oligonucleotides containing the c-<italic>myc</italic> E2F site (lanes 3 and 4), the adenovirus E2 E2F site (lanes 5 and 6), or the &#x003b1;2 macroglobulin APRE (lanes 7 and 8).</p></caption><graphic xlink:href="JEM981465.f7ab"/><graphic xlink:href="JEM981465.f7cd"/></fig><fig id="F8" position="float"><label>Figure 8</label><caption><p>Binding of STAT3 but not STAT5 to the c-<italic>myc</italic> E2F site in IL-2&#x02013;stimulated KT-3 nuclear extracts. Nuclear extracts from IL-6&#x02013;deprived KT-3 cells either untreated (lanes 1 and 6) or treated with IL-2 at 10 ng/ml for 15 min (lanes 2&#x02013;5 and 7&#x02013;10) were preincubated without (lanes 1, 2, 6, and 7) or with an anti-STAT1 mAb (lanes 3 and 8), anti-Stat3 antibody (lanes 4 and 9), or anti-Stat5 antibody (lanes 5 and 10) for 30 min on ice before the addition of <sup>32</sup>P-labeled oligonucleotide containing the c-<italic>myc</italic> promoter E2F site (lanes 1&#x02013;5) or <sup>32</sup>P-labeled oligonucleotide containing a Stat5 binding site (lanes 6&#x02013;10), and were then subjected to electrophoresis and autoradiography. The positions of the complexes containing STAT3 or STAT5 are indicated.</p></caption><graphic xlink:href="JEM981465.f8"/></fig><fig id="F9" position="float"><label>Figure 9</label><caption><p>The STAT3 binding site overlaps with the E2F binding site in the c-<italic>myc</italic> promoter.</p></caption><graphic xlink:href="JEM981465.f9"/></fig></floats-group></article>

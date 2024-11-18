@@ -1,0 +1,591 @@
+<!DOCTYPE article PUBLIC "-//NLM//DTD JATS (Z39.96) Journal Archiving and Interchange DTD v1.0 20120330//EN" "JATS-archivearticle1.dtd">
+<article xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mml="http://www.w3.org/1998/Math/MathML" article-type="research-article"><?properties open_access?><front><journal-meta><journal-id journal-id-type="nlm-ta">J Gen Physiol</journal-id><journal-id journal-id-type="iso-abbrev">J. Gen. Physiol</journal-id><journal-title-group><journal-title>The Journal of General Physiology</journal-title></journal-title-group><issn pub-type="ppub">0022-1295</issn><issn pub-type="epub">1540-7748</issn><publisher><publisher-name>The Rockefeller University Press</publisher-name></publisher></journal-meta><article-meta><article-id pub-id-type="pmid">9417134</article-id><article-id pub-id-type="pmc">PMC1887770</article-id><article-categories><subj-group subj-group-type="heading"><subject>Article</subject></subj-group></article-categories><title-group><article-title>Bleached Pigment Produces a Maintained Decrease in Outer Segment Ca<sup>2+</sup> in Salamander Rods </article-title></title-group><contrib-group><contrib contrib-type="author"><name><surname>Sampath</surname><given-names>A.P.</given-names></name><xref ref-type="aff" rid="N0x1c004a0N0x3e96808">*</xref></contrib><contrib contrib-type="author"><name><surname>Matthews</surname><given-names>H.R.</given-names></name><xref ref-type="aff" rid="N0x1c004a0N0x3e96808">&#x02021;</xref></contrib><contrib contrib-type="author"><name><surname>Cornwall</surname><given-names>M.C.</given-names></name><xref ref-type="aff" rid="N0x1c004a0N0x3e96808">&#x000a7;</xref></contrib><contrib contrib-type="author"><name><surname>Fain</surname><given-names>G.L.</given-names></name><xref ref-type="aff" rid="N0x1c004a0N0x3e96808">*</xref><xref ref-type="aff" rid="N0x1c004a0N0x3e96808">&#x02016;</xref></contrib></contrib-group><aff id="N0x1c004a0N0x3e96808">From the <label>*</label>Department of Physiological Science, and <label>&#x02016;</label>Department of Ophthalmology, University of California, Los Angeles, Los Angeles, California 90095; <label>&#x02021;</label>Physiological Laboratory, University of Cambridge, Downing Street, Cambridge, England CB2 3EG; and <label>&#x000a7;</label>Department of Physiology, Boston University Medical School, Boston, Massachusetts 02118</aff><author-notes><fn><p>Address correspondence to Dr. G.L. Fain, Department of Physiological Science, Life Sciences 3836, UCLA, Los Angeles, CA 90095. Fax: 310-825-4667; E-mail: <email>gfain@ucla.edu</email>
+</p></fn></author-notes><pub-date pub-type="ppub"><day>1</day><month>1</month><year>1998</year></pub-date><volume>111</volume><issue>1</issue><fpage>53</fpage><lpage>64</lpage><history><date date-type="received"><day>2</day><month>9</month><year>1997</year></date><date date-type="accepted"><day>20</day><month>10</month><year>1997</year></date></history><permissions><copyright-year>1998</copyright-year><license license-type="openaccess"><license-p>This article is distributed under the terms of an Attribution&#x02013;Noncommercial&#x02013;Share Alike&#x02013;No Mirror Sites license for the first six months after the publication date (see <ext-link ext-link-type="uri" xlink:href="http://www.rupress.org/terms">http://www.rupress.org/terms</ext-link>). After six months it is available under a Creative Commons License (Attribution&#x02013;Noncommercial&#x02013;Share Alike 4.0 Unported license, as described at <ext-link ext-link-type="uri" xlink:href="http://creativecommons.org/licenses/by-nc-sa/4.0/">http://creativecommons.org/licenses/by-nc-sa/4.0/</ext-link>).</license-p></license></permissions><abstract><p>A spot confocal microscope based on an argon ion laser was used to make measurements of cytoplasmic calcium concentration (Ca<sup>2+</sup>
+<sub>i</sub>) from the outer segment of an isolated rod loaded with the fluorescent calcium indicator fluo-3 during simultaneous suction pipette recording of the photoresponse. The decline in fluo-3 fluorescence from a rod exposed to saturating illumination was best fitted by two exponentials of approximately equal amplitude with time constants of 260 and 2,200 ms. Calibration of fluo-3 fluorescence in situ yielded Ca<sup>2+</sup>
+<sub>i</sub> estimates of 670 &#x000b1; 250 nM in a dark-adapted rod and 30 &#x000b1; 10 nM during response saturation after exposure to bright light (mean &#x000b1; SD). The resting level of Ca<sup>2+</sup>
+<sub>i</sub> was significantly reduced after bleaching by the laser spot, peak fluo-3 fluorescence falling to 56 &#x000b1; 5% (SEM, <italic>n</italic> = 9) of its value in the dark-adapted rod. Regeneration of the photopigment with exogenous 11-<italic>cis-</italic>retinal restored peak fluo-3 fluorescence to a value not significantly different from that originally measured in darkness, indicating restoration of the dark-adapted level of Ca<sup>2+</sup>
+<sub>i</sub>. These results are consistent with the notion that sustained activation of the transduction cascade by bleached pigment produces a sustained decrease in rod outer segment Ca<sup>2+</sup>
+<sub>i</sub>, which may be responsible for the bleach-induced adaptation of the kinetics and sensitivity of the photoresponse.</p></abstract><kwd-group><kwd>photoreceptor</kwd><kwd>retinal rod</kwd><kwd>bleaching adaptation</kwd><kwd>calcium</kwd></kwd-group></article-meta></front><body><sec id="Introduction"><title>introduction</title><p>Exposure of isolated rod and cone photoreceptors to light sufficiently intense to bleach a significant fraction of the photopigment initially results in the complete suppression of the circulating current, which is followed by a gradual but partial recovery to a level that is reduced in comparison with the original dark current of the dark-adapted cell. This persistent suppression of the circulating current is accompanied by long-lasting changes in sensitivity and response waveform. In an isolated photoreceptor, these adaptational changes appear to persist indefinitely, but can be reversed rapidly by the regeneration of the photopigment by exogenous 11-<italic>cis</italic>-retinal (<xref rid="B25" ref-type="bibr">Jones et al., 1989</xref>; <xref rid="B5" ref-type="bibr">Cornwall et al., 1990</xref>). The persistent suppression of the circulating current after bleaching results from a continuing excitation of phototransduction (<xref rid="B4" ref-type="bibr">Cornwall and Fain, 1994</xref>; <xref rid="B7" ref-type="bibr">Cornwall et al., 1995</xref>) via excitation of the transduction cascade (<xref rid="B39" ref-type="bibr">Matthews et al., 1996<italic>a</italic>
+</xref>) by a long-lived photoproduct of rhodopsin bleaching that may be free opsin (<xref rid="B23" ref-type="bibr">Jin et al., 1993</xref>).</p><p>Bleaching adaptation shows considerable similarity with the adaptational changes induced by steady light (<xref rid="B12" ref-type="bibr">Fain and Cornwall, 1993</xref>; <xref rid="B36" ref-type="bibr">Leibrock et al., 1994</xref>; <xref rid="B24" ref-type="bibr">Jones et al., 1996</xref>). Such light adaptation is believed to be largely, if not exclusively, mediated by a light-induced fall in Ca<sup>2+</sup>
+<sub>i</sub>, which results from the graded suppression of the circulating current by the background, since if these changes in Ca<sup>2+</sup>
+<sub>i</sub> are prevented by interfering with the normal mechanism of Ca<sup>2+</sup> homeostasis then adaptation is abolished (<xref rid="B42" ref-type="bibr">Matthews et al., 1988</xref>; <xref rid="B49" ref-type="bibr">Nakatani and Yau, 1988</xref>; <xref rid="B13" ref-type="bibr">Fain et al., 1989</xref>). Similar manipulations of Ca<sup>2+</sup> homeostasis have also been shown to prevent these bleach-induced adaptational changes in cone photoreceptors (<xref rid="B41" ref-type="bibr">Matthews et al., 1996<italic>c</italic>
+</xref>), suggesting that Ca<sup>2+</sup>
+<sub>i</sub> may also play a similar role in bleaching adaptation. </p><p>The fall in Ca<sup>2+</sup>
+<sub>i</sub> that immediately follows the suppression of the circulating current by light has been measured in several recent studies, which demonstrates that Ca<sup>2+</sup>
+<sub>i</sub> varies in a graded manner during steady illumination (<xref rid="B15" ref-type="bibr">Gray-Keller and Detwiler, 1994</xref>, <xref rid="B16" ref-type="bibr">1996</xref>; <xref rid="B43" ref-type="bibr">McCarthy et al., 1994</xref>; <xref rid="B59" ref-type="bibr">Younger et al., 1996</xref>). However, considerably less is known about the changes in Ca<sup>2+</sup> that may take place during the photopigment cycle. We have therefore applied a laser spot confocal technique, originally developed for measuring the release of Ca<sup>2+</sup> from sarcoplasmic reticulum (<xref rid="B11" ref-type="bibr">Escobar et al., 1994</xref>), to the measurement of light-induced changes in Ca<sup>2+</sup>
+<sub>i</sub> from salamander rod photoreceptors. In common with previous studies using fluorescent probes to measure changes in Ca<sup>2+</sup>
+<sub>i</sub> from single rods, the fluorescence excitation beam resulted in considerable stimulation of the photoreceptor. Making a virtue of this necessity, we have used the photopigment bleaching that takes place during the Ca<sup>2+</sup> measurement itself to follow the changes in Ca<sup>2+</sup>
+<sub>i</sub> that accompany photopigment bleaching and regeneration in isolated rod photoreceptors. Preliminary results from this study have been reported to the Physiological Society (<xref rid="B40" ref-type="bibr">Matthews et al., 1996<italic>b</italic>
+</xref>) and to the Association for Research in Vision and Ophthalmology (<xref rid="B53" ref-type="bibr">Sampath et al., 1997</xref>).</p></sec><sec sec-type="methods" id="Methods"><title>methods</title><sec><title>Preparation</title><p>Aquatic tiger salamanders (<italic>Ambystoma tigrinum</italic>) purchased from Kons Scientific Co. (Germantown, WI) or Charles Sullivan (Nashville, TN) were kept between 7 and 10&#x000b0;C on a 12-h light&#x02013;dark cycle. Animals were dark-adapted overnight and killed in accordance with protocols approved by the Animal Research Council of the University of California, Los Angeles. Under dim red illumination, the animals were decapitated, pithed both rostrally and caudally, and the eyes enucleated. All subsequent dissection was carried out under infrared illumination. Eyes were hemisected and the eye cup cut into two pieces along the optic disc. Each piece of eye cup was then placed in a silicone rubber&#x02013; coated dish (Sylgard 184; Dow Corning Corp., Midland, MI) containing amphibian Ringer solution (111 mM NaCl, 2.5 mM KCl, 1 mM CaCl<sub>2</sub>, 1.6 mM MgCl<sub>2</sub>, 3 mM HEPES-NaOH, 10 &#x003bc;M EDTA-NaOH, 10 mM glucose, 0.1 mg/ml BSA, pH 7.7) and stored between 7 and 10&#x000b0;C. At the time of the experiment, the retina was peeled from the eye cup, placed photoreceptor side up on the Sylgard, and chopped lightly using a piece of razor blade. A fixed volume of the resulting cell suspension was collected with a transfer pipette and injected into the recording chamber. In the majority of experiments, the dissociated tissue was preincubated at room temperature (23&#x000b0;C) in amphibian Ringer solution, without glucose or BSA, containing 10 &#x003bc;M fluo-3 acetoxymethyl ester (fluo-3 AM; Molecular Probes, Inc., Eugene, OR) for 30 min before recording. After this period, excess dye was removed from the recording chamber via the bath perfusion. In a few experiments, fluo-3 AM loading was carried out for 70 min at 4&#x000b0;C to minimize dye compartmentalization. All experiments were performed at room temperature. Unless specified, all reagents were purchased from <named-content content-type="company" xlink:href="sigma">Sigma Chemical Co.</named-content> (St. Louis, MO).</p></sec><sec><title>Ca<sup>2+</sup> Measurement</title><p>Simultaneous measurements of photocurrent and Ca<sup>2+</sup> indicator fluorescence were made with a spot confocal technique (<xref rid="B11" ref-type="bibr">Escobar et al., 1994</xref>) illustrated schematically in Fig. <xref ref-type="fig" rid="F1">1</xref>. The beam from an argon ion laser (Model 98; Lexel Laser Inc., Freemont, CA), tuned to 514 nm, illuminated the 50-&#x003bc;m pinhole of a spatial filter assembly (Newport Corp., Irvine, CA). The beam was recollimated by a 4&#x000d7; microscope objective (<named-content content-type="company" xlink:href="Nikon">Nikon Inc.</named-content>, Melville, NY), and entered the inverted microscope (Zeiss IM; Carl Zeiss, Inc., Oberkochen, Germany) through the epi-fluorescence port via a dichroic mirror (525DRLP; Omega Optical, Brattleboro, VT). A 40&#x000d7; objective lens (1.3 NA oil immersion; <named-content content-type="company" xlink:href="Nikon">Nikon Inc.</named-content>) formed a reduced image of the pinhole to illuminate a spot &#x0223c;8 &#x003bc;m in diameter on the outer segment of a rod photoreceptor, whose inner segment was drawn into a suction pipette. The fluo-3 fluorescence evoked by laser illumination passed through a 530-nm emission filter (530EFLP; Omega Optical) and was imaged onto a small-diameter PIN photodiode (model HR008; United Detector Technologies, Hawthorne, CA) mounted on the headstage of an Axopatch 200A amplifier (<named-content content-type="company" xlink:href="axon">Axon Instruments</named-content>, Foster City, CA). The analog signal from the diode was low pass filtered at 250 Hz with an active 8-pole Bessel filter (Frequency Devices, Haverhill, MA) and digitized at 1,000 Hz (PClamp 6; <named-content content-type="company" xlink:href="axon">Axon Instruments</named-content>). </p><p>The unattenuated intensity of the laser was considerably higher than could be used to make a Ca<sup>2+</sup> measurement without significantly bleaching the Ca<sup>2+</sup> indicator fluo-3. Therefore, the laser beam was typically attenuated by 3 log<sub>10</sub> units using a reflective neutral density filter (Newport Corp.) to yield a flux of 1.7 &#x000d7; 10<sup>11</sup> photon &#x003bc;m<sup>&#x02212;2</sup> s<sup>&#x02212;1</sup> at the plane of the pinhole image. In some experiments, the laser intensity was reduced further by substituting a 4 log<sub>10</sub> unit neutral density filter (Melles Griot, Tustin, CA). Since the wavelength of the laser is close to the wavelength of peak absorption of rhodopsin, exposure to the laser will also have bleached the vast majority of the photopigment within the area of the laser spot. Fluorescence was evoked using a series of brief laser exposures controlled by an electromagnetic shutter (Vincent Associates, Rochester, NY) driven by the data acquisition system. Most experiments characterizing the time course of Ca<sup>2+</sup> decline after intense laser illumination used a single 7-s laser exposure. In experiments investigating bleaching adaptation, laser exposure was minimized by instead presenting four brief laser pulses, each of 20-ms duration. </p></sec><sec><title>In Situ Calibration</title><p>To quantify how photoreceptor Ca<sup>2+</sup> concentration changes during exposure to light, both the <italic>K</italic>
+<sub>d </sub>of fluo-3 and the maximum and minimum fluorescence that can be elicited from the rod outer segment in high and low Ca<sup>2+</sup> (<italic>F</italic>
+<sub>max</sub> and <italic>F</italic>
+<sub>min</sub>) are required (<xref rid="B47" ref-type="bibr">Minta et al., 1989</xref>). The <italic>K</italic>
+<sub>d</sub> of the Ca<sup>2+</sup> indicator was determined with a haemocytometer (100 &#x003bc;m path length) containing 100 &#x003bc;M fluo-3 free acid in pseudo-intracellular solutions of buffered Ca<sup>2+</sup> (World Precision Instruments, Sarasota, FL), whose precise free Ca<sup>2+</sup> concentrations were verified using a Ca<sup>2+</sup> electrode (Calcium Ionophore I&#x02212;cocktail A; Fluka, Ronkonkoma, NY). The sigmoidal variation of the fluorescence signal (<italic>F</italic>) with free Ca<sup>2+</sup> concentration (Fig. <xref ref-type="fig" rid="F1">1</xref>, <italic>inset</italic>) could be fitted by the Michaelis-Menten equation for Ca<sup>2+</sup> binding: <disp-formula id="E1"><label>1</label><tex-math id="M1">\documentclass[10pt]{article}
+\usepackage{amsmath}
+\usepackage{wasysym} 
+\usepackage{amsfonts} 
+\usepackage{amssymb} 
+\usepackage{amsbsy}
+\usepackage{mathrsfs}
+\usepackage{pmc}
+\usepackage[Euler]{upgreek}
+\pagestyle{empty}
+
+\oddsidemargin -1.0in
+
+\begin{document}
+\begin{equation*}F=F_{min}+\frac{F_{max}-F_{min}}{1+\frac{K_{d}}{[Ca^{2+}]}},\end{equation*}\end{document}</tex-math></disp-formula>
+</p><p>which yielded a value for <italic>K</italic>
+<sub>d</sub> of 400 nM. </p><p>
+<italic>F</italic>
+<sub>max</sub> and <italic>F</italic>
+<sub>min</sub> were determined in situ using the four-laser pulse protocol described above while exposing the photoreceptor outer segment to solutions of low and high Ca<sup>2+</sup> concentration containing 25 &#x003bc;M ionomycin or 40 mg/ml saponin. The low Ca<sup>2+</sup>
+<sub>i</sub> solution that was used to determine <italic>F</italic>
+<sub>min</sub> consisted of 111 mM NaCl, 2.5 mM KCl, 2.05 mM MgCl<sub>2</sub>, 3 mM HEPES, and 2 mM EGTA. The high Ca<sup>2+</sup> solution that was used to determine <italic>F</italic>
+<sub>max</sub> contained 76.6 mM CaCl<sub>2</sub>, 2.5 mM KCl, and 3 mM HEPES. In both cases, the pH was titrated to 7.7 with NaOH. Values of <italic>F</italic>
+<sub>min</sub> and <italic>F</italic>
+<sub>max</sub> measured in this way were used in Eq. <xref ref-type="disp-formula" rid="E1">1</xref> to determine the free Ca<sup>2+</sup> concentration in the same dark-adapted rod before and after exposure to saturating laser illumination. The value of <italic>F</italic>
+<sub>min</sub> determined in situ was a greater fraction of <italic>F</italic>
+<sub>max</sub> than was obtained from fluo-3 in the cuvette (see Fig. <xref ref-type="fig" rid="F1">1</xref>, <italic>inset</italic>); this discrepancy may reflect nonspecific binding of the dye within the rod outer segment (see <sc>discussion</sc>). </p></sec><sec><title>Fluo-3-free Acid</title><p>To ensure that the fluorescence signal measured with fluo-3 AM was not contaminated by compartmentalization of the dye within the outer segment, Ca<sup>2+</sup> measurements were also made with the cell-impermeant fluo-3-free acid incorporated into the rod cytoplasm by whole-cell patch-clamp recording. Patch pipettes with tip resistances between 5 and 12 M&#x003a9; were filled with a pseudo-intracellular solution (92 mM KAspartate, 7 mM NaCl, 5 mM MgCl<sub>2</sub>, 10 mM HEPES, 1 mM Na<sub>2</sub>ATP, 1 mM Na<sub>4</sub>GTP, pH 7.0) that included 100 &#x003bc;M fluo-3 (pentapotassium salt). Gigaohm seals were formed on the rod inner segment, and the whole-cell recording configuration was established by either gentle suction or hyperpolarizing voltage clamp pulses so as to allow access of the pipette solution to the cytoplasm by diffusion. The membrane potential in the whole-cell configuration was held at &#x02212;40 mV (after correction for a 10-mV liquid junction potential). </p></sec><sec><title>Electrical Recording and Light Stimuli</title><p>Light-induced changes in the circulating current were recorded from the suction or patch pipette with an EPC-7 patch clamp amplifier (List Electronics, Darmstadt, Germany). This signal was low pass filtered at 20 Hz using an active 8-pole Bessel filter (Frequency Devices) and digitized either at 100 or 1,000 Hz (for simultaneous photocurrent and calcium indicator fluorescence measurements). </p><p>Light stimuli were delivered from a DC-driven tungsten halogen lamp through a 570-nm interference filter, and unpolarized; flashes of 20-ms duration were delivered through electromagnetic shutters (Vincent Associates, Rochester, NY). Light intensities were adjusted with neutral density filters (Fish-Schurman Corp., New Rochelle, NY) and calibrated with a silicon photodiode (Graseby Optronics, Orlando, FL). These absolute photon fluxes can be converted to rates of rhodopsin isomerization using a collecting area of 7 &#x003bc;m<sup>2</sup> at 570 nm, obtained by multiplying the value of 20 &#x003bc;m<sup>2</sup> (<xref rid="B34" ref-type="bibr">Lamb et al., 1986</xref>) at the 516-nm wavelength of peak sensitivity (<xref rid="B18" ref-type="bibr">Harosi, 1975</xref>) by the ratio of the spectral sensitivities of the rod photopigment at these two wavelengths (<xref rid="B6" ref-type="bibr">Cornwall et al., 1984</xref>).</p><p>The percentage of photopigment bleached by the 514 nm light from the argon ion laser was estimated from the photosensitivity at 520 nm for vitamin A<sub>2</sub>&#x02013;based pigments in free solution (<xref rid="B9" ref-type="bibr">Dartnall, 1972</xref>), corrected for the difference in dichroism in free solution and in disk membranes (6.2 &#x000d7; 10<sup>&#x02212;9</sup> &#x003bc;m<sup>2</sup>) (<xref rid="B26" ref-type="bibr">Jones et al., 1993</xref>). Both the continuous and the short pulse laser exposures that were used to measure the light-induced decline in Ca<sup>2+</sup>
+<sub>i</sub> can be calculated from the photosensitivity to bleach &#x0003e;99% of the photopigment within the area of the laser spot, although this may have been reduced somewhat in practice by photoregeneration from bleaching intermediates, especially for the short pulses (<xref rid="B56" ref-type="bibr">Williams, 1964</xref>; <xref rid="B51" ref-type="bibr">Pugh, 1975</xref>). Less extensive bleaching is also likely to have taken place in the remainder of the outer segment due to scattered laser light.</p></sec><sec><title>Pigment Regeneration</title><p>Pigment regeneration was accomplished by bath application of phospholipid vesicles containing the chromophore 11-<italic>cis</italic>-retinal. A 25-mg aliquot of phosphatidyl choline solution (Type V; <named-content content-type="company" xlink:href="sigma">Sigma Chemical Co.</named-content>) was dried in a stream of 100% N<sub>2</sub>. To this was added 10 ml of Ringer solution without glucose or BSA, and the mixture was sonicated for 10 min (60 W, 50% duty cycle) with a probe sonicator (Vibracell; Sonics Materials Inc., Danbury, CT). The resulting vesicle suspension was then added to a small vessel containing 11-<italic>cis-</italic>retinal dried on its wall from an ethanolic solution. Loading of the vesicles with the retinoid was facilitated by further brief sonication in darkness. The concentration of 11-<italic>cis</italic>-retinal present in the vesicles was measured spectrophotometrically (UV-2101PC; Shimadzu Scientific Instruments, Columbia, MD) using the molar extinction coefficient in ethanol of 25,000 M<sup>&#x02212;1</sup> cm<sup>&#x02212;1</sup> at 380 nm (<xref rid="B22" ref-type="bibr">Hubbard et al., 1971</xref>), and the vesicle suspension was diluted with Ringer solution to a final concentration of 300 &#x003bc;M. The photopigment of bleached rods was regenerated by adding a sufficient quantity of the vesicle suspension to the recording chamber to achieve a final 11-<italic>cis</italic>-retinal concentration of 100 &#x003bc;M.</p></sec></sec><sec id="Results"><title>results</title><sec><title>Kinetics of the Light-induced Decline in Ca<sup>2+</sup>
+<sub>i</sub>
+</title><p>Fig. <xref ref-type="fig" rid="F2">2</xref> shows an example of an experiment in which fluo-3 fluorescence and suction pipette current were recorded simultaneously. The dark-adapted rod was first loaded with the dye by incubation with fluo-3 AM, and then the outer segment was exposed to the laser spot to excite fluo-3 fluorescence. The 7-s laser exposure completely suppressed the circulating current (Fig. <xref ref-type="fig" rid="F2">2</xref>
+<italic>A</italic>), typically holding it in saturation for 10 or more min thereafter, reflecting the bleaching of more than 99% of the photopigment in the region illuminated by the laser spot. The onset of laser excitation in this previously dark-adapted rod evoked a high intensity of fluo-3 fluorescence (Fig. <xref ref-type="fig" rid="F2">2</xref>
+<italic>B</italic>, <italic>1</italic>), which then progressively declined to a much lower level. In contrast, the second (Fig. <xref ref-type="fig" rid="F2">2</xref>
+<italic>B</italic>, <italic>2</italic>) and subsequent laser exposures evoked only a low and maintained fluorescence signal. Furthermore, a similarly low level of fluorescence was also obtained if the laser spot was then displaced along the outer segment region from which fluorescence had not previously been excited, but which presumably was exposed to sufficient scattered laser light to completely suppress the dark current. These observations suggest that the decay in fluo-3 fluorescence that is seen when a dark-adapted rod is first exposed to the laser spot represents the light-induced decline in Ca<sup>2+</sup>
+<sub>i</sub> that is known to follow suppression of the dark current (<xref rid="B58" ref-type="bibr">Yau and Nakatani, 1985</xref>; <xref rid="B46" ref-type="bibr">McNaughton et al., 1986</xref>; <xref rid="B52" ref-type="bibr">Ratto et al., 1988</xref>). </p><p>The decline of fluo-3 fluorescence evoked by laser illumination of a dark-adapted rod was best fitted by the sum of two decaying exponentials of similar amplitude but with time constants differing by nearly an order of magnitude. Histograms of these short and long time constants from 86 cells incubated with fluo-3 AM are shown in Fig. <xref ref-type="fig" rid="F3">3</xref> (<italic>filled columns</italic>). These have been fitted with Gaussian distributions with means of 260 and 2,200 ms. </p><p>The fluo-3 fluorescence signal during the saturated light response was calibrated by artificially manipulating Ca<sup>2+</sup>
+<sub>i</sub> to determine the maximum and minimum fluorescence that could be elicited from the dye in the region of the laser spot. A typical calibration experiment is shown in Fig. <xref ref-type="fig" rid="F4">4</xref>; in each case, fluorescence was excited by a sequence of brief 20-ms laser pulses instead of a continuous exposure to ensure that dye bleaching was insignificant during the multiple laser exposures used for these measurements. Fig. <xref ref-type="fig" rid="F4">4</xref>, <italic>A</italic> and <italic>B</italic> illustrates the responses to the first two sequences of laser pulses. When the rod was first stimulated by the exciting beam, fluo-3 fluorescence declined to a reduced level that was then maintained for subsequent laser pulses, during which period the circulating current remained suppressed. After these measurements, the rod outer segment was superfused with solutions designed to greatly lower or elevate Ca<sup>2+</sup>
+<sub>i</sub> to levels that would minimize or saturate fluo-3 fluorescence. In Fig. <xref ref-type="fig" rid="F4">4</xref>
+<italic>C,</italic> the outer segment was exposed to a solution containing nominally zero-Ca<sup>2+</sup> and 25 &#x003bc;M ionomycin, and which included Na<sup>+</sup> to support extrusion of Ca<sup>2+</sup> via Na<sup>+</sup>/ Ca<sup>2+</sup>-K<sup>+</sup> exchange. This manipulation led to a dramatic elevation of the circulating current, which had previously been completely suppressed in Ringer solution by the preceding laser exposures, suggesting that Ca<sup>2+</sup>
+<sub>i</sub> had been lowered further from its already reduced level during response saturation. After this solution change, the fluorescence evoked by each laser pulse decreased to a level slightly below that seen during saturating illumination (compare with Fig. <xref ref-type="fig" rid="F4">4</xref>
+<italic>B</italic>), also consistent with a further reduction in Ca<sup>2+</sup>
+<sub>i</sub>. In Fig. <xref ref-type="fig" rid="F4">4</xref>
+<italic>D</italic>, the outer segment was exposed to a solution containing isotonic Ca<sup>2+</sup> and 25 &#x003bc;M ionomycin, from which Na<sup>+</sup> had been omitted to prevent extrusion of Ca<sup>2+</sup> via Na<sup>+</sup>/Ca<sup>2+</sup>-K<sup>+</sup> exchange. This manipulation, which would be expected to elevate Ca<sup>2+</sup>
+<sub>i</sub> substantially, increased the fluorescence evoked by each laser pulse to a level well above the reduced levels seen while the circulating current was suppressed in Ringer solution, and somewhat greater than that evoked from the dark-adapted rod at the onset of laser illumination. </p><p>The fluorescence values from Fig. <xref ref-type="fig" rid="F4">4</xref>, <italic>C</italic> and <italic>D</italic>, and similar measurements from other cells, were taken as approximating to <italic>F</italic>
+<sub>min</sub> and <italic>F</italic>
+<sub>max</sub>, respectively. These values were then used in conjunction with the fluo-3 dissociation constant (<italic>K</italic>
+<sub>d</sub> = 400 nM) determined in the recording chamber (Fig. <xref ref-type="fig" rid="F1">1</xref>, <italic>inset</italic>) to convert the initial and steady state levels of dye fluorescence into the corresponding values for Ca<sup>2+</sup>
+<sub>i</sub> using the Michaelis-Menten relation (Eq. <xref ref-type="disp-formula" rid="E1">1</xref>). This procedure gave values for Ca<sup>2+</sup>
+<sub>i</sub> of 670 &#x000b1; 250 nM in a dark-adapted rod and 30&#x02002;&#x000b1; 10 nM after saturating laser illumination (Mean&#x02002;&#x000b1; SD, 12 cells). </p><p>In these calibration measurements, the ratio <italic>F</italic>
+<sub>max</sub>
+<italic>/ F</italic>
+<sub>min</sub> was consistently less than that obtained in the cuvette (see Fig. <xref ref-type="fig" rid="F1">1</xref>, <italic>inset</italic>). This observation suggested either that a residual &#x0201c;pedestal&#x0201d; of Ca<sup>2+</sup>-insensitive fluorescence contributed to <italic>F</italic>
+<sub>min</sub>, or alternatively that <italic>F</italic>
+<sub>max</sub> was consistently underestimated in these experiments. To address the second possibility that superfusion with high Ca<sup>2+</sup> solution in the presence of ionomycin might not have raised Ca<sup>2+</sup>
+<sub>i</sub> sufficiently to completely saturate fluo-3 fluorescence, similar measurements were carried out in which saponin was used instead of ionomycin to disrupt the outer segment membrane more extensively. While there was little difference between the results obtained with saponin and ionomycin in zero-Ca<sup>2+</sup> solution, superfusion with high Ca<sup>2+</sup> solution led to a similar initial rise that was followed by a further delayed increase in fluorescence in the presence of saponin. This second component of the fluorescence increase seems most likely to have represented the release of fluo-3 compartmentalized or bound within the outer or inner segments (<xref rid="B55" ref-type="bibr">Schnetkamp et al., 1991<italic>b</italic>
+</xref>), although the possibility that ionomycin and isotonic Ca<sup>2+</sup> may have failed to saturate dye fluorescence cannot be completely excluded. We therefore interpret the reduced ratio <italic>F</italic>
+<sub>max</sub>
+<italic>/F</italic>
+<sub>min</sub> as representing a residual Ca<sup>2+</sup>- and light-insensitive pedestal of fluorescence, which may represent fluo-3 bound or compartmentalized within the rod outer segment (<xref rid="B43" ref-type="bibr">McCarthy et al., 1994</xref>). </p><p>To address the possibility that the light-induced decay of the fluo-3 fluorescence signal might have originated from membrane-permeant fluo-3 AM, which had entered a subcellular compartment other than the cytoplasm, experiments were carried out in which the membrane-impermeant fluo-3-free acid was incorporated into the cytoplasm from a patch pipette. Fig. <xref ref-type="fig" rid="F5">5</xref> compares the fluorescence responses from rods loaded by incubation with fluo-3 AM (Fig. <xref ref-type="fig" rid="F5">5</xref>
+<italic>A</italic>), and by 4 min of whole cell recording with a patch pipette containing an artificial intracellular solution that included 100 &#x003bc;M fluo-3 pentapotassium salt (Fig. <xref ref-type="fig" rid="F5">5</xref>
+<italic>B</italic>). It can be seen that the fluorescence signal declined in a similar manner during the first laser exposure (Fig. <xref ref-type="fig" rid="F5">5</xref>, trace <italic>1</italic>) and remained depressed for the second (Fig. <xref ref-type="fig" rid="F5">5</xref>, trace <italic>2</italic>), irrespective of the means by which fluo-3 had been incorporated. In Fig. <xref ref-type="fig" rid="F5">5</xref>
+<italic>B</italic>, a slight decay in fluorescence occurred on the second laser exposure (trace <italic>2</italic>); the origin of this residual relaxation is not clear. Nevertheless, after complete suppression of the circulating current, a comparable level of residual fluorescence remained in both cases, despite the fact that the membrane-impermeant form of fluo-3 would be expected to be less readily compartmentalized. Furthermore, qualitatively similar results were obtained in experiments in which incubation with fluo-3 AM was carried out at 4&#x000b0;C instead of room temperature, a procedure that is believed to decrease dye compartmentalization. These observations suggest that the residual pedestal of fluorescence may have originated instead from nonspecific binding of the dye within the outer segment cytoplasm (<xref rid="B43" ref-type="bibr">McCarthy et al., 1994</xref>). </p><p>Two exponential time constants were fitted to the initial decline in fluorescence signal in the eight rods loaded with fluo-3-free acid. The values for these time constants are plotted in the histograms of Fig. <xref ref-type="fig" rid="F3">3</xref> as the open columns, and can be seen to fall within the same range as those from rods loaded with fluo-3 AM (filled columns). These results suggest that the light-induced decline in fluo-3 fluorescence represents a fall in Ca<sup>2+</sup>
+<sub>i</sub> within the cytoplasm itself, rather than another compartment within the outer segment to which only fluo-3 AM would have access. Consequently, incubation with fluo-3 AM was used to incorporate the dye in all subsequent experiments. </p></sec><sec><title>Changes in Ca<sup>2+</sup>
+<sub>i</sub> Induced by Bleaching</title><p>The principal objective of this study was to investigate how Ca<sup>2+</sup>
+<sub>i</sub> changes in the rod outer segment after photopigment bleaching. This was achieved by making repeated measurements of fluo-3 fluorescence from a single salamander rod when dark adapted, after exposure to laser light sufficiently intense to bleach a substantial fraction of the photopigment, and after regeneration with 11-<italic>cis</italic>-retinal, as illustrated in Figs. <xref ref-type="fig" rid="F6">6</xref> and <xref ref-type="fig" rid="F7">7</xref>. First, the sensitivity of the dark-adapted rod was measured with dim flashes. Then laser pulses were delivered to investigate the decline of Ca<sup>2+</sup>
+<sub>i</sub> from its dark-adapted level (Fig. <xref ref-type="fig" rid="F6">6</xref>
+<italic>A</italic>). The corresponding fluorescence intensity evoked by the first laser pulse has been plotted in Fig. <xref ref-type="fig" rid="F7">7</xref>
+<italic>C</italic>, together with the level to which it declined after the bleach-induced suppression of the dark current. These values reflect relative Ca<sup>2+</sup>
+<sub>i</sub> levels before and immediately after the bleaching laser exposure. These two sequences of laser illumination, each consisting of four 20-ms laser pulses, are calculated to have bleached &#x0003e;99% of the photopigment within the area of the laser spot (see <sc>methods</sc>), while scattered laser light is likely to have caused significant bleaching within the remainder of the outer segment. </p><p>This substantial localized bleach reduced both the circulating current (Fig. <xref ref-type="fig" rid="F7">7</xref>
+<italic>A</italic>) and the dim flash sensitivity (Fig. <xref ref-type="fig" rid="F7">7</xref>
+<italic>B</italic>), which then progressively stabilized over the next 50 min until no further increases could be detected. At this point, a second dye fluorescence measurement was made (Fig. <xref ref-type="fig" rid="F6">6</xref>
+<italic>B</italic>), which revealed that the peak fluo-3 fluorescence evoked by the first laser pulse was considerably reduced after bleaching, its magnitude falling to 56 &#x000b1; 5% of its dark-adapted value (mean &#x000b1; SEM, nine cells), a change that is significant at the 5% level (paired Student's <italic>t</italic> test). After these measurements from the bleached rod, the photopigment was regenerated by addition of vesicles containing the retinoid 11-<italic>cis</italic>-retinal to the bath solution, resulting in substantial restoration of the original sensitivity and dark current. Once sensitivity and circulating current had stabilized, a further dye fluorescence measurement from the same cells showed that peak fluo-3 fluorescence had been restored by 11-<italic>cis-</italic>retinal to 127 &#x000b1; 20% of its original dark-adapted level before the bleaching laser exposures, a value that does not differ significantly from unity at the 5% level. </p><p>As noted above, a significant light- and Ca<sup>2+</sup>-insensitive pedestal of fluorescence remained after complete suppression of the circulating current. In some cells, this pedestal increased somewhat during the prolonged time course of the experiment. This may have reflected entry into the outer segment of dye previously compartmentalized in the inner segment, or slight movement of the outer segment relative to the laser spot. To attempt to compensate for this variability, the data were also analyzed by dividing the peak fluo-3 fluorescence for each cell by the corresponding value for this pedestal. When analyzed in this way, the normalized peak fluorescence fell significantly from 3.7 &#x000b1; 0.4 times the pedestal value at the start of the experiment to 2.4 &#x000b1; 0.3 after bleaching by the laser spot; a decrease of 35%. However, after regeneration of the photopigment with 11-<italic>cis-</italic>retinal, the normalized peak fluorescence rose again to 3.4 &#x000b1; 0.4, a value not significantly different from the original level in darkness. These measurements indicate that when the dark current and sensitivity were depressed after bleaching, the fluo-3 fluorescence signal was depressed also, whereas regeneration of the photopigment with 11-<italic>cis</italic>-retinal restored all of these parameters to near their original dark-adapted values.</p></sec></sec><sec id="Discussion"><title>discussion</title><sec><title>Measurement of Ca<sup>2+</sup>
+<sub>i</sub> Using the Spot Confocal Technique</title><p>The spot confocal technique used in this study offers several advantages when compared with other methods for the measurement of Ca<sup>2+</sup>
+<sub>i</sub>. First, the use of a single wavelength Ca<sup>2+</sup> indicator allows high time resolution since it is not necessary to change between excitation or emission wavelengths, as would be the case for a ratiometric measurement (<xref rid="B17" ref-type="bibr">Grynkiewicz et al., 1985</xref>; <xref rid="B47" ref-type="bibr">Minta et al., 1989</xref>). Furthermore, the accuracy of the measurement is not compromised at values of Ca<sup>2+</sup>
+<sub>i</sub> much lower than the dissociation constant, as would be the case for a ratiometric Ca<sup>2+</sup> indicator. Second, the confocally imaged laser spot can be used to excite and then collect dye fluorescence from a well-defined region of the outer segment (<xref rid="B11" ref-type="bibr">Escobar et al., 1994</xref>). This is of particular importance in the intact rod since the ellipsoid region of the inner segment loads heavily with fluo-3 AM and might otherwise contribute to the fluorescence signal. Finally, this method can also be used for cells with much smaller outer segments than the salamander rods employed in this study, such as amphibian cones (<xref rid="B40" ref-type="bibr">Matthews et al., 1996<italic>b</italic>
+</xref>) and mammalian rods. </p><p>A potential drawback of this single-wavelength measurement is that if significant fluo-3 bleaching were to take place during the laser exposure, the corresponding change in fluorescence would be indistinguishable from that caused by a real decrease in Ca<sup>2+</sup>
+<sub>i</sub>. However, several pieces of evidence indicate that significant dye bleaching is unlikely to have taken place during these measurements. First, if the total laser exposure is substantially reduced, either by attenuating the laser beam intensity or by presenting repeated brief laser pulses instead of a continuous exposure, then the time course of the subsequent decline in fluorescence is little affected. These approaches will each have reduced the laser exposure by at least a further order of magnitude. Second, if after the initial laser exposure the laser spot is displaced to a region of the outer segment that has not previously been excited directly, then fluo-3 fluorescence is depressed there also, even though the dye in this region has not previously been exposed to the laser spot. Third, repeated laser exposures show that fluo-3 fluorescence remains depressed after the first exposure of a dark-adapted rod to the laser and does not show a further relaxation within the time course of our measurements, consistent with the notion that Ca<sup>2+</sup>
+<sub>i</sub> has already reached its minimum level once the circulating current has been completely suppressed. Furthermore, the subsequent recovery of the fluorescence signal appears to take place in parallel with the gradual recovery of the dark current after photopigment bleaching. Finally, application of exogenous 11-<italic>cis</italic>-retinal restores the fluorescence signal along with circulating current and sensitivity. Taken together, these observations indicate that the decline in fluo-3 fluorescence during saturating illumination of a dark-adapted rod is a real physiological phenomenon and not an artifact of fluo-3 bleaching.</p><p>The excitation and emission wavelengths for fluo-3 fall relatively close to the peak of the absorbance spectrum for rhodopsin. Nonetheless, bleach-induced changes in self-screening by rhodopsin or its photoproducts seems unlikely to have affected the intensity of fluo-3 fluorescence significantly for two reasons. First, the absolute magnitude of such self-screening is relatively small, corresponding to little over 10% for randomly polarized transverse illumination of a dark-adapted salamander rod (<xref rid="B18" ref-type="bibr">Harosi, 1975</xref>). Second, the exciting beam was sufficiently intense that the vast majority of the photopigment within the area of the laser spot will have been bleached within a few milliseconds of the initial laser exposure. Subsequent fluorescence measurements taken a few seconds later once the circulating current was fully suppressed were made at a time when meta III, the only photoproduct that absorbs at wavelengths close to those of fluorescence excitation or emission, will not yet have appeared (<xref rid="B1" ref-type="bibr">Baumann, 1972</xref>; <xref rid="B10" ref-type="bibr">Donner and Hemil&#x000e4;, 1975</xref>). In contrast, tens of minutes later when Ca<sup>2+</sup>
+<sub>i</sub> was measured again once the responses of the bleached rod had stabilized, most of the meta III produced by the initial laser exposure will subsequently have decayed, and therefore will not have contributed to self-screening.</p></sec><sec><title>Light-induced Decline in Ca<sup>2+</sup>
+<sub>i</sub>
+</title><p>The decline in fluo-3 fluorescence that accompanies the exposure of a dark-adapted rod to the laser spot is consistent with the fall in Ca<sup>2+</sup>
+<sub>i</sub> known to take place during the photoresponse (<xref rid="B58" ref-type="bibr">Yau and Nakatani, 1985</xref>; <xref rid="B46" ref-type="bibr">McNaughton et al., 1986</xref>; <xref rid="B52" ref-type="bibr">Ratto et al., 1988</xref>; <xref rid="B15" ref-type="bibr">Gray-Keller and Detwiler, 1994</xref>; <xref rid="B43" ref-type="bibr">McCarthy et al., 1994</xref>). The fluorescence signal was best fitted by the sum of two exponential components of approximately equal amplitude but with time constants differing by a factor of nearly 10. These observations agree well with the results obtained previously by others, who have also found that the decline in Ca<sup>2+</sup>
+<sub>i</sub> can be best fitted by two or three exponential components (<xref rid="B15" ref-type="bibr">Gray-Keller and Detwiler, 1994</xref>; <xref rid="B44" ref-type="bibr">McCarthy et al., 1996</xref>). In contrast, the electrogenic current carried by Na<sup>+</sup>/Ca<sup>2+</sup>-K<sup>+</sup> exchange can in many cases be fitted adequately by just a single exponential (<xref rid="B58" ref-type="bibr">Yau and Nakatani, 1985</xref>). However, this discrepancy between the time courses of the fall in Ca<sup>2+</sup>
+<sub>i</sub> and the decline in the rate of Ca<sup>2+</sup> efflux through the exchanger may be more apparent than real. The fluorescent probe measures the change in Ca<sup>2+</sup>
+<sub>i</sub> spatially averaged over the volume of the outer segment encompassed by the laser spot, whose diameter approaches that of the outer segment. On the other hand, the exchange current is governed by Ca<sup>2+</sup>
+<sub>i</sub> near the plasma membrane. The difference in their time courses may reflect the restricted radial diffusion and slowly equilibrating low affinity buffering of Ca<sup>2+</sup> (<xref rid="B44" ref-type="bibr">McCarthy et al., 1996</xref>). It is also possible that the multiple components seen in the decline in Ca<sup>2+</sup>
+<sub>i</sub> represent the presence of multiple buffers of differing affinity and capacity within the rod outer segment (<xref rid="B20" ref-type="bibr">Hodgkin et al., 1987</xref>; <xref rid="B33" ref-type="bibr">Lagnado et al., 1992</xref>).</p><p>Calibration of these light-dependent fluorescence signals by exposure of the outer segment to solutions designed to raise or lower Ca<sup>2+</sup>
+<sub>i</sub> to levels much greater than or much less than the <italic>K</italic>
+<sub>d</sub> of fluo-3 indicated that Ca<sup>2+</sup>
+<sub>i</sub> falls from &#x0223c;670 nM in darkness to 30 nM during response saturation. These values are broadly consistent with those obtained previously using other Ca<sup>2+</sup> probes (<xref rid="B46" ref-type="bibr">McNaughton et al., 1986</xref>; <xref rid="B52" ref-type="bibr">Ratto et al., 1988</xref>; <xref rid="B15" ref-type="bibr">Gray-Keller and Detwiler, 1994</xref>; <xref rid="B43" ref-type="bibr">McCarthy et al., 1994</xref>; <xref rid="B59" ref-type="bibr">Younger et al., 1996</xref>). Since there was some uncertainty in the determination of <italic>F</italic>
+<sub>max</sub> as a result of the difficulty in reliably obtaining complete saturation of fluo-3 fluorescence when exposing the outer segment to ionomycin and high Ca<sup>2+</sup>, it seems possible that the value for Ca<sup>2+</sup>
+<sub>i</sub> in darkness may have been overestimated somewhat in our study. In contrast, after complete suppression of the circulating current, fluo-3 fluorescence was consistently greater than <italic>F</italic>
+<sub>min</sub> determined in situ by superfusing the outer segment with ionomycin and low Ca<sup>2+</sup>. Despite the bleach-induced saturation of the response by the preceding laser pulses, exposure to this solution resulted in a substantial increase in circulating current, indicating that Ca<sup>2+</sup>
+<sub>i</sub> must have been lowered further from its already substantially reduced value after bleaching. This qualitative observation adds support to our measurement of a value for Ca<sup>2+</sup>
+<sub>i</sub> significantly greater than zero even when the circulating current was completely suppressed. This contrasts with the much lower level of Ca<sup>2+</sup>
+<sub>i</sub> that would be expected if the Na<sup>+</sup>/Ca<sup>2+</sup>-K<sup>+</sup> exchanger were to attain thermodynamic equilibrium (<xref rid="B3" ref-type="bibr">Cervetto et al., 1989</xref>; <xref rid="B50" ref-type="bibr">Perry and McNaughton, 1993</xref>). Therefore, these results suggest either that the exchanger is inhibited before this equilibrium is attained (<xref rid="B54" ref-type="bibr">Schnetkamp et al., 1991<italic>a</italic>
+</xref>), or that under these conditions a residual Ca<sup>2+</sup> influx, perhaps from the inner segment, may balance a slow exchange extrusion of Ca<sup>2+</sup>.</p><p>Even when the outer segment was exposed to low Ca<sup>2+</sup> and ionomycin, considerable fluorescence could still be excited, despite negligible fluo-3 fluorescence under zero Ca<sup>2+</sup> conditions in the cuvette (Fig. <xref ref-type="fig" rid="F1">1</xref>, <italic>inset</italic>). It seems unlikely that this pedestal of fluorescence was caused by compartmentalization of fluo-3 within the outer segment (such as in the disks), since incubation with fluo-3 AM at 4&#x000b0;C or incorporation of fluo-3-free acid, both of which would be expected to reduce dye compartmentalization, produced a similar residual fluorescence after complete suppression of the circulating current. It is also difficult to account for this pedestal in terms of fluorescence from incompletely hydrolyzed dye, since fluo-3 exhibits negligible fluorescence in its esterified form. Instead, it seems more probable that this component of the total fluorescence may have originated from nonspecific binding of fluo-3 within the outer segment, perhaps to membrane phospholipids (<xref rid="B45" ref-type="bibr">McLaughlin and Brown, 1981</xref>) or to components of the cytoskeleton. Broadly comparable effects have been seen in previous studies that used fura-2 (<xref rid="B43" ref-type="bibr">McCarthy et al., 1994</xref>) or indo-1 (<xref rid="B15" ref-type="bibr">Gray-Keller and Detwiler, 1994</xref>). The pedestal of fluorescence that we observe appears to resemble most closely the slowly quenched pool of fura-2 fluorescence (<xref rid="B43" ref-type="bibr">McCarthy et al., 1994</xref>), since we saw no sign of the artifactual increases in Ca<sup>2+</sup>
+<sub>i</sub> that have been reported with free indo-1 (<xref rid="B15" ref-type="bibr">Gray-Keller and Detwiler, 1994</xref>). We therefore believe that once this pedestal is excluded, the light- and Ca<sup>2+</sup>-dependent fluo-3 fluorescence that remains is likely to represent a &#x0201c;well-behaved&#x0201d; measure of Ca<sup>2+</sup>
+<sub>i</sub>, as was the case for the rapidly quenched pool of fura-2 fluorescence (<xref rid="B43" ref-type="bibr">McCarthy et al., 1994</xref>).</p></sec><sec><title>Changes in Ca<sup>2+</sup>
+<sub>i</sub> After Photopigment Bleaching</title><p>The primary goal of this study was to investigate changes in rod outer segment Ca<sup>2+</sup>
+<sub>i</sub> after photopigment bleaching. Our measurements show that fluo-3 fluorescence is significantly depressed after bleaching, but recovers to a level not significantly different from the original dark-adapted value after regeneration of the photopigment with 11-<italic>cis</italic>-retinal, which also restores circulating current, response kinetics, and sensitivity (<xref rid="B25" ref-type="bibr">Jones et al., 1989</xref>; <xref rid="B8" ref-type="bibr">Corson et al., 1990</xref>). These systematic changes in fluorescence intensity indicate that the bleach-induced suppression of circulating current is accompanied by a persistent decrease in Ca<sup>2+</sup>
+<sub>i</sub>, which is restored when the photopigment is regenerated. Since bleach-induced changes in photoresponse sensitivity and kinetics are also abolished if this fall in Ca<sup>2+</sup>
+<sub>i</sub> is prevented (<xref rid="B41" ref-type="bibr">Matthews et al., 1996<italic>c</italic>
+</xref>), our observations are consistent with the notion that the reduction in Ca<sup>2+</sup>
+<sub>i</sub> after bleaching is responsible for the adaptation that ensues, and that its restoration after the regeneration of the photopigment leads to the recovery of dark-adapted sensitivity. </p><p>Outer segment Ca<sup>2+</sup>
+<sub>i</sub> is believed to be controlled by the dynamic balance between Ca<sup>2+</sup> influx through the light-sensitive channel (<xref rid="B57" ref-type="bibr">Yau and Nakatani, 1984</xref>; <xref rid="B19" ref-type="bibr">Hodgkin et al., 1985</xref>) and efflux via Na<sup>+</sup>/Ca<sup>2+</sup>-K<sup>+</sup> exchange (<xref rid="B58" ref-type="bibr">Yau and Nakatani, 1985</xref>; <xref rid="B20" ref-type="bibr">Hodgkin et al., 1987</xref>; <xref rid="B33" ref-type="bibr">Lagnado et al., 1992</xref>). Partial suppression of the circulating current by steady light is known to cause a graded decrease in Ca<sup>2+</sup>
+<sub>i</sub> (<xref rid="B15" ref-type="bibr">Gray-Keller and Detwiler, 1994</xref>, <xref rid="B16" ref-type="bibr">1996</xref>; <xref rid="B59" ref-type="bibr">Younger et al., 1996</xref>), which is believed to be largely, if not exclusively, responsible for light adaptation (<xref rid="B30" ref-type="bibr">Koutalos et al., 1995</xref>; <xref rid="B37" ref-type="bibr">Matthews, 1995</xref>, <xref rid="B38" ref-type="bibr">1996</xref>; <xref rid="B31" ref-type="bibr">Koutalos and Yau, 1996</xref>). It is difficult in our experiments to make a quantitative comparison between the magnitude of the fall in Ca<sup>2+</sup>
+<sub>i</sub> and the degree of suppression of the circulating current by bleaching, since the laser spot excites fluorescence and bleaches pigment within only a small region of the outer segment, while the suction pipette collects a fixed fraction of the entire outer segment current. The suppression of circulating current is believed to be closely localized to the site of illumination or bleaching (<xref rid="B35" ref-type="bibr">Lamb et al., 1981</xref>; <xref rid="B2" ref-type="bibr">Baylor and Lamb, 1982</xref>; <xref rid="B5" ref-type="bibr">Cornwall et al., 1990</xref>); thus, it seems likely that the degree of current suppression in the area of the outer segment illuminated by the laser spot will have been rather greater than indicated by the suction pipette recording. Nonetheless, the partial suppression of both circulating current and fluo-3 fluorescence by bleaching and their near-complete restoration by 11-<italic>cis</italic>-retinal suggests that they are modulated in a parallel fashion during the photopigment cycle. This is consistent with the notion that the persistent activation of the transduction cascade that follows bleaching (<xref rid="B4" ref-type="bibr">Cornwall and Fain, 1994</xref>; <xref rid="B7" ref-type="bibr">Cornwall et al., 1995</xref>) leads, through partial suppression of the circulating current, to a reduction in Ca<sup>2+</sup> influx and a corresponding fall in Ca<sup>2+</sup>
+<sub>i</sub>. This bleach-induced fall in Ca<sup>2+</sup>
+<sub>i</sub> will not only accelerate the rate of cGMP production by guanylyl cyclase (<xref rid="B29" ref-type="bibr">Koch and Stryer, 1988</xref>; <xref rid="B14" ref-type="bibr">Gorczyca et al., 1994</xref>), but also act on the cyclic nucleotide&#x02013;gated channel (<xref rid="B21" ref-type="bibr">Hsu and Molday, 1993</xref>; <xref rid="B48" ref-type="bibr">Nakatani et al., 1995</xref>) and at other sites earlier in the transduction cascade (<xref rid="B28" ref-type="bibr">Kawamura and Murakami, 1991</xref>; <xref rid="B27" ref-type="bibr">Kawamura, 1993</xref>; <xref rid="B32" ref-type="bibr">Lagnado and Baylor, 1994</xref>) to produce the characteristic adaptational changes in sensitivity and response waveform that accompany bleaching in the isolated rod, in much the same way as does steady light.</p></sec></sec></body><back><ack><p>We thank Dr. J. Vergara for his assistance with early experiments and for generous advice with implementing the spot confocal technique, Mr. Z. Maler for construction of equipment, and Dr. R.C. Crouch for the provision of 11-<italic>cis</italic>-retinal.</p><p>This work was supported by grants EY-01844, EY-07026, and EY-01157 from the National Eye Institute of the National Institutes of Health, and by a grant from the Wellcome Trust. </p></ack><ref-list><title>references</title><ref id="B1"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Baumann</surname><given-names>C</given-names></name></person-group>
+<article-title>Kinetics of slow thermal reactions during the bleaching of rhodopsin in the perfused frog retina</article-title>
+<source>J Physiol (Camb)</source>
+<year>1972</year>
+<volume>222</volume>
+<fpage>643</fpage>
+<lpage>663</lpage>
+<pub-id pub-id-type="pmid">4537508</pub-id></element-citation></ref><ref id="B2"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Baylor</surname><given-names>DA</given-names></name><name><surname>Lamb</surname><given-names>TD</given-names></name></person-group>
+<article-title>Local effects of bleaching in retinal rods of the toad</article-title>
+<source>J Physiol (Camb)</source>
+<year>1982</year>
+<volume>328</volume>
+<fpage>49</fpage>
+<lpage>71</lpage>
+<pub-id pub-id-type="pmid">7131322</pub-id></element-citation></ref><ref id="B3"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Cervetto</surname><given-names>L</given-names></name><name><surname>Lagnado</surname><given-names>L</given-names></name><name><surname>Perry</surname><given-names>RJ</given-names></name><name><surname>Robinson</surname><given-names>DW</given-names></name><name><surname>McNaughton</surname><given-names>PA</given-names></name></person-group>
+<article-title>Extrusion of calcium from rod outer segments is driven by both sodium and potassium gradients</article-title>
+<source>Nature</source>
+<year>1989</year>
+<volume>337</volume>
+<fpage>740</fpage>
+<lpage>743</lpage>
+<pub-id pub-id-type="pmid">2537471</pub-id></element-citation></ref><ref id="B4"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Cornwall</surname><given-names>MC</given-names></name><name><surname>Fain</surname><given-names>GL</given-names></name></person-group>
+<article-title>Bleached pigment activates transduction in isolated rods of the salamander retina</article-title>
+<source>J Physiol (Camb)</source>
+<year>1994</year>
+<volume>480</volume>
+<fpage>261</fpage>
+<lpage>279</lpage>
+<pub-id pub-id-type="pmid">7532713</pub-id></element-citation></ref><ref id="B5"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Cornwall</surname><given-names>MC</given-names></name><name><surname>Fein</surname><given-names>A</given-names></name><name><surname>MacNichol</surname><given-names>EF</given-names></name></person-group>
+<article-title>Cellular mechanisms that underlie bleaching and background adaptation</article-title>
+<source>J Gen Physiol</source>
+<year>1990</year>
+<volume>96</volume>
+<fpage>345</fpage>
+<lpage>372</lpage>
+<pub-id pub-id-type="pmid">1698916</pub-id></element-citation></ref><ref id="B6"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Cornwall</surname><given-names>MC</given-names></name><name><surname>MacNichol</surname><given-names>EF</given-names></name><name><surname>Fein</surname><given-names>A</given-names></name></person-group>
+<article-title>Absorptance and spectral sensitivity measurements of rod photoreceptors of the tiger salamander, <italic>Ambystoma tigrinum. </italic>
+</article-title>
+<source>Vision Res</source>
+<year>1984</year>
+<volume>24</volume>
+<fpage>1651</fpage>
+<lpage>1659</lpage>
+<pub-id pub-id-type="pmid">6533990</pub-id></element-citation></ref><ref id="B7"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Cornwall</surname><given-names>MC</given-names></name><name><surname>Matthews</surname><given-names>HR</given-names></name><name><surname>Crouch</surname><given-names>RK</given-names></name><name><surname>Fain</surname><given-names>GL</given-names></name></person-group>
+<article-title>Bleached pigment activates transduction in salamander cones</article-title>
+<source>J Gen Physiol</source>
+<year>1995</year>
+<volume>106</volume>
+<fpage>543</fpage>
+<lpage>557</lpage>
+<pub-id pub-id-type="pmid">8786347</pub-id></element-citation></ref><ref id="B8"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Corson</surname><given-names>DW</given-names></name><name><surname>Cornwall</surname><given-names>MC</given-names></name><name><surname>MacNichol</surname><given-names>EF</given-names></name><name><surname>Jin</surname><given-names>J</given-names></name><name><surname>Johnson</surname><given-names>R</given-names></name><name><surname>Derguini</surname><given-names>F</given-names></name><name><surname>Crouch</surname><given-names>RK</given-names></name><name><surname>Nakanishi</surname><given-names>K</given-names></name></person-group>
+<article-title>Sensitization of bleached rod photoreceptors by 11-<italic>cis</italic>-locked analogs of retinal</article-title>
+<source>Proc Natl Acad Sci USA</source>
+<year>1990</year>
+<volume>87</volume>
+<fpage>6823</fpage>
+<lpage>6827</lpage>
+<pub-id pub-id-type="pmid">2395874</pub-id></element-citation></ref><ref id="B9"><mixed-citation publication-type="other">Dartnall, H.J.A. 1972. Photosensitivity. <italic>In</italic> Photochemistry of Vision. H.J.A. Dartnall, editor. Springer Verlag, New York. 122&#x02013;145.</mixed-citation></ref><ref id="B10"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Donner</surname><given-names>KO</given-names></name><name><surname>Hemil&#x000e4;</surname><given-names>S</given-names></name></person-group>
+<article-title>Kinetics of long-lived rhodopsin photo-products in the frog retina as a function of the amount bleached</article-title>
+<source>Vision Res</source>
+<year>1975</year>
+<volume>15</volume>
+<fpage>985</fpage>
+<lpage>995</lpage>
+<pub-id pub-id-type="pmid">1080927</pub-id></element-citation></ref><ref id="B11"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Escobar</surname><given-names>AL</given-names></name><name><surname>Monck</surname><given-names>JR</given-names></name><name><surname>Fernandez</surname><given-names>JM</given-names></name><name><surname>Vergara</surname><given-names>JL</given-names></name></person-group>
+<article-title>Localization of the site of Ca<sup>2+</sup>release at the level of a single sarcomere in skeletal-muscle fibers</article-title>
+<source>Nature</source>
+<year>1994</year>
+<volume>367</volume>
+<fpage>739</fpage>
+<lpage>741</lpage>
+<pub-id pub-id-type="pmid">8107869</pub-id></element-citation></ref><ref id="B12"><mixed-citation publication-type="other">Fain, G.L., and M.C. Cornwall. 1993. Light and dark adaptation in vertebrate photoreceptors. <italic>In</italic> Contrast Sensitivity: From Receptors to Clinic. R. Shapley and D.-K. Lam, editors. MIT Press, Boston, MA. pp. 3&#x02013;32.</mixed-citation></ref><ref id="B13"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Fain</surname><given-names>GL</given-names></name><name><surname>Lamb</surname><given-names>TD</given-names></name><name><surname>Matthews</surname><given-names>HR</given-names></name><name><surname>Murphy</surname><given-names>RLW</given-names></name></person-group>
+<article-title>Cytoplasmic calcium concentration as the messenger for light adaptation in salamander rods</article-title>
+<source>J Physiol (Camb)</source>
+<year>1989</year>
+<volume>416</volume>
+<fpage>215</fpage>
+<lpage>243</lpage>
+<pub-id pub-id-type="pmid">2607449</pub-id></element-citation></ref><ref id="B14"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Gorczyca</surname><given-names>WA</given-names></name><name><surname>Graykeller</surname><given-names>MP</given-names></name><name><surname>Detwiler</surname><given-names>PB</given-names></name><name><surname>Palczewski</surname><given-names>K</given-names></name></person-group>
+<article-title>Purification and physiological evaluation of a guanylate-cyclase activating protein from retinal rods</article-title>
+<source>Proc Natl Acad Sci USA</source>
+<year>1994</year>
+<volume>91</volume>
+<fpage>4014</fpage>
+<lpage>4018</lpage>
+<pub-id pub-id-type="pmid">7909609</pub-id></element-citation></ref><ref id="B15"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Gray-Keller</surname><given-names>MP</given-names></name><name><surname>Detwiler</surname><given-names>PB</given-names></name></person-group>
+<article-title>The calcium feedback signal in the phototransduction cascade of vertebrate rods</article-title>
+<source>Neuron</source>
+<year>1994</year>
+<volume>13</volume>
+<fpage>849</fpage>
+<lpage>861</lpage>
+<pub-id pub-id-type="pmid">7524559</pub-id></element-citation></ref><ref id="B16"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Gray-Keller</surname><given-names>MP</given-names></name><name><surname>Detwiler</surname><given-names>PB</given-names></name></person-group>
+<article-title>Ca<sup>2+</sup>dependence of dark-adapted and light-adapted flash responses in rod photoreceptors</article-title>
+<source>Neuron</source>
+<year>1996</year>
+<volume>17</volume>
+<fpage>323</fpage>
+<lpage>331</lpage>
+<pub-id pub-id-type="pmid">8780655</pub-id></element-citation></ref><ref id="B17"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Grynkiewicz</surname><given-names>G</given-names></name><name><surname>Poenie</surname><given-names>M</given-names></name><name><surname>Tsien</surname><given-names>RY</given-names></name></person-group>
+<article-title>A new generation of Ca<sup>2+</sup>indicators with greatly improved fluorescence properties</article-title>
+<source>J Biol Chem</source>
+<year>1985</year>
+<volume>260</volume>
+<fpage>3440</fpage>
+<lpage>3450</lpage>
+<pub-id pub-id-type="pmid">3838314</pub-id></element-citation></ref><ref id="B18"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Harosi</surname><given-names>FI</given-names></name></person-group>
+<article-title>Absorption spectra and linear dichroism of some amphibian photoreceptors</article-title>
+<source>J Gen Physiol</source>
+<year>1975</year>
+<volume>66</volume>
+<fpage>357</fpage>
+<lpage>382</lpage>
+<pub-id pub-id-type="pmid">808586</pub-id></element-citation></ref><ref id="B19"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Hodgkin</surname><given-names>AL</given-names></name><name><surname>McNaughton</surname><given-names>PA</given-names></name><name><surname>Nunn</surname><given-names>BJ</given-names></name></person-group>
+<article-title>The ionic selectivity and calcium dependence of the light-sensitive pathway in toad rods</article-title>
+<source>J Physiol (Camb)</source>
+<year>1985</year>
+<volume>358</volume>
+<fpage>447</fpage>
+<lpage>468</lpage>
+<pub-id pub-id-type="pmid">2580087</pub-id></element-citation></ref><ref id="B20"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Hodgkin</surname><given-names>AL</given-names></name><name><surname>McNaughton</surname><given-names>PA</given-names></name><name><surname>Nunn</surname><given-names>BJ</given-names></name></person-group>
+<article-title>Measurement of sodium-calcium exchange in salamander rods</article-title>
+<source>J Physiol (Camb)</source>
+<year>1987</year>
+<volume>391</volume>
+<fpage>347</fpage>
+<lpage>370</lpage>
+<pub-id pub-id-type="pmid">2451008</pub-id></element-citation></ref><ref id="B21"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Hsu</surname><given-names>Y-T</given-names></name><name><surname>Molday</surname><given-names>RS</given-names></name></person-group>
+<article-title>Modulation of the cGMP-gated channel of rod photoreceptor cells by calmodulin</article-title>
+<source>Nature</source>
+<year>1993</year>
+<volume>361</volume>
+<fpage>76</fpage>
+<lpage>79</lpage>
+<pub-id pub-id-type="pmid">7678445</pub-id></element-citation></ref><ref id="B22"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Hubbard</surname><given-names>R</given-names></name><name><surname>Brown</surname><given-names>PK</given-names></name><name><surname>Bownds</surname><given-names>D</given-names></name></person-group>
+<article-title>Methodology of vitamin A and visual pigments</article-title>
+<source>Methods Enzymol</source>
+<year>1971</year>
+<volume>18C</volume>
+<fpage>615</fpage>
+<lpage>653</lpage>
+</element-citation></ref><ref id="B23"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Jin</surname><given-names>J</given-names></name><name><surname>Crouch</surname><given-names>RK</given-names></name><name><surname>Corson</surname><given-names>DW</given-names></name><name><surname>Katz</surname><given-names>BM</given-names></name><name><surname>MacNichol</surname><given-names>EF</given-names></name><name><surname>Cornwall</surname><given-names>MC</given-names></name></person-group>
+<article-title>Noncovalent occupancy of the retinal-binding pocket of opsin diminishes bleaching adaptation of retinal cones</article-title>
+<source>Neuron</source>
+<year>1993</year>
+<volume>11</volume>
+<fpage>513</fpage>
+<lpage>522</lpage>
+<pub-id pub-id-type="pmid">8398144</pub-id></element-citation></ref><ref id="B24"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Jones</surname><given-names>GJ</given-names></name><name><surname>Cornwall</surname><given-names>MC</given-names></name><name><surname>Fain</surname><given-names>GL</given-names></name></person-group>
+<article-title>Equivalences for background and bleaching desensitization in isolated rod photoreceptors of the larval tiger salamander</article-title>
+<source>J Gen Physiol</source>
+<year>1996</year>
+<volume>108</volume>
+<fpage>333</fpage>
+<lpage>340</lpage>
+<pub-id pub-id-type="pmid">8894981</pub-id></element-citation></ref><ref id="B25"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Jones</surname><given-names>GJ</given-names></name><name><surname>Crouch</surname><given-names>RK</given-names></name><name><surname>Wiggert</surname><given-names>B</given-names></name><name><surname>Cornwall</surname><given-names>MC</given-names></name><name><surname>Chader</surname><given-names>GJ</given-names></name></person-group>
+<article-title>Retinoid requirements for recovery of sensitivity after visual-pigment bleaching in isolated photoreceptors</article-title>
+<source>Proc Natl Acad Sci USA</source>
+<year>1989</year>
+<volume>86</volume>
+<fpage>9606</fpage>
+<lpage>9610</lpage>
+<pub-id pub-id-type="pmid">2594788</pub-id></element-citation></ref><ref id="B26"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Jones</surname><given-names>GJ</given-names></name><name><surname>Fein</surname><given-names>A</given-names></name><name><surname>MacNichol</surname><given-names>EFJ</given-names></name><name><surname>Cornwall</surname><given-names>MC</given-names></name></person-group>
+<article-title>Visual pigment bleaching in isolated salamander retinal cones. Microspectrophotometry and light adaptation</article-title>
+<source>J Gen Physiol</source>
+<year>1993</year>
+<volume>102</volume>
+<fpage>483</fpage>
+<lpage>502</lpage>
+<pub-id pub-id-type="pmid">8245820</pub-id></element-citation></ref><ref id="B27"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Kawamura</surname><given-names>S</given-names></name></person-group>
+<article-title>Rhodopsin phosphorylation as a mechanism of cyclic GMP phosphodiesterase regulation by S-modulin</article-title>
+<source>Nature</source>
+<year>1993</year>
+<volume>362</volume>
+<fpage>855</fpage>
+<lpage>857</lpage>
+<pub-id pub-id-type="pmid">8386803</pub-id></element-citation></ref><ref id="B28"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Kawamura</surname><given-names>S</given-names></name><name><surname>Murakami</surname><given-names>M</given-names></name></person-group>
+<article-title>Calcium-dependent regulation of cyclic GMP phosphodiesterase by a protein from frog retinal rods</article-title>
+<source>Nature</source>
+<year>1991</year>
+<volume>349</volume>
+<fpage>420</fpage>
+<lpage>423</lpage>
+<pub-id pub-id-type="pmid">1846944</pub-id></element-citation></ref><ref id="B29"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Koch</surname><given-names>K-W</given-names></name><name><surname>Stryer</surname><given-names>L</given-names></name></person-group>
+<article-title>Highly cooperative feedback control of retinal rod guanylate cyclase by calcium ions</article-title>
+<source>Nature</source>
+<year>1988</year>
+<volume>334</volume>
+<fpage>64</fpage>
+<lpage>66</lpage>
+<pub-id pub-id-type="pmid">2455233</pub-id></element-citation></ref><ref id="B30"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Koutalos</surname><given-names>Y</given-names></name><name><surname>Nakatani</surname><given-names>K</given-names></name><name><surname>Yau</surname><given-names>K-W</given-names></name></person-group>
+<article-title>The cGMP-phosphodiesterase and its contribution to sensitivity regulation in retinal rods</article-title>
+<source>J Gen Physiol</source>
+<year>1995</year>
+<volume>106</volume>
+<fpage>891</fpage>
+<lpage>921</lpage>
+<pub-id pub-id-type="pmid">8648297</pub-id></element-citation></ref><ref id="B31"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Koutalos</surname><given-names>Y</given-names></name><name><surname>Yau</surname><given-names>K-W</given-names></name></person-group>
+<article-title>Regulation of sensitivity in vertebrate rod photoreceptors by calcium</article-title>
+<source>Trends Neurosci</source>
+<year>1996</year>
+<volume>19</volume>
+<fpage>73</fpage>
+<lpage>80</lpage>
+<pub-id pub-id-type="pmid">8820871</pub-id></element-citation></ref><ref id="B32"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Lagnado</surname><given-names>L</given-names></name><name><surname>Baylor</surname><given-names>DA</given-names></name></person-group>
+<article-title>Calcium controls light-triggered formation of catalytically active rhodopsin</article-title>
+<source>Nature</source>
+<year>1994</year>
+<volume>367</volume>
+<fpage>273</fpage>
+<lpage>277</lpage>
+<pub-id pub-id-type="pmid">8121492</pub-id></element-citation></ref><ref id="B33"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Lagnado</surname><given-names>L</given-names></name><name><surname>Cervetto</surname><given-names>L</given-names></name><name><surname>McNaughton</surname><given-names>PA</given-names></name></person-group>
+<article-title>Calcium homeostasis in the outer segments of retinal rods from the tiger salamander</article-title>
+<source>J Physiol (Camb)</source>
+<year>1992</year>
+<volume>455</volume>
+<fpage>111</fpage>
+<lpage>142</lpage>
+<pub-id pub-id-type="pmid">1282928</pub-id></element-citation></ref><ref id="B34"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Lamb</surname><given-names>TD</given-names></name><name><surname>Matthews</surname><given-names>HR</given-names></name><name><surname>Torre</surname><given-names>V</given-names></name></person-group>
+<article-title>Incorporation of calcium buffers into salamander retinal rods: a rejection of the calcium hypothesis of phototransduction</article-title>
+<source>J Physiol (Camb)</source>
+<year>1986</year>
+<volume>372</volume>
+<fpage>315</fpage>
+<lpage>349</lpage>
+<pub-id pub-id-type="pmid">3088263</pub-id></element-citation></ref><ref id="B35"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Lamb</surname><given-names>TD</given-names></name><name><surname>McNaughton</surname><given-names>PA</given-names></name><name><surname>Yau</surname><given-names>K-W</given-names></name></person-group>
+<article-title>Spatial spread of activation and background desensitization in toad rod outer segments</article-title>
+<source>J Physiol (Camb)</source>
+<year>1981</year>
+<volume>319</volume>
+<fpage>463</fpage>
+<lpage>496</lpage>
+<pub-id pub-id-type="pmid">6798202</pub-id></element-citation></ref><ref id="B36"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Leibrock</surname><given-names>CS</given-names></name><name><surname>Reuter</surname><given-names>T</given-names></name><name><surname>Lamb</surname><given-names>TD</given-names></name></person-group>
+<article-title>Dark-adaptation of toad rod photoreceptors following small bleaches</article-title>
+<source>Vision Res</source>
+<year>1994</year>
+<volume>34</volume>
+<fpage>2787</fpage>
+<lpage>2800</lpage>
+<pub-id pub-id-type="pmid">7975314</pub-id></element-citation></ref><ref id="B37"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Matthews</surname><given-names>HR</given-names></name></person-group>
+<article-title>Effects of lowered cytoplasmic calcium concentration and light on the responses of salamander rod photoreceptors</article-title>
+<source>J Physiol (Camb)</source>
+<year>1995</year>
+<volume>484</volume>
+<fpage>267</fpage>
+<lpage>286</lpage>
+<pub-id pub-id-type="pmid">7541466</pub-id></element-citation></ref><ref id="B38"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Matthews</surname><given-names>HR</given-names></name></person-group>
+<article-title>Static and dynamic actions of cytoplasmic Ca<sup>2+</sup>in the adaptation of responses to saturating flashes in salamander rods</article-title>
+<source>J Physiol (Camb)</source>
+<year>1996</year>
+<volume>490</volume>
+<fpage>1</fpage>
+<lpage>15</lpage>
+<pub-id pub-id-type="pmid">8745275</pub-id></element-citation></ref><ref id="B39"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Matthews</surname><given-names>HR</given-names></name><name><surname>Cornwall</surname><given-names>MC</given-names></name><name><surname>Fain</surname><given-names>GL</given-names></name></person-group>
+<article-title>Persistent activation of transducin by bleached rhodopsin in salamander rods</article-title>
+<source>J Gen Physiol</source>
+<year>1996a</year>
+<volume>108</volume>
+<fpage>557</fpage>
+<lpage>563</lpage>
+<pub-id pub-id-type="pmid">8972393</pub-id></element-citation></ref><ref id="B40"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Matthews</surname><given-names>HR</given-names></name><name><surname>Cornwall</surname><given-names>MC</given-names></name><name><surname>Fain</surname><given-names>GL</given-names></name></person-group>
+<article-title>Simultaneous measurement of Ca<sup>2+</sup>
+<sub>i</sub>and photocurrent from rod and cone photoreceptors isolated from the tiger salamander</article-title>
+<source>J Physiol (Camb)</source>
+<year>1996b</year>
+<volume>495</volume>
+<fpage>P178</fpage>
+</element-citation></ref><ref id="B41"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Matthews</surname><given-names>HR</given-names></name><name><surname>Fain</surname><given-names>GL</given-names></name><name><surname>Cornwall</surname><given-names>MC</given-names></name></person-group>
+<article-title>Role of cytoplasmic calcium concentration in the bleaching adaptation of salamander cone photoreceptors</article-title>
+<source>J Physiol (Camb)</source>
+<year>1996c</year>
+<volume>490</volume>
+<fpage>293</fpage>
+<lpage>303</lpage>
+<pub-id pub-id-type="pmid">8821129</pub-id></element-citation></ref><ref id="B42"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Matthews</surname><given-names>HR</given-names></name><name><surname>Murphy</surname><given-names>RLW</given-names></name><name><surname>Fain</surname><given-names>GL</given-names></name><name><surname>Lamb</surname><given-names>TD</given-names></name></person-group>
+<article-title>Photoreceptor light adaptation is mediated by cytoplasmic calcium concentration</article-title>
+<source>Nature</source>
+<year>1988</year>
+<volume>334</volume>
+<fpage>67</fpage>
+<lpage>69</lpage>
+<pub-id pub-id-type="pmid">2455234</pub-id></element-citation></ref><ref id="B43"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>McCarthy</surname><given-names>ST</given-names></name><name><surname>Younger</surname><given-names>JP</given-names></name><name><surname>Owen</surname><given-names>WG</given-names></name></person-group>
+<article-title>Free calcium concentrations in bullfrog rods determined in the presence of multiple forms of fura-2</article-title>
+<source>Biophys J</source>
+<year>1994</year>
+<volume>67</volume>
+<fpage>2076</fpage>
+<lpage>2089</lpage>
+<pub-id pub-id-type="pmid">7858145</pub-id></element-citation></ref><ref id="B44"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>McCarthy</surname><given-names>ST</given-names></name><name><surname>Younger</surname><given-names>JP</given-names></name><name><surname>Owen</surname><given-names>WG</given-names></name></person-group>
+<article-title>Dynamic, spatially nonuniform calcium regulation in frog rods exposed to light</article-title>
+<source>J Neurophysiol</source>
+<year>1996</year>
+<volume>76</volume>
+<fpage>1991</fpage>
+<lpage>2004</lpage>
+<pub-id pub-id-type="pmid">8890309</pub-id></element-citation></ref><ref id="B45"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>McLaughlin</surname><given-names>S</given-names></name><name><surname>Brown</surname><given-names>J</given-names></name></person-group>
+<article-title>Diffusion of calcium ions in retinal rods: a theoretical calculation</article-title>
+<source>J Gen Physiol</source>
+<year>1981</year>
+<volume>77</volume>
+<fpage>475</fpage>
+<lpage>487</lpage>
+<pub-id pub-id-type="pmid">7241090</pub-id></element-citation></ref><ref id="B46"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>McNaughton</surname><given-names>PA</given-names></name><name><surname>Cervetto</surname><given-names>L</given-names></name><name><surname>Nunn</surname><given-names>BJ</given-names></name></person-group>
+<article-title>Measurement of the intracellular free calcium concentration in salamander rods</article-title>
+<source>Nature</source>
+<year>1986</year>
+<volume>322</volume>
+<fpage>261</fpage>
+<lpage>263</lpage>
+<pub-id pub-id-type="pmid">21898960</pub-id></element-citation></ref><ref id="B47"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Minta</surname><given-names>A</given-names></name><name><surname>Kao</surname><given-names>JP</given-names></name><name><surname>Tsien</surname><given-names>RY</given-names></name></person-group>
+<article-title>Fluorescent indicators for cytosolic calcium based on rhodamine and fluorescein chromophores</article-title>
+<source>J Biol Chem</source>
+<year>1989</year>
+<volume>264</volume>
+<fpage>8171</fpage>
+<lpage>8178</lpage>
+<pub-id pub-id-type="pmid">2498308</pub-id></element-citation></ref><ref id="B48"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Nakatani</surname><given-names>K</given-names></name><name><surname>Koutalos</surname><given-names>Y</given-names></name><name><surname>Yau</surname><given-names>KW</given-names></name></person-group>
+<article-title>Ca<sup>2+</sup>modulation of the cGMP-gated channel of bullfrog retinal rod photoreceptors</article-title>
+<source>J Physiol (Camb)</source>
+<year>1995</year>
+<volume>484</volume>
+<fpage>69</fpage>
+<lpage>76</lpage>
+<pub-id pub-id-type="pmid">7541463</pub-id></element-citation></ref><ref id="B49"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Nakatani</surname><given-names>K</given-names></name><name><surname>Yau</surname><given-names>K-W</given-names></name></person-group>
+<article-title>Calcium and light adaptation in retinal rods and cones</article-title>
+<source>Nature</source>
+<year>1988</year>
+<volume>334</volume>
+<fpage>69</fpage>
+<lpage>71</lpage>
+<pub-id pub-id-type="pmid">3386743</pub-id></element-citation></ref><ref id="B50"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Perry</surname><given-names>RJ</given-names></name><name><surname>McNaughton</surname><given-names>PA</given-names></name></person-group>
+<article-title>The mechanism of ion-transport by the Na<sup>+</sup>-Ca<sup>2+</sup>,K<sup>+</sup>exchange in rods isolated from the salamander retina</article-title>
+<source>J Physiol (Camb)</source>
+<year>1993</year>
+<volume>466</volume>
+<fpage>443</fpage>
+<lpage>480</lpage>
+<pub-id pub-id-type="pmid">8410702</pub-id></element-citation></ref><ref id="B51"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Pugh</surname><given-names>EN</given-names></name></person-group>
+<article-title>Rhodopsin flash photolysis in man</article-title>
+<source>J Physiol (Camb)</source>
+<year>1975</year>
+<volume>248</volume>
+<fpage>393</fpage>
+<lpage>412</lpage>
+<pub-id pub-id-type="pmid">1151790</pub-id></element-citation></ref><ref id="B52"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Ratto</surname><given-names>GM</given-names></name><name><surname>Payne</surname><given-names>R</given-names></name><name><surname>Owen</surname><given-names>WG</given-names></name><name><surname>Tsien</surname><given-names>RY</given-names></name></person-group>
+<article-title>The concentration of cytosolic free calcium in vertebrate rod outer segments measured with fura-2</article-title>
+<source>J Neurosci</source>
+<year>1988</year>
+<volume>8</volume>
+<fpage>3240</fpage>
+<lpage>3246</lpage>
+<pub-id pub-id-type="pmid">2459322</pub-id></element-citation></ref><ref id="B53"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Sampath</surname><given-names>AP</given-names></name><name><surname>Matthews</surname><given-names>HR</given-names></name><name><surname>Cornwall</surname><given-names>MC</given-names></name><name><surname>Fain</surname><given-names>GL</given-names></name></person-group>
+<article-title>Bleached pigment produces a maintained decrease in outer segment Ca<sup>2+</sup>in salamander rods</article-title>
+<source>Invest Ophthalmol Vis Sci</source>
+<year>1997</year>
+<volume>38</volume>
+<fpage>S722</fpage>
+</element-citation></ref><ref id="B54"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Schnetkamp</surname><given-names>PP</given-names></name><name><surname>Basu</surname><given-names>DK</given-names></name><name><surname>Li</surname><given-names>XB</given-names></name><name><surname>Szerencsei</surname><given-names>RT</given-names></name></person-group>
+<article-title>Regulation of intracellular free Ca<sup>2+</sup> concentration in the outer segments of bovine retinal rods by Na-Ca-K exchange measured with fluo-3. II. Thermodynamic competence of transmembrane Na<sup>+</sup> and K<sup>+</sup> gradients and inactivation of Na<sup>+</sup>-dependent Ca<sup>2+</sup>extrusion</article-title>
+<source>J Biol Chem</source>
+<year>1991a</year>
+<volume>266</volume>
+<fpage>22983</fpage>
+<lpage>22990</lpage>
+<pub-id pub-id-type="pmid">1744093</pub-id></element-citation></ref><ref id="B55"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Schnetkamp</surname><given-names>PP</given-names></name><name><surname>Li</surname><given-names>XB</given-names></name><name><surname>Basu</surname><given-names>DK</given-names></name><name><surname>Szerencsei</surname><given-names>RT</given-names></name></person-group>
+<article-title>Regulation of free cytosolic Ca<sup>2+</sup>concentration in the outer segments of bovine retinal rods by Na-Ca-K exchange measured with fluo-3. I. Efficiency of transport and interactions between cations</article-title>
+<source>J Biol Chem</source>
+<year>1991b</year>
+<volume>266</volume>
+<fpage>22975</fpage>
+<lpage>22982</lpage>
+<pub-id pub-id-type="pmid">1744092</pub-id></element-citation></ref><ref id="B56"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Williams</surname><given-names>TP</given-names></name></person-group>
+<article-title>Photoreversal of rhodopsin bleaching</article-title>
+<source>J Gen Physiol</source>
+<year>1964</year>
+<volume>47</volume>
+<fpage>679</fpage>
+<lpage>689</lpage>
+<pub-id pub-id-type="pmid">14127606</pub-id></element-citation></ref><ref id="B57"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Yau</surname><given-names>K-W</given-names></name><name><surname>Nakatani</surname><given-names>K</given-names></name></person-group>
+<article-title>Cation selectivity of light-sensitive conductance in retinal rods</article-title>
+<source>Nature</source>
+<year>1984</year>
+<volume>309</volume>
+<fpage>352</fpage>
+<lpage>354</lpage>
+<pub-id pub-id-type="pmid">6427629</pub-id></element-citation></ref><ref id="B58"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Yau</surname><given-names>K-W</given-names></name><name><surname>Nakatani</surname><given-names>K</given-names></name></person-group>
+<article-title>Light-induced reduction of cytoplasmic free calcium in retinal rod outer segment</article-title>
+<source>Nature</source>
+<year>1985</year>
+<volume>313</volume>
+<fpage>579</fpage>
+<lpage>582</lpage>
+<pub-id pub-id-type="pmid">2578628</pub-id></element-citation></ref><ref id="B59"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Younger</surname><given-names>JP</given-names></name><name><surname>McCarthy</surname><given-names>ST</given-names></name><name><surname>Owen</surname><given-names>WG</given-names></name></person-group>
+<article-title>Light-dependent control of calcium in intact rods of the bullfrog rana-catesbeiana</article-title>
+<source>J Neurophysiol</source>
+<year>1996</year>
+<volume>75</volume>
+<fpage>354</fpage>
+<lpage>366</lpage>
+<pub-id pub-id-type="pmid">8822563</pub-id></element-citation></ref></ref-list></back><floats-group><fig id="F1" position="float"><label>Figure 1</label><caption><p>Measurement of Ca<sup>2+</sup>
+<sub>i</sub> from an isolated salamander rod using the spot confocal technique. The beam from an argon ion laser (514 nm line) illuminates the pinhole of the spatial filter, is recollimated, and enters the inverted microscope through the epi-fluorescence port. A dichroic mirror (525 nm) redirects the beam through the oil-immersion objective lens (40&#x000d7;, 1.3 NA) to illuminate a spot (diameter 7.7 &#x003bc;m) on the outer segment of a rod loaded with fluo-3 AM whose inner segment is held in a suction pipette. The fluo-3 fluorescence evoked by the laser spot passes through the emission filter (530 nm long-pass) and is collected confocally by a PIN photodiode. (<italic>inset</italic>) Calibration curve measured in situ using fluo-3-free acid solutions of known Ca<sup>2+</sup> concentration in a haemocytometer. Solid curve is the Michaelis-Menten relation (Eq. <xref ref-type="disp-formula" rid="E1">1</xref>) fitted using a Marquardt-Levenberg least-squares algorithm (<italic>K</italic>
+<sub>d</sub> = 400 nM).</p></caption><graphic xlink:href="JGP.7615f1"/></fig><fig id="F2" position="float"><label>Figure 2</label><caption><p>Exposure of a dark-adapted rod to the laser spot. (<italic>A</italic>) Circulating current measured by the suction pipette in response to the first laser exposure in a dark-adapted rod. (<italic>B</italic>) Normalized fluo-3 fluorescence signal recorded by the photodiode. (trace <italic>1</italic>) First laser exposure in the dark-adapted rod; (trace <italic>2</italic>) second laser exposure presented 60 s later while the circulating current remained completely suppressed. Fluorescence has been normalized by dividing the signal by the initial photodiode current in trace <italic>1</italic>. The declining fluorescence signal in trace <italic>1</italic> was fitted with two exponentials with time constants of 380 and 2,000 ms. (<italic>top</italic>) Laser light monitor.</p></caption><graphic xlink:href="JGP.7615f2"/></fig><fig id="F3" position="float"><label>Figure 3</label><caption><p>Histogram plotting the short (<italic>A</italic>) and long (<italic>B</italic>) time constants of the two exponentials fitted to the decline in fluo-3 fluorescence in response to laser illumination of a dark-adapted rod. Filled bars, rods loaded with fluo-3 AM (86 cells); open bars, rods loaded with fluo-3-free acid from a patch pipette (eight cells). Solid curves are Gaussian distributions fitted to the filled bars, yielding mean time constants of 260 and 2,200 ms and standard deviations of 80 and 500 ms, respectively.</p></caption><graphic xlink:href="JGP.7615f3"/></fig><fig id="F4" position="float"><label>Figure 4</label><caption><p>In situ calibration of Ca<sup>2+</sup>-dependent fluorescence from a rod loaded with fluo-3 AM. (<italic>top</italic>) Laser monitor; laser illumination delivered as a sequence of four 20-ms pulses. Left, fluo-3 fluorescence; right, suction pipette current. (<italic>A</italic>) First laser exposure of a dark-adapted rod. (<italic>B</italic>) Second laser exposure presented shortly thereafter while the circulating current remained completely suppressed. (<italic>C</italic>) Outer segment exposed to 0 Ca<sup>2+</sup> solution containing 25 &#x003bc;M ionomycin to determine minimum fluo-3 fluorescence (<italic>F</italic>
+<sub>min</sub>). The arrow indicates the clipping level of the suction pipette amplifier. (<italic>D</italic>) Outer segment exposed to isotonic Ca<sup>2+</sup> solution containing 25 &#x003bc;M ionomycin to determine maximum fluo-3 fluorescence (<italic>F</italic>
+<sub>max</sub>). These parameters allow the initial and final fluorescence levels from this experiment to be translated into values for Ca<sup>2+</sup>
+<sub>i</sub> of 474 nM in darkness and 35 nM when the circulating current was completely suppressed.</p></caption><graphic xlink:href="JGP.7615f4"/></fig><fig id="F5" position="float"><label>Figure 5</label><caption><p>Comparison of normalized fluorescence responses from dark-adapted rods loaded with fluo-3 AM and fluo-3-free acid. (<italic>A</italic>) Rod loaded by incubation for 30 min with 10 &#x003bc;M fluo-3 AM. (<italic>B</italic>) Rod loaded from a patch pipette containing a pseudo-intracellular solution that included 100 &#x003bc;M fluo-3-free acid; 4 min of whole-cell recording before first laser pulse. Traces <italic>1</italic>, first laser exposure in the dark-adapted rod; traces <italic>2</italic>, second laser exposure presented shortly thereafter while the circulating current remained completely suppressed. Fluorescence has been normalized in each case by dividing the signal by the initial photodiode current in trace <italic>1</italic>. (<italic>top</italic>) Laser light monitor.</p></caption><graphic xlink:href="JGP.7615f5"/></fig><fig id="F6" position="float"><label>Figure 6</label><caption><p>Changes in fluo-3 fluorescence during the photopigment cycle. Rod loaded by incubation with 10 &#x003bc;M fluo-3 AM. (<italic>left</italic>) Fluo-3 fluorescence; (<italic>right</italic>) suction pipette current. (<italic>top</italic>) Laser light monitor; laser illumination delivered as a sequence of four 20-ms pulses. (<italic>A</italic>) First laser exposure of the dark-adapted rod; this and a subsequent train of laser pulses bleached the rod by &#x0003e;99%. (<italic>B</italic>) Laser exposure 53 min after bleaching once the circulating current and sensitivity had stabilized (see Fig. <xref ref-type="fig" rid="F7">7</xref>). (<italic>C</italic>) Laser exposure after regeneration of the photopigment by superfusion with phospholipid vesicles containing 11-<italic>cis-</italic>retinal.</p></caption><graphic xlink:href="JGP.7615f6"/></fig><fig id="F7" position="float"><label>Figure 7</label><caption><p>Changes in circulating current, sensitivity, and fluo-3 fluorescence during the photopigment cycle. (<italic>A</italic>) Circulating current recorded by the suction pipette measured as the current suppressed by the laser exposure or by a saturating flash of light. (<italic>B</italic>) Response sensitivity measured using trains of dim flashes delivering 0.74 (dark-adapted, before the first laser exposure), 11 (bleached), and 2.6 (regenerated) photon &#x003bc;m<sup>&#x02212;2</sup> at 570 nm. (<italic>C</italic>) Fluo-3 fluorescence in response to trains of laser pulses presented to the rod when dark adapted, after bleaching, and after regeneration. Under each condition, two successive trains of laser pulses were presented in rapid succession; the values plotted represent the maximum and minimum fluorescence levels in darkness and after complete suppression of the circulating current. In each case, the column representing the second fluorescence measurement has been displaced slightly to the right for clarity. Top traces denote the delivery of bright flashes (<italic>Light</italic>), trains of laser pulses (<italic>Laser</italic>), and superfusion with phospholipid vesicles containing 11-<italic>cis-</italic> retinal (<italic>11-cis</italic>).</p></caption><graphic xlink:href="JGP.7615f7"/></fig></floats-group></article>

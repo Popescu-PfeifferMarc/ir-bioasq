@@ -1,0 +1,590 @@
+<!DOCTYPE article PUBLIC "-//NLM//DTD JATS (Z39.96) Journal Archiving and Interchange DTD v1.0 20120330//EN" "JATS-archivearticle1.dtd">
+<article xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mml="http://www.w3.org/1998/Math/MathML" article-type="research-article"><?properties open_access?><front><journal-meta><journal-id journal-id-type="nlm-ta">J Exp Med</journal-id><journal-id journal-id-type="iso-abbrev">J. Exp. Med</journal-id><journal-title-group><journal-title>The Journal of Experimental Medicine</journal-title></journal-title-group><issn pub-type="ppub">0022-1007</issn><issn pub-type="epub">1540-9538</issn><publisher><publisher-name>The Rockefeller University Press</publisher-name></publisher></journal-meta><article-meta><article-id pub-id-type="pmid">10880531</article-id><article-id pub-id-type="pmc">PMC1887713</article-id><article-id pub-id-type="publisher-id">992252</article-id><article-categories><subj-group subj-group-type="heading"><subject>Original Article</subject></subj-group></article-categories><title-group><article-title>Gata-3 Induces T Helper Cell Type 2 (Th2) Cytokine Expression and Chromatin Remodeling in Committed Th1 Cells</article-title></title-group><contrib-group><contrib contrib-type="author"><name><surname>Lee</surname><given-names>Hyun Jun</given-names></name><xref ref-type="aff" rid="a">a</xref></contrib><contrib contrib-type="author"><name><surname>Takemoto</surname><given-names>Naofumi</given-names></name><xref ref-type="aff" rid="b">b</xref></contrib><contrib contrib-type="author"><name><surname>Kurata</surname><given-names>Hirokazu</given-names></name><xref ref-type="aff" rid="a">a</xref></contrib><contrib contrib-type="author"><name><surname>Kamogawa</surname><given-names>Yumiko</given-names></name><xref ref-type="aff" rid="b">b</xref><xref ref-type="aff" rid="c">c</xref></contrib><contrib contrib-type="author"><name><surname>Miyatake</surname><given-names>Shoichiro</given-names></name><xref ref-type="aff" rid="b">b</xref><xref ref-type="aff" rid="c">c</xref></contrib><contrib contrib-type="author"><name><surname>O'Garra</surname><given-names>Anne</given-names></name><xref ref-type="aff" rid="a">a</xref></contrib><contrib contrib-type="author"><name><surname>Arai</surname><given-names>Naoko</given-names></name><address><addr-line>DNAX Research Institute of Molecular and Cellular Biology, 901 California Ave., Palo Alto, CA 94304-1104.</addr-line><fax>650-496-1200</fax><phone>650-496-1260</phone></address><email>arai@dnax.org</email><xref ref-type="aff" rid="a">a</xref></contrib><aff id="a">
+<label>a</label>Department of Immunology, DNAX Research Institute, Palo Alto, California 94304-1104</aff><aff id="b">
+<label>b</label>Department of Molecular and Developmental Biology, Institute of Medical Science, University of Tokyo, Tokyo 108-0071, Japan</aff><aff id="c">
+<label>c</label>Core Research for Evolutionary Science and Technology (CREST), Saitama 332-0012, Japan</aff></contrib-group><pub-date pub-type="ppub"><day>3</day><month>7</month><year>2000</year></pub-date><volume>192</volume><issue>1</issue><fpage>105</fpage><lpage>116</lpage><history><date date-type="received"><day>15</day><month>12</month><year>1999</year></date><date date-type="rev-request"><day>6</day><month>4</month><year>2000</year></date><date date-type="accepted"><day>11</day><month>4</month><year>2000</year></date></history><permissions><copyright-statement>&#x000a9; 2000 The Rockefeller University Press</copyright-statement><copyright-year>2000</copyright-year><copyright-holder>The Rockefeller University Press</copyright-holder><license license-type="openaccess"><license-p>This article is distributed under the terms of an Attribution&#x02013;Noncommercial&#x02013;Share Alike&#x02013;No Mirror Sites license for the first six months after the publication date (see <ext-link ext-link-type="uri" xlink:href="http://www.rupress.org/terms">http://www.rupress.org/terms</ext-link>). After six months it is available under a Creative Commons License (Attribution&#x02013;Noncommercial&#x02013;Share Alike 4.0 Unported license, as described at <ext-link ext-link-type="uri" xlink:href="http://creativecommons.org/licenses/by-nc-sa/4.0/">http://creativecommons.org/licenses/by-nc-sa/4.0/</ext-link>).</license-p></license></permissions><abstract><p>Committed T helper type 1 (Th1) and Th2 effector cells, resulting from chronic antigenic stimulation in interleukin (IL)-12 and IL-4, are implicated in the pathology of autoimmune and allergic diseases. Committed Th1 cells cannot be induced to change their cytokine profiles in response to antigenic stimulation and Th2 cytokine&#x02013;inducing conditions. Here, we report that ectopic expression of GATA-3 induced Th2-specific cytokine expression not only in developing Th1 cells but also in otherwise irreversibly committed Th1 cells and a Th1 clone, HDK1. Moreover, cAMP, an inhibitor of cytokine production by Th1 cells, markedly augmented Th2 cytokine production in GATA-3&#x02013;expressing Th1 cells. Ectopic expression of GATA-3 in developing Th1 cells, but not in Th1 clone HDK1, induced endogenous GATA-3, suggesting an autoregulatory mechanism for maintenance of GATA-3 expression in Th2 cells. Structure&#x02013;function analyses of GATA-3 revealed that the NH<sub>2</sub>-terminal transactivation domain and the COOH-terminal zinc finger domain of GATA-3 were critical, whereas the NH<sub>2</sub>-terminal zinc finger domain was dispensable for the induction of IL-4. Both zinc fingers, however, were required for IL-5 induction. A Th2-specific DNaseI-hypersensitive site of the IL-4 locus was detected in GATA-3&#x02013;expressing Th1 cells. Thus, GATA-3 can change the phenotype of committed Th1 cells, previously considered to be irreversible.</p></abstract><kwd-group><kwd>CD4</kwd><kwd>differentiation</kwd><kwd>signaling</kwd><kwd>cytokines</kwd><kwd>cAMP</kwd></kwd-group></article-meta></front><body><sec><title>Introduction</title><p>Th1 and Th2 cells produce distinct sets of cytokines and dictate distinct immune responses. Th1 cells produce IFN-&#x003b3;, TNF-&#x003b2;, and IL-2 and promote effective immune responses against intracellular pathogens, although they have also been implicated in autoimmune pathologies. Th2 cells produce IL-4, IL-5, IL-6, and IL-13 and eradicate extracellular parasites but also mediate allergic and atopic manifestations <xref ref-type="bib" rid="R1">1</xref>
+<xref ref-type="bib" rid="R2">2</xref>
+<xref ref-type="bib" rid="R3">3</xref>
+<xref ref-type="bib" rid="R4">4</xref>
+<xref ref-type="bib" rid="R5">5</xref>. Development of an appropriate Th response to a pathogen is critical for the outcome of a protective immune response <xref ref-type="bib" rid="R3">3</xref>
+<xref ref-type="bib" rid="R4">4</xref>
+<xref ref-type="bib" rid="R5">5</xref>. Cytokines present at the initiation of CD4 T cell responses predominantly determine the development of a particular Th subtype. IL-12 and IL-4 direct Ag-stimulated naive CD4 T cells toward Th1 and Th2 development, respectively <xref ref-type="bib" rid="R4">4</xref>
+<xref ref-type="bib" rid="R5">5</xref>
+<xref ref-type="bib" rid="R6">6</xref>.</p><p>Development of committed Th1 and Th2 phenotypes displaying an exclusive cytokine pattern is achieved largely after repeated antigenic stimulation under appropriate conditions. Although cytokine signals may modulate the phenotypes of Th1 and Th2 populations at an early stage of development, these subsets become irreversible after repeated stimulation <xref ref-type="bib" rid="R7">7</xref>
+<xref ref-type="bib" rid="R8">8</xref>
+<xref ref-type="bib" rid="R9">9</xref>. However, as studies on the reversibility of Th phenotypes have been conducted at the population rather than the single-cell level, it is not clear whether the observed phenotype switch is a result of a true phenotype conversion of Th cells. Rather, evidence indicates that the development of uncommitted precursors coexisting in the polarized Th population contributed to any observed phenotypic change <xref ref-type="bib" rid="R10">10</xref>. So far there has been no indication that committed Th1 or Th2 cells can be converted to express cytokines of the other subset. The selective loss of cytokine signaling between Th1 and Th2 cells was postulated as a molecular basis for this irreversibility. Evidence indicates that IL-4&#x02013;induced Th2 development rapidly blocks IL-12 signaling by extinguishing IL-12R&#x003b2;2 expression <xref ref-type="bib" rid="R11">11</xref>
+<xref ref-type="bib" rid="R12">12</xref>. Conversely, a selective defect in IL-4 signaling in committed Th1 cells has also been reported <xref ref-type="bib" rid="R13">13</xref>
+<xref ref-type="bib" rid="R14">14</xref>.</p><p>Recent efforts have defined several transcription factors, in addition to cytokines, which are differentially expressed by Th1 and Th2 cells: GATA-3, c-Maf in Th2 cells <xref ref-type="bib" rid="R15">15</xref>
+<xref ref-type="bib" rid="R16">16</xref>, and ERM in Th1 cells <xref ref-type="bib" rid="R17">17</xref>. These subtype-specific transcription factors may be involved in Th1- and Th2-specific cytokine expression by directly activating cytokine gene promoters <xref ref-type="bib" rid="R15">15</xref>
+<xref ref-type="bib" rid="R17">17</xref>
+<xref ref-type="bib" rid="R18">18</xref>
+<xref ref-type="bib" rid="R19">19</xref>
+<xref ref-type="bib" rid="R20">20</xref>. For example, the Th2-specific transcription factor GATA-3, in cooperation with a factor(s) induced upon TCR signaling, governs Th2-specific expression of the IL-5 gene by directly interacting with a critical regulatory element of its promoter <xref ref-type="bib" rid="R19">19</xref>
+<xref ref-type="bib" rid="R20">20</xref>. However, whether GATA-3 directly activates the IL-4 promoter remains unclear <xref ref-type="bib" rid="R16">16</xref>
+<xref ref-type="bib" rid="R21">21</xref>
+<xref ref-type="bib" rid="R22">22</xref>. The mechanism for Th2-specific expression of GATA-3 remains largely unknown. One report indicated that signaling through IL-4 induces high-level expression of GATA-3, which in turn blocks IL-12 signaling by inhibiting expression of IL-12R&#x003b2;2 <xref ref-type="bib" rid="R23">23</xref>. Conversely, signaling through IL-12 resulted in extinction of GATA-3 transcripts <xref ref-type="bib" rid="R23">23</xref>. In the hematopoietic system, GATA-3 is predominantly expressed by T cells <xref ref-type="bib" rid="R24">24</xref>
+<xref ref-type="bib" rid="R25">25</xref> and is critical for thymocyte development <xref ref-type="bib" rid="R26">26</xref> and for the regulation of effector T cells <xref ref-type="bib" rid="R16">16</xref>. Despite the critical biological roles of GATA-3, the molecular mechanisms by which it exerts its functions remain elusive. GATA-3 appears to play a dominant role in regulating Th1 and Th2 development, as ectopic expression of GATA-3 in developing Th1 cells gave rise to Th2 cytokine induction <xref ref-type="bib" rid="R16">16</xref>
+<xref ref-type="bib" rid="R23">23</xref>
+<xref ref-type="bib" rid="R27">27</xref> as well as to Th1 cytokine inhibition <xref ref-type="bib" rid="R23">23</xref>
+<xref ref-type="bib" rid="R27">27</xref>. However, it was speculated that GATA-3 may act early during a temporarily restricted window of development <xref ref-type="bib" rid="R23">23</xref>. It is possible that a difference in additional signaling pathways between Th1 and Th2 cells may also dictate distinct cytokine expression patterns. For example, the TCR-mediated mitogen-activated protein kinase pathways and calcium influx appear to be selectively impaired in Th2 but not in Th1 cells <xref ref-type="bib" rid="R28">28</xref>
+<xref ref-type="bib" rid="R29">29</xref>. There is also an indication that cAMP levels are higher in Th2 cells than in Th1 cells <xref ref-type="bib" rid="R30">30</xref> and that molecules that elevate intracellular cAMP inhibit cytokine production by Th1 cells and conversely augment cytokine production by Th2 cells <xref ref-type="bib" rid="R31">31</xref>
+<xref ref-type="bib" rid="R32">32</xref>. However, the molecular mechanism by which cAMP differentially affects cytokine production by Th1 and Th2 cells is still not well understood.</p><p>In this study, we demonstrate that ectopic expression of GATA-3 in committed Th1 cells induces Th2 cytokine expression, which was enhanced by cAMP. Moreover, a Th2-specific DNaseI-hypersensitive (HS) site of the IL-4 locus is demonstrated in committed Th1 cells that express GATA-3.</p></sec><sec sec-type="materials|methods"><title>Materials and Methods</title><sec><title>Cytokines, Antibodies for Cytokines, and Oligo Peptide.</title><p>Recombinant mouse IL-2, IL-4 (DNAX), and IL-12 (PharMingen) and rat anti&#x02013;mouse IL-4 (11B11; reference <xref ref-type="bib" rid="R33">33</xref>) and anti&#x02013;IL-12 (C17.8.20; reference <xref ref-type="bib" rid="R34">34</xref>) antibodies (gifts of Drs. W.E. Paul [National Institutes of Health, Bethesda, MD] and G. Trinchieri [Schering-Plough Corp., Dardilly, France], respectively) were used. The antigenic peptide from chicken OVA<sub>323&#x02013;339</sub> was prepared as described previously <xref ref-type="bib" rid="R35">35</xref>.</p></sec><sec><title>Cell Culture and In Vitro Development of Transgenic CD4<sup>+</sup> T Cells.</title><p>T cells were maintained in RPMI 1640 medium supplemented with 10% FCS, 2 mM glutamine, 100 U/ml penicillin, 100 &#x003bc;g/ml streptomycin, 50 &#x003bc;M 2-ME, 10 mM Hepes buffer, 1 mM sodium pyruvate (cRPMI), and appropriate cytokines. Preparation of splenocytes from DO11.10 &#x003b1;/&#x003b2; TCR&#x02013;transgenic mice <xref ref-type="bib" rid="R35">35</xref> and culture conditions for polarized Th1 and Th2 populations were as previously described <xref ref-type="bib" rid="R9">9</xref>. HDK1, a KLH-specific Th1 clone derived from BALB/c mice, was maintained as previously described <xref ref-type="bib" rid="R36">36</xref>.</p></sec><sec><title>Retroviral Vectors and Retroviral Infection.</title><p>The Moloney murine leukemia virus&#x02013;based bicistronic retroviral vectors <xref ref-type="bib" rid="R37">37</xref> pMXI-EGFP (enhanced green fluorescent protein) and pMXI-GATA-3-EGFP and the Phoenix-Eco packaging cell line <xref ref-type="bib" rid="R38">38</xref> were described previously <xref ref-type="bib" rid="R27">27</xref>. The retroviral vector encoding the GATA-3 mutant, dND, containing a 140&#x02013;amino acid (aa) deletion (aa 29&#x02013;168), was made by excising the SmaI fragment, KRR (GATA-3 mutant with three substitutions between two zinc fingers) containing a 3-aa substitution of KRR&#x02192;AAA (aa 304&#x02013;306); dNF (GATA-3 mutant lacking a portion of the NH<sub>2</sub>-terminal zinc finger domain), containing an 8-aa deletion (aa 280&#x02013;287), and dCF (GATA-3 mutant lacking the entire COOH-terminal zinc finger domain), containing a 17-aa deletion (aa 309&#x02013;325), were generated by PCR mutagenesis. The integrity of each mutation was confirmed by DNA sequencing. Retroviral transduction of T cells was carried out as previously described <xref ref-type="bib" rid="R27">27</xref>
+<xref ref-type="bib" rid="R39">39</xref>, with some modifications.</p></sec><sec><title>Measurement of Cytokines by Immunoassay and Flow Cytometry.</title><p>T cells (5 &#x000d7; 10<sup>4</sup> per 200 &#x003bc;l per well) were stimulated with either PMA (50 ng/ml; Calbiochem)/ionomycin (1 &#x003bc;M; Calbiochem) or PMA/ionomycin/cAMP (1 mM; N<sup>6</sup>,O<sup>2</sup>-dibutyryl cAMP; Sigma-Aldrich). The level of cytokines in the supernatants was determined by immunoassay and flow cytometry as previously described <xref ref-type="bib" rid="R9">9</xref>.</p></sec><sec><title>RNA Preparation and RNase Protection Assay.</title><p>For the GATA-3 and c-<italic>maf</italic> riboprobes, pGEMGATA-3(BH), containing a HindIII&#x02013;BglII fragment from murine GATA-3 cDNA <xref ref-type="bib" rid="R25">25</xref>, and pSKc-<italic>maf</italic>
+<xref ref-type="bib" rid="R40">40</xref>, containing a full-length coding sequence of c-<italic>maf</italic> cDNA, were used by linearizing with AflIII and BglII, respectively. RNA extraction and RNase protection assays were performed as described previously <xref ref-type="bib" rid="R39">39</xref>.</p></sec><sec><title>Western Blot Analysis.</title><p>50 &#x003bc;g of nuclear extracts from HDK1 cells was separated by 12% SDS-PAGE and transferred to a polyvinylidene difluoride membrane (Millipore). The immunoblotting was performed with an anti&#x02013;GATA-3 antibody (Santa Cruz Biotechnology, Inc.), followed by a horseradish peroxidase&#x02013;coupled secondary antibody (Amersham Pharmacia Biotech), and visualized using a chemiluminescence substrate (Pierce Chemical Co.).</p></sec><sec><title>HS Site Mapping.</title><p>Cells (2 &#x000d7; 10<sup>7</sup>) were collected and stimulated with PMA/ionomycin/cAMP for 2 h. Isolation of nuclei and analysis of HS sites was carried out as described <xref ref-type="bib" rid="R41">41</xref>. In brief, nuclei were suspended in 10 mM Tris, pH 7.4, 10 mM NaCl, and 5 mM MgCl<sub>2</sub> to 10<sup>8</sup> nuclei per milliliter and divided into 30-&#x003bc;l aliquots. Varying amounts of DNaseI (Worthington Biochemical) were added to each aliquot and incubated at 37&#x000b0;C for 12.5 min. The reaction was stopped with an equal volume of stop solution (1% SDS, 20 mM Tris, pH 7.4, 600 mM NaCl, 10 mM EDTA, and 50 &#x003bc;g/ml proteinase K) and incubated at 37&#x000b0;C overnight. Genomic DNA was extracted and digested with BamHI. 4 &#x003bc;g of each digest was separated on a 0.8% agarose gel and blotted with the probe.</p></sec></sec><sec><title>Results</title><sec><title>GATA-3 Induces IL-4 and IL-5 in Committed as Well as Developing Th1 Cells.</title><p>To explore the differential role of GATA-3 in committed as well as developing Th1 cells, a retroviral vector encoding GATA-3 bicistronically with EGFP (R-GATA-3-EGFP) or control retrovirus containing EGFP only (recombinant retrovirus encoding GFP [R-EGFP]) was introduced into Ag-specific DO11.10 TCR&#x02013;transgenic Th1 cells at different stages of development, as well as into a committed Th1 clone as previously described <xref ref-type="bib" rid="R27">27</xref>. Cells were then sorted on the basis of EGFP reflecting GATA-3 expression. As previously shown, the introduction of GATA-3 into developing Th1 cells on days 1 and 2 after initiation of the cultures led to the induction of Th2-specific cytokines and downregulation of IFN-&#x003b3; <xref ref-type="bib" rid="R23">23</xref>
+<xref ref-type="bib" rid="R27">27</xref> (<xref ref-type="fig" rid="F1">Fig. 1</xref>). Introduction of R-GATA-3-EGFP into Th1 cells after 8 d of polarization under Th1-inducing conditions also resulted in the production of IL-4 and IL-5 upon stimulation with PMA and ionomycin, and downregulation of IFN-&#x003b3; production, as compared with the EGFP<sup>+</sup> controls (<xref ref-type="fig" rid="F1">Fig. 1</xref>) and the GFP<sup>&#x02212;</sup> R-GATA-3-EGFP&#x02013;infected Th1 cells (GATA-3<sup>&#x02212;</sup>; data not shown). Similar results were obtained with OVA<sub>323&#x02013;339</sub> and APC stimulation (data not shown). Thus, GATA-3 induced Th2-specific cytokines and inhibited IFN-&#x003b3; production in a Th1 population composed of committed as well as developing Th1 cells. To confirm that the effects of GATA-3 seen in 8 d polarized Th1 cells indicated a change in committed Th1 cells, we examined the effect of GATA-3 on Th1 cells generated by 22 d of repeated antigenic stimulation (3 wk polarized) under Th1-polarizing conditions, which have previously been shown to be committed <xref ref-type="bib" rid="R9">9</xref>. Supernatants from GATA-3<sup>+</sup>, 3 wk polarized Th1 cells, stimulated with PMA and ionomycin, contained substantial amounts of IL-4 and IL-5 (<xref ref-type="fig" rid="F1">Fig. 1</xref>) and IL-10 (data not shown). In contrast, no IL-4 and IL-5 was detected in the supernatants from GFP<sup>&#x02212;</sup>, R-GATA-3-EGFP&#x02013;infected T cells (GATA-3<sup>&#x02212;</sup>). In addition, a decrease in IFN-&#x003b3; production was observed in GATA-3<sup>+</sup> T cells, but it was less pronounced than in 1 or 2 wk polarized GATA-3<sup>+</sup> T cells. GATA-3 showed a similar ability to upregulate Th2-specific cytokines in a committed Th1 clone, HDK1, but had a lesser effect on the levels of IFN-&#x003b3; production. Importantly, the phenotype of GATA-3&#x02013;expressing (GATA-3<sup>+</sup>) HDK1 cells producing IL-4 and IL-5 was maintained over repeated Ag stimulation (data not shown). Thus, GATA-3 can induce Th2-specific cytokines in committed Th1 cells that are unresponsive to IL-4&#x02013;mediated signals for this effect <xref ref-type="bib" rid="R9">9</xref>.</p></sec><sec><title>cAMP Markedly Augments GATA-3&#x02013;mediated Th2 Cytokine Production from Committed Th1 Cells and a Th1 Clone.</title><p>The effects of GATA-3 on the induction of IL-4 and IL-5, although significant, gradually decreased as Th1 development progressed (<xref ref-type="fig" rid="F1">Fig. 1</xref>). This may reflect the loss of other factors and/or signaling pathways in Th1 cells that might cooperate with GATA-3 in the induction of Th2-specific cytokines. cAMP markedly augments Th2 cytokine production and inhibits the production of IL-2 <xref ref-type="bib" rid="R30">30</xref>
+<xref ref-type="bib" rid="R42">42</xref> and IFN-&#x003b3; <xref ref-type="bib" rid="R31">31</xref>. However, under no circumstances does cAMP alone induce Th2-specific cytokines in Th1 cells <xref ref-type="bib" rid="R20">20</xref>. Thus, we tested whether cAMP could upregulate the effects of GATA-3 on committed Th1 cells. Treatment with cAMP markedly augmented the production of IL-4 and IL-5 in GATA-3<sup>+</sup>, 3 wk polarized Th1 cells and the Th1 clone, but not in the control EGFP<sup>+</sup>, 3 wk polarized Th1 cells and the Th1 clone (<xref ref-type="fig" rid="F2">Fig. 2</xref> A). Consistent with its known inhibitory effects on Th1 cytokine production <xref ref-type="bib" rid="R31">31</xref>
+<xref ref-type="bib" rid="R42">42</xref>, cAMP treatment of the control EGFP<sup>+</sup> Th1 clone significantly decreased stimulation-dependent IFN-&#x003b3; production (<xref ref-type="fig" rid="F2">Fig. 2</xref> A), although this effect was not observed in 3 wk polarized Th1 cells. Similar results were obtained for intracellular cytokine production in 3 wk polarized Th1 cells (data not shown) and the Th1 clone (<xref ref-type="fig" rid="F2">Fig. 2</xref> B). None of the control EGFP<sup>+</sup> HDK1 cells produced IL-4 or IL-5 in response to PMA and ionomycin stimulation. However, 7.5 and 21% of GATA-3<sup>+</sup> HDK1 cells produced IL-4 and IL-5, respectively, and their treatment with cAMP markedly increased the number of IL-4&#x02013; and IL-5&#x02013;producing cells (18 and 45%, respectively). Interestingly, the production of IL-4 and IL-5 was limited to the cells expressing GFP (and thus GATA-3) above a certain threshold (<xref ref-type="fig" rid="F2">Fig. 2</xref> B). Upregulation of Th2-specific cytokines by GATA-3 and cAMP was also shown at the RNA level (data not shown).</p></sec><sec><title>Ectopic Expression of GATA-3 Induces Endogenous GATA-3 Expression in Developing but Not Committed Th1 Cells.</title><p>To ensure the expression of GATA-3 in cells infected with recombinant retrovirus, we performed RNase protection using a GATA-3&#x02013;specific probe, which distinguishes the endogenous GATA-3 transcript from the retroviral one (<xref ref-type="fig" rid="F3">Fig. 3</xref>, top and bottom bands, respectively). Endogenous GATA-3 transcripts were easily detected in 1 wk polarized Th2 cells (<xref ref-type="fig" rid="F3">Fig. 3</xref>, lane 2) but not in Th1 cells (<xref ref-type="fig" rid="F3">Fig. 3</xref>, lane 1) nor a Th1 clone, regardless of infection with control R-EGFP (<xref ref-type="fig" rid="F3">Fig. 3</xref>, lanes 5&#x02013;7). On the other hand, a smaller band, reflecting the retrovirus-derived GATA-3 transcript, was detected in both developing Th1 cells and the Th1 clone infected with R-GATA-3-EGFP (<xref ref-type="fig" rid="F3">Fig. 3</xref>, lanes 4 and 8&#x02013;10). Th1 cells infected with R-GATA-3-EGFP on days 1 and 2 after primary stimulation additionally expressed endogenous GATA-3 transcripts (<xref ref-type="fig" rid="F3">Fig. 3</xref>, lane 4), indicating that ectopically expressed GATA-3 induces endogenous GATA-3 gene transcription in developing Th1 cells. In contrast, GATA-3 did not induce another Th2-specific transcription factor c-<italic>maf</italic>
+<xref ref-type="bib" rid="R15">15</xref> in developing Th1 cells at the level of detectability in our assay (<xref ref-type="fig" rid="F3">Fig. 3</xref>, lane 4). In the committed Th1 clone, GATA-3 did not induce endogenous GATA-3 gene transcription (<xref ref-type="fig" rid="F3">Fig. 3</xref>, lanes 8&#x02013;10), although it could induce Th2 cytokine expression in the same cells.</p></sec><sec><title>Distinct Domains of GATA-3 Are Required for IL-4 and IL-5 Expression in a Committed Th1 Clone.</title><p>To explore the mechanism(s) by which GATA-3 regulates Th2-specific cytokine induction, we generated a series of mutant constructs containing either substituted amino acids or deletions in one of its functional domains (<xref ref-type="fig" rid="F4">Fig. 4</xref> A). A GATA-3 mutant, dND, contains an NH<sub>2</sub>-terminal 140-aa deletion, whereas KRR has a 3-aa substitution of KRR&#x02192;AAA between the two zinc fingers. In the human GATA-3 protein, these mutations do not perturb the ability to bind the GATA-3 site but severely inhibit transactivation function, as determined by a reporter assay <xref ref-type="bib" rid="R43">43</xref>
+<xref ref-type="bib" rid="R44">44</xref>. GATA-3 mutants dNF and dCF lack a portion of the NH<sub>2</sub>-terminal and entire COOH-terminal zinc finger domains, respectively. The Th1 clone was stimulated and infected with retroviruses expressing the mutant GATA-3 proteins described above. When analyzed by flow cytometry on day 7 after Ag and APC stimulation, &#x0223c;80% of the cells infected with retroviruses encoding different constructs expressed EGFP (data not shown). Western blot analysis using an anti&#x02013;GATA-3 antibody <xref ref-type="bib" rid="R43">43</xref> showed that mutant GATA-3 proteins of expected sizes accumulated in the nuclei of HDK1 cells infected with retroviruses encoding the GATA-3 constructs (<xref ref-type="fig" rid="F4">Fig. 4</xref> B, lanes 2&#x02013;6) but not retroviruses containing the control EGFP (<xref ref-type="fig" rid="F4">Fig. 4</xref> B, lane 1). We next examined the DNA binding activity of each mutant GATA-3 protein expressed in the HDK1 cells using an oligonucleotide probe from TCR-&#x003b1; that contained the GATA-binding sites <xref ref-type="bib" rid="R24">24</xref>. Nuclear extracts prepared from control R-EGFP&#x02013;infected cells or the Th1 clone (data not shown) did not form any DNA&#x02013;protein complex with this probe (<xref ref-type="fig" rid="F4">Fig. 4</xref> C, lane 1). Retroviral transduction of wild-type GATA-3 reconstituted binding to the GATA site, as seen in 1 wk polarized Th2 cells (<xref ref-type="fig" rid="F4">Fig. 4</xref> C, lane 2). GATA-3 mutants dND and KRR retained the ability to bind the GATA-3 site (<xref ref-type="fig" rid="F4">Fig. 4</xref> C, lanes 3 and 4). However, GATA-3 mutants lacking either a portion of the NH<sub>2</sub>-terminal (dNF) or the entire COOH-terminal zinc finger domain (dCF) failed to form a complex with the probe, despite the high level of accumulation of the GATA-3 protein in the nucleus (<xref ref-type="fig" rid="F4">Fig. 4</xref> C, lanes 5 and 6).</p><p>As shown earlier, HDK1 cells purified by flow cytometry on the basis of EGFP expression, expressing the wild-type GATA-3, produced Th2 cytokines IL-4 and IL-5 (<xref ref-type="fig" rid="F4">Fig. 4</xref> D). No IL-4 and IL-5 production was induced by the GATA-3 mutant dCF lacking the DNA-binding function. Likewise, the dND mutant lacking the major transactivation domain <xref ref-type="bib" rid="R43">43</xref> did not induce IL-4 and IL-5 production. In contrast, substitution of three amino acids between the two zinc fingers (KRR), which completely abolishes transactivation of a reporter construct driven by the TCR-&#x003b1; GATA-binding sites <xref ref-type="bib" rid="R44">44</xref>, did not affect the ability to induce IL-4 production. Moreover, the GATA-3 mutant lacking a portion of the NH<sub>2</sub>-terminal zinc finger domain (dNF) also retained its ability to induce IL-4, despite its inability to bind to the GATA sites in the TCR-&#x003b1; probe. Strikingly different from its effects on IL-4 production, the effect of GATA-3 on IL-5 production was reduced significantly by the mutation in KRR, to below the level of detection by the dNF mutation, suggesting that GATA-3 may induce IL-4 and IL-5 via distinct mechanisms. Consistent results were obtained when intracellular cytokine production was measured by flow cytometry (data not shown).</p><p>We next examined the domains of GATA-3 required for IFN-&#x003b3; inhibition and IL-4 induction in developing Th1 cells (<xref ref-type="fig" rid="F4">Fig. 4</xref> E). T cells from DO11.10 mice were stimulated with OVA and APCs, cultured under Th1-polarizing conditions, and infected on days 1 and 2 after stimulation with retrovirus encoding either GATA-3 or the respective mutants. On day 7 after primary stimulation, T cells were stimulated with PMA and ionomycin and were analyzed for intracellular cytokine production. T cells expressing wild-type GATA-3 were induced to produce IL-4 as shown earlier (<xref ref-type="fig" rid="F1">Fig. 1</xref>), whereas, like in the case of the Th1 clone, no IL-4 producing cells appeared in either dND or dCF mutants, which resembled the control EGFP-expressing cells (<xref ref-type="fig" rid="F4">Fig. 4</xref> E). Similarly, the dND and dCF mutants abrogated the ability of GATA-3 to downregulate the production of IFN-&#x003b3; (<xref ref-type="fig" rid="F4">Fig. 4</xref> E). Thus, we concluded that the domains of GATA-3 required for IFN-&#x003b3; inhibition were closely correlated with those for IL-4 induction.</p></sec><sec><title>GATA-3 Transactivates the IL-5 but Not the IL-4 Promoter: c-Maf Transactivates the IL-4 but Not the IL-5 Promoter.</title><p>GATA-3 induces the production of both IL-4 and IL-5 in Th1 cells, but it has been shown that although GATA-3 strongly transactivates the IL-5 promoter <xref ref-type="bib" rid="R19">19</xref>
+<xref ref-type="bib" rid="R20">20</xref>
+<xref ref-type="bib" rid="R22">22</xref>, it has little effect on the mouse proximal IL-4 promoter <xref ref-type="bib" rid="R21">21</xref>
+<xref ref-type="bib" rid="R22">22</xref>. Cotransfection experiments with GATA-3 and reporter constructs containing either the mouse proximal IL-5 or IL-4 promoter, pmIL-5Luc(1.2) or pIL-4(&#x02212;766)Luc, confirmed that GATA-3 has little effect on the IL-4 promoter but transactivates the IL-5 promoter (<xref ref-type="fig" rid="F5">Fig. 5</xref>). In contrast, when c-<italic>maf</italic> is cotransfected with a reporter construct containing the proximal IL-4 promoter, it augments the activation of this gene upon stimulation with PMA/ionomycin as previously shown <xref ref-type="bib" rid="R15">15</xref> (<xref ref-type="fig" rid="F5">Fig. 5</xref>). However, when c-<italic>maf</italic> is cotransfected with the proximal IL-5 promoter, it inhibits the basal activation of this gene, which is induced with PMA/ionomycin. Collectively, these results indicate that the induction of IL-4 by GATA-3 requires a novel mechanism(s) other than transactivation, which, however, is observed for the IL-5 promoter.</p></sec><sec><title>GATA-3 Is Involved in Chromatin Remodeling in Committed Th1 Cells.</title><p>The Th2 cytokine genes, IL-13/IL-4/IL-5, are clustered together in a 160-Kb region of human chromosome 5 (reference <xref ref-type="bib" rid="R45">45</xref>; syntenic mouse chromosome 11). Recently, it has been shown that development of naive Th cells into Th2 cells is associated with increased chromatin accessibility of the IL-4 and IL-13 loci. Five HS sites were detected within a BamHI fragment spanning the IL-4 gene in a Th2 clone D10 <xref ref-type="bib" rid="R46">46</xref>, and three HS sites were detected within the intergenic region between the IL-13 and IL-4 genes <xref ref-type="bib" rid="R41">41</xref>. Thus, we examined the possibility that GATA-3 may affect chromatin accessibility of the IL-4 locus when expressed in the Th1 clone. Four HS sites are shown in the Th2 clone, D10 (<xref ref-type="fig" rid="F6">Fig. 6</xref>). HS site IV, which has been shown to be present both in Th1 and Th2 cells, appeared both in control R-EGFP&#x02013; and R-GATA-3-EGFP&#x02013;infected HDK1 cells. However, the HS site II, which maps to the second intron of the IL-4 gene, is Th2 specific and not observed in the Th1 clone, even when infected with the control R-EGFP. In contrast, HS site II was induced in the Th1 clone, when infected with R-GATA-3-EGFP (<xref ref-type="fig" rid="F6">Fig. 6</xref>), suggesting that GATA-3 is involved in chromatin remodeling of the IL-4 locus, which selectively occurs during Th2 development.</p></sec></sec><sec><title>Discussion</title><p>The development of an appropriate subset of Th cells is critical for determining the outcome of an immune response to various pathogens. Strongly polarized Th1/Th2 responses are manifested in chronic diseases such as autoimmune and allergic disorders and persistent infections <xref ref-type="bib" rid="R2">2</xref>
+<xref ref-type="bib" rid="R3">3</xref>
+<xref ref-type="bib" rid="R4">4</xref>
+<xref ref-type="bib" rid="R5">5</xref>. Thus, a means of altering stable Th phenotypes has immense importance for developing therapeutic strategies. Thus far, there has been no indication that stable Th1 and Th2 cells can be changed, by any external signals or by transcription factors, to produce cytokines of the opposite phenotype.</p><p>Here, we demonstrate that GATA-3 converted committed Th1 cells and a Th1 clone to express Th2 cytokines, and cAMP synergistically augmented this GATA-3 effect. Thus, our results suggest that differential distribution of GATA-3 in Th1 and Th2 cells may be one of the main molecular events accounting for the irreversibility of the Th phenotypes, which has been explained earlier by the selective loss of cytokine signaling between Th subtypes <xref ref-type="bib" rid="R11">11</xref>
+<xref ref-type="bib" rid="R12">12</xref>
+<xref ref-type="bib" rid="R14">14</xref>. Consistent with this hypothesis, our recent study indicates that the activation of Stat6:ER, a conditionally active form of Stat6, which mimics the IL-4&#x02013;mediated signaling without ligation of IL-4 and its receptor, did not induce GATA-3 or Th2 cytokines in committed Th1 cells but did so in developing Th1 cells <xref ref-type="bib" rid="R39">39</xref>.</p><p>Alternative systems have generated different results regarding GATA-3 effects on Th1 and Th2 cytokine expression. CD4 <sup>+</sup> T cells from GATA-3&#x02013;transgenic mice express Th2 cytokines when cultured under Th1-polarizing conditions without an apparent effect on IFN-&#x003b3; expression <xref ref-type="bib" rid="R16">16</xref>. However, retroviral transduction of GATA-3 into developing Th1 cells not only induced Th2 cytokines but also impaired Th1 development by inhibiting IL-12R&#x003b2;2 and IFN-&#x003b3; expression <xref ref-type="bib" rid="R23">23</xref>
+<xref ref-type="bib" rid="R27">27</xref>. Importantly, it is likely that inhibition of IFN-&#x003b3; versus upregulation of IL-4 production may be closely correlated, as we now show that mutations in the GATA-3 C-finger (dCF) and transactivation domains (dND) abrogated both effects (<xref ref-type="fig" rid="F4">Fig. 4</xref> E). However, it was suggested that GATA-3 effects were limited to an early developmental window during Th1 development <xref ref-type="bib" rid="R23">23</xref>. Indeed, the ability of GATA-3 to inhibit IFN-&#x003b3; production becomes less effective but not absent as Th1 cells become committed (<xref ref-type="fig" rid="F1">Fig. 1</xref>). Although the reduction in the effect on IFN-&#x003b3; production over time might be due predominantly to an effect on IL-12R&#x003b2; expression, an additional direct effect on IFN-&#x003b3; expression cannot be ruled out. In addition, the possibility that the differences between the clone and the bulk populations could be attributed to a particular characteristic of that clone has to be reexamined in future in a greater number of clones.</p><p>In contrast to earlier studies, however, we now show that IL-4 and IL-5 can still be induced by GATA-3 in committed Th1 cells and a Th1 clone (<xref ref-type="fig" rid="F1">Fig. 1</xref>). This discrepancy between our results and those of Ouyang et al. <xref ref-type="bib" rid="R23">23</xref> may result from higher levels of GATA-3 expression being attained in our system. Indeed, intracellular cytokine staining using the unsorted Th1 clone infected with R-GATA-3-EGFP showed that IL-4 and IL-5 production was limited to the cells expressing EGFP above a certain threshold level (<xref ref-type="fig" rid="F2">Fig. 2</xref> B). Thus, the level of GATA-3 may determine its ability to induce Th2-specific cytokines. Dose-dependent lineage determination has also been observed with other GATA factors in hematopoietic development <xref ref-type="bib" rid="R47">47</xref>
+<xref ref-type="bib" rid="R48">48</xref>.</p><p>Our results revealed that cAMP markedly augmented the effect of GATA-3 on Th2 cytokine induction in a Th1 clone and in polarized Th1 cells, albeit to a lesser extent (<xref ref-type="fig" rid="F2">Fig. 2</xref>). However, cAMP on its own did not induce Th2 cytokine production in polarized Th1 cells or the Th1 clone (data not shown). Molecules elevating intracellular cAMP levels have been reported to inhibit cytokine production by Th1 clones, while cAMP augments cytokine production by Th2 clones <xref ref-type="bib" rid="R31">31</xref>
+<xref ref-type="bib" rid="R32">32</xref>
+<xref ref-type="bib" rid="R42">42</xref>. Furthermore, cAMP levels have been shown to be higher in Th2 than Th1 cells <xref ref-type="bib" rid="R30">30</xref>. However, the mechanism for the synergism between cAMP and GATA-3 is not clear. It is possible that cAMP may induce or activate other Th2 transcription factors that are involved in the transcription of Th2 cytokine genes, including JunB and NFIL-6 <xref ref-type="bib" rid="R49">49</xref>
+<xref ref-type="bib" rid="R50">50</xref>
+<xref ref-type="bib" rid="R51">51</xref>
+<xref ref-type="bib" rid="R52">52</xref>, through the activation of protein kinase A <xref ref-type="bib" rid="R42">42</xref>. cAMP may induce phosphorylation of GATA-3 and/or other proteins cooperating with GATA-3. Alternatively, cAMP may modify certain signals and/or transcription factors in Th1 cells to reconstitute signals that normally occur in Th2 cells <xref ref-type="bib" rid="R32">32</xref>
+<xref ref-type="bib" rid="R53">53</xref>
+<xref ref-type="bib" rid="R54">54</xref>
+<xref ref-type="bib" rid="R55">55</xref>
+<xref ref-type="bib" rid="R56">56</xref>. In addition, it has recently been shown that cAMP leads to phosphorylation of GATA-3 via p38 (Ray, A., personal communication. Interestingly, GATA-3 completely reversed cAMP-mediated IFN-&#x003b3; inhibition, raising the possibility that the opposite effects of cAMP on cytokine production by Th1 and Th2 cells may be due, at least in part, to the presence or absence of GATA-3 in these two cell types (<xref ref-type="fig" rid="F2">Fig. 2</xref> A).</p><p>Our results highlight the importance of the NH<sub>2</sub>-terminal transactivation as well as the COOH-terminal zinc finger domains of GATA-3 for both IL-4 and IL-5 induction. Perhaps surprising is our finding that the NH<sub>2</sub>-terminal zinc finger domain of GATA-3, although critical for DNA binding, was dispensable for IL-4 induction. The NH<sub>2</sub>-terminal zinc finger domain of GATA-3 was critical for the production of IL-5, a gene for which functional GATA sites have been characterized in the promoter <xref ref-type="bib" rid="R19">19</xref>
+<xref ref-type="bib" rid="R20">20</xref>. Different susceptibilities to GATA-3 mutations between IL-4 and IL-5 induction were also observed with KRR, a 3-aa substitution between the zinc fingers, suggesting that GATA-3 may adopt different mechanisms for the induction of these genes. This idea is further supported by previous studies on the IL-4 and IL-5 promoters <xref ref-type="bib" rid="R19">19</xref>
+<xref ref-type="bib" rid="R20">20</xref>
+<xref ref-type="bib" rid="R21">21</xref>
+<xref ref-type="bib" rid="R22">22</xref>. We as well as others have shown the involvement of GATA-3 in the activation of the IL-5 promoter through binding to a critical DNA element, IL-5C, in conjunction with other inducible factors <xref ref-type="bib" rid="R18">18</xref>
+<xref ref-type="bib" rid="R19">19</xref>
+<xref ref-type="bib" rid="R20">20</xref>. In contrast, the role of GATA-3 on the IL-4 promoter is not clear. Recent data clearly showed that GATA-3 activated the transcription of IL-5, but not the IL-4 promoter in a B lymphoma line M12 <xref ref-type="bib" rid="R22">22</xref> and the thymoma line EL-4 (<xref ref-type="fig" rid="F5">Fig. 5</xref>), in spite of the presence of putative GATA sites in the IL-4 promoter <xref ref-type="bib" rid="R19">19</xref>
+<xref ref-type="bib" rid="R21">21</xref>. In this study, we support these findings and show that in contrast to GATA-3, c-Maf augments transactivation of the IL-4 promoter as previously shown <xref ref-type="bib" rid="R15">15</xref> but does not transactivate the IL-5 promoter (<xref ref-type="fig" rid="F5">Fig. 5</xref>). These results suggest that GATA-3 controls IL-4 expression by a mechanism other than transactivation.</p><p>Recent studies indicate that the development of naive Th cells into Th1 and Th2 subsets resulted in chromatin remodeling of cytokine gene loci <xref ref-type="bib" rid="R41">41</xref>
+<xref ref-type="bib" rid="R46">46</xref>. However, the molecular mechanism for initiating or maintaining Th1- and Th2-specific chromatin remodeling was not clear. Our results indicate that GATA-3 can induce Th2 cytokines in committed Th1 cells in which chromatin accessibility of the IL-4 and IL-13 loci is limited and that this effect is accompanied by chromatin remodeling of these loci (<xref ref-type="fig" rid="F6">Fig. 6</xref>) identical to that shown for IL-4&#x02013;driven Th2 cells <xref ref-type="bib" rid="R46">46</xref> and more recently in GATA-3&#x02013;transduced Th2 cells from Stat6 knockout mice <xref ref-type="bib" rid="R57">57</xref>. We demonstrate that GATA-3 is critical for Th2-specific commitment by showing that it induces this same HS sites in committed Th1 cells as that observed in IL-4&#x02013;driven Th2 cells. Putative GATA sites have also been identified in the regions around which the Th2-specific HS sites are mapped <xref ref-type="bib" rid="R41">41</xref>
+<xref ref-type="bib" rid="R46">46</xref>. The role of GATA-1 in chromatin remodeling of the &#x003b2;-globin locus has been well established <xref ref-type="bib" rid="R58">58</xref>. Moreover, a recent report indicates that GATA factors interact via their COOH-terminal zinc finger with the transcriptional coactivator CREB binding protein, which has a histone acetyltransferase activity <xref ref-type="bib" rid="R59">59</xref>. Our result demonstrating the essential role of the COOH-terminal zinc finger of GATA-3 for Th2 cytokine induction further supports the hypothesis for the role of GATA factors in chromatin remodeling.</p><p>The molecular basis for Th2-specific expression of GATA-3 is largely unknown. There is an indication that this may involve upregulation by IL-4 via Stat6 as well as downregulation by IL-12 via Stat4 <xref ref-type="bib" rid="R23">23</xref>. We recently found that activation of Stat6 induced GATA-3 and c-<italic>maf</italic> expression in developing Th1 cells even in the complete absence of IL-4, suggesting that GATA-3 and c-Maf may be downstream targets of the Stat6 signaling pathway <xref ref-type="bib" rid="R39">39</xref>. Although we did not apparently detect the induction of c-<italic>maf</italic> by GATA-3, this may be due to the possibility that c-<italic>maf</italic> levels are below the detectability of our assay. Alternatively, the stage after stimulation of the Th cells when we examined c-<italic>maf</italic> expression may not be optimal for detection of this transcription factor, as it has been suggested that c-<italic>maf</italic> may be upregulated by TCR ligation <xref ref-type="bib" rid="R15">15</xref>, and we measured mRNA expression 7 d after Ag-specific stimulation. Our results provide evidence that ectopically expressed GATA-3 induced endogenous GATA-3, suggesting that an autoregulatory mechanism could play a role in Th2 differentiation, as recently suggested by Ouyang et al. <xref ref-type="bib" rid="R57">57</xref>. However, endogenous GATA-3 induction by ectopically expressed GATA-3 was limited to developing Th1 cells and did not occur in a Th1 clone. This result may provide an insight into the mechanism by which Th2 cells maintain GATA-3 expression and thus the production of Th2 cytokines, whereas Th1 cells do not. It is possible that other factors or pathways lacking in Th1 cells may be additionally required for GATA-3 induction and/or that active inhibitory mechanisms may be operating in Th1 cells to suppress GATA-3 expression. In this respect, it is worthwhile to note a recent report describing a silencer element in the human GATA-3 promoter that confers T cell&#x02013;specific activity of the promoter <xref ref-type="bib" rid="R60">60</xref>. Thus, Th2-specific expression of GATA-3 may be under the control of multiple regulatory mechanisms involving extracellular signals and intracellular factors.</p><p>In conclusion, our study demonstrates that ectopic expression of GATA-3 in combination with cAMP can convert committed Th1 cells to produce Th2-specific cytokines. The ability of GATA-3 to induce the Th2-specific cytokines IL-4 and IL-10 and thus change a committed Th1 phenotype upon antigenic stimulation has important implications for the treatment of autoimmune pathologies, which are often mediated by Th1 cells <xref ref-type="bib" rid="R61">61</xref>
+<xref ref-type="bib" rid="R62">62</xref>. The production of Th2-specific cytokines in these Th1 cells induced by GATA-3 could also serve to negatively regulate a generalized Th1 response. IL-10 and IL-4 are known to inhibit the production of IL-12 and IL-18 <xref ref-type="bib" rid="R5">5</xref>
+<xref ref-type="bib" rid="R63">63</xref> by macrophages and dendritic cells, and these factors are required for the maintenance of a Th1 phenotype <xref ref-type="bib" rid="R64">64</xref>. Thus, the production of IL-4 and IL-10 in Th1 cells, in response to Ag-specific stimulation in the context of ectopic GATA-3, could break the loop maintaining autoimmune Th1-mediated pathologies. The ability to alter a committed Th1 phenotype by retroviral transduction of GATA-3 to produce Th2-specific cytokines may therefore provide a potential for therapeutic intervention in certain Th1-related diseases.</p></sec></body><back><ack><p>We thank Drs. L. Lanier, R. Coffman, J. Johnston, A. Mui, and M. Nishizawa for helpful discussions and Drs. D. Wylie and M. Angelopoulos for critical reading of the manuscript. We thank Dr. J. Cupp, E. Callas, D. Polakoff, and J. Maskrey for technical help with flow cytometry, Dr. M. Andonian for assistance with graphics, D. Gorman for sequencing, D. Ligget for synthesizing oligonucleotides, and Drs. S. Menon and J. Abrams for cytokines and antibodies. We thank Drs. M. Yamamoto and G. Nolan for the generous gift of a c-<italic>maf</italic> clone and for a packaging cell line, Phoenix-Eco, respectively and Dr. H. Spits for the retrovirus vector containing internal ribosome entry site (IRES) and EGFP.</p><p>DNAX Research Institute of Molecular and Cellular Biology is supported by the Schering-Plough Corporation.</p></ack><fn-group><fn><p>
+<italic>Abbreviations used in this paper:</italic> EGFP, enhanced green fluorescent protein; HS, DNaseI-hypersensitive.</p></fn></fn-group><ref-list><ref id="R1"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Mosmann</surname><given-names>T.R.</given-names></name><name><surname>Cherwinski</surname><given-names>H.</given-names></name><name><surname>Bond</surname><given-names>M.W.</given-names></name><name><surname>Giedlin</surname><given-names>M.A.</given-names></name><name><surname>Coffman</surname><given-names>R.L.</given-names></name></person-group>
+<article-title>Two types of murine helper T cell clone. I. Definition according to profiles of lymphokine activities and secreted proteins</article-title>
+<source>J. Immunol.</source>
+<volume>136</volume>
+<year>1986</year>
+<fpage>2348</fpage>
+<lpage>2357</lpage>
+<pub-id pub-id-type="pmid">2419430</pub-id></element-citation></ref><ref id="R2"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Sher</surname><given-names>A.</given-names></name><name><surname>Coffman</surname><given-names>R.L.</given-names></name></person-group>
+<article-title>Regulation of immunity to parasites by T cells and T cell-derived cytokines</article-title>
+<source>Annu. Rev. Immunol.</source>
+<volume>10</volume>
+<year>1992</year>
+<fpage>385</fpage>
+<lpage>409</lpage>
+<pub-id pub-id-type="pmid">1590992</pub-id></element-citation></ref><ref id="R3"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Romagnani</surname><given-names>S.</given-names></name></person-group>
+<article-title>Lymphokine production by human T cells in disease states</article-title>
+<source>Annu. Rev. Immunol.</source>
+<volume>12</volume>
+<year>1994</year>
+<fpage>227</fpage>
+<lpage>257</lpage>
+<pub-id pub-id-type="pmid">8011282</pub-id></element-citation></ref><ref id="R4"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Abbas</surname><given-names>A.K.</given-names></name><name><surname>Murphy</surname><given-names>K.M.</given-names></name><name><surname>Sher</surname><given-names>A.</given-names></name></person-group>
+<article-title>Functional diversity of helper T lymphocytes</article-title>
+<source>Nature.</source>
+<volume>383</volume>
+<year>1996</year>
+<fpage>787</fpage>
+<lpage>793</lpage>
+<pub-id pub-id-type="pmid">8893001</pub-id></element-citation></ref><ref id="R5"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>O'Garra</surname><given-names>A.</given-names></name></person-group>
+<article-title>Cytokines induce the development of functionally heterogenous T helper cell subsets</article-title>
+<source>Immunity.</source>
+<volume>8</volume>
+<year>1998</year>
+<fpage>275</fpage>
+<lpage>283</lpage>
+<pub-id pub-id-type="pmid">9529145</pub-id></element-citation></ref><ref id="R6"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Paul</surname><given-names>W.E.</given-names></name><name><surname>Seder</surname><given-names>R.A.</given-names></name></person-group>
+<article-title>Lymphocyte responses and cytokines</article-title>
+<source>Cell.</source>
+<volume>76</volume>
+<year>1994</year>
+<fpage>241</fpage>
+<lpage>251</lpage>
+<pub-id pub-id-type="pmid">7904900</pub-id></element-citation></ref><ref id="R7"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Perez</surname><given-names>V.L.</given-names></name><name><surname>Lederer</surname><given-names>J.A.</given-names></name><name><surname>Lichtman</surname><given-names>A.H.</given-names></name><name><surname>Abbas</surname><given-names>A.K.</given-names></name></person-group>
+<article-title>Stability of Th1 and Th2 populations</article-title>
+<source>Int. Immunol.</source>
+<volume>7</volume>
+<year>1995</year>
+<fpage>869</fpage>
+<lpage>875</lpage>
+<pub-id pub-id-type="pmid">7547713</pub-id></element-citation></ref><ref id="R8"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Szabo</surname><given-names>S.J.</given-names></name><name><surname>Jacobson</surname><given-names>N.G.</given-names></name><name><surname>Dighe</surname><given-names>A.S.</given-names></name><name><surname>Gubler</surname><given-names>U.</given-names></name><name><surname>Murphy</surname><given-names>K.M.</given-names></name></person-group>
+<article-title>Developmental commitment in the Th2 lineage by extinction of IL-12 signaling</article-title>
+<source>Immunity.</source>
+<volume>2</volume>
+<year>1995</year>
+<fpage>665</fpage>
+<lpage>675</lpage>
+<pub-id pub-id-type="pmid">7796298</pub-id></element-citation></ref><ref id="R9"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Murphy</surname><given-names>E.</given-names></name><name><surname>Shibuya</surname><given-names>K.</given-names></name><name><surname>Hosken</surname><given-names>N.</given-names></name><name><surname>Openshaw</surname><given-names>P.</given-names></name><name><surname>Maino</surname><given-names>V.</given-names></name><name><surname>Davis</surname><given-names>K.</given-names></name><name><surname>Murphy</surname><given-names>K.</given-names></name><name><surname>O'Garra</surname><given-names>A.</given-names></name></person-group>
+<article-title>Reversibility of T helper 1 and 2 populations is lost after long-term stimulation</article-title>
+<source>J. Exp. Med.</source>
+<volume>183</volume>
+<year>1996</year>
+<fpage>901</fpage>
+<lpage>913</lpage>
+<pub-id pub-id-type="pmid">8642294</pub-id></element-citation></ref><ref id="R10"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Mocci</surname><given-names>S.</given-names></name><name><surname>Coffman</surname><given-names>R.L.</given-names></name></person-group>
+<article-title>The mechanism of in vitro T helper cell type 1 to T helper cell type 2 switching in highly polarized <italic>Leishmania major</italic>-specific T cell populations</article-title>
+<source>J. Immunol.</source>
+<volume>158</volume>
+<year>1997</year>
+<fpage>1559</fpage>
+<lpage>1564</lpage>
+<pub-id pub-id-type="pmid">9029090</pub-id></element-citation></ref><ref id="R11"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Szabo</surname><given-names>S.J.</given-names></name><name><surname>Dighe</surname><given-names>A.S.</given-names></name><name><surname>Gubler</surname><given-names>U.</given-names></name><name><surname>Murphy</surname><given-names>K.M.</given-names></name></person-group>
+<article-title>Regulation of the interleukin (IL)-12R beta 2 subunit expression in developing T helper 1 (Th1) and Th2 cells</article-title>
+<source>J. Exp. Med.</source>
+<volume>185</volume>
+<year>1997</year>
+<fpage>817</fpage>
+<lpage>824</lpage>
+<pub-id pub-id-type="pmid">9120387</pub-id></element-citation></ref><ref id="R12"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Rogge</surname><given-names>L.</given-names></name><name><surname>Barberis</surname><given-names>M.L.</given-names></name><name><surname>Biffi</surname><given-names>M.</given-names></name><name><surname>Passini</surname><given-names>N.</given-names></name><name><surname>Presky</surname><given-names>D.H.</given-names></name><name><surname>Gubler</surname><given-names>U.</given-names></name><name><surname>Sinigaglia</surname><given-names>F.</given-names></name></person-group>
+<article-title>Selective expression of an interleukin-12 receptor component by human T helper 1 cells</article-title>
+<source>J. Exp. Med.</source>
+<volume>185</volume>
+<year>1997</year>
+<fpage>825</fpage>
+<lpage>831</lpage>
+<pub-id pub-id-type="pmid">9120388</pub-id></element-citation></ref><ref id="R13"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Kubo</surname><given-names>M.</given-names></name><name><surname>Ransom</surname><given-names>J.</given-names></name><name><surname>Webb</surname><given-names>D.</given-names></name><name><surname>Hashimoto</surname><given-names>Y.</given-names></name><name><surname>Tada</surname><given-names>T.</given-names></name><name><surname>Nakayama</surname><given-names>T.</given-names></name></person-group>
+<article-title>T-cell subset-specific expression of the IL-4 gene is regulated by a silencer element and STAT6</article-title>
+<source>EMBO (Eur. Mol. Biol. Organ.) J.</source>
+<volume>16</volume>
+<year>1997</year>
+<fpage>4007</fpage>
+<lpage>4020</lpage>
+</element-citation></ref><ref id="R14"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Huang</surname><given-names>H.</given-names></name><name><surname>Paul</surname><given-names>W.E.</given-names></name></person-group>
+<article-title>Impaired interleukin 4 signaling in T helper type 1 cells</article-title>
+<source>J. Exp. Med.</source>
+<volume>187</volume>
+<year>1998</year>
+<fpage>1305</fpage>
+<lpage>1313</lpage>
+<pub-id pub-id-type="pmid">9547341</pub-id></element-citation></ref><ref id="R15"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Ho</surname><given-names>I.C.</given-names></name><name><surname>Hodge</surname><given-names>M.R.</given-names></name><name><surname>Rooney</surname><given-names>J.W.</given-names></name><name><surname>Glimcher</surname><given-names>L.H.</given-names></name></person-group>
+<article-title>The proto-oncogene c-maf is responsible for tissue-specific expression of interleukin-4</article-title>
+<source>Cell.</source>
+<volume>85</volume>
+<year>1996</year>
+<fpage>973</fpage>
+<lpage>983</lpage>
+<pub-id pub-id-type="pmid">8674125</pub-id></element-citation></ref><ref id="R16"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Zheng</surname><given-names>W.</given-names></name><name><surname>Flavell</surname><given-names>R.A.</given-names></name></person-group>
+<article-title>The transcription factor GATA-3 is necessary and sufficient for Th2 cytokine gene expression in CD4 T cells</article-title>
+<source>Cell.</source>
+<volume>89</volume>
+<year>1997</year>
+<fpage>587</fpage>
+<lpage>596</lpage>
+<pub-id pub-id-type="pmid">9160750</pub-id></element-citation></ref><ref id="R17"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Ouyang</surname><given-names>W.</given-names></name><name><surname>Jacobson</surname><given-names>N.G.</given-names></name><name><surname>Bhattacharya</surname><given-names>D.</given-names></name><name><surname>Gorham</surname><given-names>J.D.</given-names></name><name><surname>Fenoglio</surname><given-names>D.</given-names></name><name><surname>Sha</surname><given-names>W.C.</given-names></name><name><surname>Murphy</surname><given-names>T.L.</given-names></name><name><surname>Murphy</surname><given-names>K.M.</given-names></name></person-group>
+<article-title>The Ets transcription factor ERM is Th1-specific and induced by IL-12 through a Stat4-dependent pathway</article-title>
+<source>Proc. Natl. Acad. Sci. USA.</source>
+<volume>96</volume>
+<year>1999</year>
+<fpage>3888</fpage>
+<lpage>3893</lpage>
+<pub-id pub-id-type="pmid">10097133</pub-id></element-citation></ref><ref id="R18"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Arai</surname><given-names>N.</given-names></name><name><surname>Lee</surname><given-names>H.J.</given-names></name><name><surname>Ferber</surname><given-names>I.</given-names></name><name><surname>Kurata</surname><given-names>H.</given-names></name><name><surname>O'Garra</surname><given-names>A.</given-names></name></person-group>
+<article-title>Multiple levels of regulation of Th2 cytokine gene expression</article-title>
+<source>Cold Spring Harbor Symposia on Quantitative Biology Signaling &#x00026; Gene Expression in the Immune System.</source>
+<volume>LXIII</volume>
+<year>1999</year>
+<fpage>589</fpage>
+<lpage>598</lpage>
+</element-citation></ref><ref id="R19"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Zhang</surname><given-names>D.H.</given-names></name><name><surname>Cohn</surname><given-names>L.</given-names></name><name><surname>Ray</surname><given-names>P.</given-names></name><name><surname>Bottomly</surname><given-names>K.</given-names></name><name><surname>Ray</surname><given-names>A.</given-names></name></person-group>
+<article-title>Transcription factor GATA-3 is differentially expressed in murine Th1 and Th2 cells and controls Th2-specific expression of the interleukin-5 gene</article-title>
+<source>J. Biol. Chem.</source>
+<volume>272</volume>
+<year>1997</year>
+<fpage>21597</fpage>
+<lpage>21603</lpage>
+<pub-id pub-id-type="pmid">9261181</pub-id></element-citation></ref><ref id="R20"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Lee</surname><given-names>H.J.</given-names></name><name><surname>O'Garra</surname><given-names>A.</given-names></name><name><surname>Arai</surname><given-names>K.</given-names></name><name><surname>Arai</surname><given-names>N.</given-names></name></person-group>
+<article-title>Characterization of cis-regulatory elements and nuclear factors conferring Th2-specific expression of the IL-5 genea role for a GATA-binding protein</article-title>
+<source>J. Immunol.</source>
+<volume>160</volume>
+<year>1998</year>
+<fpage>2343</fpage>
+<lpage>2352</lpage>
+<pub-id pub-id-type="pmid">9498775</pub-id></element-citation></ref><ref id="R21"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Ranganath</surname><given-names>S.</given-names></name><name><surname>Ouyang</surname><given-names>W.</given-names></name><name><surname>Bhattarcharya</surname><given-names>D.</given-names></name><name><surname>Sha</surname><given-names>W.C.</given-names></name><name><surname>Grupe</surname><given-names>A.</given-names></name><name><surname>Peltz</surname><given-names>G.</given-names></name><name><surname>Murphy</surname><given-names>K.M.</given-names></name></person-group>
+<article-title>GATA-3-dependent enhancer activity in IL-4 gene regulation</article-title>
+<source>J. Immunol.</source>
+<volume>161</volume>
+<year>1998</year>
+<fpage>3822</fpage>
+<lpage>3826</lpage>
+<pub-id pub-id-type="pmid">9780146</pub-id></element-citation></ref><ref id="R22"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Zhang</surname><given-names>D.H.</given-names></name><name><surname>Yang</surname><given-names>L.</given-names></name><name><surname>Ray</surname><given-names>A.</given-names></name></person-group>
+<article-title>Differential responsiveness of the IL-5 and IL-4 genes to transcription factor GATA-3</article-title>
+<source>J. Immunol.</source>
+<volume>161</volume>
+<year>1998</year>
+<fpage>3817</fpage>
+<lpage>3821</lpage>
+<pub-id pub-id-type="pmid">9780145</pub-id></element-citation></ref><ref id="R23"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Ouyang</surname><given-names>W.</given-names></name><name><surname>Ranganath</surname><given-names>S.H.</given-names></name><name><surname>Weindel</surname><given-names>K.</given-names></name><name><surname>Bhattacharya</surname><given-names>D.</given-names></name><name><surname>Murphy</surname><given-names>T.L.</given-names></name><name><surname>Sha</surname><given-names>W.C.</given-names></name><name><surname>Murphy</surname><given-names>K.M.</given-names></name></person-group>
+<article-title>Inhibition of Th1 development mediated by GATA-3 through an IL-4-independent mechanism</article-title>
+<source>Immunity.</source>
+<volume>9</volume>
+<year>1998</year>
+<fpage>745</fpage>
+<lpage>755</lpage>
+<pub-id pub-id-type="pmid">9846495</pub-id></element-citation></ref><ref id="R24"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Ho</surname><given-names>I.C.</given-names></name><name><surname>Vorhees</surname><given-names>P.</given-names></name><name><surname>Marin</surname><given-names>N.</given-names></name><name><surname>Oakley</surname><given-names>B.K.</given-names></name><name><surname>Tsai</surname><given-names>S.F.</given-names></name><name><surname>Orkin</surname><given-names>S.H.</given-names></name><name><surname>Leiden</surname><given-names>J.M.</given-names></name></person-group>
+<article-title>Human GATA-3a lineage-restricted transcription factor that regulates the expression of the T cell receptor alpha gene</article-title>
+<source>EMBO (Eur. Mol. Biol. Organ.) J.</source>
+<volume>10</volume>
+<year>1991</year>
+<fpage>1187</fpage>
+<lpage>1192</lpage>
+</element-citation></ref><ref id="R25"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Ko</surname><given-names>L.J.</given-names></name><name><surname>Yamamoto</surname><given-names>M.</given-names></name><name><surname>Leonard</surname><given-names>M.W.</given-names></name><name><surname>George</surname><given-names>K.M.</given-names></name><name><surname>Ting</surname><given-names>P.</given-names></name><name><surname>Engel</surname><given-names>J.D.</given-names></name></person-group>
+<article-title>Murine and human T-lymphocyte GATA-3 factors mediate transcription through a cis-regulatory element within the human T-cell receptor delta gene enhancer</article-title>
+<source>Mol. Cell. Biol.</source>
+<volume>11</volume>
+<year>1991</year>
+<fpage>2778</fpage>
+<lpage>2784</lpage>
+<pub-id pub-id-type="pmid">2017177</pub-id></element-citation></ref><ref id="R26"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Ting</surname><given-names>C.N.</given-names></name><name><surname>Olson</surname><given-names>M.C.</given-names></name><name><surname>Barton</surname><given-names>K.P.</given-names></name><name><surname>Leiden</surname><given-names>J.M.</given-names></name></person-group>
+<article-title>Transcription factor GATA-3 is required for development of the T-cell lineage</article-title>
+<source>Nature.</source>
+<volume>384</volume>
+<year>1996</year>
+<fpage>474</fpage>
+<lpage>478</lpage>
+<pub-id pub-id-type="pmid">8945476</pub-id></element-citation></ref><ref id="R27"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Ferber</surname><given-names>I.A.</given-names></name><name><surname>Lee</surname><given-names>H.J.</given-names></name><name><surname>Zonin</surname><given-names>F.</given-names></name><name><surname>Heath</surname><given-names>V.</given-names></name><name><surname>Mui</surname><given-names>A.</given-names></name><name><surname>Arai</surname><given-names>N.</given-names></name><name><surname>O'Garra</surname><given-names>A.</given-names></name></person-group>
+<article-title>GATA-3 significantly downregulates IFN-&#x003b3; production from developing Th1 cells in addition to inducing IL-4 and IL-5 levels</article-title>
+<source>Clin. Immunol.</source>
+<volume>91</volume>
+<year>1999</year>
+<fpage>134</fpage>
+<lpage>144</lpage>
+<pub-id pub-id-type="pmid">10227805</pub-id></element-citation></ref><ref id="R28"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Gajewski</surname><given-names>T.F.</given-names></name><name><surname>Lancki</surname><given-names>D.W.</given-names></name><name><surname>Stack</surname><given-names>R.</given-names></name><name><surname>Fitch</surname><given-names>F.W.</given-names></name></person-group>
+<article-title>&#x0201c;Anergy&#x0201d; of TH0 helper T lymphocytes induces downregulation of TH1 characteristics and a transition to a TH2-like phenotype</article-title>
+<source>J. Exp. Med.</source>
+<volume>179</volume>
+<year>1994</year>
+<fpage>481</fpage>
+<lpage>491</lpage>
+<pub-id pub-id-type="pmid">8294862</pub-id></element-citation></ref><ref id="R29"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Yang</surname><given-names>D.D.</given-names></name><name><surname>Conze</surname><given-names>D.</given-names></name><name><surname>Whitmarsh</surname><given-names>A.J.</given-names></name><name><surname>Barrett</surname><given-names>T.</given-names></name><name><surname>Davis</surname><given-names>R.J.</given-names></name><name><surname>Rincon</surname><given-names>M.</given-names></name><name><surname>Flavell</surname><given-names>R.A.</given-names></name></person-group>
+<article-title>Differentiation of CD4<sup>+</sup> T cells to Th1 cells requires MAP kinase JNK2</article-title>
+<source>Immunity.</source>
+<volume>9</volume>
+<year>1998</year>
+<fpage>575</fpage>
+<lpage>585</lpage>
+<pub-id pub-id-type="pmid">9806643</pub-id></element-citation></ref><ref id="R30"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Novak</surname><given-names>T.J.</given-names></name><name><surname>Rothenberg</surname><given-names>E.V.</given-names></name></person-group>
+<article-title>cAMP inhibits induction of interleukin 2 but not of interleukin 4 in T cells</article-title>
+<source>Proc. Natl. Acad. Sci. USA.</source>
+<volume>87</volume>
+<year>1990</year>
+<fpage>9353</fpage>
+<lpage>9357</lpage>
+<pub-id pub-id-type="pmid">2174560</pub-id></element-citation></ref><ref id="R31"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Naito</surname><given-names>Y.</given-names></name><name><surname>Endo</surname><given-names>H.</given-names></name><name><surname>Arai</surname><given-names>K.</given-names></name><name><surname>Coffman</surname><given-names>R.L.</given-names></name><name><surname>Arai</surname><given-names>N.</given-names></name></person-group>
+<article-title>Signal transduction in Th clonestarget of differential modulation by PGE2 may reside downstream of the PKC-dependent pathway</article-title>
+<source>Cytokine.</source>
+<volume>8</volume>
+<year>1996</year>
+<fpage>346</fpage>
+<lpage>356</lpage>
+<pub-id pub-id-type="pmid">8726662</pub-id></element-citation></ref><ref id="R32"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Snijdewint</surname><given-names>F.G.</given-names></name><name><surname>Kalinski</surname><given-names>P.</given-names></name><name><surname>Wierenga</surname><given-names>E.A.</given-names></name><name><surname>Bos</surname><given-names>J.D.</given-names></name><name><surname>Kapsenberg</surname><given-names>M.L.</given-names></name></person-group>
+<article-title>Prostaglandin E2 differentially modulates cytokine secretion profiles of human T helper lymphocytes</article-title>
+<source>J. Immunol.</source>
+<volume>150</volume>
+<year>1993</year>
+<fpage>5321</fpage>
+<lpage>5329</lpage>
+<pub-id pub-id-type="pmid">8390534</pub-id></element-citation></ref><ref id="R33"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Ohara</surname><given-names>J.</given-names></name><name><surname>Paul</surname><given-names>W.E.</given-names></name></person-group>
+<article-title>Production of a monoclonal antibody to and molecular characterization of B-cell stimulatory factor-1</article-title>
+<source>Nature.</source>
+<volume>315</volume>
+<year>1985</year>
+<fpage>333</fpage>
+<lpage>336</lpage>
+<pub-id pub-id-type="pmid">2582266</pub-id></element-citation></ref><ref id="R34"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Ozmen</surname><given-names>L.</given-names></name><name><surname>Pericin</surname><given-names>M.</given-names></name><name><surname>Hakimi</surname><given-names>J.</given-names></name><name><surname>Chizzonite</surname><given-names>R.A.</given-names></name><name><surname>Wysocka</surname><given-names>M.</given-names></name><name><surname>Trinchieri</surname><given-names>G.</given-names></name><name><surname>Gately</surname><given-names>M.</given-names></name><name><surname>Garotta</surname><given-names>G.</given-names></name></person-group>
+<article-title>Interleukin 12, interferon &#x003b3;, and tumor necrosis factor &#x003b1; are the key cytokines of the generalized Shwartzman reaction</article-title>
+<source>J. Exp. Med.</source>
+<volume>180</volume>
+<year>1994</year>
+<fpage>907</fpage>
+<lpage>915</lpage>
+<pub-id pub-id-type="pmid">7914909</pub-id></element-citation></ref><ref id="R35"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Murphy</surname><given-names>K.M.</given-names></name><name><surname>Heimberger</surname><given-names>A.B.</given-names></name><name><surname>Loh</surname><given-names>D.Y.</given-names></name></person-group>
+<article-title>Induction by antigen of interthymic apoptosis of CD4<sup>+</sup> CD8<sup>+</sup> TCR<sup>lo</sup> thymocytes in vivo</article-title>
+<source>Science.</source>
+<volume>250</volume>
+<year>1990</year>
+<fpage>1720</fpage>
+<lpage>1722</lpage>
+<pub-id pub-id-type="pmid">2125367</pub-id></element-citation></ref><ref id="R36"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Cherwinski</surname><given-names>H.M.</given-names></name><name><surname>Schumacher</surname><given-names>J.H.</given-names></name><name><surname>Brown</surname><given-names>K.D.</given-names></name><name><surname>Mosmann</surname><given-names>T.R.</given-names></name></person-group>
+<article-title>Two types of mouse helper T cell clone. III. Further differences in lymphokine synthesis between Th1 and Th2 clones revealed by RNA hybridization, functionally monospecific bioassays, and monoclonal antibodies</article-title>
+<source>J. Exp. Med.</source>
+<volume>166</volume>
+<year>1987</year>
+<fpage>1229</fpage>
+<lpage>1244</lpage>
+<pub-id pub-id-type="pmid">2960769</pub-id></element-citation></ref><ref id="R37"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Staal</surname><given-names>F.J.</given-names></name><name><surname>Bakker</surname><given-names>A.Q.</given-names></name><name><surname>Verkuijlen</surname><given-names>M.</given-names></name><name><surname>van Oort</surname><given-names>E.</given-names></name><name><surname>Spits</surname><given-names>H.</given-names></name></person-group>
+<article-title>Use of bicistronic retroviral vectors encoding the LacZ gene together with a gene of interesta method to select producer cells and follow transduced target cells</article-title>
+<source>Cancer Gene Ther.</source>
+<volume>3</volume>
+<year>1996</year>
+<fpage>345</fpage>
+<lpage>351</lpage>
+<pub-id pub-id-type="pmid">8894254</pub-id></element-citation></ref><ref id="R38"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Kinsella</surname><given-names>T.M.</given-names></name><name><surname>Nolan</surname><given-names>G.P.</given-names></name></person-group>
+<article-title>Episomal vectors rapidly and stably produce high-titer recombinant retrovirus</article-title>
+<source>Hum. Gene Ther.</source>
+<volume>7</volume>
+<year>1996</year>
+<fpage>1405</fpage>
+<lpage>1413</lpage>
+<pub-id pub-id-type="pmid">8844199</pub-id></element-citation></ref><ref id="R39"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Kurata</surname><given-names>H.</given-names></name><name><surname>Lee</surname><given-names>H.J.</given-names></name><name><surname>O'Garra</surname><given-names>A.</given-names></name><name><surname>Arai</surname><given-names>N.</given-names></name></person-group>
+<article-title>Ectopic expression of activated Stat6 induces the expression of Th2-specific cytokines and transcription factors in developing Th1 cells</article-title>
+<source>Immunity.</source>
+<volume>11</volume>
+<year>1999</year>
+<fpage>677</fpage>
+<lpage>688</lpage>
+<pub-id pub-id-type="pmid">10626890</pub-id></element-citation></ref><ref id="R40"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Kurschner</surname><given-names>C.</given-names></name><name><surname>Morgan</surname><given-names>J.I.</given-names></name></person-group>
+<article-title>The maf proto-oncogene stimulates transcription from multiple sites in a promoter that directs Purkinje neuron-specific gene expression</article-title>
+<source>Mol. Cell. Biol.</source>
+<volume>15</volume>
+<year>1995</year>
+<fpage>246</fpage>
+<lpage>254</lpage>
+<pub-id pub-id-type="pmid">7799931</pub-id></element-citation></ref><ref id="R41"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Takemoto</surname><given-names>N.</given-names></name><name><surname>Koyano-Nakagawa</surname><given-names>N.</given-names></name><name><surname>Yokota</surname><given-names>T.</given-names></name><name><surname>Arai</surname><given-names>N.</given-names></name><name><surname>Miyatake</surname><given-names>S.</given-names></name><name><surname>Arai</surname><given-names>K.I.</given-names></name></person-group>
+<article-title>Th2-specific DNase I-hypersensitive sites in the murine IL-13 and IL-4 intergenic region</article-title>
+<source>Int. Immunol.</source>
+<volume>10</volume>
+<year>1998</year>
+<fpage>1981</fpage>
+<lpage>1985</lpage>
+<pub-id pub-id-type="pmid">9885919</pub-id></element-citation></ref><ref id="R42"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Lee</surname><given-names>H.J.</given-names></name><name><surname>Koyano-Nakagawa</surname><given-names>N.</given-names></name><name><surname>Naito</surname><given-names>Y.</given-names></name><name><surname>Nishida</surname><given-names>J.</given-names></name><name><surname>Arai</surname><given-names>N.</given-names></name><name><surname>Arai</surname><given-names>K.</given-names></name><name><surname>Yokota</surname><given-names>T.</given-names></name></person-group>
+<article-title>cAMP activates the IL-5 promoter synergistically with phorbol ester through the signaling pathway involving protein kinase A in mouse thymoma line EL-4</article-title>
+<source>J. Immunol.</source>
+<volume>151</volume>
+<year>1993</year>
+<fpage>6135</fpage>
+<lpage>6142</lpage>
+<pub-id pub-id-type="pmid">8245456</pub-id></element-citation></ref><ref id="R43"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Yang</surname><given-names>Z.</given-names></name><name><surname>Gu</surname><given-names>L.</given-names></name><name><surname>Romeo</surname><given-names>P.H.</given-names></name><name><surname>Bories</surname><given-names>D.</given-names></name><name><surname>Motohashi</surname><given-names>H.</given-names></name><name><surname>Yamamoto</surname><given-names>M.</given-names></name><name><surname>Engel</surname><given-names>J.D.</given-names></name></person-group>
+<article-title>Human GATA-3 trans-activation, DNA-binding, and nuclear localization activities are organized into distinct structural domains</article-title>
+<source>Mol. Cell. Biol.</source>
+<volume>14</volume>
+<year>1994</year>
+<fpage>2201</fpage>
+<lpage>2212</lpage>
+<pub-id pub-id-type="pmid">8114750</pub-id></element-citation></ref><ref id="R44"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Smith</surname><given-names>V.M.</given-names></name><name><surname>Lee</surname><given-names>P.P.</given-names></name><name><surname>Szychowski</surname><given-names>S.</given-names></name><name><surname>Winoto</surname><given-names>A.</given-names></name></person-group>
+<article-title>GATA-3 dominant negative mutant. Functional redundancy of the T cell receptor alpha and beta enhancers</article-title>
+<source>J. Biol. Chem.</source>
+<volume>270</volume>
+<year>1995</year>
+<fpage>1515</fpage>
+<lpage>1520</lpage>
+<pub-id pub-id-type="pmid">7829479</pub-id></element-citation></ref><ref id="R45"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Frazer</surname><given-names>K.</given-names></name><name><surname>Ueda</surname><given-names>Y.</given-names></name><name><surname>Zhu</surname><given-names>Y.</given-names></name><name><surname>Gifford</surname><given-names>V.</given-names></name><name><surname>Garofalo</surname><given-names>M.</given-names></name><name><surname>Mohandas</surname><given-names>N.</given-names></name><name><surname>Martin</surname><given-names>C.</given-names></name><name><surname>Palazzolo</surname><given-names>M.</given-names></name><name><surname>Cheng</surname><given-names>J.</given-names></name><name><surname>Rubin</surname><given-names>E.</given-names></name></person-group>
+<article-title>Computational and biological analysis of 680 kb of DNA sequence from the human 5q31cytokine gene cluster region</article-title>
+<source>Genome Res.</source>
+<volume>7</volume>
+<year>1997</year>
+<fpage>495</fpage>
+<lpage>512</lpage>
+<pub-id pub-id-type="pmid">9149945</pub-id></element-citation></ref><ref id="R46"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Agarwal</surname><given-names>S.</given-names></name><name><surname>Rao</surname><given-names>A.</given-names></name></person-group>
+<article-title>Modulation of chromatin structure regulates cytokine gene expression during T cell differentiation</article-title>
+<source>Immunity.</source>
+<volume>9</volume>
+<year>1998</year>
+<fpage>765</fpage>
+<lpage>775</lpage>
+<pub-id pub-id-type="pmid">9881967</pub-id></element-citation></ref><ref id="R47"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Kulessa</surname><given-names>H.</given-names></name><name><surname>Frampton</surname><given-names>J.</given-names></name><name><surname>Graf</surname><given-names>T.</given-names></name></person-group>
+<article-title>GATA-1 reprograms avian myelomonocytic cell lines into eosinophils, thromboblasts, and erythroblasts</article-title>
+<source>Genes Dev.</source>
+<volume>9</volume>
+<year>1995</year>
+<fpage>1250</fpage>
+<lpage>1262</lpage>
+<pub-id pub-id-type="pmid">7758949</pub-id></element-citation></ref><ref id="R48"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>McDevitt</surname><given-names>M.A.</given-names></name><name><surname>Shivdasani</surname><given-names>R.A.</given-names></name><name><surname>Fujiwara</surname><given-names>Y.</given-names></name><name><surname>Yang</surname><given-names>H.</given-names></name><name><surname>Orkin</surname><given-names>S.H.</given-names></name></person-group>
+<article-title>A &#x0201c;knockdown&#x0201d; mutation created by cis-element gene targeting reveals the dependence of erythroid cell maturation on the level of transcription factor GATA-1</article-title>
+<source>Proc. Natl. Acad. Sci. USA.</source>
+<volume>94</volume>
+<year>1997</year>
+<fpage>6781</fpage>
+<lpage>6785</lpage>
+<pub-id pub-id-type="pmid">9192642</pub-id></element-citation></ref><ref id="R49"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Davydov</surname><given-names>I.V.</given-names></name><name><surname>Krammer</surname><given-names>P.H.</given-names></name><name><surname>Li-Weber</surname><given-names>M.</given-names></name></person-group>
+<article-title>Nuclear factor-IL6 activates the human IL-4 promoter in T cells</article-title>
+<source>J. Immunol.</source>
+<volume>155</volume>
+<year>1995</year>
+<fpage>5273</fpage>
+<lpage>5279</lpage>
+<pub-id pub-id-type="pmid">7594540</pub-id></element-citation></ref><ref id="R50"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Rincon</surname><given-names>M.</given-names></name><name><surname>Derijard</surname><given-names>B.</given-names></name><name><surname>Chow</surname><given-names>C.W.</given-names></name><name><surname>Davis</surname><given-names>R.J.</given-names></name><name><surname>Flavell</surname><given-names>R.A.</given-names></name></person-group>
+<article-title>Reprogramming the signalling requirement for AP-1 (activator protein-1) activation during differentiation of precursor CD4<sup>+</sup> T-cells into effector Th1 and Th2 cells</article-title>
+<source>Genes Funct.</source>
+<volume>1</volume>
+<year>1997</year>
+<fpage>51</fpage>
+<lpage>68</lpage>
+<pub-id pub-id-type="pmid">9680328</pub-id></element-citation></ref><ref id="R51"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Li</surname><given-names>B.</given-names></name><name><surname>Tournier</surname><given-names>C.</given-names></name><name><surname>Davis</surname><given-names>R.J.</given-names></name><name><surname>Flavell</surname><given-names>R.A.</given-names></name></person-group>
+<article-title>Regulation of IL-4 expression by the transcription factor JunB during T helper cell differentiation</article-title>
+<source>EMBO (Eur. Mol. Biol. Organ.) J.</source>
+<volume>18</volume>
+<year>1999</year>
+<fpage>420</fpage>
+<lpage>432</lpage>
+</element-citation></ref><ref id="R52"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Metz</surname><given-names>R.</given-names></name><name><surname>Ziff</surname><given-names>E.</given-names></name></person-group>
+<article-title>cAMP stimulates the C/EBP-related transcription factor rNFIL-6 to trans-locate to the nucleus and induce c-fos transcription</article-title>
+<source>Genes Dev.</source>
+<volume>5</volume>
+<year>1991</year>
+<fpage>1754</fpage>
+<lpage>1766</lpage>
+<pub-id pub-id-type="pmid">1655570</pub-id></element-citation></ref><ref id="R53"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Rincon</surname><given-names>M.</given-names></name><name><surname>Enslen</surname><given-names>H.</given-names></name><name><surname>Raingeaud</surname><given-names>J.</given-names></name><name><surname>Recht</surname><given-names>M.</given-names></name><name><surname>Zapton</surname><given-names>T.</given-names></name><name><surname>Su</surname><given-names>M.S.</given-names></name><name><surname>Penix</surname><given-names>L.A.</given-names></name><name><surname>Davis</surname><given-names>R.J.</given-names></name><name><surname>Flavell</surname><given-names>R.A.</given-names></name></person-group>
+<article-title>Interferon-gamma expression by Th1 effector T cells mediated by the p38 MAP kinase signaling pathway</article-title>
+<source>EMBO (Eur. Mol. Biol. Organ.) J.</source>
+<volume>17</volume>
+<year>1998</year>
+<fpage>2817</fpage>
+<lpage>2829</lpage>
+</element-citation></ref><ref id="R54"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Tsuruta</surname><given-names>L.</given-names></name><name><surname>Lee</surname><given-names>H.J.</given-names></name><name><surname>Masuda</surname><given-names>E.S.</given-names></name><name><surname>Koyano</surname><given-names>N.N.</given-names></name><name><surname>Arai</surname><given-names>N.</given-names></name><name><surname>Arai</surname><given-names>K.</given-names></name><name><surname>Yokota</surname><given-names>T.</given-names></name></person-group>
+<article-title>Cyclic AMP inhibits expression of the IL-2 gene through the nuclear factor of activated T cells (NF-AT) site, and transfection of NF-AT cDNAs abrogates the sensitivity of EL-4 cells to cyclic AMP</article-title>
+<source>J. Immunol.</source>
+<volume>154</volume>
+<year>1995</year>
+<fpage>5255</fpage>
+<lpage>5264</lpage>
+<pub-id pub-id-type="pmid">7730629</pub-id></element-citation></ref><ref id="R55"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Bordor</surname><given-names>J.</given-names></name><name><surname>Spetz</surname><given-names>A.-L.</given-names></name><name><surname>Stominger</surname><given-names>J.L.</given-names></name><name><surname>Habener</surname><given-names>J.F.</given-names></name></person-group>
+<article-title>cAMP inducibility of transcriptional repressor ICER in developing and mature human T lymphocytes</article-title>
+<source>Proc. Natl. Acad. Sci. USA.</source>
+<volume>93</volume>
+<year>1996</year>
+<fpage>3536</fpage>
+<lpage>3541</lpage>
+<pub-id pub-id-type="pmid">8622971</pub-id></element-citation></ref><ref id="R56"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Hsueh</surname><given-names>Y.P.</given-names></name><name><surname>Lai</surname><given-names>M.Z.</given-names></name></person-group>
+<article-title>c-Jun N-terminal kinase but not mitogen-activated protein kinase is sensitive to cAMP inhibition in T lymphocytes</article-title>
+<source>J. Biol. Chem.</source>
+<volume>270</volume>
+<year>1995</year>
+<fpage>18094</fpage>
+<lpage>18098</lpage>
+<pub-id pub-id-type="pmid">7629120</pub-id></element-citation></ref><ref id="R57"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Ouyang</surname><given-names>W.</given-names></name><name><surname>Lohning</surname><given-names>M.</given-names></name><name><surname>Gao</surname><given-names>Z.</given-names></name><name><surname>Assenmacher</surname><given-names>M.</given-names></name><name><surname>Rangenath</surname><given-names>S.</given-names></name><name><surname>Radbruch</surname><given-names>A.</given-names></name><name><surname>Murphy</surname><given-names>K.M.</given-names></name></person-group>
+<article-title>Stat6-Independent GATA-3 autoactivation directs IL-4-independent Th2 development and commitment</article-title>
+<source>Immunity.</source>
+<volume>12</volume>
+<year>2000</year>
+<fpage>27</fpage>
+<lpage>37</lpage>
+<pub-id pub-id-type="pmid">10661403</pub-id></element-citation></ref><ref id="R58"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Stamatoyannopoulos</surname><given-names>J.A.</given-names></name><name><surname>Goodwin</surname><given-names>A.</given-names></name><name><surname>Joyce</surname><given-names>T.</given-names></name><name><surname>Lowrey</surname><given-names>C.H.</given-names></name></person-group>
+<article-title>NF-E2 and GATA binding motifs are required for the formation of DNase I hypersensitive site 4 of the human beta-globin locus control region</article-title>
+<source>EMBO (Eur. Mol. Biol. Organ.) J.</source>
+<volume>14</volume>
+<year>1995</year>
+<fpage>106</fpage>
+<lpage>116</lpage>
+</element-citation></ref><ref id="R59"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Blobel</surname><given-names>G.A.</given-names></name><name><surname>Nakajima</surname><given-names>T.</given-names></name><name><surname>Eckner</surname><given-names>R.</given-names></name><name><surname>Montminy</surname><given-names>M.</given-names></name><name><surname>Orkin</surname><given-names>S.H.</given-names></name></person-group>
+<article-title>CREB-binding protein cooperates with transcription factor GATA-1 and is required for erythroid differentiation</article-title>
+<source>Proc. Natl. Acad. Sci. USA.</source>
+<volume>95</volume>
+<year>1998</year>
+<fpage>2061</fpage>
+<lpage>2066</lpage>
+<pub-id pub-id-type="pmid">9482838</pub-id></element-citation></ref><ref id="R60"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Gregoire</surname><given-names>J.M.</given-names></name><name><surname>Romeo</surname><given-names>P.H.</given-names></name></person-group>
+<article-title>T-cell expression of the human GATA-3 gene is regulated by a non-lineage-specific silencer</article-title>
+<source>J. Biol. Chem.</source>
+<volume>274</volume>
+<year>1999</year>
+<fpage>6567</fpage>
+<lpage>6578</lpage>
+<pub-id pub-id-type="pmid">10037751</pub-id></element-citation></ref><ref id="R61"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Powrie</surname><given-names>F.</given-names></name></person-group>
+<article-title>T cells in inflammatory bowel diseaseprotective and pathogenic roles</article-title>
+<source>Immunity.</source>
+<volume>3</volume>
+<year>1995</year>
+<fpage>171</fpage>
+<lpage>174</lpage>
+<pub-id pub-id-type="pmid">7648390</pub-id></element-citation></ref><ref id="R62"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Liblau</surname><given-names>R.</given-names></name><name><surname>Singer</surname><given-names>S.</given-names></name><name><surname>McDevitt</surname><given-names>H.</given-names></name></person-group>
+<article-title>Th1 and Th2 CD4+ T cells in the pathogenesis of organ-specific autoimmune diseases</article-title>
+<source>Immunol. Today.</source>
+<volume>16</volume>
+<year>1995</year>
+<fpage>34</fpage>
+<lpage>38</lpage>
+<pub-id pub-id-type="pmid">7880387</pub-id></element-citation></ref><ref id="R63"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Trinchieri</surname><given-names>G.</given-names></name></person-group>
+<article-title>Interleukin-12a proinflammatory cytokine with immunoregulatory functions that bridge innate resistance and antigen-specific adaptive immunity</article-title>
+<source>Annu. Rev. Immunol.</source>
+<volume>13</volume>
+<year>1995</year>
+<fpage>251</fpage>
+<lpage>276</lpage>
+<pub-id pub-id-type="pmid">7612223</pub-id></element-citation></ref><ref id="R64"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Robinson</surname><given-names>D.</given-names></name><name><surname>Shibuya</surname><given-names>K.</given-names></name><name><surname>Mui</surname><given-names>A.</given-names></name><name><surname>Zonin</surname><given-names>F.</given-names></name><name><surname>Murphy</surname><given-names>E.</given-names></name><name><surname>Sana</surname><given-names>T.</given-names></name><name><surname>Hartley</surname><given-names>S.B.</given-names></name><name><surname>Menon</surname><given-names>S.</given-names></name><name><surname>Kastelein</surname><given-names>R.</given-names></name><name><surname>Bazan</surname><given-names>F.</given-names></name></person-group>
+<article-title>IGIF does not drive Th1 development but synergizes with IL-12 for interferon-gamma production and activates IRAK and NFkappaB</article-title>
+<source>Immunity.</source>
+<volume>7</volume>
+<year>1997</year>
+<fpage>571</fpage>
+<lpage>581</lpage>
+<pub-id pub-id-type="pmid">9354477</pub-id></element-citation></ref><ref id="R65"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Lee</surname><given-names>H.J.</given-names></name><name><surname>Masuda</surname><given-names>E.S.</given-names></name><name><surname>Arai</surname><given-names>N.</given-names></name><name><surname>Arai</surname><given-names>K.</given-names></name><name><surname>Yokota</surname><given-names>T.</given-names></name></person-group>
+<article-title>Definition of cis-regulatory elements of the mouse interleukin-5 gene promoter. Involvement of nuclear factor of activated T cell-related factors in interleukin-5 expression</article-title>
+<source>J. Biol. Chem.</source>
+<volume>270</volume>
+<year>1995</year>
+<fpage>17541</fpage>
+<lpage>17550</lpage>
+<pub-id pub-id-type="pmid">7615560</pub-id></element-citation></ref></ref-list></back><floats-group><fig-group id="F2" position="float"><label>Figure 2</label><caption><p>cAMP augments GATA-3&#x02013;mediated Th2 cytokine induction in committed Th1 cells and a Th1 clone as well as developing Th1 cells. GFP<sup>+</sup> Th1 cells from day 22 of infection and HDK1 cells infected with either R-EGFP or R-GATA-3-EGFP as in <xref ref-type="fig" rid="F1">Fig. 1</xref> were stimulated with either PMA/ionomycin (filled bars) or PMA/ionomycin/cAMP (open bars) for 48 h as indicated, and the level of cytokines in supernatants was determined by immunoassay. (B) GFP HDK1 cells were stimulated with either PMA/ionomycin or cAMP as indicated for 6 h, and intracellular cytokine production was analyzed by flow cytometry as previously described <xref ref-type="bib" rid="R9">9</xref>. The data in A and B are representative of greater than three experiments with similar results.</p></caption><fig id="F2a" position="anchor"><graphic xlink:href="JEM992252.f2a"/></fig><fig id="F2b" position="anchor"><graphic xlink:href="JEM992252.f2b"/></fig></fig-group><fig id="F1" position="float"><label>Figure 1</label><caption><p>GATA-3 induces IL-4 and IL-5 in developing as well as committed Th1 cells. Naive CD4 T cells from DO11.10 TCR&#x02013;transgenic mice were stimulated with OVA<sub>323&#x02013;339</sub> and splenic APCs under Th1-polarizing conditions (IL-12 and anti&#x02013;IL-4). On days 1 and 2 after stimulation, T cells were infected with retroviruses encoding either EGFP (R-EGFP) or GATA-3 bicistronically with EGFP (R-GATA-3-EGFP), and GFP<sup>+</sup> populations, EGFP<sup>+</sup> or GATA-3<sup>+</sup>, respectively, were purified by flow cytometry. A portion of noninfected T cells was restimulated on day 7 with Ag and APCs under the Th1 conditions and was infected on days 8 and 9 with retroviruses. For day 22 infection, cells after 3 wk of polarization under Th1-inducing conditions were infected with recombinant retrovirus as above, except that the infection was repeated for three consecutive days. On day 7 after each last stimulation, GFP<sup>+</sup> (GATA-3<sup>+</sup>) or GFP<sup>&#x02212;</sup> (GATA-3<sup>&#x02212;</sup>) T cells were purified by flow cytometry. A Th1 clone, HDK1, was stimulated with KLH and splenic APCs infected with either R-EGFP or R-GATA-3-EGFP on days 1 and 2. GFP<sup>+</sup> cells were purified on day 14 and stimulated with PMA/ionomycin for 48 h, and the level of cytokines in supernatants was determined by immunoassay. 1, 2, and 3 wk polarized Th2 cells produced &#x0223c;5, 15&#x02013;20, or 30&#x02013;50 ng/ml, respectively. Results were representative of three experiments with similar results.</p></caption><graphic xlink:href="JEM992252.f1"/></fig><fig id="F3" position="float"><label>Figure 3</label><caption><p>GATA-3 induces endogenous GATA-3 but not c-<italic>maf</italic>. RNase protection assay for GATA-3 and c-<italic>maf</italic> transcripts was performed using total cellular RNAs as described in Materials and Methods. The locations of protected bands for c-<italic>maf</italic> and for endogenous as well as introduced GATA-3 transcripts are indicated.</p></caption><graphic xlink:href="JEM992252.f3"/></fig><fig-group id="F4" position="float"><label>Figure 4</label><caption><p>Construction of GATA-3 mutants and functional effects on a Th1 clone, HDK1. (A) Schematic representation of the GATA-3 mutants. The top diagram represents wild-type GATA-3 (WT), beginning from aa 1&#x02013;443 <xref ref-type="bib" rid="R25">25</xref>. The NH<sub>2</sub>- and COOH-terminal zinc fingers are indicated by hatched boxes. GATA-3 mutants are designated by the domain deleted or amino acids substituted. (B) HDK1 cells were stimulated and infected as described in <xref ref-type="fig" rid="F2">Fig. 2</xref>, with retroviruses encoding wild-type or the indicated GATA-3 mutants (A). Nuclear extracts of HDK1 cells were prepared and analyzed for expression of GATA-3 proteins by Western blot using a GATA-3 mAb <xref ref-type="bib" rid="R43">43</xref>. (C) Nuclear extracts of HDK1 cells from B were analyzed for DNA binding activity to the oligonucleotide probe from the TCR-&#x003b1; containing GATA-binding sites as previously described <xref ref-type="bib" rid="R20">20</xref>. Different band positions reflect changes in the size and the conformation of the mutated GATA-3 proteins. (D) Distinct domains of GATA-3 are required for IL-4 and IL-5 expression in a Th1 clone. GFP<sup>+</sup> cells infected with retroviruses encoding wild-type or the indicated GATA-3 mutants were purified by flow cytometry and stimulated with PMA/ionomycin/cAMP for 48 h. The levels of cytokines in the supernatants were determined by immunoassay. (E) Domains of GATA-3 required for IFN-&#x003b3; inhibition and induction of IL-4 in developing Th1 cells. T cells from DO11.10 mice were stimulated under Th1 conditions and infected with retroviruses encoding either wild-type or mutant GATA-3 on day 1 and 2 as described in <xref ref-type="fig" rid="F1">Fig. 1</xref>. T cells were stimulated with PMA/ionomycin on day 7, and intracellular cytokine production was analyzed as previously described <xref ref-type="bib" rid="R9">9</xref>. Data represent the events from GFP<sup>+</sup> gated populations, in greater than three experiments.</p></caption><fig id="F4c" position="anchor"><graphic xlink:href="JEM992252.f4c"/></fig><fig id="F4b" position="anchor"><graphic xlink:href="JEM992252.f4b"/></fig><fig id="F4a" position="anchor"><graphic xlink:href="JEM992252.f4a"/></fig><fig id="F4d" position="anchor"><graphic xlink:href="JEM992252.f4d"/></fig><fig id="F4e" position="anchor"><graphic xlink:href="JEM992252.f4e"/></fig></fig-group><fig id="F5" position="float"><label>Figure 5</label><caption><p>GATA-3 and c-<italic>maf</italic> differentially regulate mouse IL-4 and IL-5 promoter activities. EL-4 cells were cotransfected with 1 &#x003bc;g of reporter construct, pIL-4(&#x02212;766)Luc <xref ref-type="bib" rid="R13">13</xref> or pmIL5Luc(1.2) <xref ref-type="bib" rid="R42">42</xref> and the transactivators in the expression vector, either pMEGATA3 <xref ref-type="bib" rid="R25">25</xref> (0, 1, and 2 &#x003bc;g) or pMEc<italic>-maf</italic> (0, 1, and 2 &#x003bc;g), by DEAE dextran procedure as described previously <xref ref-type="bib" rid="R20">20</xref>. Transfection efficiency was monitored using 0.1 &#x003bc;g of pRSV-<italic>LacZ</italic>. pMEc-<italic>maf</italic> encoding full-length murine c-<italic>maf</italic>
+<xref ref-type="bib" rid="R40">40</xref> was cloned by PCR. After 36-h incubation, cells were either unstimulated (open bars) or stimulated (filled bars) for 12 h with PMA (10 ng/ml)/ionomycin (1 &#x003bc;M), and luciferase activity was measured in whole cell extracts and normalized to protein mass as described <xref ref-type="bib" rid="R65">65</xref>. The data is representative of more than three independent experiments.</p></caption><graphic xlink:href="JEM992252.f5"/></fig><fig-group id="F6" position="float"><label>Figure 6</label><caption><p>GATA-3 induces chromatin remodeling of the <italic>IL-4</italic> locus in a Th1 clone, HDK1. Nuclei from PMA/ionomycin/cAMP-stimulated cells were treated with 0 &#x003bc;g/ml (lanes 1, 4, and 7), 9 &#x003bc;g/ml (lanes 2, 5, and 8), and 12 &#x003bc;g/ml (lanes 3, 6, and 9) of DNaseI and probed with a HindIII&#x02013;PstI fragment (&#x02212;797 to &#x02212;306) of the <italic>IL-4</italic> gene <xref ref-type="bib" rid="R41">41</xref>. Arrowheads indicate positions of BamHI cleavage sites. Locations of the HS sites and a probe are indicated by arrows and a thick bar, respectively.</p></caption><fig id="F6a" position="anchor"><graphic xlink:href="JEM992252.f6a"/></fig><fig id="F6b" position="anchor"><graphic xlink:href="JEM992252.f6b"/></fig></fig-group></floats-group></article>
