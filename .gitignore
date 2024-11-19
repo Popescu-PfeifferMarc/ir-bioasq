@@ -13,6 +13,7 @@ dataset/db.sqlite
 dataset/*.sqlite-journal
 dataset/*.sqlite-wal
 dataset/*.sqlite-shm
+dataset/pubmed_baseline_2024_processed.sqlite
 
 # Output
 results.json
