@@ -8,6 +8,7 @@ venv
 # Dataset & download temp
 temp/
 dataset/pubmed
+dataset/pubmed_baseline
 dataset/db.sqlite
 dataset/*.sqlite-journal
 dataset/*.sqlite-wal
