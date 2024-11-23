@@ -15,6 +15,9 @@ dataset/*.sqlite-wal
 dataset/*.sqlite-shm
 dataset/pubmed_baseline_2024_processed.sqlite
 dataset/pubmed_data_batchOne/*
+dataset/pubmed24n0001_top1.xml
+dataset/pubmed24n0001.xml
+
 
 # Output
 results.json
