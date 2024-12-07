@@ -143,7 +143,7 @@ logger.info(f"Loaded {len(article_data)} article details")
 # Add PMIDs to output
 for entry in output:
     for doc in entry['documents']:
-        doc_idx = doc['index']        
+        doc_idx = doc['index']
         doc['pmid'] = pubmed_baseurl + article_data[doc_idx]['pmid']
         # doc['title'] = article_data[idx]['title']
 logger.info("Added PMIDs to output")
@@ -170,8 +170,14 @@ for idx, entry in enumerate(output):
     
     top_snippets = heapq.nlargest(top_n, snippets, key=lambda x: x['score'])
     entry['snippets'] = top_snippets
-
 logger.info("Added snippets to output")
+
+# Remove the index from the output
+for entry in output:
+    for doc in entry['documents']:
+        del doc['index']
+logger.info("Removed indicies from output")
+
 
 
 with open(output_folder + "results.json", "w", encoding="utf-8") as outfile:
