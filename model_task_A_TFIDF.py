@@ -178,9 +178,7 @@ for entry in output:
         del doc['index']
 logger.info("Removed indicies from output")
 
-
-
-with open(output_folder + "results.json", "w", encoding="utf-8") as outfile:
+with open(output_folder + "results_" + output_smartirs_name + ".json", "w", encoding="utf-8") as outfile:
     json.dump({ 'questions': output }, outfile, ensure_ascii=False, indent=4)
     logger.info("Saved results to json")
 
