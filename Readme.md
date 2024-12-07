@@ -39,10 +39,10 @@ Note that this dataset is not needed to reproduce the final results, as it was u
 ## Models
 
 ### Task A - TF-IDF
- - see `model_task_A_tfidf.py`
+ - see `model_task_A_TFIDF.py`
 
 ### Task A - BM25
- - see `model_task_A_bm25.py`
+ - see `model_task_A_BM25.py`
 
 ### Task B - LLM
  - see `model_task_B_LLM.py`
