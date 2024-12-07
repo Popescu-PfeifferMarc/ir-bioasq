@@ -6,9 +6,10 @@
 __pycache__
 venv
 
-# Dataset & download temp
-temp
-dataset
-
 # IDE
 .vscode
+
+# Project specific
+temp
+dataset
+out
