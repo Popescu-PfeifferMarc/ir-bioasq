@@ -128,6 +128,7 @@ requests==2.32.3
 rfc3339-validator==0.1.4
 rfc3986-validator==0.1.1
 rpds-py==0.22.3
+ruff==0.8.2
 safetensors==0.4.5
 scikit-learn==1.5.2
 scipy==1.13.1

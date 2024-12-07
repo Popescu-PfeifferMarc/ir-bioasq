@@ -1,4 +1,4 @@
-# evaluation for tfidf & bm25 
+# evaluation for tfidf & bm25
 # maybe can be notebook
 
 """

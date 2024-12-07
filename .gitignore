@@ -5,6 +5,7 @@
 # Python
 __pycache__
 venv
+.ruff_cache
 
 # IDE
 .vscode

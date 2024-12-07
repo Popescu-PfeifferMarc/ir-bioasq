@@ -17,14 +17,15 @@ from bm25s import tokenize, BM25
 
 
 # Download NLTK resources
-nltk.download('punkt')
-nltk.download('stopwords')
-nltk.download('wordnet')
+nltk.download("punkt")
+nltk.download("stopwords")
+nltk.download("wordnet")
+
 
 class QuerySpecificTFIDFModelLogarithmic:
     def __init__(self):
         # Initialize stop words and lemmatizer
-        self.stop_words = set(stopwords.words('english'))
+        self.stop_words = set(stopwords.words("english"))
         self.lemmatizer = WordNetLemmatizer()
         self.dictionary = None
         self.tfidf_model = None
@@ -38,10 +39,13 @@ class QuerySpecificTFIDFModelLogarithmic:
         ######## THIS PART IS CHANGED FROM word_tokenize to .split() it is 2x faster!!!
         ############################
 
-        
         tokens = text.lower().split()  # Tokenize and convert to lowercase
-        tokens = [word for word in tokens if word.isalnum() and word not in self.stop_words]  # Remove stop words and punctuation
-        tokens = [self.lemmatizer.lemmatize(word) for word in tokens]  # Apply lemmatization
+        tokens = [
+            word for word in tokens if word.isalnum() and word not in self.stop_words
+        ]  # Remove stop words and punctuation
+        tokens = [
+            self.lemmatizer.lemmatize(word) for word in tokens
+        ]  # Apply lemmatization
         return tokens
 
     def load_and_preprocess_documents(self, file_path):
@@ -50,7 +54,9 @@ class QuerySpecificTFIDFModelLogarithmic:
         """
         print(f"Loading documents from {file_path}")
         df = pd.read_csv(file_path)
-        df = df.dropna(subset=["pmid", "title", "abstract"])  # Drop rows with missing values
+        df = df.dropna(
+            subset=["pmid", "title", "abstract"]
+        )  # Drop rows with missing values
 
         # Combine title and abstract, and preprocess
         df["raw_text"] = df["title"] + " " + df["abstract"]
@@ -63,9 +69,13 @@ class QuerySpecificTFIDFModelLogarithmic:
         """
         print("Building TF-IDF model...")
         self.dictionary = Dictionary(documents["tokens"])  # Create a Gensim dictionary
-        corpus = [self.dictionary.doc2bow(tokens) for tokens in documents["tokens"]]  # Convert to bag-of-words format
-        self.tfidf_model = TfidfModel(corpus,smartirs='lfu')  # Build the TF-IDF model
-        self.index = SparseMatrixSimilarity(self.tfidf_model[corpus], num_features=len(self.dictionary))  # Build similarity index
+        corpus = [
+            self.dictionary.doc2bow(tokens) for tokens in documents["tokens"]
+        ]  # Convert to bag-of-words format
+        self.tfidf_model = TfidfModel(corpus, smartirs="lfu")  # Build the TF-IDF model
+        self.index = SparseMatrixSimilarity(
+            self.tfidf_model[corpus], num_features=len(self.dictionary)
+        )  # Build similarity index
         return corpus
 
     def calculate_relevance(self, query, corpus):
@@ -74,7 +84,9 @@ class QuerySpecificTFIDFModelLogarithmic:
         """
         print("Calculating relevance scores...")
         query_tokens = self.preprocess_text(query)
-        query_bow = self.dictionary.doc2bow(query_tokens)  # Convert query to bag-of-words
+        query_bow = self.dictionary.doc2bow(
+            query_tokens
+        )  # Convert query to bag-of-words
         query_tfidf = self.tfidf_model[query_bow]  # Convert query to TF-IDF
         similarities = self.index[query_tfidf]  # Compute similarities
         return similarities
@@ -95,19 +107,28 @@ class QuerySpecificTFIDFModelLogarithmic:
                 sentence_bow = self.dictionary.doc2bow(sentence_tokens)
                 sentence_tfidf = self.tfidf_model[sentence_bow]
                 snippet_score = sum(
-                    score for term_id, score in sentence_tfidf if term_id in [self.dictionary.token2id.get(token) for token in query_tokens]
+                    score
+                    for term_id, score in sentence_tfidf
+                    if term_id
+                    in [self.dictionary.token2id.get(token) for token in query_tokens]
                 )
-                snippets.append({
-                    "text": sentence,
-                    "source": pmid,
-                    "score": snippet_score,
-                })
+                snippets.append(
+                    {
+                        "text": sentence,
+                        "source": pmid,
+                        "score": snippet_score,
+                    }
+                )
 
         # Sort snippets globally
-        top_snippets = sorted(snippets, key=lambda x: x["score"], reverse=True)[:top_n_snippets]
+        top_snippets = sorted(snippets, key=lambda x: x["score"], reverse=True)[
+            :top_n_snippets
+        ]
         return top_snippets
 
-    def get_relevant_documents_and_snippets(self, query, file_path, top_n_docs=10, top_n_snippets=10):
+    def get_relevant_documents_and_snippets(
+        self, query, file_path, top_n_docs=10, top_n_snippets=10
+    ):
         """
         Retrieves the top N relevant documents and globally ranked snippets.
         """
@@ -125,7 +146,9 @@ class QuerySpecificTFIDFModelLogarithmic:
 
         # Retrieve the indices of the top N documents
         print("Retrieving top documents...")
-        top_indices = np.argsort(relevance_scores)[-top_n_docs:][::-1]  # Get indices of top N scores in descending order
+        top_indices = np.argsort(relevance_scores)[-top_n_docs:][
+            ::-1
+        ]  # Get indices of top N scores in descending order
 
         # Create a DataFrame with the top N documents
         top_documents = documents.iloc[top_indices].copy()
@@ -136,6 +159,7 @@ class QuerySpecificTFIDFModelLogarithmic:
 
         return top_documents, top_snippets
 
+
 file_path = "./main_articles_head1000.csv"
 query = "Effects of interferon on viral infections"
 
@@ -143,11 +167,13 @@ query = "Effects of interferon on viral infections"
 model = QuerySpecificTFIDFModelLogarithmic()
 
 # Get relevant documents and snippets
-top_documents, top_snippets = model.get_relevant_documents_and_snippets(query, file_path, top_n_docs=10, top_n_snippets=10)
+top_documents, top_snippets = model.get_relevant_documents_and_snippets(
+    query, file_path, top_n_docs=10, top_n_snippets=10
+)
 
 # Display results
 print("Top Documents:")
-for doc in top_documents.to_dict('records'):
+for doc in top_documents.to_dict("records"):
     print(f"PMID: {doc['pmid']}, Score: {doc['score']:.4f}")
 
 print("\nTop Snippets:")

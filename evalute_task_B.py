@@ -22,7 +22,7 @@ input_gold_file = './dataset/taskB_golden.json' # to compare against
 
 
 # output of this script is this
-output ROUGE1 = 
-output ROUGE2 = 
+output ROUGE1 =
+output ROUGE2 =
 
 """
