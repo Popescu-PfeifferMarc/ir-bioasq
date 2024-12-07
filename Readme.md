@@ -1,10 +1,10 @@
 # IR-Project
 
 ## Requirements
-- `Python 3.12` incl. library requirements from requirements.txt
-- [ollama](https://ollama.com/) to run LLMs (incl. model from model_task_B_LLM.py)
-- `unzip` to unpack zip files (or equivalent)
-- `jq` to combine JSON files (or equivalent)
+- Python `3.12` incl. library requirements from requirements.txt
+- [ollama](https://ollama.com/) incl. models as specified in model_task_B_LLM.py
+- `unzip` or equivalent to unpack zip files
+- `jq` or equivalent to combine JSON files
 
 ## Dataset
 
@@ -18,17 +18,18 @@
 
 ### Bioasq golden data (~7MB)
 - create BioASQ account: [signup](http://participants-area.bioasq.org/accounts/register/)
+- open http://participants-area.bioasq.org/datasets/
 - open section "Datasets for task b"
 - download the "12b golden enriched" zip archive
 - extract the files `12B1_golden.json`, `12B2_golden.json`, `12B3_golden.json` and `12B4_golden.json`
-- combine the files `jq -s '{questions: map(.questions) | add}' 12B1_golden.json 12B2_golden.json 12B3_golden.json 12B4_golden.json > 12B_golden_combined.json`
+- combine the files using `jq -s '{questions: map(.questions) | add}' 12B1_golden.json 12B2_golden.json 12B3_golden.json 12B4_golden.json > 12B_golden_combined.json`
 - move the resulting `12B_golden_combined.json` file to the dataset folder
 - remove the four partial json files and the zip archive
 
 ### pubmed annual baseline 2024 (~20GB)
 - run `dataset_pubmed_annual_baseline_download.py` to download and unpack XML files
 - run `dataset_pubmed_annual_baseline_extract_xml.py` to extract relevant information from the XML files and combine them into a CSV file
-- (optional) run `tail -n 100000 pubmed_annual_baseline.csv > pubmed_annual_baseline_tail_100k.csv`
+- (optional) run `tail -n 100000 pubmed_annual_baseline.csv > pubmed_annual_baseline_tail_100k.csv` to get a subset of the dataset
 
 ### pubmed open access non commercial subset (~100GB)
 Note that this dataset is not needed to reproduce the final results, as it was used only for experimentation. It is included anyways for completeness and potential further research.
@@ -45,3 +46,6 @@ Note that this dataset is not needed to reproduce the final results, as it was u
 
 ### Task B - LLM
  - see `model_task_B_LLM.py`
+
+### Task A&B - Vector DB
+ - see `bioasq_project_with_vectorDB.ipynb`
