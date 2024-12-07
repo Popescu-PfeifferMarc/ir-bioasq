@@ -69,7 +69,7 @@ The main implementation is contained in the Jupyter Notebook: `bioasq_project_wi
 
 ---
 
-## **Dependencies**
+### **Dependencies**
 
 To run this project, ensure you have the following installed:  
 
@@ -89,7 +89,7 @@ To run this project, ensure you have the following installed:
 
 ---
 
-## Instructions
+### Instructions
 
 1. Clone the Repository
 ```bash
@@ -115,6 +115,6 @@ cd ir-bioasq
       * Generate answers using the `vblagoje/bart_lfqa` model.
       * Evaluate the results.
 
-## Reproducibility
+### Reproducibility
 
 The notebook includes all steps to reproduce the results. The dataset, pre-trained models, and evaluation code are integrated into the pipeline.
