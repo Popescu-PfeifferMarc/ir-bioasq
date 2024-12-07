@@ -1,4 +1,3 @@
-import re
 import os
 import csv
 import xml.etree.ElementTree as ET
