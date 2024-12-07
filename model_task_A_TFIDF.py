@@ -14,14 +14,12 @@ from nltk.stem import WordNetLemmatizer
 
 # Config
 DICT_SIZE = 100_000
-input_file = "./dataset/pubmed_annual_baseline.csv"
+articles_file = "./dataset/pubmed_annual_baseline.csv"
 include_abstract = True
-output_base_folder = "./out/"
+output_base_folder = "./out/taskA_tfidf"
 smartirs = "ntc" # alternatives are "ltc" and "Ltc"
-
-# Computed config
 output_smartirs_name = "large_ltc" if smartirs == "Ltc" else "small_ltc" if smartirs == "ltc" else smartirs # special case for Ltc and ltc to avoid casing
-output_folder = output_base_folder + "taskA_tfidf_title/" if not include_abstract else output_base_folder + "taskA_tfidf_title_abstract/"
+output_folder = output_base_folder + "_title/" if not include_abstract else output_base_folder + "_title_abstract/"
 
 # Setup
 program = os.path.basename(sys.argv[0])
@@ -34,7 +32,7 @@ os.makedirs(os.path.dirname(output_folder), exist_ok=True)
 # Corpus
 class DocumentCorpus:
     def __iter__(self):
-        with open(input_file, mode='r', newline='', errors='ignore') as inp_file:
+        with open(articles_file, mode='r', newline='', errors='ignore') as inp_file:
             reader = csv.reader(inp_file)
             for row in reader:
                 # doc_pmid = row[0]
