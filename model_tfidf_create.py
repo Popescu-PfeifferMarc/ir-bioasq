@@ -81,3 +81,5 @@ logger.info("----- Created TfidfModel with smartirs: %s", smartirs)
 index = SparseMatrixSimilarity(tfidf[bow_corpus], num_features=len(dictionary))
 index.save(output_folder + '.simmat_tfidf_' + output_smartirs_name)
 logger.info("----- Created SparseMatrixSimilarity with smartirs: %s", smartirs)
+
+logger.info("All done 🚀")
