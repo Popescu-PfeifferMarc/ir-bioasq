@@ -51,6 +51,8 @@ Note that this dataset is not needed to reproduce the final results, as it was u
 ### Task A&B - Vector DB
  - see `bioasq_project_with_vectorDB.ipynb`
 
+---
+
 ## Retrieval Model Leveraging Embeddings and Vector Database  
 
 This project implements a biomedical question-answering (QA) system by leveraging embeddings and a vector database for efficient document retrieval, paired with a generative model for answer generation.  
