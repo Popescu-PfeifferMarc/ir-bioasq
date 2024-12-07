@@ -78,9 +78,10 @@ To build an effective biomedical QA system that:
 
 To run this project, ensure you have the following installed:  
 
-- Required Python libraries:  
+- Required Python libraries:
   ```bash
- pip install -r requirements.txt```
+  pip install -r requirements.txt
+  ```
 
 `requirements.txt` includes:
  * `sentence-transformers`
