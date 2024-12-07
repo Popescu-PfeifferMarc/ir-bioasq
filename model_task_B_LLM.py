@@ -8,7 +8,7 @@ import ollama
 # Config
 ollama_model = 'llama3.1:8b' # Ollama model to use for task B. Needs to be installed. Examples are 'jsk/bio-mistral' 'llama3.1:70b'
 
-input_taskA_results = './out/taskA_tfidf_title/results_small_ltc.json'
+input_taskA_results = './out/taskA_tfidf_title_abstract/results.json'
 output_results_taskA_file = './out/taskB_LLM/results_' + ollama_model.replace(':', '_').replace('/', '_') + '_tfidf_title_small_ltc' + '_promptv1' + '.json'
 do_taskA_results = True
 
@@ -16,12 +16,15 @@ input_golden_file = './dataset/12B_golden_combined.json'
 output_results_golden_file = './out/taskB_LLM/results_' + ollama_model.replace(':', '_').replace('/', '_') + '_golden' + '_promptv1' +  '.json'
 do_golden = True
 
-# SETUP
+# Setup
 program = os.path.basename(sys.argv[0])
 logger = logging.getLogger(program)
 logging.basicConfig(format='%(asctime)s : %(levelname)s : %(message)s')
 logging.root.setLevel(level=logging.INFO)
 logger.info("running %s", ' '.join(sys.argv))
+os.makedirs(os.path.dirname(output_results_taskA_file), exist_ok=True)
+os.makedirs(os.path.dirname(output_results_golden_file), exist_ok=True)
+
 
 def answerQuestionWithContext(question: str, relevant_paper_contents: List[str]) -> str:
     prompt = "You are an expert doctor answering questions for medical professionals. Given the following snippets from paper:\n" + "\n".join(relevant_paper_contents) + "\n\nPlease provide a brief answer to the following question: " + question   
@@ -75,7 +78,7 @@ def main():
             output_resultsA.append({ 'question': question, 'answer': answer })
             logger.info(f"Progress (task A): {idx + 1}/{len(results_data)}")
                 
-        with open(output_results_golden_file, "w", encoding="utf-8") as outfile:
+        with open(output_results_taskA_file, "w", encoding="utf-8") as outfile:
             json.dump(output_resultsA, outfile, ensure_ascii=False, indent=4)
             logger.info("Saved taskA results to json")
         
