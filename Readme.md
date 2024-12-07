@@ -59,13 +59,6 @@ The main implementation is contained in the Jupyter Notebook: `bioasq_project_wi
 
 ---
 
-## **Project Overview**  
-
-### **Objective**  
-To build an effective biomedical QA system that:  
-1. Retrieves semantically relevant documents using embeddings stored in a vector database.  
-2. Generates coherent and context-aware answers using a generative model.  
-
 ### **Pipeline**  
 1. **Embedding Creation**: Extracts contexts from the BioASQ dataset and generates embeddings using `flax-sentence-embeddings/all_datasets_v3_mpnet-base`.  
 2. **Vector Database**: Stores embeddings in Pinecone, enabling fast similarity-based querying.  
@@ -98,11 +91,12 @@ To run this project, ensure you have the following installed:
 
 1. Clone the Repository
 ```bash
-git clone https://github.com/yourusername/bioasq_project.git
-cd bioasq_project
+git clone https://github.com/Popescu-PfeifferMarc/ir-bioasq
+cd ir-bioasq
 ```
+
 2. Set Up Pinecone
-   * Create a Pinecone account
+   * Create a [Pinecone](https://app.pinecone.io/) account
    * Obtain your API key and region from the Pinecone dashboard.
    * Set up your Pinecone environment variables in the notebook.
 3. Run the Jupyter Notebook
