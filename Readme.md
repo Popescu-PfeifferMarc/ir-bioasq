@@ -118,3 +118,5 @@ cd ir-bioasq
 ### Reproducibility
 
 The notebook includes all steps to reproduce the results. The dataset, pre-trained models, and evaluation code are integrated into the pipeline.
+
+---
