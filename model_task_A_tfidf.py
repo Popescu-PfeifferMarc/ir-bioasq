@@ -1,9 +1,7 @@
 import logging
-import os.path
+import os
 import sys
 import csv
-import pprint
-import pickle
 
 from gensim.corpora import Dictionary
 from gensim.models import TfidfModel
@@ -23,7 +21,7 @@ smartirs = "ntc" # alternatives are "ltc" and "Ltc"
 
 # Computed config
 output_smartirs_name = "large_ltc" if smartirs == "Ltc" else "small_ltc" if smartirs == "ltc" else smartirs # special case for Ltc and ltc to avoid casing
-output_folder = output_base_folder + "tfidf_title/" if not include_abstract else output_base_folder + "tfidf_title_abstract/"
+output_folder = output_base_folder + "taskA_tfidf_title/" if not include_abstract else output_base_folder + "taskA_tfidf_title_abstract/"
 
 # Setup
 program = os.path.basename(sys.argv[0])
@@ -83,3 +81,5 @@ logger.info("----- Created TfidfModel with smartirs: %s", smartirs)
 index = SparseMatrixSimilarity(tfidf[bow_corpus], num_features=len(dictionary))
 index.save(output_folder + '.simmat_tfidf_' + output_smartirs_name)
 logger.info("----- Created SparseMatrixSimilarity with smartirs: %s", smartirs)
+
+logger.info("All done 🚀")

@@ -1,9 +1,10 @@
 # IR-Project
 
 ## Requirements
-- Python 3.12
-- unzip
-- jq
+- `Python 3.12` incl. library requirements from requirements.txt
+- [ollama](https://ollama.com/) to run LLMs (incl. model from model_task_B_LLM.py)
+- `unzip` to unpack zip files (or equivalent)
+- `jq` to combine JSON files (or equivalent)
 
 ## Dataset
 
@@ -33,3 +34,14 @@
 Note that this dataset is not needed to reproduce the final results, as it was used only for experimentation. It is included anyways for completeness and potential further research.
 - run `dataset_pumed_oa_noncomm_download.py` to download and unpack article XML files
 - run `dataset_pubmed_oa_noncomm_extract_xml.py` to extract relevant information from the XML files and combine them into a CSV file
+
+## Models
+
+### Task A - TF-IDF
+ - see `model_task_A_tfidf.py`
+
+### Task A - BM25
+ - see `model_task_A_bm25.py`
+
+### Task B - LLM
+ - see `model_task_B_LLM.py`
