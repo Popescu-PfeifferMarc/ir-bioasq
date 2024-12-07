@@ -115,7 +115,7 @@ with open(golden_file, "r", encoding="utf-8") as golden_file_data:
             'query': query,
             # 'query_preprocessed': query_preprocessed,
             # 'query_bow': query_bow,
-            'documents': [{ 'index': idx, 'pmid': float(sim) } for idx, sim in top_sims],
+            'documents': [{ 'index': idx, 'score': float(sim) } for idx, sim in top_sims],
             'snippets': [] # processed later
         })
 
