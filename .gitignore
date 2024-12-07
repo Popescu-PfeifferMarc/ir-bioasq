@@ -9,7 +9,11 @@ venv
 # IDE
 .vscode
 
+# Logs
+*.log
+
 # Project specific
 temp
 dataset
 out
+
