@@ -11,6 +11,7 @@ logger.info("running %s", ' '.join(sys.argv))
 
 file_path = "./results.json"  # Replace with your results JSON file path
 golden_file_path = "./golden_data.json" # Replace with your golden JSON file path
+output_file_path = "./evaluation_results.json"
 
 def load_results_json(file_path):
     try:
@@ -163,7 +164,13 @@ def process_queries_and_evaluate(file_path, golden_file_path):
         "macro_avg_f1": macro_avg_f1
     }
 
-results=load_results_json(file_path)
-golden_file= load_golden_json(golden_file_path)
-evaluation=process_queries_and_evaluate(results,golden_file)
-evaluation
+
+evaluation=process_queries_and_evaluate(file_path,golden_file_path)
+
+
+
+# Save the evaluation results to a JSON file
+with open(output_file_path, "w", encoding="utf-8") as output_file:
+    json.dump(evaluation, output_file, ensure_ascii=False, indent=4)
+
+logger.info(f"Evaluation results saved to {output_file_path}")
