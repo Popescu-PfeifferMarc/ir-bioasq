@@ -8,7 +8,7 @@
 
 ## Dataset
 
-### Bioasq training data (~38MB)
+### Bioasq training data (~38MB download)
 - create BioASQ account: [signup](http://participants-area.bioasq.org/accounts/register/)
 - open http://participants-area.bioasq.org/datasets/
 - open section "Datasets for task b"
@@ -16,7 +16,7 @@
 - extract the file training12b_new.json to the dataset folder
 - remove the zip archive 
 
-### Bioasq golden data (~7MB)
+### Bioasq golden data (~7MB download)
 - create BioASQ account: [signup](http://participants-area.bioasq.org/accounts/register/)
 - open http://participants-area.bioasq.org/datasets/
 - open section "Datasets for task b"
@@ -26,12 +26,12 @@
 - move the resulting `12B_golden_combined.json` file to the dataset folder
 - remove the four partial json files and the zip archive
 
-### pubmed annual baseline 2024 (~20GB)
+### pubmed annual baseline 2024 (~20GB download)
 - run `dataset_pubmed_annual_baseline_download.py` to download and unpack XML files
 - run `dataset_pubmed_annual_baseline_extract_xml.py` to extract relevant information from the XML files and combine them into a CSV file
 - (optional) run `tail -n 100000 pubmed_annual_baseline.csv > pubmed_annual_baseline_tail_100k.csv` to get a subset of the dataset
 
-### pubmed open access non commercial subset (~100GB)
+### pubmed open access non commercial subset (~100GB download)
 Note that this dataset is not needed to reproduce the final results, as it was used only for experimentation. It is included anyways for completeness and potential further research.
 - run `dataset_pumed_oa_noncomm_download.py` to download and unpack article XML files
 - run `dataset_pubmed_oa_noncomm_extract_xml.py` to extract relevant information from the XML files and combine them into a CSV file
