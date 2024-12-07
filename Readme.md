@@ -45,15 +45,15 @@ Note that this dataset is not needed to reproduce the final results, as it was u
  - see `model_task_A_BM25.py`
 
 
-### Task B 1.1 - LLM
+### Task B 2.1 - LLM
  - see `model_task_B_LLM.py`
 
-### Task B 1.2 - Vector DB
+### Task B 2.2 - Vector DB
  - see `bioasq_project_with_vectorDB.ipynb`
 
 ---
 
-## Task B 1.2: Retriever Model Leveraging Embeddings and Vector Database
+## Task B 2.2: Retriever Model Leveraging Embeddings and Vector Database
 
 This project implements a biomedical question-answering (QA) system by leveraging embeddings and a vector database for efficient document retrieval, paired with a generative model for answer generation.  
 
