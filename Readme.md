@@ -97,10 +97,12 @@ git clone https://github.com/Popescu-PfeifferMarc/ir-bioasq
 cd ir-bioasq
 ```
 
+
 2. Set Up Pinecone
    * Create a [Pinecone](https://app.pinecone.io/) account
    * Obtain your API key and region from the Pinecone dashboard.
    * Set up your Pinecone environment variables in the notebook.
+
 3. Run the Jupyter Notebook
    * The main implementation is in `bioasq_project_with_vectorDB.ipynb`.
    1. Open the notebook:
