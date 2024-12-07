@@ -11,7 +11,7 @@
 ### Bioasq training data (~38MB download)
 - create BioASQ account: [signup](http://participants-area.bioasq.org/accounts/register/)
 - open http://participants-area.bioasq.org/datasets/
-- open section "Datasets for task b"
+- open the section "Datasets for task b"
 - download the "Training 12b" zip archive
 - extract the file training12b_new.json to the dataset folder
 - remove the zip archive 
@@ -19,41 +19,41 @@
 ### Bioasq golden data (~7MB download)
 - create BioASQ account: [signup](http://participants-area.bioasq.org/accounts/register/)
 - open http://participants-area.bioasq.org/datasets/
-- open section "Datasets for task b"
+- open the section "Datasets for task b"
 - download the "12b golden enriched" zip archive
 - extract the files `12B1_golden.json`, `12B2_golden.json`, `12B3_golden.json` and `12B4_golden.json`
 - combine the files using `jq -s '{questions: map(.questions) | add}' 12B1_golden.json 12B2_golden.json 12B3_golden.json 12B4_golden.json > 12B_golden_combined.json`
 - move the resulting `12B_golden_combined.json` file to the dataset folder
-- remove the four partial json files and the zip archive
+- remove the four partial JSON files and the zip archive
 
 ### pubmed annual baseline 2024 (~20GB download)
 - run `dataset_pubmed_annual_baseline_download.py` to download and unpack XML files
 - run `dataset_pubmed_annual_baseline_extract_xml.py` to extract relevant information from the XML files and combine them into a CSV file
 - (optional) run `tail -n 100000 pubmed_annual_baseline.csv > pubmed_annual_baseline_tail_100k.csv` to get a subset of the dataset
 
-### pubmed open access non commercial subset (~100GB download)
-Note that this dataset is not needed to reproduce the final results, as it was used only for experimentation. It is included anyways for completeness and potential further research.
+### Pubmed open access non-commercial subset (~100GB download)
+Note that this dataset is not needed to reproduce the final results, as it was used only for experimentation. It is included anyway for completeness and potential further research.
 - run `dataset_pumed_oa_noncomm_download.py` to download and unpack article XML files
 - run `dataset_pubmed_oa_noncomm_extract_xml.py` to extract relevant information from the XML files and combine them into a CSV file
 
 ## Models
 
-### Task A - TF-IDF
+### Task A 1.1 - TF-IDF
  - see `model_task_A_TFIDF.py`
 
-### Task A - BM25
+### Task A 1.2 - BM25
  - see `model_task_A_BM25.py`
 
 
-### Task B - LLM
+### Task B 1.1 - LLM
  - see `model_task_B_LLM.py`
 
-### Task A&B - Vector DB
+### Task B 1.2 - Vector DB
  - see `bioasq_project_with_vectorDB.ipynb`
 
 ---
 
-## Retrieval Model Leveraging Embeddings and Vector Database  
+## Task B 1.2: Retriever Model Leveraging Embeddings and Vector Database
 
 This project implements a biomedical question-answering (QA) system by leveraging embeddings and a vector database for efficient document retrieval, paired with a generative model for answer generation.  
 
@@ -69,7 +69,7 @@ The main implementation is contained in the Jupyter Notebook: `bioasq_project_wi
 
 ---
 
-## **Dependencies**
+### **Dependencies**
 
 To run this project, ensure you have the following installed:  
 
@@ -89,7 +89,7 @@ To run this project, ensure you have the following installed:
 
 ---
 
-## Instructions
+### Instructions
 
 1. Clone the Repository
 ```bash
@@ -114,3 +114,7 @@ cd ir-bioasq
       * Query the Pinecone database.
       * Generate answers using the `vblagoje/bart_lfqa` model.
       * Evaluate the results.
+
+### Reproducibility
+
+The notebook includes all steps to reproduce the results. The dataset, pre-trained models, and evaluation code are integrated into the pipeline.
