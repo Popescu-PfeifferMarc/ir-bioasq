@@ -81,7 +81,7 @@ To run this project, ensure you have the following installed:
  * `transformers`
  * `pinecone-client`
  * `evaluate`
- * `rouge-metric`
+ * `rouge_score`
  * `numpy`
  * `pandas`
 
