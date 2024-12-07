@@ -6,13 +6,15 @@ from typing import List
 import ollama
 
 # Config
-input_file = './out/taskA_tfidf_title/results_small_ltc.json'
-do_golden = True # also use the golden snippets instead of the results from task A
-do_non_golden = True # do not use the results from task A, useful to only use the golden ones
-
 ollama_model = 'llama3.1:8b' # Ollama model to use for task B. Needs to be installed. Examples are 'jsk/bio-mistral' 'llama3.1:70b'
-output_file = './out/taskB_LLM/results_' + ollama_model.replace(':', '_').replace('/', '_') + '_tfidf_title_small_ltc.json'
-top_n = 10 # only use the top n snippets
+
+input_taskA_results = './out/taskA_tfidf_title/results_small_ltc.json'
+output_results_taskA_file = './out/taskB_LLM/results_' + ollama_model.replace(':', '_').replace('/', '_') + '_tfidf_title_small_ltc' + '_promptv1' + '.json'
+do_taskA_results = True
+
+input_golden_file = './dataset/12B_golden_combined.json'
+output_results_golden_file = './out/taskB_LLM/results_' + ollama_model.replace(':', '_').replace('/', '_') + '_golden' + '_promptv1' +  '.json'
+do_golden = True
 
 # SETUP
 program = os.path.basename(sys.argv[0])
@@ -26,39 +28,58 @@ def answerQuestionWithContext(question: str, relevant_paper_contents: List[str])
     result = ollama.generate(model=ollama_model, prompt=prompt)
     return result['response']
 
-def main():
-    with open(input_file, "r", encoding="utf-8") as file:
-        data = json.load(file)
-        logger.info("Loaded input data from json")
-        total_entries = len(data)
-        for idx, entry in enumerate(data):
-            query = entry.get("query", "")
+def loadGoldenData(): 
+    with open(input_golden_file, "r", encoding="utf-8") as file:
+        data = json.load(file).get("questions")
+        logger.info("Loaded golden data from json")
+        return [{ 'question': row['body'], 'snippets': [snippet['text'] for snippet in row['snippets']] } for row in data]
+
+def loadTaskAData():
+    with open(input_taskA_results, "r", encoding="utf-8") as file:
+        data = json.load(file).get("questions")
+        logger.info("Loaded task A data from json")
+        return [{ 'question': row['query'], 'snippets': [snippet['text'] for snippet in row['snippets']] } for row in data]
+
+def main():    
+    # run model on golden snippets
+    if do_golden:        
+        golden_data = loadGoldenData()
+        output_golden = []
+        for idx, row in enumerate(golden_data):
+            question = row['question']
+            snippets = row['snippets']
+
+            if (len(snippets) == 0):
+                logger.warning(f"No golden snippets found for question: {question}")
             
-            if do_golden:
-                golden_snippets = entry.get("golden_snippets", [])
-                if (len(golden_snippets) == 0):
-                    logger.warning(f"No golden snippets found for query: {query}")
-                else:
-                    entry["answer_from_golden_snippet"] = answerQuestionWithContext(query, golden_snippets)
+            answer = answerQuestionWithContext(question, snippets)
+            output_golden.append({ 'question': question, 'answer': answer })
+            logger.info(f"Progress (golden): {idx + 1}/{len(golden_data)}")
+                
+        with open(output_results_golden_file, "w", encoding="utf-8") as outfile:
+            json.dump(output_golden, outfile, ensure_ascii=False, indent=4)
+            logger.info("Saved golden results to json")
+    
+    # run model on task A results
+    if  do_taskA_results:
+        results_data = loadTaskAData()
+        output_resultsA = []
+        for idx, row in enumerate(results_data):
+            question = row['question']
+            snippets = row['snippets']
+
+            if (len(snippets) == 0):
+                logger.warning(f"No snippets found for question: {question}")
             
-            if do_non_golden:
-                task1_snippets_raw = entry.get("relevant_snippets", [])
-                task1_snippets_sorted = sorted(task1_snippets_raw, key=lambda x: x['score'], reverse=True)
-                task1_snippets = [snippet['text'] for snippet in task1_snippets_sorted[:top_n]]
-                if (len(task1_snippets) == 0):
-                    logger.warning(f"No task1 snippets found for query: {query}")
-                else:
-                    entry["answer_from_task1_snippet"] = answerQuestionWithContext(query, task1_snippets)
-            
-            # Calculate and print progress
-            progress = (idx + 1) / total_entries * 100
-            logger.info(f"Progress: {progress:.2f}% ({idx + 1}/{total_entries})")
+            answer = answerQuestionWithContext(question, snippets)
+            output_resultsA.append({ 'question': question, 'answer': answer })
+            logger.info(f"Progress (task A): {idx + 1}/{len(results_data)}")
+                
+        with open(output_results_golden_file, "w", encoding="utf-8") as outfile:
+            json.dump(output_resultsA, outfile, ensure_ascii=False, indent=4)
+            logger.info("Saved taskA results to json")
         
-        with open(output_file, "w", encoding="utf-8") as outfile:
-            json.dump(data, outfile, ensure_ascii=False, indent=4)
-            logger.info("Saved output data to json")
 
 if __name__ == "__main__":
-    logger.info("Starting script")
     main()
-    logger.info("done")
+    logger.info("All done 🚀")
