@@ -33,19 +33,20 @@ lookup = {}
 class DocumentCorpus:
     def __iter__(self):
         global lookup
-        count = -1
         with open(articles_file, mode='r', newline='', errors='ignore') as inp_file:
             reader = csv.reader(inp_file)
-            count += 1
-            pmid=row[0]
-            doc_title=row[1]
-            doc_abstract = row[2]
-            lookup[count] = { "pmid": pmid, "title": doc_title, "abstract": doc_abstract}
-            if include_abstract:
-                yield str(doc_title)+ "\n" + str(doc_abstract)
-            else:
-                yield str(doc_title)
-    
+            count = -1
+            for row in reader:
+                count += 1
+                pmid = row[0]
+                doc_title = row[1]
+                doc_abstract = row[2]
+                lookup[count] = { "pmid": pmid, "title": doc_title, "abstract": doc_abstract} # TODO improve this to be more memory efficient
+                if include_abstract:
+                    yield str(doc_title) + "\n" + str(doc_abstract)
+                else:
+                    yield str(doc_title)
+
 ## Preprocessing
 """nltk.download('wordnet')
 nltk.download('stopwords')
