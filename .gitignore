@@ -2,29 +2,13 @@
 *:Zone.Identifier
 .DS_Store
 
-# venv
+# Python
+__pycache__
 venv
 
 # Dataset & download temp
-temp/
-dataset/pubmed
-dataset/db.sqlite
-dataset/*.sqlite-journal
-dataset/*.sqlite-wal
-dataset/*.sqlite-shm
-dataset/pubmed_baseline
-dataset/pubmed_baseline_2024_processed.sqlite
-dataset/
-
-# Output
-results.json
-
-# Python
-__pycache__
-
-# Node
-node_modules
-
+temp
+dataset
 
 # IDE
 .vscode
