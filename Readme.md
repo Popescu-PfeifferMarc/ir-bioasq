@@ -44,8 +44,54 @@ Note that this dataset is not needed to reproduce the final results, as it was u
 ### Task A - BM25
  - see `model_task_A_BM25.py`
 
+
 ### Task B - LLM
  - see `model_task_B_LLM.py`
 
 ### Task A&B - Vector DB
  - see `bioasq_project_with_vectorDB.ipynb`
+
+## Retrieval Model Leveraging Embeddings and Vector Database  
+
+This project is part of the **BioASQ Task-13b: Biomedical Semantic QA** challenge. It implements a biomedical question-answering (QA) system by leveraging embeddings and a vector database for efficient document retrieval, paired with a generative model for answer generation.  
+
+The main implementation is contained in the Jupyter Notebook: `bioasq_project_with_vectorDB.ipynb`.  
+
+---
+
+## **Project Overview**  
+
+### **Objective**  
+To build an effective biomedical QA system that:  
+1. Retrieves semantically relevant documents using embeddings stored in a vector database.  
+2. Generates coherent and context-aware answers using a generative model.  
+
+### **Pipeline**  
+1. **Embedding Creation**: Extracts contexts from the BioASQ dataset and generates embeddings using `flax-sentence-embeddings/all_datasets_v3_mpnet-base`.  
+2. **Vector Database**: Stores embeddings in Pinecone, enabling fast similarity-based querying.  
+3. **Answer Generation**: Uses the `vblagoje/bart_lfqa` model for generating long-form answers.  
+4. **Evaluation**: Evaluates generated answers using the ROUGE-1 metric for lexical similarity.  
+
+---
+
+## **Dependencies**  
+
+To run this project, ensure you have the following installed:  
+
+- Required Python libraries:  
+  ```bash
+  pip install -r requirements.txt
+```
+`requirements.txt` includes:
+* `sentence-transformers`
+* `transformers`
+* `pinecone-client`
+* `evaluate`
+* `rouge-metric`
+* `numpy`
+* `pandas`
+
+---
+
+## Instructions
+
