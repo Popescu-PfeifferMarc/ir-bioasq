@@ -114,3 +114,7 @@ cd ir-bioasq
       * Query the Pinecone database.
       * Generate answers using the `vblagoje/bart_lfqa` model.
       * Evaluate the results.
+
+## Reproducibility
+
+The notebook includes all steps to reproduce the results. The dataset, pre-trained models, and evaluation code are integrated into the pipeline.
