@@ -80,19 +80,38 @@ To run this project, ensure you have the following installed:
 
 - Required Python libraries:  
   ```bash
-  pip install -r requirements.txt
-```
+ pip install -r requirements.txt```
 
 `requirements.txt` includes:
-* `sentence-transformers`
-* `transformers`
-* `pinecone-client`
-* `evaluate`
-* `rouge-metric`
-* `numpy`
-* `pandas`
+ * `sentence-transformers`
+ * `transformers`
+ * `pinecone-client`
+ * `evaluate`
+ * `rouge-metric`
+ * `numpy`
+ * `pandas`
 
 ---
 
 ## Instructions
 
+1. Clone the Repository
+```bash
+git clone https://github.com/yourusername/bioasq_project.git
+cd bioasq_project
+```
+2. Set Up Pinecone
+   * Create a Pinecone account
+   * Obtain your API key and region from the Pinecone dashboard.
+   * Set up your Pinecone environment variables in the notebook.
+3. Run the Jupyter Notebook
+   * The main implementation is in `bioasq_project_with_vectorDB.ipynb`.
+   1. Open the notebook:
+      ```bash
+      jupyter notebook bioasq_project_with_vectorDB.ipynb
+      ```
+   2. Follow the step-by-step instructions in the notebook to:
+      * Generate embeddings.
+      * Query the Pinecone database.
+      * Generate answers using the `vblagoje/bart_lfqa` model.
+      * Evaluate the results.
