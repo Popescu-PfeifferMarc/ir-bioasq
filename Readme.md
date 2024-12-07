@@ -81,7 +81,9 @@ To run this project, ensure you have the following installed:
 - Required Python libraries:  
   ```bash
   pip install -r requirements.txt
-````requirements.txt` includes:
+```
+
+`requirements.txt` includes:
 * `sentence-transformers`
 * `transformers`
 * `pinecone-client`
