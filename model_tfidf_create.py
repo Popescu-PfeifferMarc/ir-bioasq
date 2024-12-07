@@ -1,9 +1,7 @@
 import logging
-import os.path
+import os
 import sys
 import csv
-import pprint
-import pickle
 
 from gensim.corpora import Dictionary
 from gensim.models import TfidfModel
