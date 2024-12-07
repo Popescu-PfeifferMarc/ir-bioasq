@@ -2,6 +2,7 @@ import logging
 import os
 import sys
 import csv
+import json
 
 from gensim.corpora import Dictionary
 from gensim.models import TfidfModel
@@ -14,6 +15,7 @@ from nltk.stem import WordNetLemmatizer
 
 # Config
 DICT_SIZE = 100_000
+golden_file = "./dataset/12B_golden_combined.json"
 articles_file = "./dataset/pubmed_annual_baseline.csv"
 include_abstract = True
 output_base_folder = "./out/taskA_tfidf"
@@ -74,10 +76,33 @@ class BowCorpus:
 bow_corpus = BowCorpus()
 tfidf = TfidfModel(bow_corpus, smartirs=smartirs)
 tfidf.save(output_folder + '.model_tfidf_' + output_smartirs_name)
-logger.info("----- Created TfidfModel with smartirs: %s", smartirs)
+logger.info("Created TfidfModel with smartirs: %s", smartirs)
 
 index = SparseMatrixSimilarity(tfidf[bow_corpus], num_features=len(dictionary))
 index.save(output_folder + '.simmat_tfidf_' + output_smartirs_name)
-logger.info("----- Created SparseMatrixSimilarity with smartirs: %s", smartirs)
+logger.info("Created SparseMatrixSimilarity with smartirs: %s", smartirs)
+
+# Query
+def run_query(query):
+    # RUN QUERY -> save result to file
+    pass
+    
+with open(golden_file, "r", encoding="utf-8") as golden_file_handle:
+    data = json.load(golden_file_handle)
+    logger.info("Loaded golden data from json")
+    total_entries = len(data)
+    for idx, entry in enumerate(data):
+        query = entry.get("query", "")
+        
+        entry["result_task1"] = answerQuestionWithContext(query, task1_snippets)
+        
+        # Calculate and print progress
+        progress = (idx + 1) / total_entries * 100
+        logger.info(f"Progress: {progress:.2f}% ({idx + 1}/{total_entries})")
+    
+    with open(out_file, "w", encoding="utf-8") as outfile:
+        json.dump(data, outfile, ensure_ascii=False, indent=4)
+        logger.info("Saved output data to json")
+    
 
 logger.info("All done 🚀")
