@@ -86,8 +86,7 @@ dictionary.filter_extremes(no_below=5, no_above=0.5, keep_n=DICT_SIZE)
 dictionary.compactify()
 dictionary.save_as_text(output_folder + ".dictionary")
 logger.info("Created dict")
-
-# dictionary = Dictionary.load_from_text(outp + '.dictionary')
+# dictionary = Dictionary.load_from_text(output_folder + '.dictionary')
 # logger.info("Loaded dictionary")
 
 
@@ -104,10 +103,14 @@ bow_corpus = BowCorpus()
 tfidf = TfidfModel(bow_corpus, smartirs=smartirs)
 tfidf.save(output_folder + ".model_tfidf_" + output_smartirs_name)
 logger.info("Created TfidfModel with smartirs: %s", smartirs)
+# tfidf = TfidfModel.load(output_folder + ".model_tfidf_" + output_smartirs_name)
+# logger.info("Loaded TfidfModel")
 
 index = SparseMatrixSimilarity(tfidf[bow_corpus], num_features=len(dictionary))
 index.save(output_folder + ".simmat_tfidf_" + output_smartirs_name)
 logger.info("Created SparseMatrixSimilarity with smartirs: %s", smartirs)
+# index = SparseMatrixSimilarity.load(output_folder + ".simmat_tfidf_" + output_smartirs_name)
+# logger.info("Loaded SparseMatrixSimilarity")
 
 # Run queries from golden data
 output = []
