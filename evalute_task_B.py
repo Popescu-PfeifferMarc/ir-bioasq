@@ -6,6 +6,7 @@ from rouge_score import rouge_scorer
 from transformers import AutoTokenizer, AutoModel
 import torch
 from sklearn.metrics.pairwise import cosine_similarity
+import ollama
 
 # SETUP
 program = os.path.basename(sys.argv[0])
@@ -17,6 +18,7 @@ logger.info("running %s", ' '.join(sys.argv))
 file_path = "./out/taskB_LLM/results_llama3.1_8b_bm25s_title_promptv1.json"  # Replace with your results JSON file path
 golden_file_path = "./dataset/12B_golden_combined.json" # Replace with your golden JSON file path
 output_file_path = file_path.replace("results_", "evaluated_")
+ollama_model = "llama3.1:8b"  # Ollama model to use. Needs to be installed
 
 def load_results_task_2(file_path):
     try:
@@ -173,22 +175,69 @@ def calculate_biobert(results, tokenizer, model):
     avg_similarity = sum(similarities) / len(similarities) if similarities else 0
     return avg_similarity
 
+def calculate_llm_answer(task_2_merged_dictionary):
+    res_yes = 0
+    res_no = 0
+    res_undefined = 0
+    res_total = 0
+    
+    for idx, item in enumerate(task_2_merged_dictionary):
+        query = item.get("query")
+        ideal_answers = item.get("ideal_answer")
+        answer = item.get("answer")
+        
+        prompt = (
+            "You are evaluating the response of another AI model with either \"YES\" or \"NO\". You are given a question, "
+            "an answer produced by another model, and ideal answers. Check if the actual answer "
+            "is similar enough to the ideal ones. Allow for some deviations in terms of length "
+            "and what's explained but do NOT allow for conflicting information.\n"
+            + "Here is the question: \""
+            + query
+            + "\"\n"
+            + "and these possible ideal answers:\n\""
+            + "\"\n\"".join(ideal_answers) 
+            + "\nIs this actual answer correct:\n\""
+            + answer
+            + "\"\n"
+            + "\nYOUR ANY ANSWER MUST START WITH YES OR NO. DO NOT RESPOND WITH ANYTHING WICH DOESN'T START WITH YES OR NO."
+        )
+        
+        result = ollama.generate(model=ollama_model, prompt=prompt)
+        item["ollama_response"] = result["response"]
+        res_total += 1
+        if result["response"].strip().lower().startswith("yes"):
+            item["ollama_result"] = True
+            res_yes += 1
+        elif result["response"].strip().lower().startswith("no"):
+            item["ollama_result"] = False
+            res_no += 1
+        else:
+            print(f"Invalid response for query: {query}")
+            item["ollama_result"] = None
+            res_undefined += 1
+    
+    acc = res_yes / (res_total-res_undefined)
+    return {"yes": res_yes, "no": res_no, "undefined": res_undefined, "total": res_total, "accuracy": acc }
+
 # Load the BioBERT tokenizer and model
 device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
 print(f"Using device: {device}")
 tokenizer = AutoTokenizer.from_pretrained("dmis-lab/biobert-base-cased-v1.1")
 model = AutoModel.from_pretrained("dmis-lab/biobert-base-cased-v1.1").to(device)
 macro_avg_biobert = calculate_biobert(task_2_merged_dictionary, tokenizer, model)
+llm_accuracy = calculate_llm_answer(task_2_merged_dictionary)
 
 rouge_results = calculate_rouge_scores_for_queries(task_2_merged_dictionary)
 macro_averages = calculate_macro_averages(rouge_results)
 macro_averages["Macro BioBERT"] = macro_avg_biobert
+macro_averages["LLM Accuracy"] = llm_accuracy["accuracy"]
 
 print("Macro-Averaged ROUGE Scores:")
 print(f"  Macro ROUGE-1: {macro_averages['Macro ROUGE-1']:.4f}")
 print(f"  Macro ROUGE-2: {macro_averages['Macro ROUGE-2']:.4f}")
 print(f"  Macro ROUGE-SU4: {macro_averages['Macro ROUGE-SU4']:.4f}")
 print(f"  Macro BioBERT: {macro_avg_biobert:.4f}")
+print(f"  LLM Accuracy: {llm_accuracy['accuracy']:.4f}")
 
 
 # Save the macro averages to a JSON file
