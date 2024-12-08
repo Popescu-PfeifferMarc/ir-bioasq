@@ -23,7 +23,7 @@ def load_results_json(file_path):
         results = []
 
         # Loop through each query
-        for item in data["questions"]:
+        for item in data:
             query_data = {
                 "query": item.get("query"),
                 "output_docs": item.get("documents"),# Contains both score and document url,
