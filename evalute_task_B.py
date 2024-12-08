@@ -3,6 +3,9 @@ import os.path
 import sys
 import json
 from rouge_score import rouge_scorer
+from transformers import AutoTokenizer, AutoModel
+import torch
+from sklearn.metrics.pairwise import cosine_similarity
 
 # SETUP
 program = os.path.basename(sys.argv[0])
@@ -11,22 +14,22 @@ logging.basicConfig(format='%(asctime)s : %(levelname)s : %(message)s')
 logging.root.setLevel(level=logging.INFO)
 logger.info("running %s", ' '.join(sys.argv))
 
-file_path = "./results.json"  # Replace with your results JSON file path
-golden_file_path = "./golden_data.json" # Replace with your golden JSON file path
-output_file_path = "./macro_averages.json"
+file_path = "./out/taskB_LLM/results_llama3.1_8b_bm25s_title_promptv1.json"  # Replace with your results JSON file path
+golden_file_path = "./dataset/12B_golden_combined.json" # Replace with your golden JSON file path
+output_file_path = file_path.replace("results_", "evaluated_")
 
 def load_results_task_2(file_path):
     try:
         # Load the JSON file
-        with open(file_path, 'r') as file:
-            data = json.load(file).get("questions")
+        with open(file_path, 'r', encoding='utf-8') as file:
+            data = json.load(file)
         
         results = []
 
         # Loop through each query
         for item in data:
             query_data = {
-                "query": item.get("query"),
+                "query": item.get("question"),
                 "answer": item.get("answer")
             }
             results.append(query_data)
@@ -140,13 +143,52 @@ def calculate_macro_averages(results):
 
     return macro_averages
 
+def get_embedding(text, tokenizer, model, device):
+    """
+    Generate the embedding for a given text using BioBERT.
+    """
+    inputs = tokenizer(text, return_tensors="pt", truncation=True, padding=True, max_length=512).to(device)
+    with torch.no_grad():
+        outputs = model(**inputs)
+    # Mean pooling over the token embeddings
+    return outputs.last_hidden_state.mean(dim=1).squeeze().cpu().numpy()
+
+def calculate_similarity(answer, ideal_answer, tokenizer, model, device):
+    """
+    Compute cosine similarity between two pieces of text.
+    """
+    answer_embedding = get_embedding(answer, tokenizer, model, device)
+    ideal_answer_embedding = get_embedding(ideal_answer, tokenizer, model, device)
+    return cosine_similarity([answer_embedding], [ideal_answer_embedding])[0][0]
+
+def calculate_biobert(results, tokenizer, model):
+    similarities = []
+    for query in results:
+        max_sim = 0
+        for ideal_answer in query["ideal_answer"]:
+            similarity = calculate_similarity(query["answer"], ideal_answer, tokenizer, model, device)
+            if similarity > max_sim:
+                max_sim = similarity
+        similarities.append(max_sim)
+    avg_similarity = sum(similarities) / len(similarities) if similarities else 0
+    return avg_similarity
+
+# Load the BioBERT tokenizer and model
+device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
+print(f"Using device: {device}")
+tokenizer = AutoTokenizer.from_pretrained("dmis-lab/biobert-base-cased-v1.1")
+model = AutoModel.from_pretrained("dmis-lab/biobert-base-cased-v1.1").to(device)
+macro_avg_biobert = calculate_biobert(task_2_merged_dictionary, tokenizer, model)
+
 rouge_results = calculate_rouge_scores_for_queries(task_2_merged_dictionary)
 macro_averages = calculate_macro_averages(rouge_results)
+macro_averages["Macro BioBERT"] = macro_avg_biobert
 
 print("Macro-Averaged ROUGE Scores:")
 print(f"  Macro ROUGE-1: {macro_averages['Macro ROUGE-1']:.4f}")
 print(f"  Macro ROUGE-2: {macro_averages['Macro ROUGE-2']:.4f}")
 print(f"  Macro ROUGE-SU4: {macro_averages['Macro ROUGE-SU4']:.4f}")
+print(f"  Macro BioBERT: {macro_avg_biobert:.4f}")
 
 
 # Save the macro averages to a JSON file
