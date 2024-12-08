@@ -10,9 +10,9 @@ logging.basicConfig(format='%(asctime)s : %(levelname)s : %(message)s')
 logging.root.setLevel(level=logging.INFO)
 logger.info("running %s", ' '.join(sys.argv))
 
-file_path = "./results.json"  # Replace with your results JSON file path
-golden_file_path = "./dataset/12B_golden_combined.json" # Replace with your golden JSON file path
-output_file_path = "./evaluation_results.json"
+file_path = "./out/taskA_BM25S_title/results.json"  # Replace with your results JSON file path
+golden_file_path = "./dataset/12B_golden_combined.json"
+output_file_path = file_path.replace("results", "results_evaluation.json")
 
 def load_results_json(file_path):
     try:
@@ -26,7 +26,7 @@ def load_results_json(file_path):
         for item in data:
             query_data = {
                 "query": item.get("query"),
-                "output_docs": item.get("documents"),# Contains both score and document url,
+                "output_docs": item.get("relevant_documents"),# Contains both score and document url,
                 "output_snippets": item.get("snippets") # Contains score,pmid,snippet text
             }
             results.append(query_data)

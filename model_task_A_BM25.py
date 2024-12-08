@@ -15,7 +15,7 @@ from bm25s import tokenize, BM25
 # Config
 articles_file = "./dataset/pubmed_annual_baseline.csv"
 golden_file_path = "./dataset/12B_golden_combined.json"
-include_abstract = True
+include_abstract = False
 output_base_folder = "./out/taskA_BM25S"
 output_folder = (
     output_base_folder + "_title/"

@@ -8,12 +8,11 @@ import ollama
 # Config
 ollama_model = "llama3.1:8b"  # Ollama model to use for task B. Needs to be installed. Examples are 'jsk/bio-mistral' 'llama3.1:70b'
 
-input_taskA_results = "./out/taskA_tfidf_title_abstract/results.json"
+input_taskA_results = "./out/taskA_BM25S_title/results.json" # Replace with your results JSON file path
 output_results_taskA_file = (
     "./out/taskB_LLM/results_"
     + ollama_model.replace(":", "_").replace("/", "_")
-    + "_tfidf_title_small_ltc"
-    + "_promptv1"
+    + "_BM25S_title"
     + ".json"
 )
 do_taskA_results = True
@@ -23,7 +22,6 @@ output_results_golden_file = (
     "./out/taskB_LLM/results_"
     + ollama_model.replace(":", "_").replace("/", "_")
     + "_golden"
-    + "_promptv1"
     + ".json"
 )
 do_golden = True

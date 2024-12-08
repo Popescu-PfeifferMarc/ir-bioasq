@@ -15,10 +15,10 @@ logging.basicConfig(format='%(asctime)s : %(levelname)s : %(message)s')
 logging.root.setLevel(level=logging.INFO)
 logger.info("running %s", ' '.join(sys.argv))
 
-file_path = "./out/taskB_LLM/results_llama3.1_8b_bm25s_title_promptv1.json"  # Replace with your results JSON file path
-golden_file_path = "./dataset/12B_golden_combined.json" # Replace with your golden JSON file path
-output_file_path = file_path.replace("results_", "evaluated_")
-ollama_model = "llama3.1:8b"  # Ollama model to use. Needs to be installed
+file_path = "./out/taskB_LLM/results_llama3.1_8b_BM25S_title.json"  # Replace with your results JSON file path
+golden_file_path = "./dataset/12B_golden_combined.json"
+output_file_path = file_path.replace("results_", "results_evaluated_")
+ollama_model = "llama3.1:8b"  # Ollama model to use for evaluation. Needs to be installed.
 
 def load_results_task_2(file_path):
     try:
