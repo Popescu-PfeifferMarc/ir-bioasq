@@ -18,7 +18,7 @@ from nltk.tokenize import sent_tokenize
 # Config
 DICT_SIZE = 100_000
 golden_file = "./dataset/12B_golden_combined.json"
-articles_file = "./dataset/main_articles.csv"
+articles_file = "./dataset/pubmed_annual_baseline.csv"
 include_abstract = True
 output_base_folder = "./out/taskA_tfidf"
 smartirs = "ntc"  # alternatives are "ltc" and "Ltc"
