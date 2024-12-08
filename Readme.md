@@ -1,8 +1,9 @@
 # IR-Project
 
 ## Requirements
-- Python `3.12` incl. library requirements from requirements.txt
-- [ollama](https://ollama.com/) incl. models as specified in model_task_B_LLM.py
+- Python `3.12` (with library from requirements.txt)
+- Jupyter
+- [ollama](https://ollama.com/) incl. models as specified in `model_task_B_LLM.py`
 - `unzip` or equivalent to unpack zip files
 - `jq` or equivalent to combine JSON files
 
@@ -39,71 +40,57 @@ Note that this dataset is not needed to reproduce the final results, as it was u
 ## Models
 
 ### Task A 1.1 - TF-IDF
- - see `model_task_A_TFIDF.py`
+To build a dicitonary, TFIDF model and similarity matrix, then query all documents in the golden file:
+ - open `model_task_A_TFIDF.py`
+ - configure `smartirs` - `ntc`, `ltc` or `Ltc`; see [gensim docs](https://radimrehurek.com/gensim/models/tfidfmodel.html) for details
+ - configure `include_abstract` - `True` or `False`; should the model also include the abstract of the articles or only the title
+ - run `model_task_A_TFIDF.py` - checkpoints are available for the dictionary, model and similarity matrix; comment in/out relevant lines in script
+
+To evalute the results from the previous step
+ - open `evalute_task_A.py` 
+ - configure `file_path` - set it the the results.json produced by `model_task_A_TFIDF.py`
+ - configure `output_file_path` - set it to where the results should be saved to
+ - run `evalute_task_A.py`
 
 ### Task A 1.2 - BM25
- - see `model_task_A_BM25.py`
+To build a BM25 model, then query all documents in the golden file:
+ - open `model_task_A_BM25.py`
+ - configure `include_abstract` - `True` or `False`; should the model also include the abstract of the articles or only the title
 
+To evalute the results from the previous step
+ - open `evalute_task_A.py`
+ - configure `file_path` - set it the the results.json produced by `model_task_A_BM25.py`
+ - configure `output_file_path` - set it to where the results should be saved to
+ - run `evalute_task_A.py`
 
 ### Task B 2.1 - LLM
- - see `model_task_B_LLM.py`
+To run a model and query all golden sample questions against either the results from task A or the golden snippets (or both at the same time).
+ - install [Ollama](https://ollama.com/)
+ - start the ollama service `ollama serve` - or equivalent command depending on your platform
+ - pull the model `ollama pull llama3.1:8b`- other model such as `jsk/bio-mistral` or `llama3.1:70b` are also possible
+ - open `model_task_B_LLM.py`
+ - configure `ollama_model` - set it to the model you pulled in the previous step
+ - configure `do_taskA_results` - `True` or `False`; set to `True` if you want to test the model against the results from task A
+ - configure `input_taskA_results` - results from task A; only relevant if `do_taskA_results` is set to `True`
+ - configure `do_golden` - `True` or `False`; set to `True` if you want to test the model against the golden data snippets
 
-### Task B 2.2 - Vector DB
- - see `bioasq_project_with_vectorDB.ipynb`
+### Task B 2.2 - Retriever Model Leveraging Embeddings and Vector Database
+This project implements a biomedical question-answering (QA) system by leveraging embeddings and a vector database for efficient document retrieval, paired with a generative model for answer generation. The main implementation is contained in the Jupyter Notebook: `bioasq_project_with_vectorDB.ipynb`.  
 
----
-
-## Task B 2.2: Retriever Model Leveraging Embeddings and Vector Database
-
-This project implements a biomedical question-answering (QA) system by leveraging embeddings and a vector database for efficient document retrieval, paired with a generative model for answer generation.  
-
-The main implementation is contained in the Jupyter Notebook: `bioasq_project_with_vectorDB.ipynb`.  
-
----
-
-### **Pipeline**  
+#### Pipeline 
 1. **Embedding Creation**: Extracts contexts from the BioASQ dataset and generates embeddings using `flax-sentence-embeddings/all_datasets_v3_mpnet-base`.  
 2. **Vector Database**: Stores embeddings in Pinecone, enabling fast similarity-based querying.  
 3. **Answer Generation**: Uses the `vblagoje/bart_lfqa` model for generating long-form answers.  
 4. **Evaluation**: Evaluates generated answers using the ROUGE-1 metric for lexical similarity.  
 
----
+#### Instructions
 
-### **Dependencies**
-
-To run this project, ensure you have the following installed:  
-
-- Required Python libraries:
-  ```bash
-  pip install -r requirements.txt
-  ```
-
-`requirements.txt` includes:
- * `sentence-transformers`
- * `transformers`
- * `pinecone-client`
- * `evaluate`
- * `rouge_score`
- * `numpy`
- * `pandas`
-
----
-
-### Instructions
-
-1. Clone the Repository
-```bash
-git clone https://github.com/Popescu-PfeifferMarc/ir-bioasq
-cd ir-bioasq
-```
-
-
-2. Set Up Pinecone
+1. Set Up Pinecone
    * Create a [Pinecone](https://app.pinecone.io/) account
    * Obtain your API key and region from the Pinecone dashboard.
    * Set up your Pinecone environment variables in the notebook.
 
-3. Run the Jupyter Notebook
+2. Run the Jupyter Notebook
    * The main implementation is in `bioasq_project_with_vectorDB.ipynb`.
    1. Open the notebook:
       ```bash
@@ -114,9 +101,3 @@ cd ir-bioasq
       * Query the Pinecone database.
       * Generate answers using the `vblagoje/bart_lfqa` model.
       * Evaluate the results.
-
-### Reproducibility
-
-The notebook includes all steps to reproduce the results. The dataset, pre-trained models, and evaluation code are integrated into the pipeline.
-
----

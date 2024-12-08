@@ -11,7 +11,7 @@ logging.root.setLevel(level=logging.INFO)
 logger.info("running %s", ' '.join(sys.argv))
 
 file_path = "./results.json"  # Replace with your results JSON file path
-golden_file_path = "./golden_data.json" # Replace with your golden JSON file path
+golden_file_path = "./dataset/12B_golden_combined.json" # Replace with your golden JSON file path
 output_file_path = "./evaluation_results.json"
 
 def load_results_json(file_path):

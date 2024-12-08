@@ -13,9 +13,8 @@ from gensim.utils import simple_preprocess
 from bm25s import tokenize, BM25
 
 # Config
-articles_file = "./main_articles_head_1m.csv"
-outp = "./out/"
-golden_file_path = "./golden_data.json"
+articles_file = "./dataset/main_articles.csv"
+golden_file_path = "./dataset/12B_golden_combined.json"
 include_abstract = True
 output_base_folder = "./out/taskA_BM25S"
 output_folder = (
